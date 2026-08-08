@@ -1,7 +1,33 @@
 import { useData } from '../hooks/useData';
 import type { NewsData } from '../types';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { useEffect } from 'react';
 
+function TwitterEmbed({ screenName, height }: { screenName: string, height: number }) {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://platform.twitter.com/widgets.js";
+    script.async = true;
+    script.charset = "utf-8";
+    document.body.appendChild(script);
+    
+    if ((window as any).twttr) {
+      (window as any).twttr.widgets.load();
+    }
+  }, [screenName]);
+
+  return (
+    <div style={{ height, overflowY: 'auto' }}>
+      <a 
+        className="twitter-timeline" 
+        data-theme="light" 
+        data-height={height}
+        href={`https://twitter.com/${screenName}?ref_src=twsrc%5Etfw`}
+      >
+        Tweets by {screenName}
+      </a>
+    </div>
+  );
+}
 export default function News() {
   const { data: newsData, loading } = useData<NewsData>('news.json');
   const articles = newsData?.articles ?? [];
@@ -68,36 +94,15 @@ export default function News() {
             </h2>
             
             <div className="card fade-in" style={{ overflow: 'hidden', height: '500px', padding: '0' }}>
-              <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="mufcMPB"
-                options={{ height: 500 }}
-                noHeader
-                noFooter
-                transparent
-              />
+              <TwitterEmbed screenName="mufcMPB" height={500} />
             </div>
             
             <div className="card fade-in" style={{ overflow: 'hidden', height: '400px', padding: '0' }}>
-              <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="FabrizioRomano"
-                options={{ height: 400 }}
-                noHeader
-                noFooter
-                transparent
-              />
+              <TwitterEmbed screenName="FabrizioRomano" height={400} />
             </div>
             
             <div className="card fade-in" style={{ overflow: 'hidden', height: '400px', padding: '0' }}>
-              <TwitterTimelineEmbed
-                sourceType="profile"
-                screenName="indykaila"
-                options={{ height: 400 }}
-                noHeader
-                noFooter
-                transparent
-              />
+              <TwitterEmbed screenName="indykaila" height={400} />
             </div>
           </div>
         </div>
