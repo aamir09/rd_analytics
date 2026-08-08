@@ -1,0 +1,47 @@
+name: Fetch API Data (football-data.org + API-Football)
+
+on:
+  schedule:
+    - cron: '0 16 * * 2'   # Every Tuesday at 16:00 UTC (5PM BST)
+    - cron: '0 16 * * 5'   # Every Friday at 16:00 UTC (5PM BST)
+  workflow_dispatch:         # Allow manual trigger from GitHub UI
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run ETL
+        run: python scripts/fetch_all.py
+        env:
+          # Keys are stored in GitHub Secrets — never in .env or source code
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: refresh API data [skip ci]'
+          file_pattern: |
+            public/data/standings.json
+            public/data/fixtures.json
+            public/data/results.json
+            public/data/squad.json
+            public/data/player_stats.json
+            public/data/injuries.json
+            public/data/last_updated.json
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'

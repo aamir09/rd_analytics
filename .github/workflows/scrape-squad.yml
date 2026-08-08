@@ -1,0 +1,36 @@
+name: Scrape Squad Details
+
+on:
+  schedule:
+    - cron: '0 16 1 * *'   # 1st day of every month at 16:00 UTC (5PM BST)
+  workflow_dispatch:         # Allow manual trigger from GitHub UI
+
+jobs:
+  scrape-squad:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run Squad Scraper
+        run: python scripts/squad_scrapper.py
+
+      - name: Commit updated squad data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: monthly squad details update [skip ci]'
+          file_pattern: |
+            public/data/squad_details.json
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'

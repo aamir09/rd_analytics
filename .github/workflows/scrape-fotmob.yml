@@ -1,0 +1,40 @@
+name: Scrape FotMob Player Stats
+
+on:
+  schedule:
+    - cron: '0 16 * * 3'   # Every Wednesday at 16:00 UTC (5PM BST)
+  workflow_dispatch:         # Allow manual trigger from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run FotMob scraper
+        run: python scripts/fetch_fotmob.py
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: scrape FotMob player stats [skip ci]'
+          file_pattern: |
+            public/data/fotmob/*.json
+            public/data/player_stats_fotmob.json
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'

@@ -1,0 +1,3178 @@
+{
+  "season": "2025/26",
+  "fetchedAt": "2026-08-08T11:41:39.904113+00:00",
+  "source": "FotMob",
+  "players": [
+    {
+      "name": "Luke Shaw",
+      "stats": {
+        "goals": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 1,
+          "secondary": 2.0,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 2,
+          "secondary": 2.7,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 6.95,
+          "secondary": 1,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 3231,
+          "secondary": 38,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.03,
+          "secondary": 1,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 0.7,
+          "secondary": 1,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.02,
+          "secondary": 0.03,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 0.8,
+          "secondary": 1,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.1,
+          "secondary": 30.0,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 0.3,
+          "secondary": 10.0,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 41.4,
+          "secondary": 86.8,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 1,
+          "secondary": 1,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 16,
+          "secondary": 0.4,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 1.6,
+          "secondary": 49.6,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 2.0,
+          "secondary": 1,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.06,
+          "secondary": 0.0,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.07,
+          "secondary": 0.06,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.3,
+          "secondary": 50.0,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 6.2,
+          "secondary": 224,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 2.1,
+          "secondary": 74,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 1.3,
+          "secondary": 46,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 2.6,
+          "secondary": 95,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.3,
+          "secondary": 9,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 3.0,
+          "secondary": 107,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.1,
+          "secondary": 1.2,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 1.4,
+          "secondary": 9,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 9,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Bruno Fernandes",
+      "stats": {
+        "goals": {
+          "primary": 9,
+          "secondary": 4,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 21,
+          "secondary": 12.3,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 30,
+          "secondary": 23.2,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 8.03,
+          "secondary": 12,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 3066,
+          "secondary": 35,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.26,
+          "secondary": 9,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 10.8,
+          "secondary": 9,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.32,
+          "secondary": 0.26,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 9.2,
+          "secondary": 9,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.7,
+          "secondary": 28.2,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 2.5,
+          "secondary": 10.6,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 48.1,
+          "secondary": 82.2,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 33,
+          "secondary": 21,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 136,
+          "secondary": 4.0,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 4.1,
+          "secondary": 60.0,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 12.3,
+          "secondary": 21,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.36,
+          "secondary": 0.6,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.68,
+          "secondary": 0.88,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.4,
+          "secondary": 41.7,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 8,
+          "secondary": 10.6,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 8.5,
+          "secondary": 288,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 1.6,
+          "secondary": 54,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.6,
+          "secondary": 20,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 1.2,
+          "secondary": 42,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.1,
+          "secondary": 5,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 4.9,
+          "secondary": 167,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "penaltiesConceded": {
+          "primary": 1,
+          "secondary": 35,
+          "primaryLabel": "Penalties Conceded",
+          "secondaryLabel": "Total Matches"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.5,
+          "secondary": 2.8,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.7,
+          "secondary": 5,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 5,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Senne Lammens",
+      "stats": {
+        "rating": {
+          "primary": 7.11,
+          "secondary": 7,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 2880,
+          "secondary": 32,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "accuratePassesPer90": {
+          "primary": 17.4,
+          "secondary": 59.1,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "xA": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.0,
+          "secondary": 0.0,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.0,
+          "secondary": 0.0,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 0.8,
+          "secondary": 27,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 0.0,
+          "secondary": 1,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "clearancesPer90": {
+          "primary": 0.8,
+          "secondary": 26,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "recoveriesPer90": {
+          "primary": 7.0,
+          "secondary": 225,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "cleanSheets": {
+          "primary": 8,
+          "secondary": 39,
+          "primaryLabel": "Clean Sheets",
+          "secondaryLabel": "Total Goals Conceded"
+        },
+        "savePercentage": {
+          "primary": 66.9,
+          "secondary": 39,
+          "primaryLabel": "Save Percentage",
+          "secondaryLabel": "Total Goals Conceded"
+        },
+        "savesPer90": {
+          "primary": 2.5,
+          "secondary": 79,
+          "primaryLabel": "Saves Per 90",
+          "secondaryLabel": "Total Saves"
+        },
+        "goalsPrevented": {
+          "primary": 4.4,
+          "secondary": 39,
+          "primaryLabel": "Goals Prevented",
+          "secondaryLabel": "Total Goals Conceded"
+        },
+        "goalsConcededPer90": {
+          "primary": 1.2,
+          "secondary": 39,
+          "primaryLabel": "Goals Conceded Per 90",
+          "secondaryLabel": "Total Goals Conceded"
+        }
+      }
+    },
+    {
+      "name": "Bryan Mbeumo",
+      "stats": {
+        "goals": {
+          "primary": 11,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 3,
+          "secondary": 5.0,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 14,
+          "secondary": 17.2,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.19,
+          "secondary": 1,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 2621,
+          "secondary": 33,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.38,
+          "secondary": 11,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 12.2,
+          "secondary": 11,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.42,
+          "secondary": 0.38,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 9.9,
+          "secondary": 11,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 1.1,
+          "secondary": 43.8,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 2.5,
+          "secondary": 15.1,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 21.6,
+          "secondary": 79.0,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 6,
+          "secondary": 3,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 47,
+          "secondary": 1.6,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 0.5,
+          "secondary": 53.6,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 5.0,
+          "secondary": 3,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.17,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.59,
+          "secondary": 0.48,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.6,
+          "secondary": 33.3,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 13,
+          "secondary": 15.1,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "penaltiesAwarded": {
+          "primary": 1,
+          "secondary": 1.0,
+          "primaryLabel": "Penalties Awarded",
+          "secondaryLabel": "Fouled Per 90"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 4.8,
+          "secondary": 139,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 0.9,
+          "secondary": 25,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.3,
+          "secondary": 8,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 0.5,
+          "secondary": 14,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.0,
+          "secondary": 1,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 3.1,
+          "secondary": 91,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.7,
+          "secondary": 1.4,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.8,
+          "secondary": 4,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 4,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Diogo Dalot",
+      "stats": {
+        "goals": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 3,
+          "secondary": 2.6,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 4,
+          "secondary": 4.6,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.13,
+          "secondary": 0,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 2616,
+          "secondary": 34,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.03,
+          "secondary": 1,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 2.0,
+          "secondary": 1,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.07,
+          "secondary": 0.03,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 0.8,
+          "secondary": 1,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.2,
+          "secondary": 25.0,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 0.8,
+          "secondary": 4.2,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 33.1,
+          "secondary": 85.0,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 5,
+          "secondary": 3,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 29,
+          "secondary": 1.0,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 1.4,
+          "secondary": 61.2,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 2.6,
+          "secondary": 3,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.09,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.16,
+          "secondary": 0.14,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.6,
+          "secondary": 66.7,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 4,
+          "secondary": 4.2,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 6.2,
+          "secondary": 181,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 1.8,
+          "secondary": 53,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.9,
+          "secondary": 27,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 3.2,
+          "secondary": 92,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.3,
+          "secondary": 9,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 4.6,
+          "secondary": 135,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.3,
+          "secondary": 2.0,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.9,
+          "secondary": 5,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 5,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Casemiro",
+      "stats": {
+        "goals": {
+          "primary": 9,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 2,
+          "secondary": 3.1,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 11,
+          "secondary": 8.6,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.32,
+          "secondary": 3,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 2588,
+          "secondary": 34,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.31,
+          "secondary": 9,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 5.5,
+          "secondary": 9,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.19,
+          "secondary": 0.31,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 5.8,
+          "secondary": 9,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.6,
+          "secondary": 34.6,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 1.8,
+          "secondary": 17.3,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 45.2,
+          "secondary": 81.3,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 4,
+          "secondary": 2,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 36,
+          "secondary": 1.3,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 3.0,
+          "secondary": 54.1,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 3.1,
+          "secondary": 2,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.11,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.3,
+          "secondary": 0.38,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.2,
+          "secondary": 37.5,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 6,
+          "secondary": 17.3,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 12.5,
+          "secondary": 359,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 3.1,
+          "secondary": 90,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 1.1,
+          "secondary": 31,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 2.5,
+          "secondary": 73,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.9,
+          "secondary": 27,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 4.8,
+          "secondary": 138,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.3,
+          "secondary": 2.8,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 1.6,
+          "secondary": 9,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 9,
+          "secondary": 1,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        },
+        "redCards": {
+          "primary": 1,
+          "secondary": 9,
+          "primaryLabel": "Red Cards",
+          "secondaryLabel": "Yellow Cards"
+        }
+      }
+    },
+    {
+      "name": "Matheus Cunha",
+      "stats": {
+        "goals": {
+          "primary": 10,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 2,
+          "secondary": 3.3,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 12,
+          "secondary": 10.3,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.29,
+          "secondary": 0,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 2503,
+          "secondary": 33,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.36,
+          "secondary": 10,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 7.1,
+          "secondary": 10,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.25,
+          "secondary": 0.36,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 7.2,
+          "secondary": 10,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 1.3,
+          "secondary": 38.9,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 3.2,
+          "secondary": 11.1,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 25.5,
+          "secondary": 80.5,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 4,
+          "secondary": 2,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 34,
+          "secondary": 1.2,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 0.8,
+          "secondary": 52.4,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 3.3,
+          "secondary": 2,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.12,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.37,
+          "secondary": 0.43,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 1.6,
+          "secondary": 48.4,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 4,
+          "secondary": 11.1,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "penaltiesAwarded": {
+          "primary": 2,
+          "secondary": 1.9,
+          "primaryLabel": "Penalties Awarded",
+          "secondaryLabel": "Fouled Per 90"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 7.6,
+          "secondary": 212,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 1.4,
+          "secondary": 39,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.8,
+          "secondary": 21,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 0.8,
+          "secondary": 22,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.1,
+          "secondary": 3,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 4.6,
+          "secondary": 127,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.7,
+          "secondary": 2.0,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 1.0,
+          "secondary": 4,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 4,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Amad Diallo",
+      "stats": {
+        "goals": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 3,
+          "secondary": 4.8,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 5,
+          "secondary": 10.4,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.19,
+          "secondary": 0,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 2344,
+          "secondary": 32,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.08,
+          "secondary": 2,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 5.6,
+          "secondary": 2,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.21,
+          "secondary": 0.08,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 4.2,
+          "secondary": 2,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.9,
+          "secondary": 43.4,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 2.0,
+          "secondary": 3.8,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 30.5,
+          "secondary": 87.9,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 7,
+          "secondary": 3,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 41,
+          "secondary": 1.6,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 0.9,
+          "secondary": 69.7,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 4.8,
+          "secondary": 3,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.18,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.4,
+          "secondary": 0.19,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 1.5,
+          "secondary": 49.4,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 6,
+          "secondary": 3.8,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "penaltiesAwarded": {
+          "primary": 1,
+          "secondary": 1.5,
+          "primaryLabel": "Penalties Awarded",
+          "secondaryLabel": "Fouled Per 90"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 7.7,
+          "secondary": 200,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 1.5,
+          "secondary": 38,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.7,
+          "secondary": 17,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 1.1,
+          "secondary": 29,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.1,
+          "secondary": 3,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 4.3,
+          "secondary": 113,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.4,
+          "secondary": 2.3,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.9,
+          "secondary": 2,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Leny Yoro",
+      "stats": {
+        "rating": {
+          "primary": 6.67,
+          "secondary": 0,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 1739,
+          "secondary": 32,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 1.4,
+          "secondary": 0,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.07,
+          "secondary": 0.0,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 1.5,
+          "secondary": 0,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.2,
+          "secondary": 33.3,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 0.5,
+          "secondary": 0.0,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 45.2,
+          "secondary": 88.4,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "chancesCreated": {
+          "primary": 4,
+          "secondary": 0.2,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 1.9,
+          "secondary": 48.0,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 0.6,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.03,
+          "secondary": 0.0,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.1,
+          "secondary": 0.0,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.1,
+          "secondary": 66.7,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 2,
+          "secondary": 0.0,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 8.2,
+          "secondary": 159,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 1.7,
+          "secondary": 32,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 1.6,
+          "secondary": 31,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 4.4,
+          "secondary": 85,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.6,
+          "secondary": 11,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 3.8,
+          "secondary": 73,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "penaltiesConceded": {
+          "primary": 1,
+          "secondary": 32,
+          "primaryLabel": "Penalties Conceded",
+          "secondaryLabel": "Total Matches"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.1,
+          "secondary": 1.6,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.9,
+          "secondary": 1,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Harry Maguire",
+      "stats": {
+        "goals": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 2,
+          "secondary": 0.5,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 3,
+          "secondary": 1.6,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.05,
+          "secondary": 0,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 1655,
+          "secondary": 23,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.05,
+          "secondary": 1,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 1.1,
+          "secondary": 1,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.06,
+          "secondary": 0.05,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 1.0,
+          "secondary": 1,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.2,
+          "secondary": 28.6,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 0.8,
+          "secondary": 7.1,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 39.9,
+          "secondary": 86.1,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 2,
+          "secondary": 2,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 4,
+          "secondary": 0.2,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 2.6,
+          "secondary": 42.7,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 0.5,
+          "secondary": 2,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.03,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.09,
+          "secondary": 0.16,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.1,
+          "secondary": 50.0,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 1,
+          "secondary": 7.1,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 8.2,
+          "secondary": 151,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 1.2,
+          "secondary": 22,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.7,
+          "secondary": 13,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 5.7,
+          "secondary": 105,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.6,
+          "secondary": 11,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 3.4,
+          "secondary": 62,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "penaltiesConceded": {
+          "primary": 2,
+          "secondary": 23,
+          "primaryLabel": "Penalties Conceded",
+          "secondaryLabel": "Total Matches"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.1,
+          "secondary": 1.6,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.9,
+          "secondary": 3,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 3,
+          "secondary": 1,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        },
+        "redCards": {
+          "primary": 1,
+          "secondary": 3,
+          "primaryLabel": "Red Cards",
+          "secondaryLabel": "Yellow Cards"
+        }
+      }
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "stats": {
+        "goals": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 2,
+          "secondary": 1.3,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 3,
+          "secondary": 1.8,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.01,
+          "secondary": 0,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 1653,
+          "secondary": 28,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.05,
+          "secondary": 1,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 0.5,
+          "secondary": 1,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.03,
+          "secondary": 0.05,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 0.3,
+          "secondary": 1,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.2,
+          "secondary": 23.1,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 0.7,
+          "secondary": 7.7,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 50.9,
+          "secondary": 89.2,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 1,
+          "secondary": 2,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 22,
+          "secondary": 1.2,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 1.2,
+          "secondary": 56.4,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 1.3,
+          "secondary": 2,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.07,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.1,
+          "secondary": 0.16,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 1.0,
+          "secondary": 54.3,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 10.1,
+          "secondary": 186,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 2.0,
+          "secondary": 36,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 1.1,
+          "secondary": 20,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 1.4,
+          "secondary": 25,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.5,
+          "secondary": 10,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 5.2,
+          "secondary": 95,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.4,
+          "secondary": 2.9,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.7,
+          "secondary": 2,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Benjamin Sesko",
+      "stats": {
+        "goals": {
+          "primary": 11,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 1,
+          "secondary": 0.3,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 12,
+          "secondary": 9.5,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 6.8,
+          "secondary": 1,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 1635,
+          "secondary": 30,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.61,
+          "secondary": 11,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 9.2,
+          "secondary": 11,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.51,
+          "secondary": 0.61,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 11.2,
+          "secondary": 11,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 1.9,
+          "secondary": 55.7,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 3.4,
+          "secondary": 18.0,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 11.6,
+          "secondary": 69.0,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "chancesCreated": {
+          "primary": 9,
+          "secondary": 0.5,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 0.2,
+          "secondary": 66.7,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 0.3,
+          "secondary": 1,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.02,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.52,
+          "secondary": 0.66,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.6,
+          "secondary": 33.3,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 12,
+          "secondary": 18.0,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 3.5,
+          "secondary": 63,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 0.3,
+          "secondary": 5,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.2,
+          "secondary": 3,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 0.8,
+          "secondary": 15,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.1,
+          "secondary": 2,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 2.1,
+          "secondary": 38,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.3,
+          "secondary": 1.4,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 0.9,
+          "secondary": 2,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Patrick Dorgu",
+      "stats": {
+        "goals": {
+          "primary": 4,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 4,
+          "secondary": 1.9,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 8,
+          "secondary": 4.2,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "rating": {
+          "primary": 7.15,
+          "secondary": 0,
+          "primaryLabel": "Rating",
+          "secondaryLabel": "Player of the Match"
+        },
+        "minutesPlayed": {
+          "primary": 1445,
+          "secondary": 26,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.25,
+          "secondary": 4,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 2.4,
+          "secondary": 4,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.15,
+          "secondary": 0.25,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 2.6,
+          "secondary": 4,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.7,
+          "secondary": 46.2,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 1.6,
+          "secondary": 15.4,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 23.9,
+          "secondary": 76.0,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 6,
+          "secondary": 4,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 27,
+          "secondary": 1.7,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 0.4,
+          "secondary": 36.8,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 1.9,
+          "secondary": 4,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.12,
+          "secondary": 0.2,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.26,
+          "secondary": 0.5,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.7,
+          "secondary": 28.2,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 3,
+          "secondary": 15.4,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 6.1,
+          "secondary": 98,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 3.0,
+          "secondary": 48,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.9,
+          "secondary": 15,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 2.0,
+          "secondary": 32,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.2,
+          "secondary": 3,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 4.8,
+          "secondary": 77,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.2,
+          "secondary": 1.7,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 1.4,
+          "secondary": 5,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 5,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Lisandro Martínez",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 1231,
+          "secondary": 18,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 0.2,
+          "secondary": 0,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "bigChancesCreated": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 5,
+          "secondary": 0.4,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "xA": {
+          "primary": 0.6,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "redCards": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Red Cards",
+          "secondaryLabel": "Yellow Cards"
+        }
+      }
+    },
+    {
+      "name": "Matthijs de Ligt",
+      "stats": {
+        "goals": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "goalsAndAssists": {
+          "primary": 1,
+          "secondary": 2.2,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "minutesPlayed": {
+          "primary": 1170,
+          "secondary": 13,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 1.5,
+          "secondary": 1,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGOT": {
+          "primary": 1.5,
+          "secondary": 1,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "bigChancesCreated": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 3,
+          "secondary": 0.2,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "xA": {
+          "primary": 0.8,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "bigChancesMissed": {
+          "primary": 1,
+          "secondary": 9.1,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        }
+      }
+    },
+    {
+      "name": "Mason Mount",
+      "stats": {
+        "goals": {
+          "primary": 3,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "goalsAndAssists": {
+          "primary": 3,
+          "secondary": 3.1,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "minutesPlayed": {
+          "primary": 1018,
+          "secondary": 23,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.27,
+          "secondary": 3,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 1.5,
+          "secondary": 3,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.13,
+          "secondary": 0.27,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 1.0,
+          "secondary": 3,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.4,
+          "secondary": 26.3,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 1.7,
+          "secondary": 15.8,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 30.9,
+          "secondary": 81.6,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 13,
+          "secondary": 1.1,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 2.0,
+          "secondary": 62.2,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 1.6,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.14,
+          "secondary": 0.0,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.28,
+          "secondary": 0.27,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.6,
+          "secondary": 41.2,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 1,
+          "secondary": 15.8,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "penaltiesAwarded": {
+          "primary": 1,
+          "secondary": 1.1,
+          "primaryLabel": "Penalties Awarded",
+          "secondaryLabel": "Fouled Per 90"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 9.1,
+          "secondary": 103,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 2.1,
+          "secondary": 24,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.8,
+          "secondary": 9,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 0.8,
+          "secondary": 9,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.1,
+          "secondary": 1,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 5.3,
+          "secondary": 60,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.9,
+          "secondary": 3.2,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 1.4,
+          "secondary": 2,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Noussair Mazraoui",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 984,
+          "secondary": 20,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 0.2,
+          "secondary": 0,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.02,
+          "secondary": 0.0,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "shotsPer90": {
+          "primary": 0.5,
+          "secondary": 0.0,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 43.4,
+          "secondary": 87.3,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "chancesCreated": {
+          "primary": 6,
+          "secondary": 0.5,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 1.7,
+          "secondary": 47.5,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 0.4,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.03,
+          "secondary": 0.0,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.05,
+          "secondary": 0.0,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.7,
+          "secondary": 53.3,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 9.0,
+          "secondary": 98,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 2.6,
+          "secondary": 28,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 1.3,
+          "secondary": 14,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 4.9,
+          "secondary": 54,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.2,
+          "secondary": 2,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 4.2,
+          "secondary": 46,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.4,
+          "secondary": 1.8,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 1.1,
+          "secondary": 3,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 3,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Ayden Heaven",
+      "stats": {
+        "assists": {
+          "primary": 1,
+          "secondary": 0.2,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 1,
+          "secondary": 0.5,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "minutesPlayed": {
+          "primary": 923,
+          "secondary": 17,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 0.3,
+          "secondary": 0,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "bigChancesCreated": {
+          "primary": 1,
+          "secondary": 1,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 2,
+          "secondary": 0.2,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "xA": {
+          "primary": 0.2,
+          "secondary": 1,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "bigChancesMissed": {
+          "primary": 1,
+          "secondary": 0.0,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "yellowCards": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Manuel Ugarte",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 881,
+          "secondary": 22,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 0.7,
+          "secondary": 0,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.07,
+          "secondary": 0.0,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 0.1,
+          "secondary": 7.7,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 1.3,
+          "secondary": 0.0,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 43.6,
+          "secondary": 85.1,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "chancesCreated": {
+          "primary": 3,
+          "secondary": 0.3,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 1.3,
+          "secondary": 48.1,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 0.2,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.02,
+          "secondary": 0.0,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.09,
+          "secondary": 0.0,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.7,
+          "secondary": 70.0,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 1,
+          "secondary": 0.0,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 14.5,
+          "secondary": 142,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 4.7,
+          "secondary": 46,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 2.0,
+          "secondary": 20,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 2.0,
+          "secondary": 20,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.5,
+          "secondary": 5,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 5.2,
+          "secondary": 51,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.1,
+          "secondary": 3.2,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 2.5,
+          "secondary": 1,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Joshua Zirkzee",
+      "stats": {
+        "goals": {
+          "primary": 2,
+          "secondary": 0,
+          "primaryLabel": "Goals",
+          "secondaryLabel": "Penalty Goals"
+        },
+        "assists": {
+          "primary": 1,
+          "secondary": 0.4,
+          "primaryLabel": "Assists",
+          "secondaryLabel": "Expected Assists (xA)"
+        },
+        "goalsAndAssists": {
+          "primary": 3,
+          "secondary": 3.3,
+          "primaryLabel": "Goal + Assists",
+          "secondaryLabel": "xG + xA"
+        },
+        "minutesPlayed": {
+          "primary": 608,
+          "secondary": 24,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "goalsPer90": {
+          "primary": 0.3,
+          "secondary": 2,
+          "primaryLabel": "Per 90",
+          "secondaryLabel": "Total Goals"
+        },
+        "xG": {
+          "primary": 3.0,
+          "secondary": 2,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGPer90": {
+          "primary": 0.44,
+          "secondary": 0.3,
+          "primaryLabel": "xG",
+          "secondaryLabel": "Goals Per 90"
+        },
+        "xGOT": {
+          "primary": 2.0,
+          "secondary": 2,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "shotsOnTargetPer90": {
+          "primary": 1.3,
+          "secondary": 36.0,
+          "primaryLabel": "Shots on target per 90",
+          "secondaryLabel": "Percentage of Shots on Target"
+        },
+        "shotsPer90": {
+          "primary": 3.7,
+          "secondary": 8.0,
+          "primaryLabel": "Shots per 90",
+          "secondaryLabel": "Conversion Rate"
+        },
+        "accuratePassesPer90": {
+          "primary": 26.9,
+          "secondary": 74.3,
+          "primaryLabel": "Accurate Passes Per 90",
+          "secondaryLabel": "Pass Succesion Rate"
+        },
+        "bigChancesCreated": {
+          "primary": 2,
+          "secondary": 1,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 11,
+          "secondary": 1.6,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "accurateLongBallsPer90": {
+          "primary": 0.4,
+          "secondary": 42.9,
+          "primaryLabel": "Accurate long balls per 90",
+          "secondaryLabel": "Long ball pass success rate"
+        },
+        "xA": {
+          "primary": 0.4,
+          "secondary": 1,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        },
+        "xAPer90": {
+          "primary": 0.05,
+          "secondary": 0.1,
+          "primaryLabel": "xA per 90",
+          "secondaryLabel": "Assists Per 90"
+        },
+        "xGAndXAPer90": {
+          "primary": 0.49,
+          "secondary": 0.44,
+          "primaryLabel": "xA + xG per 90",
+          "secondaryLabel": "Goals + Assists per 90"
+        },
+        "successfulDribblesPer90": {
+          "primary": 0.7,
+          "secondary": 55.6,
+          "primaryLabel": "Succesful dribbles per 90",
+          "secondaryLabel": "Dribbles Success Rate"
+        },
+        "bigChancesMissed": {
+          "primary": 5,
+          "secondary": 8.0,
+          "primaryLabel": "Big Chances Missed",
+          "secondaryLabel": "Shot Conversion Rate"
+        },
+        "defensiveContributionsPer90": {
+          "primary": 6.2,
+          "secondary": 42,
+          "primaryLabel": "Defensive Contributions Per 90",
+          "secondaryLabel": "Total Defensive Contributions"
+        },
+        "tacklesPer90": {
+          "primary": 1.3,
+          "secondary": 9,
+          "primaryLabel": "Tackles per 90",
+          "secondaryLabel": "Total Tackles"
+        },
+        "interceptionsPer90": {
+          "primary": 0.1,
+          "secondary": 1,
+          "primaryLabel": "Interceptions per 90",
+          "secondaryLabel": "Total Interceptions"
+        },
+        "clearancesPer90": {
+          "primary": 1.6,
+          "secondary": 11,
+          "primaryLabel": "Clearances Per 90",
+          "secondaryLabel": "Total Clearances"
+        },
+        "blocksPer90": {
+          "primary": 0.3,
+          "secondary": 2,
+          "primaryLabel": "Blocks Per 90",
+          "secondaryLabel": "Total Blocks"
+        },
+        "recoveriesPer90": {
+          "primary": 2.8,
+          "secondary": 19,
+          "primaryLabel": "Recoveries Per 90",
+          "secondaryLabel": "Total Recoveries"
+        },
+        "possWonFinal3rdPer90": {
+          "primary": 0.3,
+          "secondary": 1.0,
+          "primaryLabel": "Possesion Won in Final 3rd Per 90",
+          "secondaryLabel": "Possesion Won in Midfield per 90"
+        },
+        "foulsCommittedPer90": {
+          "primary": 1.3,
+          "secondary": 3,
+          "primaryLabel": "Fouls Committed Per 90",
+          "secondaryLabel": "Yellow Cards"
+        },
+        "yellowCards": {
+          "primary": 3,
+          "secondary": 0,
+          "primaryLabel": "Yellow Cards",
+          "secondaryLabel": "Red Cards"
+        }
+      }
+    },
+    {
+      "name": "Altay Bayindir",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 540,
+          "secondary": 6,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "bigChancesCreated": {
+          "primary": 1,
+          "secondary": 0,
+          "primaryLabel": "Big Chances Created",
+          "secondaryLabel": "Total Assists"
+        },
+        "chancesCreated": {
+          "primary": 1,
+          "secondary": 0.2,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "xA": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        }
+      }
+    },
+    {
+      "name": "Jack Fletcher",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 107,
+          "secondary": 3,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "chancesCreated": {
+          "primary": 2,
+          "secondary": 1.7,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "xA": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        }
+      }
+    },
+    {
+      "name": "Shea Lacey",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 40,
+          "secondary": 3,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xG": {
+          "primary": 0.1,
+          "secondary": 0,
+          "primaryLabel": "Expected Goals",
+          "secondaryLabel": "Total Goals"
+        },
+        "xGOT": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "xGOT",
+          "secondaryLabel": "Total Goals"
+        },
+        "xA": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        }
+      }
+    },
+    {
+      "name": "Tyler Fletcher",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 17,
+          "secondary": 2,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xA": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        }
+      }
+    },
+    {
+      "name": "Bendito Mantato",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 15,
+          "secondary": 1,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "chancesCreated": {
+          "primary": 1,
+          "secondary": 6.0,
+          "primaryLabel": "Chances Created",
+          "secondaryLabel": "Chances per 90"
+        },
+        "xA": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        }
+      }
+    },
+    {
+      "name": "Tyrell Malacia",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 15,
+          "secondary": 3,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        },
+        "xA": {
+          "primary": 0.0,
+          "secondary": 0,
+          "primaryLabel": "Expected Assists (xA)",
+          "secondaryLabel": "Total Assists"
+        }
+      }
+    },
+    {
+      "name": "Tyler Fredricson",
+      "stats": {
+        "minutesPlayed": {
+          "primary": 2,
+          "secondary": 1,
+          "primaryLabel": "Minutes Played",
+          "secondaryLabel": "Total Matches"
+        }
+      }
+    }
+  ]
+}

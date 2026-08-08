@@ -1,0 +1,333 @@
+{
+  "fetchedAt": "2026-08-08T12:11:15.509090+00:00",
+  "team": {
+    "id": 66,
+    "name": "Manchester United FC",
+    "shortName": "Man United",
+    "tla": "MUN",
+    "crest": "https://crests.football-data.org/66.png",
+    "address": "Sir Matt Busby Way Manchester M16 0RA",
+    "website": "http://www.manutd.com",
+    "founded": 1878,
+    "clubColors": "Red / White",
+    "venue": "Old Trafford",
+    "coach": {
+      "id": null,
+      "firstName": null,
+      "lastName": null,
+      "name": null,
+      "dateOfBirth": null,
+      "nationality": null,
+      "contract": {
+        "start": null,
+        "until": null
+      }
+    }
+  },
+  "squad": [
+    {
+      "id": 7913,
+      "name": "Karl Darlow",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1990-10-08",
+      "nationality": "Wales",
+      "shirtNumber": null
+    },
+    {
+      "id": 8035,
+      "name": "Tom Heaton",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1986-04-15",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 29518,
+      "name": "Altay Bayındır",
+      "position": "Goalkeeper",
+      "dateOfBirth": "1998-04-14",
+      "nationality": "Turkey",
+      "shirtNumber": null
+    },
+    {
+      "id": 129946,
+      "name": "Senne Lammens",
+      "position": "Goalkeeper",
+      "dateOfBirth": "2002-07-07",
+      "nationality": "Belgium",
+      "shirtNumber": null
+    },
+    {
+      "id": 188435,
+      "name": "Radek Vitek",
+      "position": "Goalkeeper",
+      "dateOfBirth": "2003-10-24",
+      "nationality": "Czech Republic",
+      "shirtNumber": null
+    },
+    {
+      "id": 210730,
+      "name": "Dermot Mee",
+      "position": "Goalkeeper",
+      "dateOfBirth": "2002-11-20",
+      "nationality": "Northern Ireland",
+      "shirtNumber": null
+    },
+    {
+      "id": 3326,
+      "name": "Harry Maguire",
+      "position": "Defence",
+      "dateOfBirth": "1993-03-05",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 7549,
+      "name": "Matthijs de Ligt",
+      "position": "Defence",
+      "dateOfBirth": "1999-08-12",
+      "nationality": "Netherlands",
+      "shirtNumber": null
+    },
+    {
+      "id": 7553,
+      "name": "Noussair Mazraoui",
+      "position": "Defence",
+      "dateOfBirth": "1997-11-14",
+      "nationality": "Morocco",
+      "shirtNumber": null
+    },
+    {
+      "id": 7898,
+      "name": "Luke Shaw",
+      "position": "Defence",
+      "dateOfBirth": "1995-07-12",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 15905,
+      "name": "Diogo Dalot",
+      "position": "Defence",
+      "dateOfBirth": "1999-03-18",
+      "nationality": "Portugal",
+      "shirtNumber": null
+    },
+    {
+      "id": 46451,
+      "name": "Lisandro Martínez",
+      "position": "Defence",
+      "dateOfBirth": "1998-01-18",
+      "nationality": "Argentina",
+      "shirtNumber": null
+    },
+    {
+      "id": 181933,
+      "name": "Leny Yoro",
+      "position": "Defence",
+      "dateOfBirth": "2005-11-13",
+      "nationality": "France",
+      "shirtNumber": null
+    },
+    {
+      "id": 188291,
+      "name": "Tyler Fredricson",
+      "position": "Defence",
+      "dateOfBirth": "2005-02-23",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 210150,
+      "name": "Harry Amass",
+      "position": "Defence",
+      "dateOfBirth": "2007-03-16",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 211559,
+      "name": "Patrick Dorgu",
+      "position": "Defence",
+      "dateOfBirth": "2004-10-26",
+      "nationality": "Denmark",
+      "shirtNumber": null
+    },
+    {
+      "id": 247644,
+      "name": "Ayden Heaven",
+      "position": "Defence",
+      "dateOfBirth": "2006-09-22",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 262921,
+      "name": "Diego León",
+      "position": "Defence",
+      "dateOfBirth": "2007-04-03",
+      "nationality": "Paraguay",
+      "shirtNumber": null
+    },
+    {
+      "id": 3257,
+      "name": "Bruno Fernandes",
+      "position": "Midfield",
+      "dateOfBirth": "1994-09-08",
+      "nationality": "Portugal",
+      "shirtNumber": null
+    },
+    {
+      "id": 3658,
+      "name": "Youri Tielemans",
+      "position": "Midfield",
+      "dateOfBirth": "1997-05-07",
+      "nationality": "Belgium",
+      "shirtNumber": null
+    },
+    {
+      "id": 7599,
+      "name": "Mason Mount",
+      "position": "Midfield",
+      "dateOfBirth": "1999-01-10",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 28549,
+      "name": "Manuel Ugarte",
+      "position": "Midfield",
+      "dateOfBirth": "2001-04-11",
+      "nationality": "Uruguay",
+      "shirtNumber": null
+    },
+    {
+      "id": 166366,
+      "name": "Andrey Santos",
+      "position": "Midfield",
+      "dateOfBirth": "2004-05-03",
+      "nationality": "Brazil",
+      "shirtNumber": null
+    },
+    {
+      "id": 190797,
+      "name": "Kobbie Mainoo",
+      "position": "Midfield",
+      "dateOfBirth": "2005-04-19",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 217491,
+      "name": "Daniel Gore",
+      "position": "Midfield",
+      "dateOfBirth": "2004-09-26",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 248734,
+      "name": "Toby Collyer",
+      "position": "Midfield",
+      "dateOfBirth": "2004-01-03",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 271941,
+      "name": "Jack Fletcher",
+      "position": "Midfield",
+      "dateOfBirth": "2007-03-19",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 290139,
+      "name": "Tyler Fletcher",
+      "position": "Midfield",
+      "dateOfBirth": "2007-03-19",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 292183,
+      "name": "Jacob Devaney",
+      "position": "Midfield",
+      "dateOfBirth": "2007-06-11",
+      "nationality": "Ireland",
+      "shirtNumber": null
+    },
+    {
+      "id": 3331,
+      "name": "Marcus Rashford",
+      "position": "Offence",
+      "dateOfBirth": "1997-10-31",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 8626,
+      "name": "Bryan Mbeumo",
+      "position": "Offence",
+      "dateOfBirth": "1999-08-07",
+      "nationality": "Cameroon",
+      "shirtNumber": null
+    },
+    {
+      "id": 30842,
+      "name": "Matheus Cunha",
+      "position": "Offence",
+      "dateOfBirth": "1999-05-27",
+      "nationality": "Brazil",
+      "shirtNumber": null
+    },
+    {
+      "id": 99731,
+      "name": "Joshua Zirkzee",
+      "position": "Offence",
+      "dateOfBirth": "2001-05-22",
+      "nationality": "Netherlands",
+      "shirtNumber": null
+    },
+    {
+      "id": 124244,
+      "name": "Benjamin Šeško",
+      "position": "Offence",
+      "dateOfBirth": "2003-05-31",
+      "nationality": "Slovenia",
+      "shirtNumber": null
+    },
+    {
+      "id": 133584,
+      "name": "Amad Diallo",
+      "position": "Offence",
+      "dateOfBirth": "2002-07-11",
+      "nationality": "Ivory Coast",
+      "shirtNumber": null
+    },
+    {
+      "id": 250421,
+      "name": "Ethan Wheatley",
+      "position": "Offence",
+      "dateOfBirth": "2006-01-20",
+      "nationality": "England",
+      "shirtNumber": null
+    },
+    {
+      "id": 275522,
+      "name": "Chido Obi-Martin",
+      "position": "Offence",
+      "dateOfBirth": "2007-11-29",
+      "nationality": "Denmark",
+      "shirtNumber": null
+    },
+    {
+      "id": 289557,
+      "name": "Shea Lacey",
+      "position": "Offence",
+      "dateOfBirth": "2007-04-14",
+      "nationality": "England",
+      "shirtNumber": null
+    }
+  ]
+}

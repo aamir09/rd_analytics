@@ -1,0 +1,11 @@
+{
+  "updatedAt": "2026-08-05T09:16:13.905375+00:00",
+  "files": {
+    "standings.json": true,
+    "fixtures.json": true,
+    "results.json": true,
+    "squad.json": true,
+    "player_stats.json": true,
+    "injuries.json": true
+  }
+}
