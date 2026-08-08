@@ -1,6 +1,6 @@
 import { useData } from '../hooks/useData';
 import type { NewsData } from '../types';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 /* 
 // Uncomment this block when you're ready to test Twitter Embeds again
