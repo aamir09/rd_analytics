@@ -6,6 +6,7 @@ Saves to public/data/twitter.json.
 
 import os
 import json
+import re
 import http.client
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +25,19 @@ def parse_twitter_date(date_str: str) -> datetime:
     except Exception:
         # Fallback to current time if parsing fails
         return datetime.now(timezone.utc)
+
+def is_man_utd_related(text: str) -> bool:
+    text_lower = text.lower()
+    keywords = ["manchester united", "man united", "man utd", "mufc", "manutd"]
+    for kw in keywords:
+        if kw in text_lower:
+            return True
+    
+    # Check 'united' separately with word boundaries to avoid false positives
+    if re.search(r'\bunited\b', text_lower):
+        return True
+        
+    return False
 
 def fetch_timeline(handle: str, api_key: str):
     conn = http.client.HTTPSConnection("twitter-api45.p.rapidapi.com")
@@ -63,6 +77,10 @@ def run():
             continue
             
         timeline = raw_data['timeline']
+        
+        # Filter if handle is not mufcMPB
+        if handle != "mufcMPB":
+            timeline = [t for t in timeline if is_man_utd_related(t.get('text', ''))]
         
         # Parse and sort
         for t in timeline:
