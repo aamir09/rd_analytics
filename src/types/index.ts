@@ -287,6 +287,7 @@ export interface SquadDetailPlayer {
   Country: string | null;
   Height: string | null;
   'Transfer value': string | null;
+  Image: string | null;
 }
 
 // -- News Types ---------------------------------------------------------------
