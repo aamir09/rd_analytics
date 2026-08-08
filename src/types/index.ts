@@ -306,3 +306,30 @@ export interface NewsData {
   fetchedAt: string;
   articles: NewsArticle[];
 }
+
+export interface TwitterAuthor {
+  name: string;
+  screen_name: string;
+  avatar: string;
+}
+
+export interface Tweet {
+  id: string;
+  created_at: string;
+  text: string;
+  views?: string;
+  favorites?: number;
+  retweets?: number;
+  media_url?: string;
+  author: TwitterAuthor;
+}
+
+export interface TwitterHandleData {
+  screen_name: string;
+  tweets: Tweet[];
+}
+
+export interface TwitterData {
+  fetchedAt: string;
+  handles: TwitterHandleData[];
+}

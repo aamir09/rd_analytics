@@ -1,0 +1,38 @@
+name: Fetch Twitter Data
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # Every 6 hours
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  fetch-twitter:
+    runs-on: ubuntu-latest
+    environment: Rd
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run Twitter Scraper
+        run: python scripts/fetch_twitter.py
+        env:
+          RAPID_API_KEY: ${{ secrets.RAPID_API_KEY }}
+
+      - name: Commit updated twitter data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: refresh latest tweets [skip ci]'
+          file_pattern: 'public/data/twitter.json'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
