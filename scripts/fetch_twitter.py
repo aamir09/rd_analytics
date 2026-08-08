@@ -32,11 +32,22 @@ def is_man_utd_related(text: str) -> bool:
     for kw in keywords:
         if kw in text_lower:
             return True
-    
-    # Check 'united' separately with word boundaries to avoid false positives
+    # Check 'united' separately but ignore other 'United' teams
     if re.search(r'\bunited\b', text_lower):
-        return True
-        
+        other_uniteds = [
+            "newcastle united", "west ham united", "sheffield united", 
+            "leeds united", "rotherham united", "carlisle united", 
+            "peterborough united", "oxford united", "cambridge united", 
+            "southend united", "torquay united", "ayr united", "dundee united",
+            "atlanta united", "dc united", "minnesota united", "new mexico united"
+        ]
+        test_text = text_lower
+        for ou in other_uniteds:
+            test_text = test_text.replace(ou, "")
+            
+        if re.search(r'\bunited\b', test_text):
+            return True
+            
     return False
 
 def fetch_timeline(handle: str, api_key: str):

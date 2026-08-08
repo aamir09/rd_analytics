@@ -1,6 +1,119 @@
 import { useData } from '../hooks/useData';
-import type { NewsData, TwitterData } from '../types';
-import { AtSign, MessageCircle, Repeat2, Heart, BarChart3, ExternalLink } from 'lucide-react';
+import type { NewsData, TwitterData, TwitterHandleData } from '../types';
+import { AtSign, MessageCircle, Repeat2, Heart, BarChart3, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useRef } from 'react';
+
+function TweetSlider({ handleData }: { handleData: TwitterHandleData }) {
+  const sliderRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (direction: 'left' | 'right') => {
+    if (sliderRef.current) {
+      const scrollAmount = direction === 'left' ? -340 : 340;
+      sliderRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  };
+
+  const formatTimeAgo = (iso: string) => {
+    try {
+      const d = new Date(iso);
+      const now = new Date();
+      const diffHrs = Math.floor((now.getTime() - d.getTime()) / (1000 * 60 * 60));
+      if (diffHrs < 24) return `${diffHrs}h`;
+      return `${Math.floor(diffHrs/24)}d`;
+    } catch {
+      return '';
+    }
+  };
+
+  return (
+    <div className="fade-in" style={{ position: 'relative' }}>
+      
+      {/* Handle Header & Navigation */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', paddingLeft: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          {handleData.tweets[0]?.author.avatar ? (
+            <img src={handleData.tweets[0].author.avatar} alt={handleData.screen_name} style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid var(--color-border)' }} />
+          ) : (
+            <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#1DA1F2', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white' }}>
+              <AtSign size={20} />
+            </div>
+          )}
+          <div>
+            <div style={{ fontWeight: 700, display: 'flex', alignItems: 'center', gap: '4px' }}>
+              {handleData.tweets[0]?.author.name || handleData.screen_name}
+            </div>
+            <a href={`https://twitter.com/${handleData.screen_name}`} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', color: '#1DA1F2', textDecoration: 'none' }}>
+              @{handleData.screen_name}
+            </a>
+          </div>
+        </div>
+        
+        {/* Navigation Arrows */}
+        <div style={{ display: 'flex', gap: '8px' }}>
+          <button onClick={() => scroll('left')} className="nav-btn" aria-label="Scroll Left">
+            <ChevronLeft size={20} />
+          </button>
+          <button onClick={() => scroll('right')} className="nav-btn" aria-label="Scroll Right">
+            <ChevronRight size={20} />
+          </button>
+        </div>
+      </div>
+
+      {/* Horizontal Scroll Slider */}
+      <div ref={sliderRef} className="tweet-slider" style={{ 
+        display: 'flex', 
+        gap: '20px', 
+        overflowX: 'auto', 
+        paddingBottom: '16px', 
+        scrollSnapType: 'x mandatory',
+        scrollBehavior: 'smooth'
+      }}>
+        {handleData.tweets.map((tweet) => (
+          <a 
+            key={tweet.id} 
+            href={`https://twitter.com/${handleData.screen_name}/status/${tweet.id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card hover-scale tweet-card"
+            style={{ 
+              minWidth: '320px', 
+              maxWidth: '380px',
+              flex: '0 0 auto', 
+              scrollSnapAlign: 'start',
+              display: 'flex',
+              flexDirection: 'column',
+              textDecoration: 'none',
+              color: 'inherit',
+              padding: '20px'
+            }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' }}>
+              <AtSign size={18} color="#1DA1F2" />
+              <span style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>{formatTimeAgo(tweet.created_at)}</span>
+            </div>
+            
+            <p style={{ fontSize: '0.95rem', lineHeight: 1.5, marginBottom: '16px', flex: 1, whiteSpace: 'pre-wrap' }}>
+              {tweet.text}
+            </p>
+
+            {tweet.media_url && (
+              <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '16px', maxHeight: '200px' }}>
+                <img src={tweet.media_url} alt="Tweet Media" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
+            )}
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '20px', color: 'var(--color-text-muted)', fontSize: '0.8rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><MessageCircle size={15} /></div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><Repeat2 size={15} /> {tweet.retweets ? tweet.retweets.toLocaleString() : ''}</div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><Heart size={15} /> {tweet.favorites ? tweet.favorites.toLocaleString() : ''}</div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><BarChart3 size={15} /> {tweet.views || ''}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default function News() {
   const { data: newsData, loading: newsLoading } = useData<NewsData>('news.json');
@@ -19,17 +132,7 @@ export default function News() {
     }
   };
 
-  const formatTimeAgo = (iso: string) => {
-    try {
-      const d = new Date(iso);
-      const now = new Date();
-      const diffHrs = Math.floor((now.getTime() - d.getTime()) / (1000 * 60 * 60));
-      if (diffHrs < 24) return `${diffHrs}h`;
-      return `${Math.floor(diffHrs/24)}d`;
-    } catch {
-      return '';
-    }
-  };
+
 
   return (
     <div className="page-wrapper">
@@ -55,80 +158,7 @@ export default function News() {
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
               {twitterHandles.map((handleData) => (
-                <div key={handleData.screen_name} className="fade-in">
-                  
-                  {/* Handle Header */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px', paddingLeft: '8px' }}>
-                    {handleData.tweets[0]?.author.avatar ? (
-                      <img src={handleData.tweets[0].author.avatar} alt={handleData.screen_name} style={{ width: '40px', height: '40px', borderRadius: '50%', border: '2px solid var(--color-border)' }} />
-                    ) : (
-                      <div style={{ width: '40px', height: '40px', borderRadius: '50%', background: '#1DA1F2', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white' }}>
-                        <AtSign size={20} />
-                      </div>
-                    )}
-                    <div>
-                      <div style={{ fontWeight: 700, display: 'flex', alignItems: 'center', gap: '4px' }}>
-                        {handleData.tweets[0]?.author.name || handleData.screen_name}
-                      </div>
-                      <a href={`https://twitter.com/${handleData.screen_name}`} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.8rem', color: '#1DA1F2', textDecoration: 'none' }}>
-                        @{handleData.screen_name}
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Horizontal Scroll Slider */}
-                  <div className="tweet-slider" style={{ 
-                    display: 'flex', 
-                    gap: '20px', 
-                    overflowX: 'auto', 
-                    paddingBottom: '16px', 
-                    scrollSnapType: 'x mandatory',
-                    scrollBehavior: 'smooth'
-                  }}>
-                    {handleData.tweets.map((tweet) => (
-                      <a 
-                        key={tweet.id} 
-                        href={`https://twitter.com/${handleData.screen_name}/status/${tweet.id}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="card hover-scale tweet-card"
-                        style={{ 
-                          minWidth: '320px', 
-                          maxWidth: '380px',
-                          flex: '0 0 auto', 
-                          scrollSnapAlign: 'start',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          textDecoration: 'none',
-                          color: 'inherit',
-                          padding: '20px'
-                        }}
-                      >
-                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' }}>
-                          <AtSign size={18} color="#1DA1F2" />
-                          <span style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)' }}>{formatTimeAgo(tweet.created_at)}</span>
-                        </div>
-                        
-                        <p style={{ fontSize: '0.95rem', lineHeight: 1.5, marginBottom: '16px', flex: 1, whiteSpace: 'pre-wrap' }}>
-                          {tweet.text}
-                        </p>
-
-                        {tweet.media_url && (
-                          <div style={{ borderRadius: '12px', overflow: 'hidden', marginBottom: '16px', maxHeight: '200px' }}>
-                            <img src={tweet.media_url} alt="Tweet Media" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                          </div>
-                        )}
-
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '20px', color: 'var(--color-text-muted)', fontSize: '0.8rem' }}>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><MessageCircle size={15} /></div>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><Repeat2 size={15} /> {tweet.retweets ? tweet.retweets.toLocaleString() : ''}</div>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><Heart size={15} /> {tweet.favorites ? tweet.favorites.toLocaleString() : ''}</div>
-                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}><BarChart3 size={15} /> {tweet.views || ''}</div>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
-                </div>
+                <TweetSlider key={handleData.screen_name} handleData={handleData} />
               ))}
             </div>
           )}
@@ -179,6 +209,23 @@ export default function News() {
         .tweet-slider {
           -ms-overflow-style: none;  /* IE and Edge */
           scrollbar-width: none;  /* Firefox */
+        }
+        .nav-btn {
+          background: var(--color-surface);
+          border: 1px solid var(--color-border);
+          color: var(--color-text);
+          border-radius: 50%;
+          width: 36px;
+          height: 36px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          transition: all 0.2s ease;
+        }
+        .nav-btn:hover {
+          background: var(--color-border);
+          transform: scale(1.05);
         }
       `}</style>
     </div>
