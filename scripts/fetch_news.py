@@ -36,11 +36,16 @@ def is_man_city_edge_case(title: str, desc: str) -> bool:
     return False
 
 def run():
-    api_key = os.environ.get("NEWSMESH_API_KEY", "nm_d0Hhyzxl_tOt41cwOD1KHkA29leBvN-Vy1ZpvnGDoZY")
+    api_key = os.environ.get("NEWS_MESH_KEY")
     if not NewsMeshClient:
         return
         
-    client = NewsMeshClient(api_key)
+    try:
+        client = NewsMeshClient(api_key)
+    except ValueError as e:
+        print(f"ERROR: {e}")
+        print("Please ensure the 'NEWS_MESH_KEY' secret is added to your 'Rd' environment in GitHub Settings.")
+        return
     
     # Format current date as dd/mm/yyyy
     current_date = datetime.now(timezone.utc).strftime("%d/%m/%Y")

@@ -27,7 +27,7 @@ jobs:
       - name: Run News Scraper
         run: python scripts/fetch_news.py
         env:
-          NEWSMESH_API_KEY: ${{ secrets.NEWSMESH_API_KEY }}
+          NEWS_MESH_KEY: ${{ secrets.NEWS_MESH_KEY }}
 
       - name: Commit updated news data
         uses: stefanzweifel/git-auto-commit-action@v5
