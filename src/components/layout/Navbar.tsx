@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { to: '/players', label: 'Players', exact: false },
   { to: '/team',    label: 'Team',    exact: false },
   { to: '/compare', label: 'Compare', exact: false },
+  { to: '/news',    label: 'News',    exact: false },
 ];
 
 export default function Navbar() {

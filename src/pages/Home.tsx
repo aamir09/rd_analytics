@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useData } from '../hooks/useData';
 import { usePlayerPhotos } from '../hooks/usePlayerPhotos';
-import type { StandingsData, FixturesData, PlayerStatsData, FotMobData, SquadDetailPlayer } from '../types';
+import type { StandingsData, FixturesData, PlayerStatsData, FotMobData, SquadDetailPlayer, NewsData } from '../types';
 import { getManUtdResult, formatMatchDate, formatMatchTime, MAN_UTD_ID_FD, timeUntil } from '../utils/formatters';
 import StatCard from '../components/ui/StatCard';
 import MatchCard from '../components/ui/MatchCard';
@@ -14,6 +14,7 @@ export default function Home() {
   const { data: fotmob } = useData<FotMobData>('player_stats_fotmob.json');
   const { data: apiData } = useData<PlayerStatsData>('player_stats.json');
   const { data: squadDetails } = useData<SquadDetailPlayer[]>('squad_details.json');
+  const { data: newsData } = useData<NewsData>('news.json');
 
   const photoMap = usePlayerPhotos(apiData ?? null);
 
@@ -22,6 +23,7 @@ export default function Home() {
   const recentResults = results?.matches.slice(0, 5) ?? [];
   const nextMatch = fixtures?.matches[0];
   const form = recentResults.map(m => getManUtdResult(m)).filter(Boolean);
+  const latestNews = newsData?.articles.slice(0, 3) ?? [];
 
   // Top Scorers from FotMob 2025/26 dataset
   const topScorers = (fotmob?.players ?? [])
@@ -99,6 +101,30 @@ export default function Home() {
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 360px', gap: '32px', alignItems: 'start' }} className="home-grid">
           <div>
+            {latestNews.length > 0 && (
+              <div style={{ marginBottom: '40px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '24px' }}>
+                  <div><div className="accent-bar" /><h2 className="text-subheading" style={{ margin: 0 }}>Latest News</h2></div>
+                  <Link to="/news" style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-primary)', textDecoration: 'none' }}>All news <ArrowRight size={14} /></Link>
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                  {latestNews.map(article => (
+                    <a key={article.id} href={article.link} target="_blank" rel="noopener noreferrer" className="card hover-scale fade-in" style={{ padding: '20px', display: 'flex', gap: '20px', textDecoration: 'none', color: 'inherit', alignItems: 'center' }}>
+                      {article.media_url && (
+                        <div style={{ width: '80px', height: '80px', flexShrink: 0, borderRadius: '8px', overflow: 'hidden' }}>
+                          <img src={article.media_url} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        </div>
+                      )}
+                      <div>
+                        <div style={{ fontSize: '0.68rem', fontWeight: 700, color: 'var(--color-primary)', textTransform: 'uppercase', marginBottom: '6px' }}>{article.source}</div>
+                        <h3 style={{ fontSize: '0.95rem', fontWeight: 700, margin: 0, lineHeight: 1.4, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{article.title}</h3>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '24px' }}>
               <div><div className="accent-bar" /><h2 className="text-subheading" style={{ margin: 0 }}>Recent Results</h2></div>
               <Link to="/results" style={{ display: 'flex', alignItems: 'center', gap: '5px', fontSize: '0.85rem', fontWeight: 600, color: 'var(--color-primary)', textDecoration: 'none' }}>All results <ArrowRight size={14} /></Link>

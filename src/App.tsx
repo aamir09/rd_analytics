@@ -9,6 +9,7 @@ import Players from './pages/Players';
 import PlayerDetail from './pages/PlayerDetail';
 import TeamStats from './pages/TeamStats';
 import Compare from './pages/Compare';
+import News from './pages/News';
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/players/:name" element={<PlayerDetail />} />
           <Route path="/team"       element={<TeamStats />} />
           <Route path="/compare"    element={<Compare />} />
+          <Route path="/news"       element={<News />} />
         </Routes>
       </main>
       <Footer />

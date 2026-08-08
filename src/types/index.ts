@@ -287,5 +287,21 @@ export interface SquadDetailPlayer {
   Country: string | null;
   Height: string | null;
   'Transfer value': string | null;
-  Image: string | null;
+}
+
+// -- News Types ---------------------------------------------------------------
+export interface NewsArticle {
+  id: string;
+  title: string;
+  description: string;
+  link: string;
+  published_date: string;
+  source: string;
+  media_url?: string;
+  topics: string[];
+}
+
+export interface NewsData {
+  fetchedAt: string;
+  articles: NewsArticle[];
 }
