@@ -1,31 +1,25 @@
 import { useData } from '../hooks/useData';
 import type { NewsData } from '../types';
-import { useEffect } from 'react';
-
-function TwitterEmbed({ screenName, height }: { screenName: string, height: number }) {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://platform.twitter.com/widgets.js";
-    script.async = true;
-    script.charset = "utf-8";
-    document.body.appendChild(script);
-    
-    if ((window as any).twttr) {
-      (window as any).twttr.widgets.load();
-    }
-  }, [screenName]);
-
+import { ExternalLink, Twitter } from 'lucide-react';
+function SocialProfileCard({ name, handle, description }: { name: string, handle: string, description: string }) {
   return (
-    <div style={{ height, overflowY: 'auto' }}>
-      <a 
-        className="twitter-timeline" 
-        data-theme="light" 
-        data-height={height}
-        href={`https://twitter.com/${screenName}?ref_src=twsrc%5Etfw`}
-      >
-        Tweets by {screenName}
-      </a>
-    </div>
+    <a 
+      href={`https://twitter.com/${handle}`} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="card hover-scale fade-in" 
+      style={{ display: 'flex', alignItems: 'center', gap: '16px', padding: '20px', textDecoration: 'none', color: 'inherit' }}
+    >
+      <div style={{ width: '50px', height: '50px', borderRadius: '50%', background: 'rgba(29, 161, 242, 0.1)', color: '#1DA1F2', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+        <Twitter size={24} />
+      </div>
+      <div style={{ flex: 1 }}>
+        <h3 style={{ margin: 0, fontSize: '1rem', fontWeight: 700 }}>{name}</h3>
+        <div style={{ color: '#1DA1F2', fontSize: '0.85rem', fontWeight: 600, marginBottom: '4px' }}>@{handle}</div>
+        <p style={{ margin: 0, fontSize: '0.8rem', color: 'var(--color-text-muted)', lineHeight: 1.4 }}>{description}</p>
+      </div>
+      <ExternalLink size={18} color="var(--color-text-muted)" />
+    </a>
   );
 }
 export default function News() {
@@ -93,16 +87,22 @@ export default function News() {
               <div style={{ width: 8, height: 8, borderRadius: '50%', background: '#1DA1F2' }} /> Social Hub
             </h2>
             
-            <div className="card fade-in" style={{ overflow: 'hidden', height: '500px', padding: '0' }}>
-              <TwitterEmbed screenName="mufcMPB" height={500} />
-            </div>
-            
-            <div className="card fade-in" style={{ overflow: 'hidden', height: '400px', padding: '0' }}>
-              <TwitterEmbed screenName="FabrizioRomano" height={400} />
-            </div>
-            
-            <div className="card fade-in" style={{ overflow: 'hidden', height: '400px', padding: '0' }}>
-              <TwitterEmbed screenName="indykaila" height={400} />
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+              <SocialProfileCard 
+                name="MUFC MPB" 
+                handle="mufcMPB" 
+                description="Latest Manchester United news, match coverage and reliable updates." 
+              />
+              <SocialProfileCard 
+                name="Fabrizio Romano" 
+                handle="FabrizioRomano" 
+                description="The most trusted source for global football transfers. Here we go!" 
+              />
+              <SocialProfileCard 
+                name="IndyKaila News" 
+                handle="indykaila" 
+                description="Football news, transfers, and insider gossip." 
+              />
             </div>
           </div>
         </div>
