@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/red-devils-analytics/', // GitHub Pages base path
+  base: '/rd_analytics.github.io/', // GitHub Pages base path
 })
