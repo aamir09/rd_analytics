@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/rd_analytics.github.io/', // GitHub Pages base path
+  base: '/rd_analytics/', // GitHub Pages base path
 })
