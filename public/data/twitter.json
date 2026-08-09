@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-09T12:57:44.484230+00:00",
+  "fetchedAt": "2026-08-09T13:38:19.926802+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2086446691234848903",
+          "created_at": "2026-08-09T13:37:10+00:00",
+          "text": "Joining up with the United squad in Ireland 👊➕ https://t.co/8VFeXT9mHa",
+          "views": "40381",
+          "favorites": 482,
+          "retweets": 65,
+          "media_url": "https://pbs.twimg.com/media/HPSMNLKXgAAOf-S.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2086422490860122392",
           "created_at": "2026-08-09T12:01:00+00:00",
           "text": "Made by Amad, finished by Bryan 💫 https://t.co/hoYz6iyXk3",
-          "views": "122188",
-          "favorites": 2871,
-          "retweets": 232,
+          "views": "152938",
+          "favorites": 3996,
+          "retweets": 306,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -22,9 +36,9 @@
           "id": "2086411920882663796",
           "created_at": "2026-08-09T11:19:00+00:00",
           "text": "More minutes for Mee 🧤 https://t.co/x8kHvQlG5U",
-          "views": "187509",
-          "favorites": 4019,
-          "retweets": 216,
+          "views": "261256",
+          "favorites": 5294,
+          "retweets": 275,
           "media_url": "https://pbs.twimg.com/media/HPRdHALWwAA8dxf.jpg",
           "author": {
             "name": "Manchester United",
@@ -36,9 +50,9 @@
           "id": "2086401527938273463",
           "created_at": "2026-08-09T10:37:42+00:00",
           "text": "🇫🇮 Finland ✅\n🇳🇴 Norway ✅\n🇸🇪 Sweden ✅\n\n🇮🇪 Ireland 📍 https://t.co/PCisprG1EX",
-          "views": "200557",
-          "favorites": 6817,
-          "retweets": 493,
+          "views": "244918",
+          "favorites": 8006,
+          "retweets": 539,
           "media_url": "https://pbs.twimg.com/media/HPRjIbcXgAAvqsR.jpg",
           "author": {
             "name": "Manchester United",
@@ -50,24 +64,10 @@
           "id": "2086391536422392247",
           "created_at": "2026-08-09T09:58:00+00:00",
           "text": "One year of Big Ben at United ❤️\n\n🔜 Season two loading... https://t.co/RMQx3S9aCh",
-          "views": "295077",
-          "favorites": 7624,
-          "retweets": 559,
+          "views": "368803",
+          "favorites": 8575,
+          "retweets": 626,
           "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2086379960156160218",
-          "created_at": "2026-08-09T09:12:00+00:00",
-          "text": "More valuable minutes of first-team football for some of our #MUAcademy lads 💪 https://t.co/c6EkAcSMS0",
-          "views": "289280",
-          "favorites": 6125,
-          "retweets": 321,
-          "media_url": "https://pbs.twimg.com/media/HPOJRXuWEAAaf66.jpg",
           "author": {
             "name": "Manchester United",
             "screen_name": "ManUtd",
@@ -80,12 +80,26 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2086444715780534355",
+          "created_at": "2026-08-09T13:29:19+00:00",
+          "text": "🚨🚨📸 JUST IN:\n\nMarcus Rashford pictured with the Manchester United squad in Ireland. #MUFC [@ZAYN_Z7] https://t.co/vFbpiVEzp6",
+          "views": "12422",
+          "favorites": 499,
+          "retweets": 38,
+          "media_url": "https://pbs.twimg.com/media/HPSKaMeXAAAY-qu.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2086429635592540432",
           "created_at": "2026-08-09T12:29:23+00:00",
           "text": "🚨 BREAKING:\n\nManchester United are WORKING on a deal to sign 18-year-old Leicester midfielder Louis Page. Arsenal and Aston Villa are also in the race but United are trying to advance. #MUFC [@SamiMokbel_BBC] https://t.co/foQz7IFKcb",
-          "views": "28883",
-          "favorites": 754,
-          "retweets": 40,
+          "views": "71722",
+          "favorites": 1375,
+          "retweets": 57,
           "media_url": "https://pbs.twimg.com/media/HPR8shvW0AIU2lD.jpg",
           "author": {
             "name": "mufcmpb",
@@ -97,8 +111,8 @@
           "id": "2086016548993470830",
           "created_at": "2026-08-08T09:07:56+00:00",
           "text": "🚨🚨 OFFICIAL:\n\nRadek Vítek has joined Middlesbrough on a permanent transfer. #MUFC https://t.co/RE82PW1QIj",
-          "views": "56219",
-          "favorites": 1838,
+          "views": "57033",
+          "favorites": 1844,
           "retweets": 42,
           "media_url": "https://pbs.twimg.com/media/HPME_jTWAAAee6p.jpg",
           "author": {
@@ -111,8 +125,8 @@
           "id": "2085888341396828261",
           "created_at": "2026-08-08T00:38:29+00:00",
           "text": "Throwback to this ICONIC Cristiano Ronaldo header for Manchester United against Roma in the Champions League 😤🇵🇹 https://t.co/GuV2DfMYga",
-          "views": "147934",
-          "favorites": 995,
+          "views": "148976",
+          "favorites": 997,
           "retweets": 51,
           "media_url": null,
           "author": {
@@ -125,24 +139,10 @@
           "id": "2085669098873073776",
           "created_at": "2026-08-07T10:07:17+00:00",
           "text": "🚨 OFFICIAL:\n\nManchester United will release their 2026/27 third kit on Friday 14 August. #MUFC [MU] https://t.co/vtkTRrXJ2a",
-          "views": "67755",
-          "favorites": 1616,
+          "views": "67999",
+          "favorites": 1617,
           "retweets": 46,
           "media_url": "https://pbs.twimg.com/media/HPHI_WJWIAAkfmk.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2085661010078171222",
-          "created_at": "2026-08-07T09:35:09+00:00",
-          "text": "🚨🚨 OFFICIAL:\n\nAltay Bayindir has joined Celta Vigo on loan for the 2026/27 season. #MUFC https://t.co/raHHzrJnf7",
-          "views": "88145",
-          "favorites": 4030,
-          "retweets": 116,
-          "media_url": "https://pbs.twimg.com/media/HPHBoh1XYAAlsoO.jpg",
           "author": {
             "name": "mufcmpb",
             "screen_name": "mufcMPB",
@@ -158,9 +158,9 @@
           "id": "2086413742191829215",
           "created_at": "2026-08-09T11:26:14+00:00",
           "text": "🚨 Marcus Rashford returned at Carrington today and Man United believe he has serious chances to stay.\n\nRashford won’t consider Turkey/Saudi as destinations this summer.\n\n#MUFC opened doors for Marcus to stay; Carrick, also involved.\n\n🎥➕ https://t.co/Jd9ihYrnGm https://t.co/IqK4oDNYQa",
-          "views": "1857650",
-          "favorites": 30848,
-          "retweets": 2113,
+          "views": "2262978",
+          "favorites": 36737,
+          "retweets": 2436,
           "media_url": "https://pbs.twimg.com/media/HPRuPRDXcAAjoXY.jpg",
           "author": {
             "name": "Fabrizio Romano",
@@ -179,7 +179,7 @@
           "text": "RT @indykaila: Exclusive 💣\n\nReal Madrid’s Endrick has emerged as a potential option for Manchester United.\n\nContact was made this afternoon…",
           "views": null,
           "favorites": 0,
-          "retweets": 425,
+          "retweets": 426,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -191,9 +191,9 @@
           "id": "2086162001768677857",
           "created_at": "2026-08-08T18:45:54+00:00",
           "text": "🚨 BREAKING: MASSIVE MANCHESTER UNITED NEWS DROPPING AT 10PM 🕙\n\nWe’ve got explosive information straight from a source inside the club 📞\n\nThis one’s big. Be online. Don’t miss it 💣 https://t.co/qdewMGCTr3",
-          "views": "397148",
-          "favorites": 2286,
-          "retweets": 114,
+          "views": "403285",
+          "favorites": 2293,
+          "retweets": 115,
           "media_url": "https://pbs.twimg.com/media/HPOJSHMWsAIr07S.jpg",
           "author": {
             "name": "indykaila News",
@@ -205,8 +205,8 @@
           "id": "2085998291251016151",
           "created_at": "2026-08-08T07:55:23+00:00",
           "text": "We know there were reports that Manchester United is not targeting midfielders. \n\nThey 💯 are. Hopefully more info later.",
-          "views": "355814",
-          "favorites": 2724,
+          "views": "357497",
+          "favorites": 2725,
           "retweets": 94,
           "media_url": null,
           "author": {
@@ -219,8 +219,8 @@
           "id": "2085825520957096313",
           "created_at": "2026-08-07T20:28:51+00:00",
           "text": "Manchester United and PSG officials to meet in the stands 👀 https://t.co/kl1tPGMOPH",
-          "views": "272159",
-          "favorites": 625,
+          "views": "272743",
+          "favorites": 626,
           "retweets": 22,
           "media_url": "https://pbs.twimg.com/media/HPJXQaKXgAAaiaq.jpg",
           "author": {
