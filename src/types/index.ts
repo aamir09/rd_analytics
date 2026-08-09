@@ -333,3 +333,108 @@ export interface TwitterData {
   fetchedAt: string;
   handles: TwitterHandleData[];
 }
+
+// -- SofaScore Types (League-wide EPL data, Compare page only) ----------------
+
+export interface SofaScoreStatistics {
+  rating?: number | null;
+  totalRating?: number | null;
+  countRating?: number | null;
+  goals?: number | null;
+  bigChancesCreated?: number | null;
+  bigChancesMissed?: number | null;
+  assists?: number | null;
+  expectedAssists?: number | null;
+  goalsAssistsSum?: number | null;
+  accuratePasses?: number | null;
+  inaccuratePasses?: number | null;
+  totalPasses?: number | null;
+  accuratePassesPercentage?: number | null;
+  accurateOwnHalfPasses?: number | null;
+  accurateOppositionHalfPasses?: number | null;
+  accurateFinalThirdPasses?: number | null;
+  keyPasses?: number | null;
+  successfulDribbles?: number | null;
+  successfulDribblesPercentage?: number | null;
+  tackles?: number | null;
+  interceptions?: number | null;
+  yellowCards?: number | null;
+  directRedCards?: number | null;
+  redCards?: number | null;
+  accurateCrosses?: number | null;
+  accurateCrossesPercentage?: number | null;
+  totalShots?: number | null;
+  shotsOnTarget?: number | null;
+  shotsOffTarget?: number | null;
+  groundDuelsWon?: number | null;
+  groundDuelsWonPercentage?: number | null;
+  aerialDuelsWon?: number | null;
+  aerialDuelsWonPercentage?: number | null;
+  totalDuelsWon?: number | null;
+  totalDuelsWonPercentage?: number | null;
+  minutesPlayed?: number | null;
+  goalConversionPercentage?: number | null;
+  penaltiesTaken?: number | null;
+  penaltyGoals?: number | null;
+  penaltyWon?: number | null;
+  penaltyConceded?: number | null;
+  shotFromSetPiece?: number | null;
+  freeKickGoal?: number | null;
+  goalsFromInsideTheBox?: number | null;
+  goalsFromOutsideTheBox?: number | null;
+  shotsFromInsideTheBox?: number | null;
+  shotsFromOutsideTheBox?: number | null;
+  headedGoals?: number | null;
+  leftFootGoals?: number | null;
+  rightFootGoals?: number | null;
+  accurateLongBalls?: number | null;
+  accurateLongBallsPercentage?: number | null;
+  clearances?: number | null;
+  errorLeadToGoal?: number | null;
+  errorLeadToShot?: number | null;
+  dispossessed?: number | null;
+  possessionLost?: number | null;
+  possessionWonAttThird?: number | null;
+  totalChippedPasses?: number | null;
+  accurateChippedPasses?: number | null;
+  touches?: number | null;
+  wasFouled?: number | null;
+  fouls?: number | null;
+  hitWoodwork?: number | null;
+  ownGoals?: number | null;
+  dribbledPast?: number | null;
+  offsides?: number | null;
+  blockedShots?: number | null;
+  passToAssist?: number | null;
+  saves?: number | null;
+  kilometersCovered?: number | null;
+  numberOfSprints?: number | null;
+  topSpeed?: number | null;
+  cleanSheet?: number | null;
+  matchesStarted?: number | null;
+  totalAttemptAssist?: number | null;
+  totalContest?: number | null;
+  totalCross?: number | null;
+  duelLost?: number | null;
+  aerialLost?: number | null;
+  totalLongBalls?: number | null;
+  goalsConceded?: number | null;
+  tacklesWon?: number | null;
+  tacklesWonPercentage?: number | null;
+  scoringFrequency?: number | null;
+  expectedGoals?: number | null;
+  ballRecovery?: number | null;
+  outfielderBlocks?: number | null;
+  appearances?: number | null;
+  [key: string]: number | string | object | null | undefined;
+}
+
+export interface SofaScorePlayer {
+  player_id: number;
+  player_name: string;
+  team_name: string;
+  team_code: string;
+  position: string;
+  jersey_number?: string;
+  statistics: SofaScoreStatistics | null;
+}

@@ -1,0 +1,48 @@
+name: Scrape SofaScore EPL Stats
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # 1st of each month at 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      season:
+        description: 'Season to scrape (2526 or 2627)'
+        required: true
+        default: '2627'
+        type: choice
+        options:
+          - '2526'
+          - '2627'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install playwright pandas
+
+      - name: Install Chromium for Playwright
+        run: python -m playwright install chromium --with-deps
+
+      - name: Run SofaScore Scraper
+        run: python scripts/scrape_sofascore.py --season ${{ inputs.season || '2627' }}
+
+      - name: Commit updated SofaScore data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: refresh sofascore epl stats [${{ inputs.season || "2627" }}] [skip ci]'
+          file_pattern: 'public/data/sofascore/*.json'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
