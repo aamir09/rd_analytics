@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 
 const WATERMARK_TEXT = 'Red Devils Analytics';
-const WATERMARK_SUB = 'reddevilsanalytics.github.io';
+const WATERMARK_SUB = 'rd_analytics.github.io';
 
 /**
  * Hook for downloading chart containers as PNG with a watermark.
