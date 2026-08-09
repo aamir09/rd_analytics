@@ -16,7 +16,7 @@ env_path = Path(__file__).parent.parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
 OUTPUT_DIR = Path(__file__).parent.parent / "public" / "data"
-HANDLES = ["mufcMPB", "FabrizioRomano", "indykaila", "David_Ornstein"]
+HANDLES = ["ManUtd", "mufcMPB", "FabrizioRomano", "indykaila", "David_Ornstein"]
 
 def parse_twitter_date(date_str: str) -> datetime:
     # Example: "Sat Aug 08 15:35:42 +0000 2026"
@@ -90,7 +90,7 @@ def run():
         timeline = raw_data['timeline']
         
         # Filter if handle is not mufcMPB
-        if handle != "mufcMPB":
+        if handle not in ("mufcMPB", "ManUtd"):
             timeline = [t for t in timeline if is_man_utd_related(t.get('text', ''))]
         
         # Parse and sort
