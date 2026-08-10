@@ -3,6 +3,16 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
+  workflow_run:
+    workflows:
+      - "Fetch API Data (football-data.org + API-Football)"
+      - "Fetch Latest News"
+      - "Fetch Twitter Data"
+      - "Scrape FotMob Player Stats"
+      - "Scrape SofaScore EPL Stats"
+      - "Scrape Squad Details"
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:

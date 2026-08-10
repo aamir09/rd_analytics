@@ -42,7 +42,7 @@ jobs:
       - name: Commit updated SofaScore data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'data: refresh sofascore epl stats [${{ inputs.season || "2627" }}] [skip ci]'
+          commit_message: 'data: refresh sofascore epl stats [${{ inputs.season || "2627" }}]'
           file_pattern: 'public/data/sofascore/*.json'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'

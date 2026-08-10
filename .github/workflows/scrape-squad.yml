@@ -29,7 +29,7 @@ jobs:
       - name: Commit updated squad data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'data: monthly squad details update [skip ci]'
+          commit_message: 'data: monthly squad details update'
           file_pattern: |
             public/data/squad_details.json
           commit_user_name: 'github-actions[bot]'
