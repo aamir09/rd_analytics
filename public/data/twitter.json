@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-09T18:46:10.675684+00:00",
+  "fetchedAt": "2026-08-10T02:03:48.110141+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2086555365790101839",
+          "created_at": "2026-08-09T20:49:00+00:00",
+          "text": "The first of many for Youri 🔴 https://t.co/Z2fZ6LqrZs",
+          "views": "401466",
+          "favorites": 16992,
+          "retweets": 759,
+          "media_url": "https://pbs.twimg.com/media/HPOOBCZWoAAW6yA.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2086535485779059080",
+          "created_at": "2026-08-09T19:30:00+00:00",
+          "text": "1️⃣7️⃣🇧🇷",
+          "views": "362932",
+          "favorites": 14530,
+          "retweets": 772,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2086502517630960045",
           "created_at": "2026-08-09T17:19:00+00:00",
           "text": "An #MUAcademy squad will travel to the Netherlands next week to take part in the Otten Cup 🏆🇳🇱",
-          "views": "183962",
-          "favorites": 4417,
-          "retweets": 228,
+          "views": "393093",
+          "favorites": 6660,
+          "retweets": 306,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -22,9 +50,9 @@
           "id": "2086479498870935763",
           "created_at": "2026-08-09T15:47:32+00:00",
           "text": "Back with the boys 🤜🤛 https://t.co/F2uQq3Z8Yy",
-          "views": "489671",
-          "favorites": 27788,
-          "retweets": 2442,
+          "views": "748781",
+          "favorites": 40474,
+          "retweets": 3483,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -36,38 +64,10 @@
           "id": "2086468041345249433",
           "created_at": "2026-08-09T15:02:00+00:00",
           "text": "Strength and vision from @HarryMaguire93 👏 https://t.co/YR5ZJJasER",
-          "views": "278857",
-          "favorites": 5243,
-          "retweets": 315,
+          "views": "421714",
+          "favorites": 7249,
+          "retweets": 420,
           "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2086448888920068103",
-          "created_at": "2026-08-09T13:45:54+00:00",
-          "text": "❤️✍️ https://t.co/vcBdPBhS65",
-          "views": "451008",
-          "favorites": 9703,
-          "retweets": 703,
-          "media_url": "https://pbs.twimg.com/media/HPSN8yzXAAIrE56.jpg",
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2086448464649400694",
-          "created_at": "2026-08-09T13:44:12+00:00",
-          "text": "Great to see you, Reds! 💪🔴 https://t.co/LyHOHP2cTH",
-          "views": "758082",
-          "favorites": 8722,
-          "retweets": 828,
-          "media_url": "https://pbs.twimg.com/media/HPSNlVAXMAAAjtW.jpg",
           "author": {
             "name": "Manchester United",
             "screen_name": "ManUtd",
@@ -80,12 +80,26 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2086543873661165671",
+          "created_at": "2026-08-09T20:03:20+00:00",
+          "text": "JJ Gabriel on IG 🙌 https://t.co/ZkIMgnjr30",
+          "views": "57584",
+          "favorites": 1770,
+          "retweets": 73,
+          "media_url": null,
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2086489351303696552",
           "created_at": "2026-08-09T16:26:41+00:00",
           "text": "🚨 Arsenal and Aston Villa have expressed interest in Louis Page but it is understood he WANTS to join Manchester United. #MUFC [@SimonJones_DM] https://t.co/k2hQLIDM2N",
-          "views": "54767",
-          "favorites": 1935,
-          "retweets": 77,
+          "views": "82003",
+          "favorites": 3154,
+          "retweets": 123,
           "media_url": "https://pbs.twimg.com/media/HPSzAaRXcAA000s.jpg",
           "author": {
             "name": "mufcmpb",
@@ -97,9 +111,9 @@
           "id": "2086472966888468950",
           "created_at": "2026-08-09T15:21:34+00:00",
           "text": "🚨 BREAKING:\n\nMarcus Rashford will wear the No.14 shirt for Manchester United! #MUFC [@FabrizioRomano] https://t.co/TASfL8bTZY",
-          "views": "53933",
-          "favorites": 2621,
-          "retweets": 103,
+          "views": "74679",
+          "favorites": 3826,
+          "retweets": 123,
           "media_url": "https://pbs.twimg.com/media/HPSkGtBWcAADnpK.jpg",
           "author": {
             "name": "mufcmpb",
@@ -111,9 +125,9 @@
           "id": "2086469461444313206",
           "created_at": "2026-08-09T15:07:38+00:00",
           "text": "🚨 NEW:\n\nManchester United and Arsenal have made BIDS for Louis Page. United are the FAVOURITES to sign him, with the player keen on a move to Old Trafford. #MUFC [@SportsPeteO] https://t.co/wfzGN36LbC",
-          "views": "119150",
-          "favorites": 2387,
-          "retweets": 107,
+          "views": "155959",
+          "favorites": 2915,
+          "retweets": 121,
           "media_url": "https://pbs.twimg.com/media/HPSg6sfW4AAhex3.jpg",
           "author": {
             "name": "mufcmpb",
@@ -125,24 +139,10 @@
           "id": "2086449269821608205",
           "created_at": "2026-08-09T13:47:24+00:00",
           "text": "🚨 JUST IN:\n\nLouis Page is KEEN on joining Manchester United this summer. #MUFC [@DanyalHKhan] https://t.co/plqVViwVex",
-          "views": "99384",
-          "favorites": 2567,
-          "retweets": 105,
+          "views": "118173",
+          "favorites": 3270,
+          "retweets": 117,
           "media_url": "https://pbs.twimg.com/media/HPSOjXcW0AADPwx.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2086448282209804555",
-          "created_at": "2026-08-09T13:43:29+00:00",
-          "text": "Marcus Rashford and Kobbie Mainoo with Manchester United fans in Ireland 🙌❤️ https://t.co/orj3vMqxaI",
-          "views": "57695",
-          "favorites": 3240,
-          "retweets": 82,
-          "media_url": "https://pbs.twimg.com/media/HPSNpygWkAAGykE.jpg",
           "author": {
             "name": "mufcmpb",
             "screen_name": "mufcMPB",
@@ -160,7 +160,7 @@
           "text": "RT @FabrizioRomano: 🚨 EXCLUSIVE: Manchester United decide to give Marcus Rashford new squad number as message to trust him and include as p…",
           "views": "3",
           "favorites": 0,
-          "retweets": 5897,
+          "retweets": 7715,
           "media_url": null,
           "author": {
             "name": "Fabrizio Romano",
@@ -172,9 +172,9 @@
           "id": "2086471077643813368",
           "created_at": "2026-08-09T15:14:04+00:00",
           "text": "🚨 EXCLUSIVE: Manchester United decide to give Marcus Rashford new squad number as message to trust him and include as part of the team.\n\nUnderstand Rashford will wear number 14 shirt and now travelling with the team 1️⃣4️⃣\n\nUnless top European club bid arrives, he can stay. https://t.co/r5tQAu5PiD",
-          "views": "5247855",
-          "favorites": 72793,
-          "retweets": 5897,
+          "views": "7839374",
+          "favorites": 101646,
+          "retweets": 7715,
           "media_url": "https://pbs.twimg.com/media/HPSiYn2XUAAuoEX.jpg",
           "author": {
             "name": "Fabrizio Romano",
@@ -188,12 +188,12 @@
       "screen_name": "indykaila",
       "tweets": [
         {
-          "id": "2086432095266586665",
-          "created_at": "2026-08-09T12:39:10+00:00",
+          "id": "2086578799450128868",
+          "created_at": "2026-08-09T22:22:07+00:00",
           "text": "RT @indykaila: Exclusive 💣\n\nReal Madrid’s Endrick has emerged as a potential option for Manchester United.\n\nContact was made this afternoon…",
           "views": null,
           "favorites": 0,
-          "retweets": 435,
+          "retweets": 439,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -205,9 +205,9 @@
           "id": "2086162001768677857",
           "created_at": "2026-08-08T18:45:54+00:00",
           "text": "🚨 BREAKING: MASSIVE MANCHESTER UNITED NEWS DROPPING AT 10PM 🕙\n\nWe’ve got explosive information straight from a source inside the club 📞\n\nThis one’s big. Be online. Don’t miss it 💣 https://t.co/qdewMGCTr3",
-          "views": "443540",
-          "favorites": 2343,
-          "retweets": 120,
+          "views": "459404",
+          "favorites": 2355,
+          "retweets": 118,
           "media_url": "https://pbs.twimg.com/media/HPOJSHMWsAIr07S.jpg",
           "author": {
             "name": "indykaila News",
@@ -219,9 +219,9 @@
           "id": "2085998291251016151",
           "created_at": "2026-08-08T07:55:23+00:00",
           "text": "We know there were reports that Manchester United is not targeting midfielders. \n\nThey 💯 are. Hopefully more info later.",
-          "views": "366466",
-          "favorites": 2738,
-          "retweets": 93,
+          "views": "373495",
+          "favorites": 2746,
+          "retweets": 94,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -233,8 +233,8 @@
           "id": "2085825520957096313",
           "created_at": "2026-08-07T20:28:51+00:00",
           "text": "Manchester United and PSG officials to meet in the stands 👀 https://t.co/kl1tPGMOPH",
-          "views": "275512",
-          "favorites": 627,
+          "views": "277595",
+          "favorites": 629,
           "retweets": 22,
           "media_url": "https://pbs.twimg.com/media/HPJXQaKXgAAaiaq.jpg",
           "author": {
