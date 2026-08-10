@@ -2,8 +2,8 @@ name: Fetch Twitter Data
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # Every 6 hours
-  workflow_dispatch:      # Allow manual trigger
+    - cron: '0 */2 * * *'   # Every 6 hours
+  workflow_dispatch:      # Allow manual trigger  
 
 jobs:
   fetch-twitter:
