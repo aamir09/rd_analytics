@@ -1,16 +1,58 @@
 {
-  "fetchedAt": "2026-08-10T07:47:58.993071+00:00",
+  "fetchedAt": "2026-08-10T13:16:43.696245+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2086755097359380905",
+          "created_at": "2026-08-10T10:02:39+00:00",
+          "text": "Out now: United's 2026/27 #U18PL fixture list 📝🇾🇪",
+          "views": "239119",
+          "favorites": 3068,
+          "retweets": 214,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2086745367874596935",
+          "created_at": "2026-08-10T09:24:00+00:00",
+          "text": "Three goals in four pre-season games.\n\nBryan is warming up nicely ♨️🌡️ https://t.co/phVLma0r3e",
+          "views": "295593",
+          "favorites": 18402,
+          "retweets": 888,
+          "media_url": "https://pbs.twimg.com/media/HPWVpQQX0AAw0iV.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2086726377915773308",
+          "created_at": "2026-08-10T08:08:32+00:00",
+          "text": "Our #PL2 fixtures for 2026/27 have been revealed... 👀🗓️",
+          "views": "349381",
+          "favorites": 6749,
+          "retweets": 343,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2086555365790101839",
           "created_at": "2026-08-09T20:49:00+00:00",
           "text": "The first of many for Youri 🔴 https://t.co/Z2fZ6LqrZs",
-          "views": "944816",
-          "favorites": 25775,
-          "retweets": 1105,
+          "views": "1475654",
+          "favorites": 30746,
+          "retweets": 1345,
           "media_url": "https://pbs.twimg.com/media/HPOOBCZWoAAW6yA.jpg",
           "author": {
             "name": "Manchester United",
@@ -22,51 +64,9 @@
           "id": "2086535485779059080",
           "created_at": "2026-08-09T19:30:00+00:00",
           "text": "1️⃣7️⃣🇧🇷",
-          "views": "471949",
-          "favorites": 17886,
-          "retweets": 918,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2086502517630960045",
-          "created_at": "2026-08-09T17:19:00+00:00",
-          "text": "An #MUAcademy squad will travel to the Netherlands next week to take part in the Otten Cup 🏆🇳🇱",
-          "views": "445874",
-          "favorites": 7500,
-          "retweets": 346,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2086479498870935763",
-          "created_at": "2026-08-09T15:47:32+00:00",
-          "text": "Back with the boys 🤜🤛 https://t.co/F2uQq3Z8Yy",
-          "views": "936846",
-          "favorites": 46508,
-          "retweets": 3913,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2086468041345249433",
-          "created_at": "2026-08-09T15:02:00+00:00",
-          "text": "Strength and vision from @HarryMaguire93 👏 https://t.co/YR5ZJJasER",
-          "views": "466353",
-          "favorites": 8307,
-          "retweets": 477,
+          "views": "815515",
+          "favorites": 21865,
+          "retweets": 1154,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -80,12 +80,26 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2086762196428533983",
+          "created_at": "2026-08-10T10:30:52+00:00",
+          "text": "🚨🚨🗣️ JUST IN: @lauriewhitwell on Manchester United’s alternatives to Lewis Hall:\n\n“Jorge Salinas [Racing Santander left-back], I think he’s on the LIST of potential options. I think he’s got a €16m buy-out clause. Represented by Jorge Mendes I think.” #MUFC [@TOTDevils] https://t.co/QNFH2aRw5k",
+          "views": "206812",
+          "favorites": 1791,
+          "retweets": 99,
+          "media_url": "https://pbs.twimg.com/media/HPWrKEQWkAAHUEp.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2086709262592393568",
           "created_at": "2026-08-10T07:00:32+00:00",
           "text": "This Benjamin Šeško goal against West Ham was simply incredible 🥶🌟 https://t.co/d2khjUT0hi",
-          "views": "28203",
-          "favorites": 390,
-          "retweets": 8,
+          "views": "64757",
+          "favorites": 929,
+          "retweets": 22,
           "media_url": null,
           "author": {
             "name": "mufcmpb",
@@ -97,9 +111,9 @@
           "id": "2086543873661165671",
           "created_at": "2026-08-09T20:03:20+00:00",
           "text": "JJ Gabriel on IG 🙌 https://t.co/ZkIMgnjr30",
-          "views": "66925",
-          "favorites": 2028,
-          "retweets": 89,
+          "views": "75073",
+          "favorites": 2163,
+          "retweets": 93,
           "media_url": null,
           "author": {
             "name": "mufcmpb",
@@ -111,9 +125,9 @@
           "id": "2086489351303696552",
           "created_at": "2026-08-09T16:26:41+00:00",
           "text": "🚨 Arsenal and Aston Villa have expressed interest in Louis Page but it is understood he WANTS to join Manchester United. #MUFC [@SimonJones_DM] https://t.co/k2hQLIDM2N",
-          "views": "90964",
-          "favorites": 3411,
-          "retweets": 131,
+          "views": "100046",
+          "favorites": 3733,
+          "retweets": 141,
           "media_url": "https://pbs.twimg.com/media/HPSzAaRXcAA000s.jpg",
           "author": {
             "name": "mufcmpb",
@@ -125,24 +139,10 @@
           "id": "2086472966888468950",
           "created_at": "2026-08-09T15:21:34+00:00",
           "text": "🚨 BREAKING:\n\nMarcus Rashford will wear the No.14 shirt for Manchester United! #MUFC [@FabrizioRomano] https://t.co/TASfL8bTZY",
-          "views": "84414",
-          "favorites": 4176,
-          "retweets": 132,
+          "views": "94357",
+          "favorites": 4390,
+          "retweets": 138,
           "media_url": "https://pbs.twimg.com/media/HPSkGtBWcAADnpK.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2086469461444313206",
-          "created_at": "2026-08-09T15:07:38+00:00",
-          "text": "🚨 NEW:\n\nManchester United and Arsenal have made BIDS for Louis Page. United are the FAVOURITES to sign him, with the player keen on a move to Old Trafford. #MUFC [@SportsPeteO] https://t.co/wfzGN36LbC",
-          "views": "167043",
-          "favorites": 3038,
-          "retweets": 123,
-          "media_url": "https://pbs.twimg.com/media/HPSg6sfW4AAhex3.jpg",
           "author": {
             "name": "mufcmpb",
             "screen_name": "mufcMPB",
@@ -164,7 +164,7 @@
           "text": "RT @indykaila: Exclusive 💣\n\nReal Madrid’s Endrick has emerged as a potential option for Manchester United.\n\nContact was made this afternoon…",
           "views": null,
           "favorites": 0,
-          "retweets": 442,
+          "retweets": 449,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -176,9 +176,9 @@
           "id": "2086195869167055320",
           "created_at": "2026-08-08T21:00:29+00:00",
           "text": "Exclusive 💣\n\nReal Madrid’s Endrick has emerged as a potential option for Manchester United.\n\nContact was made this afternoon 📞\n\nThe player is keen on the move, but Manchester United have only made early-stage enquiries. https://t.co/78QJZCBmIz",
-          "views": "1565785",
-          "favorites": 7539,
-          "retweets": 442,
+          "views": "1610759",
+          "favorites": 7601,
+          "retweets": 449,
           "media_url": "https://pbs.twimg.com/media/HPOoFXJXkAAYyii.jpg",
           "author": {
             "name": "indykaila News",
@@ -190,38 +190,10 @@
           "id": "2086162001768677857",
           "created_at": "2026-08-08T18:45:54+00:00",
           "text": "🚨 BREAKING: MASSIVE MANCHESTER UNITED NEWS DROPPING AT 10PM 🕙\n\nWe’ve got explosive information straight from a source inside the club 📞\n\nThis one’s big. Be online. Don’t miss it 💣 https://t.co/qdewMGCTr3",
-          "views": "465063",
-          "favorites": 2359,
-          "retweets": 118,
+          "views": "474466",
+          "favorites": 2371,
+          "retweets": 119,
           "media_url": "https://pbs.twimg.com/media/HPOJSHMWsAIr07S.jpg",
-          "author": {
-            "name": "indykaila News",
-            "screen_name": "indykaila",
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2085998291251016151",
-          "created_at": "2026-08-08T07:55:23+00:00",
-          "text": "We know there were reports that Manchester United is not targeting midfielders. \n\nThey 💯 are. Hopefully more info later.",
-          "views": "376415",
-          "favorites": 2747,
-          "retweets": 95,
-          "media_url": null,
-          "author": {
-            "name": "indykaila News",
-            "screen_name": "indykaila",
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2085825520957096313",
-          "created_at": "2026-08-07T20:28:51+00:00",
-          "text": "Manchester United and PSG officials to meet in the stands 👀 https://t.co/kl1tPGMOPH",
-          "views": "278440",
-          "favorites": 628,
-          "retweets": 22,
-          "media_url": "https://pbs.twimg.com/media/HPJXQaKXgAAaiaq.jpg",
           "author": {
             "name": "indykaila News",
             "screen_name": "indykaila",
