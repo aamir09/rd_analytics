@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-11T10:53:31.462751+00:00",
+  "fetchedAt": "2026-08-11T13:14:43.342789+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2087154816552247534",
+          "created_at": "2026-08-11T12:31:00+00:00",
+          "text": "Supporting one another ❤️ https://t.co/TcYBTeJnXV",
+          "views": "134808",
+          "favorites": 7263,
+          "retweets": 443,
+          "media_url": "https://pbs.twimg.com/media/HPcNjGtWAAAaRLX.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2087136444875776394",
+          "created_at": "2026-08-11T11:18:00+00:00",
+          "text": "United 🆚 Leeds evokes early memories for Steve Holland 💭\n\nHear from our assistant head coach ahead of tomorrow's game 👇",
+          "views": "181276",
+          "favorites": 2796,
+          "retweets": 211,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2087113048427311553",
           "created_at": "2026-08-11T09:45:02+00:00",
           "text": "Matheus is pure vibes 🤣 https://t.co/IEEXdmD0ce",
-          "views": "352160",
-          "favorites": 12658,
-          "retweets": 1187,
+          "views": "805121",
+          "favorites": 22403,
+          "retweets": 1994,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -22,9 +50,9 @@
           "id": "2087102137641873681",
           "created_at": "2026-08-11T09:01:40+00:00",
           "text": "Licha has arrived in Ireland to link up with the squad 💪",
-          "views": "243963",
-          "favorites": 15138,
-          "retweets": 1138,
+          "views": "416196",
+          "favorites": 21775,
+          "retweets": 1513,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -36,38 +64,10 @@
           "id": "2087095173058548109",
           "created_at": "2026-08-11T08:34:00+00:00",
           "text": "We train how we play 💪 https://t.co/Dpy2dran7V",
-          "views": "224923",
-          "favorites": 10102,
-          "retweets": 723,
+          "views": "422561",
+          "favorites": 15319,
+          "retweets": 967,
           "media_url": "https://pbs.twimg.com/media/HPbOgWwWkAAdrmJ.jpg",
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087094166362915006",
-          "created_at": "2026-08-11T08:30:00+00:00",
-          "text": "In full flow 🌊 https://t.co/ZorYp1OSbK",
-          "views": "285622",
-          "favorites": 12284,
-          "retweets": 1163,
-          "media_url": "https://pbs.twimg.com/media/HPbLfhlWMAE7VnN.jpg",
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087081412595790008",
-          "created_at": "2026-08-11T07:39:19+00:00",
-          "text": "Seven years since @HarryMaguire93’s debut 👊🔴 https://t.co/kO8ysAIX8h",
-          "views": "329503",
-          "favorites": 10712,
-          "retweets": 746,
-          "media_url": null,
           "author": {
             "name": "Manchester United",
             "screen_name": "ManUtd",
@@ -80,12 +80,54 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2087160005627699528",
+          "created_at": "2026-08-11T12:51:37+00:00",
+          "text": "RT @mufcMPB: 🚨 Juventus continue to keep dialogue open about a move for Joshua Zirkzee, on potential terms of a loan plus obligation to buy…",
+          "views": null,
+          "favorites": 0,
+          "retweets": 48,
+          "media_url": null,
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2087153819075436834",
+          "created_at": "2026-08-11T12:27:02+00:00",
+          "text": "🚨 RB Leipzig’s David Raum is a left-back Manchester United may assess. #MUFC [@JamieJackson___] https://t.co/tADkoD3DBW",
+          "views": "28923",
+          "favorites": 666,
+          "retweets": 40,
+          "media_url": "https://pbs.twimg.com/media/HPcPVh1XgAAxK4Q.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2087152956491596206",
+          "created_at": "2026-08-11T12:23:36+00:00",
+          "text": "🚨 NEW:\n\nMyles Lewis-Skelly has been offered to Manchester United as a potential left-back option. His prospective price is thought to be in the region of £45m. #MUFC [@JamieJackson___] https://t.co/DliTQihP0x",
+          "views": "67139",
+          "favorites": 1641,
+          "retweets": 93,
+          "media_url": "https://pbs.twimg.com/media/HPcOjQKXUAA2wu0.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2087126087570460841",
           "created_at": "2026-08-11T10:36:50+00:00",
           "text": "🚨 JUST IN:\n\nMyles Lewis-Skelly has been offered to Manchester United and Chelsea. #MUFC [@BobbyVincentFL, @TomCantonMedia] https://t.co/fZCHeEx364",
-          "views": "17286",
-          "favorites": 546,
-          "retweets": 32,
+          "views": "158066",
+          "favorites": 1583,
+          "retweets": 69,
           "media_url": "https://pbs.twimg.com/media/HPb2HYVWMAAdaGH.jpg",
           "author": {
             "name": "mufcmpb",
@@ -97,52 +139,10 @@
           "id": "2087103924318683576",
           "created_at": "2026-08-11T09:08:46+00:00",
           "text": "Shea Lacey x Bruno Fernandes ❤️💫 https://t.co/SLqyhCjzlM",
-          "views": "32184",
-          "favorites": 2123,
-          "retweets": 96,
+          "views": "54245",
+          "favorites": 4005,
+          "retweets": 164,
           "media_url": "https://pbs.twimg.com/media/HPbh9OMXUAA7gvi.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087103198037209561",
-          "created_at": "2026-08-11T09:05:53+00:00",
-          "text": "Lisandro Martínez has ARRIVED in Ireland to join up with the Manchester United squad 🤩🔙 https://t.co/PVJoifND9a",
-          "views": "43029",
-          "favorites": 2183,
-          "retweets": 93,
-          "media_url": "https://pbs.twimg.com/media/HPbhS-VXsAAIM8e.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087096943910535304",
-          "created_at": "2026-08-11T08:41:02+00:00",
-          "text": "Benjamin Šeško 😄🇸🇮 https://t.co/pfuM76TdKi",
-          "views": "30404",
-          "favorites": 1810,
-          "retweets": 63,
-          "media_url": "https://pbs.twimg.com/media/HPbbm6bXcAASLFL.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087096530960343334",
-          "created_at": "2026-08-11T08:39:24+00:00",
-          "text": "Matthijs de Ligt in training 🇳🇱😍 https://t.co/Z9XV2PSQUB",
-          "views": "23129",
-          "favorites": 1053,
-          "retweets": 43,
-          "media_url": "https://pbs.twimg.com/media/HPbbO7UXsAABhNH.jpg",
           "author": {
             "name": "mufcmpb",
             "screen_name": "mufcMPB",
