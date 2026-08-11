@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-11T10:42:13.052117+00:00",
+  "fetchedAt": "2026-08-11T11:37:39.826786+00:00",
   "articles": [
+    {
+      "id": "c3120fda26cd337d4a7e8d927adcc175",
+      "title": "How Bryan Mbeumo goal saw Manchester United battle to draw with PSG in pre-season friendly in Sweden",
+      "description": "Recap as Michael Carrick's side held the European champions in Gothenburg.",
+      "link": "https://www.nytimes.com/athletic/live-blogs/psg-vs-manchester-united-live-updates-friendly-score-result/ktHzgfMR64M7/",
+      "published_date": "2026-08-08T18:15:05",
+      "source": "The Athletic",
+      "media_url": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/ktHzgfMR64M7_bDuvn5h1M2Hh_1440x961.png",
+      "topics": [
+        "football",
+        "pre-season games"
+      ]
+    },
     {
       "id": "614e83112038e2959856be16c5584725",
       "title": "Manchester United confirm new midfield signing after year-long pursuit",
