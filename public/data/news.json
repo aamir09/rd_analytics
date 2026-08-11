@@ -1,6 +1,21 @@
 {
-  "fetchedAt": "2026-08-11T17:50:04.717433+00:00",
+  "fetchedAt": "2026-08-11T18:48:39.584056+00:00",
   "articles": [
+    {
+      "id": "c009603f0df546a3ab0dd6445e2ffb1a",
+      "title": "Where Marcus Rashford Fits In At Arsenal Amid Elite Winger Search",
+      "description": "Arsenal have been tipped to try to sign Marcus Rashford from Manchester United amid a search for a top attacker",
+      "link": "https://www.givemesport.com/where-marcus-rashford-fits-at-arsenal-transfer-links/",
+      "published_date": "2026-08-11T18:15:13",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/04/mixcollage-18-apr-2026-09-00-am-4611.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "Arsenal",
+        "Marcus Rashford",
+        "Manchester United"
+      ]
+    },
     {
       "id": "c42bb041db7ad6109b9d938bbe9db3ce",
       "title": "Manchester United Injury Update: Lisandro Martinez Status",
@@ -111,35 +126,6 @@
         "football",
         "sports news",
         "midfield transfers"
-      ]
-    },
-    {
-      "id": "b13c7fd132a57cc11e7957cbf559677b",
-      "title": "Manchester United XI vs PSG: Confirmed team news, predicted lineup, injury latest for friendly",
-      "description": "Summer signing in contention to make his debut",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-psg-confirmed-team-news-predicted-lineup-injury-latest-2026-friendly-b1292626.html",
-      "published_date": "2026-08-06T19:40:59",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/06/20/2289326835..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "injury news",
-        "Manchester United",
-        "PSG"
-      ]
-    },
-    {
-      "id": "2e1ffbeb30b7d9e4fb7017c37980b5c3",
-      "title": "Manchester United vs PSG: Prediction, kick-off time, TV, live stream, team news, h2h results, odds",
-      "description": "Another high-profile pre-season friendly for Man Utd after beating Atletico Madrid",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-vs-psg-prediction-kick-off-time-tv-live-stream-team-news-latest-h2h-results-odds-preseason-friendly-2026-preview-b1292625.html",
-      "published_date": "2026-08-06T19:36:51",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/06/19/37/Screenshot-2026-08-06-202100.png?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "pre-season friendly",
-        "football",
-        "sports news"
       ]
     }
   ]
