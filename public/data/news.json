@@ -1,6 +1,49 @@
 {
-  "fetchedAt": "2026-08-11T11:37:39.826786+00:00",
+  "fetchedAt": "2026-08-11T12:42:37.618679+00:00",
   "articles": [
+    {
+      "id": "716373c1aa63ac27d889ccf8b004454f",
+      "title": "Marcus Rashford tipped for Arsenal move in shock swap for Myles Lewis-Skelly",
+      "description": "Manchester United star’s future is up in the air after Barcelona loan spell",
+      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-rashford-man-utd-lewis-skelly-b1292990.html",
+      "published_date": "2026-08-11T10:17:54",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/11/7/58/GettyImages-2206740459.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "transfer news",
+        "sports news"
+      ]
+    },
+    {
+      "id": "645ae9d66f3e90fc152ce1c096d6ce6c",
+      "title": "Manchester United XI vs Leeds: Confirmed team news, predicted lineup, injury latest for friendly",
+      "description": "Marcus Rashford is in contention to make his first Man Utd appearance since December 2024",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-leeds-confirmed-team-news-predicted-lineup-injury-latest-2026-friendly-b1292932.html",
+      "published_date": "2026-08-11T07:41:46",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/07/30/07/01KWMP00X9Q5RCK2C90SAY4ES1.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "injury news",
+        "Man Utd",
+        "Leeds United"
+      ]
+    },
+    {
+      "id": "583a7ca84f1be3e184526182d89b18c4",
+      "title": "Radek Vitek's Middlesbrough arrival and what it means for Sol Brynn after solid start",
+      "description": "Radek Vitek has signed from Manchester United, giving Sol Brynn tough competition",
+      "link": "https://www.gazettelive.co.uk/sport/football/transfer-news/radek-viteks-middlesbrough-arrival-what-34433549",
+      "published_date": "2026-08-10T13:22:29",
+      "source": "Teesside Live",
+      "media_url": "https://i2-prod.gazettelive.co.uk/sport/article34433683.ece/ALTERNATES/s98/0_premium-canvas-1786367989170.png",
+      "topics": [
+        "football",
+        "sports news",
+        "player signings"
+      ]
+    },
     {
       "id": "c3120fda26cd337d4a7e8d927adcc175",
       "title": "How Bryan Mbeumo goal saw Manchester United battle to draw with PSG in pre-season friendly in Sweden",
@@ -83,48 +126,6 @@
         "football signings",
         "Manchester United",
         "Cristian Orozco"
-      ]
-    },
-    {
-      "id": "006fc0ec0602c773aa766ba25b460e3e",
-      "title": "The Truth About Vini JR with Fabrizio Romano and Ben Jacobs | PM Andy Burnham Exclusive Interview",
-      "description": "Fabrizio Romano joins Market Madness with major updates on Rodri to Barcelona, Bradley Barcola to Liverpool and Marcus Rashford’s Manchester United future. Prime Minister Andy Burnham also delivers a blunt verdict on Gianni Infantino as FIFA’s leadership crisis deepens.",
-      "link": "https://www.givemesport.com/video/the-truth-about-vini-jr-with-fabrizio-romano-and-ben-jacobs-pm-andy-burnham-exclusive-interview/",
-      "published_date": "2026-08-06T17:54:41",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/yt-thumbnail.png?w=1600&h=900&fit=crop",
-      "topics": [
-        "FIFA leadership",
-        "sports news",
-        "football"
-      ]
-    },
-    {
-      "id": "ca9a9404e61298a0bd74374bdc7099c6",
-      "title": "Arsenal responds to Manchester United’s interest in Lewis-Skelly",
-      "description": "Myles Lewis Skelly has emerged as a transfer target for Manchester United as they search for a long-term replacement for Luke Shaw this summer.Shaw is entering the final year of his contract at the cl...",
-      "link": "https://sports.yahoo.com/articles/arsenal-responds-manchester-united-interest-170500551.html",
-      "published_date": "2026-08-06T17:05:00",
-      "source": "Yahoo Sports",
-      "media_url": null,
-      "topics": [
-        "football",
-        "transfer news",
-        "sports news"
-      ]
-    },
-    {
-      "id": "1f074512244069f5c2a288ec71efb2fd",
-      "title": "Former Manchester United Star’s Son Dies of Sudden Adult Death Syndrome",
-      "description": "Alex Hughes died on June 19 at the age of 38",
-      "link": "https://people.com/former-manchester-united-star-mark-hughes-son-dies-sudden-adult-death-syndrome-12035677",
-      "published_date": "2026-08-06T15:56:19",
-      "source": "People",
-      "media_url": "https://people.com/thmb/1mKzQGrHPZ8EMXeidb0dzUYItm4=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/mark-hughes-london-8626-9eb49e0dd8824877b021742710f30c34.jpg",
-      "topics": [
-        "sports news",
-        "death",
-        "sports events"
       ]
     }
   ]
