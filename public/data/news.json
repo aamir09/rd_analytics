@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-11T19:55:27.439734+00:00",
+  "fetchedAt": "2026-08-11T20:35:12.446782+00:00",
   "articles": [
+    {
+      "id": "77a37dc7af3da6402476985b3b49565d",
+      "title": "Monaco and Paul Pogba in talks to terminate contract after six appearances",
+      "description": "The former Manchester United midfielder joined the Ligue 1 club as a free transfer last summer but struggled to be consistency available.",
+      "link": "https://www.nytimes.com/athletic/7506329/2026/08/11/paul-pogba-transfer-monaco-contract/",
+      "published_date": "2026-08-11T20:16:23",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/11151811/GettyImages-2271526608-scaled.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "club transfers"
+      ]
+    },
     {
       "id": "c009603f0df546a3ab0dd6445e2ffb1a",
       "title": "Where Marcus Rashford Fits In At Arsenal Amid Elite Winger Search",
@@ -112,20 +126,6 @@
       "topics": [
         "football",
         "pre-season games"
-      ]
-    },
-    {
-      "id": "614e83112038e2959856be16c5584725",
-      "title": "Manchester United confirm new midfield signing after year-long pursuit",
-      "description": "A visit to Old Trafford has led to a “childhood dream” coming true",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-midfield-signing-b1292628.html",
-      "published_date": "2026-08-06T20:32:02",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/06/21/2289354188..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "sports news",
-        "midfield transfers"
       ]
     }
   ]
