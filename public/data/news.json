@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-11T12:42:37.618679+00:00",
+  "fetchedAt": "2026-08-11T14:13:15.185352+00:00",
   "articles": [
+    {
+      "id": "a3cd3fa6e5ec0ef1997a921740bfdc60",
+      "title": "What's going on with Marcus Rashford? How successful Barcelona loan left Man United star at crossroads",
+      "description": "Marcus Rashford is back at Manchester United. Can he grasp a final chance at Old Trafford under Michael Carrick.",
+      "link": "https://www.sportingnews.com/us/soccer/manchester-united/news/marcus-rashford-barcelona-loan-man-united/fcfa85aeba2861a1d163ab77",
+      "published_date": "2026-08-11T12:53:52",
+      "source": "Sporting News",
+      "media_url": "https://ng-sportingnews.com/s3/files/styles/thumbnail/s3/2026-08/GettyImages-2289720482.jpg?itok=-fejUtlx",
+      "topics": [
+        "football",
+        "transfer news",
+        "Manchester United"
+      ]
+    },
     {
       "id": "716373c1aa63ac27d889ccf8b004454f",
       "title": "Marcus Rashford tipped for Arsenal move in shock swap for Myles Lewis-Skelly",
@@ -112,20 +126,6 @@
         "football transfers",
         "football",
         "football news"
-      ]
-    },
-    {
-      "id": "dda40dc7a7f38a55b835094505134919",
-      "title": "Man Utd complete signing of highly-rated youngster",
-      "description": "Manchester United have completed the signing of highly rated Colombian midfielder Cristian Orozco.Orozco has signed a long-term contract at Old Trafford after becoming eligible to complete his move fo...",
-      "link": "https://sports.yahoo.com/articles/man-utd-complete-signing-highly-175500733.html",
-      "published_date": "2026-08-06T17:55:00",
-      "source": "Yahoo Sports",
-      "media_url": null,
-      "topics": [
-        "football signings",
-        "Manchester United",
-        "Cristian Orozco"
       ]
     }
   ]
