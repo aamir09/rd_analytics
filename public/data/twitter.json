@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-11T15:01:45.018744+00:00",
+  "fetchedAt": "2026-08-11T17:00:43.051391+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2087213778379194413",
+          "created_at": "2026-08-11T16:25:17+00:00",
+          "text": "Signatures and selfies for our Reds in Ireland ✍️🤳 https://t.co/oQD7MVfuwx",
+          "views": "117383",
+          "favorites": 3481,
+          "retweets": 260,
+          "media_url": "https://pbs.twimg.com/media/HPdF2_9XgAA1Tcz.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2087204846520647951",
+          "created_at": "2026-08-11T15:49:48+00:00",
+          "text": "Matchday -1 👊 https://t.co/7RPa4gfFKH",
+          "views": "174489",
+          "favorites": 8583,
+          "retweets": 658,
+          "media_url": "https://pbs.twimg.com/media/HPc9vM5WgAA_dMP.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2087176642930028599",
           "created_at": "2026-08-11T13:57:44+00:00",
           "text": "Great to see you again, Rio 🤜🤛",
-          "views": "204557",
-          "favorites": 6320,
-          "retweets": 368,
+          "views": "290780",
+          "favorites": 9617,
+          "retweets": 635,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -22,9 +50,9 @@
           "id": "2087154816552247534",
           "created_at": "2026-08-11T12:31:00+00:00",
           "text": "Supporting one another ❤️ https://t.co/TcYBTeJnXV",
-          "views": "226282",
-          "favorites": 13559,
-          "retweets": 768,
+          "views": "330612",
+          "favorites": 18176,
+          "retweets": 962,
           "media_url": "https://pbs.twimg.com/media/HPcNjGtWAAAaRLX.jpg",
           "author": {
             "name": "Manchester United",
@@ -36,37 +64,9 @@
           "id": "2087136444875776394",
           "created_at": "2026-08-11T11:18:00+00:00",
           "text": "United 🆚 Leeds evokes early memories for Steve Holland 💭\n\nHear from our assistant head coach ahead of tomorrow's game 👇",
-          "views": "280810",
-          "favorites": 3983,
-          "retweets": 288,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087113048427311553",
-          "created_at": "2026-08-11T09:45:02+00:00",
-          "text": "Matheus is pure vibes 🤣 https://t.co/IEEXdmD0ce",
-          "views": "1032444",
-          "favorites": 26312,
-          "retweets": 2338,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087102137641873681",
-          "created_at": "2026-08-11T09:01:40+00:00",
-          "text": "Licha has arrived in Ireland to link up with the squad 💪",
-          "views": "534409",
-          "favorites": 25443,
-          "retweets": 1697,
+          "views": "346756",
+          "favorites": 4734,
+          "retweets": 354,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -80,12 +80,54 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2087209880167842025",
+          "created_at": "2026-08-11T16:09:48+00:00",
+          "text": "Lisandro Martínez is BACK! 🇦🇷🙌 https://t.co/hf0DN8cfRx",
+          "views": "26198",
+          "favorites": 1113,
+          "retweets": 46,
+          "media_url": "https://pbs.twimg.com/media/HPdCUraXcAMAdnX.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2087205288583496043",
+          "created_at": "2026-08-11T15:51:33+00:00",
+          "text": "🚨 Myles Lewis-Skelly [linked to Manchester United] wants to stay at Arsenal. #MUFC [@gunnerblog] https://t.co/usPRUInWHU",
+          "views": "27375",
+          "favorites": 347,
+          "retweets": 15,
+          "media_url": "https://pbs.twimg.com/media/HPc-JbEWcAI48kA.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2087201084959805600",
+          "created_at": "2026-08-11T15:34:51+00:00",
+          "text": "🚨 Manchester United are still deciding whether they will commit to signing another midfielder or a left-back before the transfer deadline. #MUFC [Sky] https://t.co/PITOe8gDrS",
+          "views": "74444",
+          "favorites": 798,
+          "retweets": 36,
+          "media_url": "https://pbs.twimg.com/media/HPc6Ur-XIAAeYy_.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2087186820391903307",
           "created_at": "2026-08-11T14:38:10+00:00",
           "text": "🚨🚨❌ JUST IN:\n\nManchester United were sounded out about Myles Lewis-Skelly but are NOT interested this time. An intermediary offered him to United among other clubs around January, saying that he would cost about £60m. United BALKED at the price. #MUFC [@garyjacob] https://t.co/2PinhzPqD8",
-          "views": "34096",
-          "favorites": 377,
-          "retweets": 29,
+          "views": "118504",
+          "favorites": 752,
+          "retweets": 53,
           "media_url": "https://pbs.twimg.com/media/HPctWdLXsAAhZO-.jpg",
           "author": {
             "name": "mufcmpb",
@@ -97,52 +139,10 @@
           "id": "2087182485285188073",
           "created_at": "2026-08-11T14:20:57+00:00",
           "text": "🚨 JUST IN:\n\nManchester United are PRIORITISING Lewis Hall - despite being offered Myles Lewis-Skelly. Hall WANTS to make the move to United. #MUFC [@samuelluckhurst] https://t.co/A5QdUkMqA4",
-          "views": "65706",
-          "favorites": 1570,
-          "retweets": 96,
+          "views": "274573",
+          "favorites": 4133,
+          "retweets": 207,
           "media_url": "https://pbs.twimg.com/media/HPcpaHHWAAApYeh.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087180607025508687",
-          "created_at": "2026-08-11T14:13:29+00:00",
-          "text": "🚨🚨🗣️ @sistoney67: \n\n“A conversation with someone senior at Manchester United about growing concern among the fanbase about lack of signings since Youri Tielemans’ £35m move from Aston Villa was confirmed on 14 July was a simple reply that the club should be judged at the END of the window.\n\n“That certainly gave the impression of more business being done.”\n\n#MUFC [BBC]",
-          "views": "65496",
-          "favorites": 1060,
-          "retweets": 59,
-          "media_url": "https://pbs.twimg.com/media/HPcnsy3W0AApwsW.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087173418571497625",
-          "created_at": "2026-08-11T13:44:55+00:00",
-          "text": "Rio Ferdinand &amp; Marcus Rashford at Manchester United’s training camp ❤️ https://t.co/YzUzJfbh1g",
-          "views": "38463",
-          "favorites": 2761,
-          "retweets": 120,
-          "media_url": "https://pbs.twimg.com/media/HPchKX1XcAEjYab.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087153819075436834",
-          "created_at": "2026-08-11T12:27:02+00:00",
-          "text": "🚨 RB Leipzig’s David Raum is a left-back Manchester United may assess. #MUFC [@JamieJackson___] https://t.co/tADkoD3DBW",
-          "views": "53224",
-          "favorites": 978,
-          "retweets": 50,
-          "media_url": "https://pbs.twimg.com/media/HPcPVh1XgAAxK4Q.jpg",
           "author": {
             "name": "mufcmpb",
             "screen_name": "mufcMPB",
