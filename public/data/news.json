@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-12T09:02:54.640432+00:00",
+  "fetchedAt": "2026-08-12T10:52:46.370145+00:00",
   "articles": [
+    {
+      "id": "9456f9d90e2a85316cbb74fb9679dcc4",
+      "title": "Will Myles Lewis-Skelly leave Arsenal? What we know about Manchester United interest and Chelsea stance",
+      "description": "Gunners left-back has been offered to Premier League rivals in surprise transfer twist",
+      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-lewis-skelly-man-utd-chelsea-b1293135.html",
+      "published_date": "2026-08-12T10:02:46",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/12/11/2289704659..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "Premier League",
+        "sports news"
+      ]
+    },
     {
       "id": "91d2ca593b034cef9b915894a3b089d1",
       "title": "Lewis Hall 'requests Manchester United transfer' in Newcastle talks",
@@ -99,19 +113,6 @@
         "sports news",
         "transfer news",
         "sports management"
-      ]
-    },
-    {
-      "id": "28c1dc8e8d81887c28343e43b7d2cabb",
-      "title": "Manchester United's greatest players: No 4, Bryan Robson",
-      "description": "The Athletic is counting down the club's greatest 25 players. In fourth place, it's Captain Marvel, United's must-watch player of the 1980s",
-      "link": "https://www.nytimes.com/athletic/7503603/2026/08/12/manchester-united-greatest-players-bryan-robson/",
-      "published_date": "2026-08-12T04:16:39",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/10085826/ManUtdTop25-Robson-scaled.jpg",
-      "topics": [
-        "football",
-        "sports achievements"
       ]
     }
   ]
