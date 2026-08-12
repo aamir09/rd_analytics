@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-12T20:37:04.658278+00:00",
+  "fetchedAt": "2026-08-12T21:35:44.992520+00:00",
   "articles": [
+    {
+      "id": "646f7c9702068f874d7427d4576045cc",
+      "title": "Manchester United 1-1 Leeds (5-4 on pens): Red Devils held to Dublin draw",
+      "description": "Red Devils bested old foes in historic encounter",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-leeds-penalties-fernandes-rashford-b1293223.html",
+      "published_date": "2026-08-12T20:56:15",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/12/21/01KZVVQZB45PGANMRXA3KFV0MV.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "Red Devils"
+      ]
+    },
+    {
+      "id": "e9df50d560bcd63bae9b16994f18e835",
+      "title": "Man United beat Leeds on penalties: What next for Zirkzee? How did Trafford do? Where was Rashford?",
+      "description": "Analysis of Manchester United's pre-season win over Leeds United in Dublin",
+      "link": "https://www.nytimes.com/athletic/7508604/2026/08/12/man-united-leeds-united-highlights/",
+      "published_date": "2026-08-12T20:41:28",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/12163836/GettyImages-2290209848-scaled-e1786567150250.jpg",
+      "topics": [
+        "football",
+        "pre-season",
+        "Manchester United",
+        "Leeds United"
+      ]
+    },
     {
       "id": "e3e2b5c8ac4565bd949276a1250f4989",
       "title": "With Man-U debut ahead, Youri Tielemans still talking Belgium-U.S.",
@@ -111,33 +139,6 @@
         "sports news",
         "man united",
         "sports management"
-      ]
-    },
-    {
-      "id": "a2ee97f2e386d21786050bcc2c6e665c",
-      "title": "Belgium players 'surprised' by Folarin Balogun World Cup ban decision – Youri Tielemans",
-      "description": "The Manchester United midfielder suggested Belgium’s celebrations after the match indicated that the decision had fired up his side.",
-      "link": "https://www.nytimes.com/athletic/7506619/2026/08/12/youri-tielemans-belgium-balogun-ban-world-cup/",
-      "published_date": "2026-08-12T11:00:41",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/11173417/GettyImages-2284962592-scaled.jpg",
-      "topics": [
-        "World Cup",
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "7b1f71e5e41c920a27770b4319f0819b",
-      "title": "The All-Time English Top-Flight League Table [1888-2026]",
-      "description": "The all-time English top flight table has been revealed, with Everton above Manchester United, Manchester City and Chelsea.",
-      "link": "https://www.givemesport.com/all-time-english-top-flight-league-table-football-soccer/",
-      "published_date": "2026-08-12T10:11:40",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/06/screenshot-2025-06-21-at-13-34-57.png?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news"
       ]
     }
   ]
