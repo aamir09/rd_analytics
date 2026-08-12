@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-12T16:46:51.152592+00:00",
+  "fetchedAt": "2026-08-12T17:51:57.277805+00:00",
   "articles": [
+    {
+      "id": "2b66b41a1cb7b60d3acf80fab03a0104",
+      "title": "Manchester United vs Leeds LIVE: Pre-season friendly match stream, latest team news, lineups, TV, prediction",
+      "description": "Old foes face off in pre-season friendly",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-vs-leeds-live-stream-latest-score-updates-result-preseason-friendly-b1293193.html",
+      "published_date": "2026-08-12T17:33:32",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/12/18/2290187739..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "pre-season friendly",
+        "football",
+        "football predictions"
+      ]
+    },
+    {
+      "id": "85981f55c840f8b59655c17cd974cf69",
+      "title": "Manchester United XI vs Leeds: NO RASHFORD - Starting lineup, confirmed team news, injury latest for friendly today",
+      "description": "Marcus Rashford will not make his first Man Utd appearance since December 2024",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-leeds-starting-lineup-confirmed-team-news-injury-latest-2026-friendly-b1292932.html",
+      "published_date": "2026-08-12T17:26:39",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/12/08/2289979064..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "injury news",
+        "Man Utd"
+      ]
+    },
     {
       "id": "19fd60bf7816da01bc0610f7607faf80",
       "title": "Benni McCarthy Reveals 3 Strikers Man United Rejected Before Signing Hojlund",
@@ -97,35 +125,6 @@
         "football",
         "injury news",
         "Man Utd"
-      ]
-    },
-    {
-      "id": "96131741186d1649f77a45a471851ca2",
-      "title": "Myles Lewis-Skelly and what we're hearing about his future",
-      "description": "What is Arsenal's view? What is the player himself thinking? And what about Chelsea and Manchester United?",
-      "link": "https://www.nytimes.com/athletic/7506310/2026/08/12/myles-lewis-skelly-arsenal-transfer/",
-      "published_date": "2026-08-12T06:45:27",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/11141626/GettyImages-2288810193-scaled-e1786472205561.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "Arsenal",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "8adf8e8d952150d2fc42ca4c5bea295c",
-      "title": "Croke Park to host largest ever crowd for a soccer match in Ireland",
-      "description": "Friendly between Manchester United and Leeds United will draw 83,000 fans",
-      "link": "https://www.irishtimes.com/ireland/2026/08/12/croke-park-to-host-largest-ever-crowd-for-a-soccer-match-in-ireland/",
-      "published_date": "2026-08-12T06:00:00",
-      "source": "Irish Times",
-      "media_url": "https://www.irishtimes.com/resizer/v2/HSGAQCAG3IY2YHUOKLEMWDNL2U.jpg?auth=9cc3b8aabb3b092e1baaa6ee253ca1404ba72aad5233aa159b31b9598a74ba5b&smart=true&width=630&height=350",
-      "topics": [
-        "soccer",
-        "sports events",
-        "crowd dynamics"
       ]
     }
   ]
