@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-12T11:39:34.048753+00:00",
+  "fetchedAt": "2026-08-12T12:45:56.836968+00:00",
   "articles": [
+    {
+      "id": "19fd60bf7816da01bc0610f7607faf80",
+      "title": "Benni McCarthy Reveals 3 Strikers Man United Rejected Before Signing Hojlund",
+      "description": "Four players were on Manchester United's striker shortlist in the summer of 2023 and Benni McCarthy has since revealed who they were.",
+      "link": "https://www.givemesport.com/benni-mccarthy-strikers-man-united-rejected-before-signing-hojlund/",
+      "published_date": "2026-08-12T11:18:38",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/02/mixcollage-20-feb-2025-09-48-am-7006.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "player selection",
+        "Manchester United"
+      ]
+    },
     {
       "id": "a1e0fc1b9502b2033d782cd7e2838028",
       "title": "Youri Tielemans on helping Man United back to the 'top', 'amazing' Rashford and 'smelling football'",
@@ -112,20 +126,6 @@
         "soccer",
         "sports events",
         "crowd dynamics"
-      ]
-    },
-    {
-      "id": "549292185799f4efe63c5beee05ded69",
-      "title": "Man United ready to open talks with Club Brugge for Joaquin Seys",
-      "description": "Manchester United are ready to open talks over a £30 million move for Club Brugge defender Joaquin Seys, according to The Mirror.The Red Devils desperately need a new left-back to provide competition...",
-      "link": "https://sports.yahoo.com/articles/man-united-ready-open-talks-054500696.html",
-      "published_date": "2026-08-12T05:45:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/sportsview_articles_932/406ff0367bfb51e25dc849d96ceba83c.jpg",
-      "topics": [
-        "football",
-        "club transfer",
-        "sports news"
       ]
     }
   ]
