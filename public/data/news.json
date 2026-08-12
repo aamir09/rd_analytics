@@ -1,6 +1,63 @@
 {
-  "fetchedAt": "2026-08-12T05:27:09.908946+00:00",
+  "fetchedAt": "2026-08-12T07:09:25.799677+00:00",
   "articles": [
+    {
+      "id": "8adf8e8d952150d2fc42ca4c5bea295c",
+      "title": "Croke Park to host largest ever crowd for a soccer match in Ireland",
+      "description": "Friendly between Manchester United and Leeds United will draw 83,000 fans",
+      "link": "https://www.irishtimes.com/ireland/2026/08/12/croke-park-to-host-largest-ever-crowd-for-a-soccer-match-in-ireland/",
+      "published_date": "2026-08-12T06:00:00",
+      "source": "Irish Times",
+      "media_url": "https://www.irishtimes.com/resizer/v2/HSGAQCAG3IY2YHUOKLEMWDNL2U.jpg?auth=9cc3b8aabb3b092e1baaa6ee253ca1404ba72aad5233aa159b31b9598a74ba5b&smart=true&width=630&height=350",
+      "topics": [
+        "soccer",
+        "sports events",
+        "crowd dynamics"
+      ]
+    },
+    {
+      "id": "549292185799f4efe63c5beee05ded69",
+      "title": "Man United ready to open talks with Club Brugge for Joaquin Seys",
+      "description": "Manchester United are ready to open talks over a £30 million move for Club Brugge defender Joaquin Seys, according to The Mirror.The Red Devils desperately need a new left-back to provide competition...",
+      "link": "https://sports.yahoo.com/articles/man-united-ready-open-talks-054500696.html",
+      "published_date": "2026-08-12T05:45:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/sportsview_articles_932/406ff0367bfb51e25dc849d96ceba83c.jpg",
+      "topics": [
+        "football",
+        "club transfer",
+        "sports news"
+      ]
+    },
+    {
+      "id": "d937c94a1f93f95a37fb48c5ee09c447",
+      "title": "How to watch Manchester United vs Leeds FOR FREE: TV channel and live stream for pre-season friendly today",
+      "description": "Marcus Rashford could make first Man United appearance since December 2024",
+      "link": "https://www.standard.co.uk/sport/football/how-to-watch-man-utd-vs-leeds-free-tv-channel-live-stream-friendly-today-b1293084.html",
+      "published_date": "2026-08-12T05:30:42",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/11/19/2290036763..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "pre-season games",
+        "man united",
+        "sports news"
+      ]
+    },
+    {
+      "id": "85e248d8b7fa173785217a9e3eaf3764",
+      "title": "Man Utd prepared to snub Lewis-Skelly offer in favour signing his England counterpart instead – Luckhurst",
+      "description": "Manchester United will reportedly decline Arsenal’s offer to sign Myles Lewis-Skelly and will instead pursue a deal for Lewis Hall – even amid Newcastle United’s firm stance on his availability....",
+      "link": "https://sports.yahoo.com/articles/man-utd-prepared-snub-lewis-052500864.html",
+      "published_date": "2026-08-12T05:25:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/b16ad3c995be6b3e883e7ce8e3604fd4.jpg",
+      "topics": [
+        "sports news",
+        "transfer news",
+        "sports management"
+      ]
+    },
     {
       "id": "28c1dc8e8d81887c28343e43b7d2cabb",
       "title": "Manchester United's greatest players: No 4, Bryan Robson",
@@ -55,62 +112,6 @@
         "Arsenal",
         "Marcus Rashford",
         "Manchester United"
-      ]
-    },
-    {
-      "id": "c42bb041db7ad6109b9d938bbe9db3ce",
-      "title": "Manchester United Injury Update: Lisandro Martinez Status",
-      "description": "Latest updates on Manchester United injuries, including Lisandro Martinez's return in Ireland ahead of Leeds match.",
-      "link": "https://www.givemesport.com/man-utd-injury-update-premier-league-lisandro-martinez-news/",
-      "published_date": "2026-08-11T16:35:14",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/03/2026-03-20t200722z_697239049_up1em3k1jw8jh_rtrmadp_3_soccer-england-bou-mun-1.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "injury news",
-        "Manchester United",
-        "Lisandro Martinez"
-      ]
-    },
-    {
-      "id": "529173e620da92a4ad729aa3ce249b34",
-      "title": "Michael Carrick handed new injury boost as Manchester United confirm last arrival",
-      "description": "Michael Carrick’s pre-season training camp squad is now complete",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-carrick-boost-martinez-b1293065.html",
-      "published_date": "2026-08-11T15:50:26",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/11/16/2289864710..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "injury news",
-        "training camp",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "a3cd3fa6e5ec0ef1997a921740bfdc60",
-      "title": "What's going on with Marcus Rashford? How successful Barcelona loan left Man United star at crossroads",
-      "description": "Marcus Rashford is back at Manchester United. Can he grasp a final chance at Old Trafford under Michael Carrick.",
-      "link": "https://www.sportingnews.com/us/soccer/manchester-united/news/marcus-rashford-barcelona-loan-man-united/fcfa85aeba2861a1d163ab77",
-      "published_date": "2026-08-11T12:53:52",
-      "source": "Sporting News",
-      "media_url": "https://ng-sportingnews.com/s3/files/styles/thumbnail/s3/2026-08/GettyImages-2289720482.jpg?itok=-fejUtlx",
-      "topics": [
-        "football",
-        "transfer news",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "716373c1aa63ac27d889ccf8b004454f",
-      "title": "Marcus Rashford tipped for Arsenal move in shock swap for Myles Lewis-Skelly",
-      "description": "Manchester United star’s future is up in the air after Barcelona loan spell",
-      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-rashford-man-utd-lewis-skelly-b1292990.html",
-      "published_date": "2026-08-11T10:17:54",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/11/7/58/GettyImages-2206740459.jpeg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "transfer news",
-        "sports news"
       ]
     }
   ]
