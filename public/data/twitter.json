@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T15:01:35.322031+00:00",
+  "fetchedAt": "2026-08-12T16:59:55.088851+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
@@ -8,9 +8,9 @@
           "id": "2087554809343664211",
           "created_at": "2026-08-12T15:00:26+00:00",
           "text": "A new number. A new chapter 🔥\n\nSenne Lammens takes the no.1 🇧🇪",
-          "views": "36909",
-          "favorites": 815,
-          "retweets": 166,
+          "views": "784053",
+          "favorites": 47418,
+          "retweets": 5707,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -22,9 +22,9 @@
           "id": "2087549312242782341",
           "created_at": "2026-08-12T14:38:35+00:00",
           "text": "An exclusive with @RioFerdy5 🚨\n\nThe United legend gives his honest opinion on our summer signings ✍️",
-          "views": "94866",
-          "favorites": 1368,
-          "retweets": 122,
+          "views": "216113",
+          "favorites": 2785,
+          "retweets": 281,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -36,9 +36,9 @@
           "id": "2087532555088372067",
           "created_at": "2026-08-12T13:32:00+00:00",
           "text": "Today's attire 🔴🔥",
-          "views": "159216",
-          "favorites": 5529,
-          "retweets": 413,
+          "views": "301485",
+          "favorites": 9782,
+          "retweets": 653,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -50,9 +50,9 @@
           "id": "2087524572002210234",
           "created_at": "2026-08-12T13:00:16+00:00",
           "text": "Anyone up for Teqball? 😆⁉️ https://t.co/RlJ9QojNk9",
-          "views": "216214",
-          "favorites": 6357,
-          "retweets": 410,
+          "views": "372448",
+          "favorites": 8799,
+          "retweets": 570,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -64,9 +64,9 @@
           "id": "2087509907754959021",
           "created_at": "2026-08-12T12:02:00+00:00",
           "text": "\"Try to be the best version of myself.\" 💯\n\nWe catch up with @DalotDiogo in Ireland, ahead of the 2026/27 season 🇮🇪💪",
-          "views": "191166",
-          "favorites": 2517,
-          "retweets": 221,
+          "views": "249229",
+          "favorites": 2989,
+          "retweets": 284,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -80,12 +80,26 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2087561552098382062",
+          "created_at": "2026-08-12T15:27:13+00:00",
+          "text": "🚨🚨 OFFICIAL!!\n\nSenne Lammens will now wear the No.1 shirt for Manchester United! #MUFC https://t.co/QQKeVvXjfQ",
+          "views": "31235",
+          "favorites": 1282,
+          "retweets": 39,
+          "media_url": "https://pbs.twimg.com/media/HPiCKnaWYAACrXP.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2087549022592462882",
           "created_at": "2026-08-12T14:37:26+00:00",
           "text": "This Benjamin Šeško goal against Everton 🤩🇸🇮 https://t.co/L2WVBrP3Ki",
-          "views": "25431",
-          "favorites": 274,
-          "retweets": 12,
+          "views": "58662",
+          "favorites": 646,
+          "retweets": 27,
           "media_url": null,
           "author": {
             "name": "mufcmpb",
@@ -97,9 +111,9 @@
           "id": "2087488514078240784",
           "created_at": "2026-08-12T10:37:00+00:00",
           "text": "Marcus Rashford in training ✨ https://t.co/522U7cIuFh",
-          "views": "51086",
-          "favorites": 3087,
-          "retweets": 117,
+          "views": "58122",
+          "favorites": 3468,
+          "retweets": 127,
           "media_url": "https://pbs.twimg.com/media/HPg_vRrWkAAP0Qd.jpg",
           "author": {
             "name": "mufcmpb",
@@ -111,9 +125,9 @@
           "id": "2087447194076938261",
           "created_at": "2026-08-12T07:52:48+00:00",
           "text": "🚨 Manchester United and Chelsea are monitoring Monaco midfielder Lamine Camara as they consider moves for the player. Monaco have rejected a €50m offer from Crystal Palace for him. #MUFC [@SportsPeteO] https://t.co/ZyjJVDohka",
-          "views": "97628",
-          "favorites": 1414,
-          "retweets": 72,
+          "views": "103048",
+          "favorites": 1487,
+          "retweets": 74,
           "media_url": "https://pbs.twimg.com/media/HPgaKLqXwAAXYt0.jpg",
           "author": {
             "name": "mufcmpb",
@@ -125,24 +139,10 @@
           "id": "2087293874133713402",
           "created_at": "2026-08-11T21:43:34+00:00",
           "text": "🚨 JUST IN:\n\nMason Mount is set to MISS Manchester United’s game against Leeds tomorrow. #MUFC [@sistoney67] https://t.co/NBTY9llrmW",
-          "views": "113215",
-          "favorites": 1883,
-          "retweets": 83,
+          "views": "118314",
+          "favorites": 1948,
+          "retweets": 87,
           "media_url": "https://pbs.twimg.com/media/HPeOtxMX0AAdrxf.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087275242527813789",
-          "created_at": "2026-08-11T20:29:32+00:00",
-          "text": "🚨 JUST IN:\n\nMason Mount has been receiving treatment for an injury he sustained against PSG on Saturday and has sat out training for the last two days. #MUFC [@DKingTelegraph] https://t.co/tJRXkGWNdl",
-          "views": "311671",
-          "favorites": 2014,
-          "retweets": 93,
-          "media_url": "https://pbs.twimg.com/media/HPd9xRIWoAEYrYk.jpg",
           "author": {
             "name": "mufcmpb",
             "screen_name": "mufcMPB",
@@ -164,7 +164,7 @@
           "text": "RT @indykaila: Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made dire…",
           "views": null,
           "favorites": 0,
-          "retweets": 306,
+          "retweets": 355,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -176,9 +176,9 @@
           "id": "2087534256696230380",
           "created_at": "2026-08-12T13:38:45+00:00",
           "text": "Really confused how Manchester United &amp; Liverpool are acting in the transfer market.",
-          "views": "201877",
-          "favorites": 2312,
-          "retweets": 85,
+          "views": "313731",
+          "favorites": 3518,
+          "retweets": 122,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -190,10 +190,24 @@
           "id": "2087524550263103618",
           "created_at": "2026-08-12T13:00:11+00:00",
           "text": "New game out! We know people always choose RED 🔴 because they support #AFC #LFC #MUFC 😂",
-          "views": "149429",
-          "favorites": 158,
-          "retweets": 6,
+          "views": "197243",
+          "favorites": 177,
+          "retweets": 8,
           "media_url": null,
+          "author": {
+            "name": "indykaila News",
+            "screen_name": "indykaila",
+            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
+          }
+        },
+        {
+          "id": "2087521282703147375",
+          "created_at": "2026-08-12T12:47:12+00:00",
+          "text": "Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made direct calls 📞 to Crystal Palace 🦅 this morning.\n\nBig development 👀🔥 https://t.co/fGu99NnOi2",
+          "views": "592811",
+          "favorites": 5720,
+          "retweets": 355,
+          "media_url": "https://pbs.twimg.com/media/HPhdiuNWAAAJeBn.jpg",
           "author": {
             "name": "indykaila News",
             "screen_name": "indykaila",
@@ -204,24 +218,10 @@
           "id": "2087478609199919557",
           "created_at": "2026-08-12T09:57:38+00:00",
           "text": "RT @UtdJournalist: 🚨 EXCLUSIVE!\n\nManchester United are willing to pay Jorge Salinas' £22.5m release clause! https://t.co/UqW6Vfnxl3",
-          "views": "28421",
+          "views": "29305",
           "favorites": 0,
-          "retweets": 63,
+          "retweets": 67,
           "media_url": "https://pbs.twimg.com/media/HPg1g6yWQAIcCSh.jpg",
-          "author": {
-            "name": "indykaila News",
-            "screen_name": "indykaila",
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2087284165628617060",
-          "created_at": "2026-08-11T21:04:59+00:00",
-          "text": "Exclusive 💣\n\nOur top source in London has confirmed via email 📧\n\nManchester United met Crystal Palace this afternoon.\n\nTalks have reopened regarding Adam Wharton.\n\nLiverpool are lurking also 👀 \n\nConfirmed ☑️ https://t.co/yA9N9K0o5a",
-          "views": "1296333",
-          "favorites": 6128,
-          "retweets": 354,
-          "media_url": "https://pbs.twimg.com/media/HPeF4tXX0AAeSTv.jpg",
           "author": {
             "name": "indykaila News",
             "screen_name": "indykaila",
