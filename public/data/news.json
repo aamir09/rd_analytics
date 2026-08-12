@@ -1,6 +1,33 @@
 {
-  "fetchedAt": "2026-08-12T03:56:48.417359+00:00",
+  "fetchedAt": "2026-08-12T05:27:09.908946+00:00",
   "articles": [
+    {
+      "id": "28c1dc8e8d81887c28343e43b7d2cabb",
+      "title": "Manchester United's greatest players: No 4, Bryan Robson",
+      "description": "The Athletic is counting down the club's greatest 25 players. In fourth place, it's Captain Marvel, United's must-watch player of the 1980s",
+      "link": "https://www.nytimes.com/athletic/7503603/2026/08/12/manchester-united-greatest-players-bryan-robson/",
+      "published_date": "2026-08-12T04:16:39",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/10085826/ManUtdTop25-Robson-scaled.jpg",
+      "topics": [
+        "football",
+        "sports achievements"
+      ]
+    },
+    {
+      "id": "468cfd42d1fdf214d1b023d11b0c65e6",
+      "title": "How to watch Leeds United vs. Man United online for free",
+      "description": "How to watch Leeds United vs. Manchester United in a 2026 pre-season friendly for free.",
+      "link": "https://mashable.com/entertainment/leeds-united-manchester-united-2026-live-stream-for-free",
+      "published_date": "2026-08-12T04:00:00",
+      "source": "Mashable",
+      "media_url": "https://helios-i.mashable.com/imagery/articles/05pn7ABh7OIJO63gohZMJsD/hero-image.jpg",
+      "topics": [
+        "pre-season games",
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "77a37dc7af3da6402476985b3b49565d",
       "title": "Monaco and Paul Pogba in talks to terminate contract after six appearances",
@@ -84,48 +111,6 @@
         "football",
         "transfer news",
         "sports news"
-      ]
-    },
-    {
-      "id": "645ae9d66f3e90fc152ce1c096d6ce6c",
-      "title": "Manchester United XI vs Leeds: Confirmed team news, predicted lineup, injury latest for friendly",
-      "description": "Marcus Rashford is in contention to make his first Man Utd appearance since December 2024",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-leeds-confirmed-team-news-predicted-lineup-injury-latest-2026-friendly-b1292932.html",
-      "published_date": "2026-08-11T07:41:46",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/07/30/07/01KWMP00X9Q5RCK2C90SAY4ES1.jpg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "injury news",
-        "Man Utd",
-        "Leeds United"
-      ]
-    },
-    {
-      "id": "583a7ca84f1be3e184526182d89b18c4",
-      "title": "Radek Vitek's Middlesbrough arrival and what it means for Sol Brynn after solid start",
-      "description": "Radek Vitek has signed from Manchester United, giving Sol Brynn tough competition",
-      "link": "https://www.gazettelive.co.uk/sport/football/transfer-news/radek-viteks-middlesbrough-arrival-what-34433549",
-      "published_date": "2026-08-10T13:22:29",
-      "source": "Teesside Live",
-      "media_url": "https://i2-prod.gazettelive.co.uk/sport/article34433683.ece/ALTERNATES/s98/0_premium-canvas-1786367989170.png",
-      "topics": [
-        "football",
-        "sports news",
-        "player signings"
-      ]
-    },
-    {
-      "id": "c3120fda26cd337d4a7e8d927adcc175",
-      "title": "How Bryan Mbeumo goal saw Manchester United battle to draw with PSG in pre-season friendly in Sweden",
-      "description": "Recap as Michael Carrick's side held the European champions in Gothenburg.",
-      "link": "https://www.nytimes.com/athletic/live-blogs/psg-vs-manchester-united-live-updates-friendly-score-result/ktHzgfMR64M7/",
-      "published_date": "2026-08-08T18:15:05",
-      "source": "The Athletic",
-      "media_url": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/ktHzgfMR64M7_bDuvn5h1M2Hh_1440x961.png",
-      "topics": [
-        "football",
-        "pre-season games"
       ]
     }
   ]
