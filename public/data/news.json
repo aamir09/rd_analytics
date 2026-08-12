@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-12T10:52:46.370145+00:00",
+  "fetchedAt": "2026-08-12T11:39:34.048753+00:00",
   "articles": [
+    {
+      "id": "a1e0fc1b9502b2033d782cd7e2838028",
+      "title": "Youri Tielemans on helping Man United back to the 'top', 'amazing' Rashford and 'smelling football'",
+      "description": "The Belgian discusses signing for Manchester United and team-mates Bruno Fernandes, Marcus Rashford, Andrey Santos and more",
+      "link": "https://www.nytimes.com/athletic/7506358/2026/08/12/tielemans-man-united-rashford-carrick/",
+      "published_date": "2026-08-12T11:00:57",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/12052520/GettyImages-2289979232-scaled.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "man united",
+        "sports management"
+      ]
+    },
+    {
+      "id": "a2ee97f2e386d21786050bcc2c6e665c",
+      "title": "Belgium players 'surprised' by Folarin Balogun World Cup ban decision – Youri Tielemans",
+      "description": "The Manchester United midfielder suggested Belgium’s celebrations after the match indicated that the decision had fired up his side.",
+      "link": "https://www.nytimes.com/athletic/7506619/2026/08/12/youri-tielemans-belgium-balogun-ban-world-cup/",
+      "published_date": "2026-08-12T11:00:41",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/11173417/GettyImages-2284962592-scaled.jpg",
+      "topics": [
+        "World Cup",
+        "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "7b1f71e5e41c920a27770b4319f0819b",
+      "title": "The All-Time English Top-Flight League Table [1888-2026]",
+      "description": "The all-time English top flight table has been revealed, with Everton above Manchester United, Manchester City and Chelsea.",
+      "link": "https://www.givemesport.com/all-time-english-top-flight-league-table-football-soccer/",
+      "published_date": "2026-08-12T10:11:40",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/06/screenshot-2025-06-21-at-13-34-57.png?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "9456f9d90e2a85316cbb74fb9679dcc4",
       "title": "Will Myles Lewis-Skelly leave Arsenal? What we know about Manchester United interest and Chelsea stance",
@@ -84,35 +126,6 @@
         "football",
         "club transfer",
         "sports news"
-      ]
-    },
-    {
-      "id": "d937c94a1f93f95a37fb48c5ee09c447",
-      "title": "How to watch Manchester United vs Leeds FOR FREE: TV channel and live stream for pre-season friendly today",
-      "description": "Marcus Rashford could make first Man United appearance since December 2024",
-      "link": "https://www.standard.co.uk/sport/football/how-to-watch-man-utd-vs-leeds-free-tv-channel-live-stream-friendly-today-b1293084.html",
-      "published_date": "2026-08-12T05:30:42",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/11/19/2290036763..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "pre-season games",
-        "man united",
-        "sports news"
-      ]
-    },
-    {
-      "id": "85e248d8b7fa173785217a9e3eaf3764",
-      "title": "Man Utd prepared to snub Lewis-Skelly offer in favour signing his England counterpart instead – Luckhurst",
-      "description": "Manchester United will reportedly decline Arsenal’s offer to sign Myles Lewis-Skelly and will instead pursue a deal for Lewis Hall – even amid Newcastle United’s firm stance on his availability....",
-      "link": "https://sports.yahoo.com/articles/man-utd-prepared-snub-lewis-052500864.html",
-      "published_date": "2026-08-12T05:25:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/b16ad3c995be6b3e883e7ce8e3604fd4.jpg",
-      "topics": [
-        "sports news",
-        "transfer news",
-        "sports management"
       ]
     }
   ]
