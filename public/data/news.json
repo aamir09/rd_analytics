@@ -1,6 +1,21 @@
 {
-  "fetchedAt": "2026-08-12T21:35:44.992520+00:00",
+  "fetchedAt": "2026-08-12T22:31:06.008485+00:00",
   "articles": [
+    {
+      "id": "f175f03ee04769e5427f077fd424db4d",
+      "title": "Michael Carrick explains Marcus Rashford omission amid new Manchester United transfer hint",
+      "description": "Forward is set for tense reunion with former boss this weekend",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-carrick-rashford-b1293227.html",
+      "published_date": "2026-08-12T21:31:54",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/12/22/2290193821..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "transfer news",
+        "football",
+        "Manchester United",
+        "sports news"
+      ]
+    },
     {
       "id": "646f7c9702068f874d7427d4576045cc",
       "title": "Manchester United 1-1 Leeds (5-4 on pens): Red Devils held to Dublin draw",
@@ -124,21 +139,6 @@
         "football",
         "player selection",
         "Manchester United"
-      ]
-    },
-    {
-      "id": "a1e0fc1b9502b2033d782cd7e2838028",
-      "title": "Youri Tielemans on helping Man United back to the 'top', 'amazing' Rashford and 'smelling football'",
-      "description": "The Belgian discusses signing for Manchester United and team-mates Bruno Fernandes, Marcus Rashford, Andrey Santos and more",
-      "link": "https://www.nytimes.com/athletic/7506358/2026/08/12/tielemans-man-united-rashford-carrick/",
-      "published_date": "2026-08-12T11:00:57",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/12052520/GettyImages-2289979232-scaled.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "man united",
-        "sports management"
       ]
     }
   ]
