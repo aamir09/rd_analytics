@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-12T19:56:25.890737+00:00",
+  "fetchedAt": "2026-08-12T20:37:04.658278+00:00",
   "articles": [
+    {
+      "id": "e3e2b5c8ac4565bd949276a1250f4989",
+      "title": "With Man-U debut ahead, Youri Tielemans still talking Belgium-U.S.",
+      "description": "Even as his Manchester United debut draws near, Youri Tielemans is still fielding inquiries on the drama of the summer when he helped lead Belgium to",
+      "link": "https://deadspin.com/with-man-u-debut-ahead-youri-tielemans-still-talking-belgium-us/",
+      "published_date": "2026-08-12T18:37:44",
+      "source": "Deadspin",
+      "media_url": "https://lineup-publishing.s3.amazonaws.com/29203008.jpg",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "5733e27bf0b08d62f6fdc3e6a8af14c7",
       "title": "Manchester United vs Leeds United Results Today: Club Friendly Live Score, Updates, Stats",
@@ -124,20 +137,6 @@
       "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/06/screenshot-2025-06-21-at-13-34-57.png?w=1600&h=900&fit=crop",
       "topics": [
         "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "9456f9d90e2a85316cbb74fb9679dcc4",
-      "title": "Will Myles Lewis-Skelly leave Arsenal? What we know about Manchester United interest and Chelsea stance",
-      "description": "Gunners left-back has been offered to Premier League rivals in surprise transfer twist",
-      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-lewis-skelly-man-utd-chelsea-b1293135.html",
-      "published_date": "2026-08-12T10:02:46",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/12/11/2289704659..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "Premier League",
         "sports news"
       ]
     }
