@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-13T11:39:47.295666+00:00",
+  "fetchedAt": "2026-08-13T12:47:44.857302+00:00",
   "articles": [
+    {
+      "id": "90548b672d77fc7e3857596913471998",
+      "title": "Diallo Sends Clear Message To Carrick Ahead of Season Opener",
+      "description": "Manchester United star must start Premier League opener against Hull",
+      "link": "https://www.givemesport.com/man-utd-star-amad-diallo-michael-carrick-starting-lineup-hull/",
+      "published_date": "2026-08-13T12:15:14",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-02-aug-2026-07-06-am-7349.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "Premier League",
+        "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "b5ac9b6f45849c0dc1747c9fc4005ae4",
+      "title": "He Wants Move: Man Utd Must Break Bank for Lewis Hall as Duo Flop vs Leeds",
+      "description": "Manchester United look to need transfer reinforcements on the left-hand side this summer",
+      "link": "https://www.givemesport.com/man-utd-break-bank-lewis-hall-transfer-duo-flop-leeds-friendly/",
+      "published_date": "2026-08-13T11:16:13",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-caretaker-manager-michael-carrick-celebrates-premier-league-win-over-liverpool-at-old-trafford.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "transfer news",
+        "football",
+        "sports management"
+      ]
+    },
     {
       "id": "3601e57135f52241544665a7f8264bb3",
       "title": "Wayne Rooney lands new Man Utd gig alongside Mark Goldbridge for Gary Neville's Overlap",
@@ -81,34 +109,6 @@
         "football",
         "Manchester United",
         "sports news"
-      ]
-    },
-    {
-      "id": "646f7c9702068f874d7427d4576045cc",
-      "title": "Manchester United 1-1 Leeds (5-4 on pens): Red Devils held to Dublin draw",
-      "description": "Red Devils bested old foes in historic encounter",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-leeds-penalties-fernandes-rashford-b1293223.html",
-      "published_date": "2026-08-12T20:56:15",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/12/21/01KZVVQZB45PGANMRXA3KFV0MV.jpg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "Red Devils"
-      ]
-    },
-    {
-      "id": "e9df50d560bcd63bae9b16994f18e835",
-      "title": "Man United beat Leeds on penalties: What next for Zirkzee? How did Trafford do? Where was Rashford?",
-      "description": "Analysis of Manchester United's pre-season win over Leeds United in Dublin",
-      "link": "https://www.nytimes.com/athletic/7508604/2026/08/12/man-united-leeds-united-highlights/",
-      "published_date": "2026-08-12T20:41:28",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/12163836/GettyImages-2290209848-scaled-e1786567150250.jpg",
-      "topics": [
-        "football",
-        "pre-season",
-        "Manchester United",
-        "Leeds United"
       ]
     }
   ]
