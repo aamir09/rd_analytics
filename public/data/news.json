@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-13T12:47:44.857302+00:00",
+  "fetchedAt": "2026-08-13T14:16:48.392307+00:00",
   "articles": [
+    {
+      "id": "a28054ca78ccace88d1bc690e4b85157",
+      "title": "Every Premier League Club's Owners",
+      "description": "A complete list of every Premier League club's owners, including Manchester United, Liverpool and Arsenal.",
+      "link": "https://www.givemesport.com/every-premier-league-club-owner-football/",
+      "published_date": "2026-08-13T13:50:32",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2024/05/club-owners-todd-boehly-of-chelsea-john-w-henry-of-liverpool-and-stan-kroenke-of-arsenal.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "Premier League clubs",
+        "club owners",
+        "club management"
+      ]
+    },
     {
       "id": "90548b672d77fc7e3857596913471998",
       "title": "Diallo Sends Clear Message To Carrick Ahead of Season Opener",
@@ -94,21 +108,6 @@
       "topics": [
         "football",
         "Premier League"
-      ]
-    },
-    {
-      "id": "f175f03ee04769e5427f077fd424db4d",
-      "title": "Michael Carrick explains Marcus Rashford omission amid new Manchester United transfer hint",
-      "description": "Forward is set for tense reunion with former boss this weekend",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-carrick-rashford-b1293227.html",
-      "published_date": "2026-08-12T21:31:54",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/12/22/2290193821..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "transfer news",
-        "football",
-        "Manchester United",
-        "sports news"
       ]
     }
   ]
