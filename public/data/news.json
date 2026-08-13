@@ -1,6 +1,74 @@
 {
-  "fetchedAt": "2026-08-13T16:45:37.311732+00:00",
+  "fetchedAt": "2026-08-13T17:51:27.147800+00:00",
   "articles": [
+    {
+      "id": "00c6382ecc3000a387fc04850ed4120b",
+      "title": "Michael Carrick outlines Man United transfer plans after watching rivals spend big",
+      "description": "Manchester United have added Andrey Santos, Youri Tielemans and Karl Darlow to their ranks this summer",
+      "link": "https://sports.yahoo.com/articles/michael-carrick-wants-more-signings-162407163.html",
+      "published_date": "2026-08-13T17:14:51",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/the_independent_us_sports_articles_270/0c24b268e7cb0c887d998e987ba27c41.jpg",
+      "topics": [
+        "transfer plans",
+        "Manchester United",
+        "sports news"
+      ]
+    },
+    {
+      "id": "ffcc73f9760a406795f667f56435e79f",
+      "title": "Former Man Utd midfielder Fred set to return to Brazil",
+      "description": "Former Manchester United midfielder  Fred is set to return to Brazilian football land join Atlético Mineiro.The 33-year-old is currently playing in Turkey with Fenerbahçe but according to journal...",
+      "link": "https://sports.yahoo.com/articles/former-man-utd-midfielder-fred-170500457.html",
+      "published_date": "2026-08-13T17:05:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/playmakerstats_articles_264/94d915bc430eeed48b6c71d05e812e2c.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "player transfers"
+      ]
+    },
+    {
+      "id": "9b23a22ed0f7f403dd7b32db76795126",
+      "title": "Key stats before Arsenal face Man City in Community Shield",
+      "description": "On Sunday, the first piece of silverware of the season will be contested for in Cardiff as Premier League champions Arsenal face FA Cup winners Manchester City in the Community Shield.  Only Manchester United (21) have won the Community Shield more often than they have (17, including shared), with the Gunners winning each of their past five.  Arsenal have also won all three matches when competing as reigning Premier League champions (1998, 2002, 2004).",
+      "link": "https://sports.yahoo.com/articles/key-stats-arsenal-face-man-170209882.html",
+      "published_date": "2026-08-13T17:02:09",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/bbc_us_articles_995/6c02b5bbc55b12c4a2ef84280a0ba789.jpg",
+      "topics": [
+        "football",
+        "FA Cup"
+      ]
+    },
+    {
+      "id": "c67169c012130db39b92d43bdf3ae89f",
+      "title": "“They really liked him” – Man Utd given golden chance to buy newest member of Amorim’s bomb squad",
+      "description": "Manchester United have a realistic chance at landing AC Milan striker Christopher Nkunku, chiefly thanks to Ruben Amorim.The Frenchman is a Paris Saint-Germain academy product who established himself ...",
+      "link": "https://sports.yahoo.com/articles/really-liked-him-man-utd-170000630.html",
+      "published_date": "2026-08-13T17:00:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/125937f2196cc799aad6998df394279d.jpg",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "38961b3081e78ee7ec39164417f96057",
+      "title": "Xavier Parker agrees new long-term Manchester City contract",
+      "description": "Liverpool and Manchester United were among a host of leading clubs keen to secure the 16-year-old midfielder this summer.",
+      "link": "https://www.nytimes.com/athletic/7511187/2026/08/13/xavier-parker-man-city-contract-length/",
+      "published_date": "2026-08-13T16:56:19",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/13123141/Parker-1.jpg",
+      "topics": [
+        "football contracts",
+        "midfielder transfers",
+        "Manchester City"
+      ]
+    },
     {
       "id": "220ae6130c202100d0118dbdb40fbfa9",
       "title": "Mikel Arteta refuses to rule out Myles Lewis-Skelly exit after Arsenal offer star to rivals",
@@ -67,47 +135,6 @@
         "transfer news",
         "football",
         "sports management"
-      ]
-    },
-    {
-      "id": "3601e57135f52241544665a7f8264bb3",
-      "title": "Wayne Rooney lands new Man Utd gig alongside Mark Goldbridge for Gary Neville's Overlap",
-      "description": "Wayne Rooney has taken another step in his punditry career, teaming up with content creator and Manchester United supporter Mark Goldbridge for a new podcast on The Overlap network",
-      "link": "https://www.mirror.co.uk/sport/football/news/wayne-rooney-mark-goldbridge-overlap-37546897",
-      "published_date": "2026-08-13T10:43:01",
-      "source": "The Mirror",
-      "media_url": "https://i2-prod.mirror.co.uk/incoming/article37547310.ece/ALTERNATES/s98/1_Paris-Saint-Germain-v-FC-Bayern-Mnchen-UEFA-Champions-League-202526-Semi-Final-First-Leg.jpg",
-      "topics": [
-        "punditry",
-        "podcasting",
-        "sports news"
-      ]
-    },
-    {
-      "id": "fcd95b404b119865aef981371bbcda8c",
-      "title": "Manchester United complete transfer for 'sizeable' fee as announcement made",
-      "description": "Michael Carrick continues to reshape his squad at Old Trafford this summer",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-ethan-williams-peterborough-b1293257.html",
-      "published_date": "2026-08-13T09:40:24",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/11/16/2289864710..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football transfers",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "bba3ac2a10074027e749be972250fb89",
-      "title": "Has Michael Carrick found a way to play without Benjamin Sesko?",
-      "description": "While Sesko is building back to his best, Manchester United have a sharp-looking backup plan",
-      "link": "https://www.nytimes.com/athletic/7509752/2026/08/13/has-michael-carrick-found-a-way-to-play-without-benjamin-sesko/",
-      "published_date": "2026-08-13T05:56:35",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/13013928/GettyImages-2289709476-scaled.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "player development"
       ]
     }
   ]
