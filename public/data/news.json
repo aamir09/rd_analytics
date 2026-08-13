@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-13T17:51:27.147800+00:00",
+  "fetchedAt": "2026-08-13T18:50:19.388016+00:00",
   "articles": [
+    {
+      "id": "9d375544bfccc49927fc74873188471e",
+      "title": "Manchester United XI vs AC Milan: Confirmed team news, predicted lineup, injury latest for pre-season friendly",
+      "description": "Rashford and Amorim on course for an interesting reunion in high-profile pre-season friendly",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-ac-milan-confirmed-team-news-predicted-lineup-injury-latest-preseason-friendly-2026-b1293343.html",
+      "published_date": "2026-08-13T18:20:41",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/13/19/2290323179..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "pre-season friendly",
+        "injury news",
+        "sports events"
+      ]
+    },
     {
       "id": "00c6382ecc3000a387fc04850ed4120b",
       "title": "Michael Carrick outlines Man United transfer plans after watching rivals spend big",
@@ -121,20 +135,6 @@
         "Premier League",
         "football",
         "sports news"
-      ]
-    },
-    {
-      "id": "b5ac9b6f45849c0dc1747c9fc4005ae4",
-      "title": "He Wants Move: Man Utd Must Break Bank for Lewis Hall as Duo Flop vs Leeds",
-      "description": "Manchester United look to need transfer reinforcements on the left-hand side this summer",
-      "link": "https://www.givemesport.com/man-utd-break-bank-lewis-hall-transfer-duo-flop-leeds-friendly/",
-      "published_date": "2026-08-13T11:16:13",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-caretaker-manager-michael-carrick-celebrates-premier-league-win-over-liverpool-at-old-trafford.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "transfer news",
-        "football",
-        "sports management"
       ]
     }
   ]
