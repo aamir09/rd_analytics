@@ -1,6 +1,32 @@
 {
-  "fetchedAt": "2026-08-13T14:16:48.392307+00:00",
+  "fetchedAt": "2026-08-13T15:50:43.743222+00:00",
   "articles": [
+    {
+      "id": "220ae6130c202100d0118dbdb40fbfa9",
+      "title": "Mikel Arteta refuses to rule out Myles Lewis-Skelly exit after Arsenal offer star to rivals",
+      "description": "Arsenal's Myles Lewis-Skelly has been linked with Manchester United and Chelsea, and Mikel Arteta has refused to rule out a transfer, welcoming speculation around the 19-year-old",
+      "link": "https://sports.yahoo.com/articles/mikel-arteta-refuses-rule-myles-151950042.html",
+      "published_date": "2026-08-13T15:19:50",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/all_out_soccer_276/e8aed41fdb83db4b17191d8df33704de.jpg",
+      "topics": [
+        "sports news",
+        "transfer news"
+      ]
+    },
+    {
+      "id": "ea380a74e284b54b62635387b9489573",
+      "title": "Michael Carrick’s Review of Marcus Rashford Paints a Clear Picture",
+      "description": "The forward's future at Manchester United has been the topic of conversation throughout the summer.",
+      "link": "https://www.si.com/soccer/michael-carrick-review-marcus-rashford-paints-clear-picture?utm_source=RSS",
+      "published_date": "2026-08-13T14:30:00",
+      "source": "Sports Illustrated",
+      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_983,h_552,x_31,y_119/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01kzxjq9kg9m9dmg6arm.jpg",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "a28054ca78ccace88d1bc690e4b85157",
       "title": "Every Premier League Club's Owners",
@@ -82,32 +108,6 @@
         "football",
         "sports news",
         "player development"
-      ]
-    },
-    {
-      "id": "fdac5e1f3e32bccce187e85c7954461b",
-      "title": "‘Watch this space’: Ferdinand urges Man Utd to U-turn on £40m deal before they regret it",
-      "description": "Rio Ferdinand has urged Manchester United chiefs to keep hold of Marcus Rashford after witnessing how revitalised he looked in training.The forward returned to Carrington at the start of the week befo...",
-      "link": "https://sports.yahoo.com/articles/watch-space-ferdinand-urges-man-051500468.html",
-      "published_date": "2026-08-13T05:15:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/075bcf6236fcd3918b7d3927c73d79da.jpg",
-      "topics": [
-        "football",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "3cb9b8b88ab0f82aebcebd0683b017e9",
-      "title": "Manchester United fans: How are you feeling about the 2026-27 season?",
-      "description": "Let us know how you are feeling about the season ahead and we'll report back with our Premier League hope-o-meter",
-      "link": "https://www.nytimes.com/athletic/7479966/2026/08/13/manchester-united-fans-season-hope/",
-      "published_date": "2026-08-13T04:01:56",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/07/30080359/GettyImages-2286014600-1.jpg",
-      "topics": [
-        "football",
-        "Premier League"
       ]
     }
   ]
