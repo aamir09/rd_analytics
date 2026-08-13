@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-13T05:42:58.964785+00:00",
+  "fetchedAt": "2026-08-13T07:40:07.387749+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2087781445062553629",
+          "created_at": "2026-08-13T06:01:00+00:00",
+          "text": "The decisive moment, delivered by Nous 🎯🇲🇦",
+          "views": "131353",
+          "favorites": 2791,
+          "retweets": 206,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2087674238467539207",
           "created_at": "2026-08-12T22:55:00+00:00",
           "text": "Up next: AC Milan in Wroclaw on Saturday 👊",
-          "views": "222574",
-          "favorites": 4056,
-          "retweets": 268,
+          "views": "267482",
+          "favorites": 5110,
+          "retweets": 319,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -22,9 +36,9 @@
           "id": "2087666860141543850",
           "created_at": "2026-08-12T22:25:41+00:00",
           "text": "We keep building 👏🧱 https://t.co/qloJjKV98p",
-          "views": "230535",
-          "favorites": 8119,
-          "retweets": 507,
+          "views": "272936",
+          "favorites": 10463,
+          "retweets": 640,
           "media_url": "https://pbs.twimg.com/media/HPjggCbX0AA9P7m.jpg",
           "author": {
             "name": "Manchester United",
@@ -36,9 +50,9 @@
           "id": "2087661329507078396",
           "created_at": "2026-08-12T22:03:42+00:00",
           "text": "Back in the mix 🍯 https://t.co/bXfnGZ9seI",
-          "views": "228354",
-          "favorites": 13560,
-          "retweets": 509,
+          "views": "266875",
+          "favorites": 16892,
+          "retweets": 633,
           "media_url": "https://pbs.twimg.com/media/HPjcXKxWwAAvV13.jpg",
           "author": {
             "name": "Manchester United",
@@ -50,23 +64,9 @@
           "id": "2087655962093953298",
           "created_at": "2026-08-12T21:42:22+00:00",
           "text": "Dermot stands tall in the shootout 😤⛔️\n\nThe highlights from tonight's Dublin showdown are in ⤵️",
-          "views": "332635",
-          "favorites": 4239,
-          "retweets": 289,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087649314243821680",
-          "created_at": "2026-08-12T21:15:57+00:00",
-          "text": "Thank you for your support, Dublin 👏\n\n🤳 @Snapdragon x #ShotOnSnapdragon https://t.co/HFRJYnumKJ",
-          "views": "283691",
-          "favorites": 8181,
-          "retweets": 630,
+          "views": "400664",
+          "favorites": 4946,
+          "retweets": 336,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -83,9 +83,9 @@
           "id": "2087664209270014114",
           "created_at": "2026-08-12T22:15:09+00:00",
           "text": "🚨 JUST IN:\n\nJuventus, AC Milan and Galatasaray are all KEEN on Bruno Fernandes. However, it is thought the player’s preference is to STAY at Manchester United, potentially for the REMAINDER of his career. #MUFC [@sistoney67] https://t.co/2A0SE54Iii",
-          "views": "123774",
-          "favorites": 2907,
-          "retweets": 121,
+          "views": "254559",
+          "favorites": 3423,
+          "retweets": 141,
           "media_url": "https://pbs.twimg.com/media/HPjfiHiXUAEWUEU.jpg",
           "author": {
             "name": "mufcmpb",
@@ -97,9 +97,9 @@
           "id": "2087650512917147942",
           "created_at": "2026-08-12T21:20:43+00:00",
           "text": "🚨🚨🗣️ Michael Carrick on Marcus Rashford:\n\n“He’s OUR player. He’s come back great. He’s just like any other player. I’ve known him a long time and he gives us something a little bit different. We’re looking forward to the start of the season.” #MUFC [@StevenRailston] https://t.co/PqgQyvye8K",
-          "views": "60751",
-          "favorites": 1773,
-          "retweets": 72,
+          "views": "64015",
+          "favorites": 1849,
+          "retweets": 78,
           "media_url": "https://pbs.twimg.com/media/HPjTE3xXQAEvdJJ.jpg",
           "author": {
             "name": "mufcmpb",
@@ -111,9 +111,9 @@
           "id": "2087643579107709400",
           "created_at": "2026-08-12T20:53:10+00:00",
           "text": "🚨🚨🗣️ Noussair Mazraoui on Marcus Rashford: \n\n“He could be a BIG one [new signing] this season... That is, of course, if he doesn't leave.” #MUFC [@StevenRailston] https://t.co/jkNOdpopGi",
-          "views": "57169",
-          "favorites": 2251,
-          "retweets": 71,
+          "views": "62158",
+          "favorites": 2544,
+          "retweets": 79,
           "media_url": "https://pbs.twimg.com/media/HPjMxTAWMAAVgIf.jpg",
           "author": {
             "name": "mufcmpb",
@@ -125,9 +125,9 @@
           "id": "2087641541628096869",
           "created_at": "2026-08-12T20:45:04+00:00",
           "text": "Manchester United win the 2026 BOYLE Sports Cup 🏆 https://t.co/Hz1UB4lTP1",
-          "views": "51279",
-          "favorites": 2438,
-          "retweets": 90,
+          "views": "53523",
+          "favorites": 2567,
+          "retweets": 94,
           "media_url": "https://pbs.twimg.com/media/HPjK6r8XIAAXeI-.jpg",
           "author": {
             "name": "mufcmpb",
@@ -139,8 +139,8 @@
           "id": "2087635844605579703",
           "created_at": "2026-08-12T20:22:26+00:00",
           "text": "🚨 FT: Manchester United 1-1 Leeds.\n\nThoughts on the game?👇 https://t.co/DWsKlz2CZS",
-          "views": "34018",
-          "favorites": 526,
+          "views": "34904",
+          "favorites": 536,
           "retweets": 15,
           "media_url": "https://pbs.twimg.com/media/HPjFvB8WUAA6n2K.jpg",
           "author": {
@@ -164,7 +164,7 @@
           "text": "RT @indykaila: Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made dire…",
           "views": null,
           "favorites": 0,
-          "retweets": 415,
+          "retweets": 416,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -176,9 +176,9 @@
           "id": "2087534256696230380",
           "created_at": "2026-08-12T13:38:45+00:00",
           "text": "Really confused how Manchester United &amp; Liverpool are acting in the transfer market.",
-          "views": "435470",
-          "favorites": 4707,
-          "retweets": 160,
+          "views": "443589",
+          "favorites": 4784,
+          "retweets": 163,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -190,8 +190,8 @@
           "id": "2087524550263103618",
           "created_at": "2026-08-12T13:00:11+00:00",
           "text": "New game out! We know people always choose RED 🔴 because they support #AFC #LFC #MUFC 😂",
-          "views": "251532",
-          "favorites": 207,
+          "views": "256580",
+          "favorites": 208,
           "retweets": 9,
           "media_url": null,
           "author": {
@@ -204,9 +204,9 @@
           "id": "2087521282703147375",
           "created_at": "2026-08-12T12:47:12+00:00",
           "text": "Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made direct calls 📞 to Crystal Palace 🦅 this morning.\n\nBig development 👀🔥 https://t.co/fGu99NnOi2",
-          "views": "777688",
-          "favorites": 6674,
-          "retweets": 415,
+          "views": "786968",
+          "favorites": 6713,
+          "retweets": 416,
           "media_url": "https://pbs.twimg.com/media/HPhdiuNWAAAJeBn.jpg",
           "author": {
             "name": "indykaila News",
@@ -218,9 +218,9 @@
           "id": "2087478609199919557",
           "created_at": "2026-08-12T09:57:38+00:00",
           "text": "RT @UtdJournalist: 🚨 EXCLUSIVE!\n\nManchester United are willing to pay Jorge Salinas' £22.5m release clause! https://t.co/UqW6Vfnxl3",
-          "views": "30758",
+          "views": "30833",
           "favorites": 0,
-          "retweets": 74,
+          "retweets": 73,
           "media_url": "https://pbs.twimg.com/media/HPg1g6yWQAIcCSh.jpg",
           "author": {
             "name": "indykaila News",
