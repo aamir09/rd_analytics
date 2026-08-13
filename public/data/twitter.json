@@ -1,73 +1,73 @@
 {
-  "fetchedAt": "2026-08-13T15:01:40.087872+00:00",
+  "fetchedAt": "2026-08-13T16:59:43.833625+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2087932711122137562",
+          "created_at": "2026-08-13T16:02:04+00:00",
+          "text": "Mapping out his aims and expectations for 2026/27 🗺️📈\n\nOur next Inside Carrington podcast, starring Michael Carrick, is out soon 👀🎤",
+          "views": "122691",
+          "favorites": 1427,
+          "retweets": 116,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2087920863999873168",
+          "created_at": "2026-08-13T15:15:00+00:00",
+          "text": "Charging up ⬆️🔋",
+          "views": "182421",
+          "favorites": 7196,
+          "retweets": 630,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2087919605725450747",
+          "created_at": "2026-08-13T15:10:00+00:00",
+          "text": "Feeling good ❤️ https://t.co/f45K5OplRo",
+          "views": "225946",
+          "favorites": 14740,
+          "retweets": 1167,
+          "media_url": "https://pbs.twimg.com/media/HPmwWH-WcAAbt7H.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2087918347434463548",
+          "created_at": "2026-08-13T15:05:00+00:00",
+          "text": "Fun and games 🤹‍♂️ https://t.co/U2rFes2DEh",
+          "views": "176281",
+          "favorites": 6780,
+          "retweets": 542,
+          "media_url": "https://pbs.twimg.com/media/HPmw6HQXoAAdB3I.jpg",
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2087917100643844452",
           "created_at": "2026-08-13T15:00:03+00:00",
           "text": "Raring to go 💪 https://t.co/2td8oHrZjG",
-          "views": "36493",
-          "favorites": 332,
-          "retweets": 35,
+          "views": "170339",
+          "favorites": 8612,
+          "retweets": 524,
           "media_url": "https://pbs.twimg.com/media/HPmws6CXkAAvgb7.jpg",
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087871847727583381",
-          "created_at": "2026-08-13T12:00:13+00:00",
-          "text": "Harry's got the receipts 🧾🤣 https://t.co/IFxAkh7css",
-          "views": "223461",
-          "favorites": 3575,
-          "retweets": 286,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087860465540198598",
-          "created_at": "2026-08-13T11:15:00+00:00",
-          "text": "🇾🇪 Where he belongs.\n\nJoin our family by becoming a United member today ⤵️",
-          "views": "237097",
-          "favorites": 4161,
-          "retweets": 340,
-          "media_url": null,
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087850902577176595",
-          "created_at": "2026-08-13T10:37:00+00:00",
-          "text": "Atleti 🏅\nPSG 🏅\nLeeds 🏅\n\nThat's three Player of the Match awards in a row for @BMbeumo19 🔥 https://t.co/YWKIyJ5KoM",
-          "views": "259755",
-          "favorites": 11675,
-          "retweets": 921,
-          "media_url": "https://pbs.twimg.com/media/HPjSOtLWMAAt3mg.jpg",
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087830015022936273",
-          "created_at": "2026-08-13T09:14:00+00:00",
-          "text": "More players will be involved in our next pre-season game, according to the boss 💪",
-          "views": "269181",
-          "favorites": 4290,
-          "retweets": 407,
-          "media_url": null,
           "author": {
             "name": "Manchester United",
             "screen_name": "ManUtd",
@@ -80,12 +80,40 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2087943059845570609",
+          "created_at": "2026-08-13T16:43:12+00:00",
+          "text": "🚨 Sources close to Manchester United insist there is money available in the final weeks of the transfer window. #MUFC [@RobDawsonESPN] https://t.co/KwXwsYoCmQ",
+          "views": "13912",
+          "favorites": 348,
+          "retweets": 19,
+          "media_url": "https://pbs.twimg.com/media/HPndJZuWAAA_I_Y.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2087941985491701926",
+          "created_at": "2026-08-13T16:38:56+00:00",
+          "text": "🚨🚨🗣️ Michael Carrick on signings:\n\n“I think we’ve got a pretty good balance in all when you lay the squad out, but yeah, of course, we would like MORE. We would like more, we need to keep PUSHING for more.\n\n“There’s one or two areas where we’d like to IMPROVE and we feel that there’s the possibility to improve, but again, that needs to be something that we can do that makes us better and improves the group, whether that’s quality or whether that’s a little bit of depth.”\n\n#MUFC",
+          "views": "14898",
+          "favorites": 236,
+          "retweets": 22,
+          "media_url": "https://pbs.twimg.com/media/HPncKuBW0AA0Xz2.jpg",
+          "author": {
+            "name": "mufcmpb",
+            "screen_name": "mufcMPB",
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2087892334406926814",
           "created_at": "2026-08-13T13:21:38+00:00",
           "text": "🚨 The expectation is still that Manchester United will make multiple signings before the transfer window closes. #MUFC [@JacobsBen, @UnitedStandMUFC] https://t.co/wmaikd9DhK",
-          "views": "82169",
-          "favorites": 1767,
-          "retweets": 75,
+          "views": "123937",
+          "favorites": 2285,
+          "retweets": 99,
           "media_url": "https://pbs.twimg.com/media/HPmvAuZWwAAJ6y8.jpg",
           "author": {
             "name": "mufcmpb",
@@ -97,9 +125,9 @@
           "id": "2087813242009612719",
           "created_at": "2026-08-13T08:07:21+00:00",
           "text": "🚨🚨 OFFICIAL:\n\nEthan Williams has joined Peterborough United on a permanent transfer. #MUFC https://t.co/y1VJ1leRXI",
-          "views": "68790",
-          "favorites": 2655,
-          "retweets": 95,
+          "views": "72852",
+          "favorites": 2858,
+          "retweets": 99,
           "media_url": "https://pbs.twimg.com/media/HPlnE-kW8AAeALF.jpg",
           "author": {
             "name": "mufcmpb",
@@ -111,38 +139,10 @@
           "id": "2087664209270014114",
           "created_at": "2026-08-12T22:15:09+00:00",
           "text": "🚨 JUST IN:\n\nJuventus, AC Milan and Galatasaray are all KEEN on Bruno Fernandes. However, it is thought the player’s preference is to STAY at Manchester United, potentially for the REMAINDER of his career. #MUFC [@sistoney67] https://t.co/2A0SE54Iii",
-          "views": "502942",
-          "favorites": 4349,
-          "retweets": 171,
+          "views": "542542",
+          "favorites": 4460,
+          "retweets": 176,
           "media_url": "https://pbs.twimg.com/media/HPjfiHiXUAEWUEU.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087650512917147942",
-          "created_at": "2026-08-12T21:20:43+00:00",
-          "text": "🚨🚨🗣️ Michael Carrick on Marcus Rashford:\n\n“He’s OUR player. He’s come back great. He’s just like any other player. I’ve known him a long time and he gives us something a little bit different. We’re looking forward to the start of the season.” #MUFC [@StevenRailston] https://t.co/PqgQyvye8K",
-          "views": "72757",
-          "favorites": 2012,
-          "retweets": 80,
-          "media_url": "https://pbs.twimg.com/media/HPjTE3xXQAEvdJJ.jpg",
-          "author": {
-            "name": "mufcmpb",
-            "screen_name": "mufcMPB",
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2087643579107709400",
-          "created_at": "2026-08-12T20:53:10+00:00",
-          "text": "🚨🚨🗣️ Noussair Mazraoui on Marcus Rashford: \n\n“He could be a BIG one [new signing] this season... That is, of course, if he doesn't leave.” #MUFC [@StevenRailston] https://t.co/jkNOdpopGi",
-          "views": "75845",
-          "favorites": 3317,
-          "retweets": 97,
-          "media_url": "https://pbs.twimg.com/media/HPjMxTAWMAAVgIf.jpg",
           "author": {
             "name": "mufcmpb",
             "screen_name": "mufcMPB",
@@ -162,9 +162,9 @@
           "id": "2087883801884024941",
           "created_at": "2026-08-13T12:47:44+00:00",
           "text": "RT @SuhailChowdhary: Journalists close to Manchester United are suggesting they’re financially restricted in the market…\n\nThat Youri Tielem…",
-          "views": "25239",
+          "views": "27774",
           "favorites": 0,
-          "retweets": 46,
+          "retweets": 54,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -178,7 +178,7 @@
           "text": "RT @indykaila: Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made dire…",
           "views": null,
           "favorites": 0,
-          "retweets": 422,
+          "retweets": 423,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -190,8 +190,8 @@
           "id": "2087534256696230380",
           "created_at": "2026-08-12T13:38:45+00:00",
           "text": "Really confused how Manchester United &amp; Liverpool are acting in the transfer market.",
-          "views": "463513",
-          "favorites": 4873,
+          "views": "466556",
+          "favorites": 4891,
           "retweets": 163,
           "media_url": null,
           "author": {
@@ -204,8 +204,8 @@
           "id": "2087524550263103618",
           "created_at": "2026-08-12T13:00:11+00:00",
           "text": "New game out! We know people always choose RED 🔴 because they support #AFC #LFC #MUFC 😂",
-          "views": "269496",
-          "favorites": 209,
+          "views": "271913",
+          "favorites": 210,
           "retweets": 9,
           "media_url": null,
           "author": {
@@ -218,9 +218,9 @@
           "id": "2087521282703147375",
           "created_at": "2026-08-12T12:47:12+00:00",
           "text": "Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made direct calls 📞 to Crystal Palace 🦅 this morning.\n\nBig development 👀🔥 https://t.co/fGu99NnOi2",
-          "views": "821469",
-          "favorites": 6840,
-          "retweets": 422,
+          "views": "825605",
+          "favorites": 6865,
+          "retweets": 423,
           "media_url": "https://pbs.twimg.com/media/HPhdiuNWAAAJeBn.jpg",
           "author": {
             "name": "indykaila News",
