@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-13T10:54:08.562270+00:00",
+  "fetchedAt": "2026-08-13T11:39:47.295666+00:00",
   "articles": [
+    {
+      "id": "3601e57135f52241544665a7f8264bb3",
+      "title": "Wayne Rooney lands new Man Utd gig alongside Mark Goldbridge for Gary Neville's Overlap",
+      "description": "Wayne Rooney has taken another step in his punditry career, teaming up with content creator and Manchester United supporter Mark Goldbridge for a new podcast on The Overlap network",
+      "link": "https://www.mirror.co.uk/sport/football/news/wayne-rooney-mark-goldbridge-overlap-37546897",
+      "published_date": "2026-08-13T10:43:01",
+      "source": "The Mirror",
+      "media_url": "https://i2-prod.mirror.co.uk/incoming/article37547310.ece/ALTERNATES/s98/1_Paris-Saint-Germain-v-FC-Bayern-Mnchen-UEFA-Champions-League-202526-Semi-Final-First-Leg.jpg",
+      "topics": [
+        "punditry",
+        "podcasting",
+        "sports news"
+      ]
+    },
     {
       "id": "fcd95b404b119865aef981371bbcda8c",
       "title": "Manchester United complete transfer for 'sizeable' fee as announcement made",
@@ -95,33 +109,6 @@
         "pre-season",
         "Manchester United",
         "Leeds United"
-      ]
-    },
-    {
-      "id": "e3e2b5c8ac4565bd949276a1250f4989",
-      "title": "With Man-U debut ahead, Youri Tielemans still talking Belgium-U.S.",
-      "description": "Even as his Manchester United debut draws near, Youri Tielemans is still fielding inquiries on the drama of the summer when he helped lead Belgium to",
-      "link": "https://deadspin.com/with-man-u-debut-ahead-youri-tielemans-still-talking-belgium-us/",
-      "published_date": "2026-08-12T18:37:44",
-      "source": "Deadspin",
-      "media_url": "https://lineup-publishing.s3.amazonaws.com/29203008.jpg",
-      "topics": [
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "5733e27bf0b08d62f6fdc3e6a8af14c7",
-      "title": "Manchester United vs Leeds United Results Today: Club Friendly Live Score, Updates, Stats",
-      "description": "Manchester United faced Leeds United on Wednesday, August 12, 2026, in a historic pre-season friendly at Croke Park in Dublin. The Manchester United vs Leeds United meeting was played at the 82,000-plus capacity venue, marking a major occasion for club football in Ireland.Manchester United entered the match after a 1–1 draw with Paris Saint-Germain, while […] The post Manchester United vs Leeds United Results Today: Club Friendly Live Score, Updates, Stats appeared first on HEAVY .",
-      "link": "https://heavy.com/sports/soccer/premier-league/manchester-united-fc/manchester-united-leeds-united-results-today/",
-      "published_date": "2026-08-12T18:02:04",
-      "source": "Heavy",
-      "media_url": "https://heavy.com/wp-content/uploads/2026/08/paris-saint-germain-v-manchester-united-pre-season-friendly-gothenburg-sweden-august.jpg?quality=65&strip=all",
-      "topics": [
-        "football",
-        "pre-season matches",
-        "club football"
       ]
     }
   ]
