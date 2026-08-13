@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-13T16:59:43.833625+00:00",
+  "fetchedAt": "2026-08-13T19:07:24.011832+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2087947539500929366",
+          "created_at": "2026-08-13T17:01:00+00:00",
+          "text": "Attack 🆚 Defence in County Kildare 🔥 https://t.co/2fuUjdcgeK",
+          "views": "176562",
+          "favorites": 3107,
+          "retweets": 205,
+          "media_url": null,
+          "author": {
+            "name": "Manchester United",
+            "screen_name": "ManUtd",
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2087932711122137562",
           "created_at": "2026-08-13T16:02:04+00:00",
           "text": "Mapping out his aims and expectations for 2026/27 🗺️📈\n\nOur next Inside Carrington podcast, starring Michael Carrick, is out soon 👀🎤",
-          "views": "122691",
-          "favorites": 1427,
-          "retweets": 116,
+          "views": "201956",
+          "favorites": 2311,
+          "retweets": 188,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -22,9 +36,9 @@
           "id": "2087920863999873168",
           "created_at": "2026-08-13T15:15:00+00:00",
           "text": "Charging up ⬆️🔋",
-          "views": "182421",
-          "favorites": 7196,
-          "retweets": 630,
+          "views": "336346",
+          "favorites": 13923,
+          "retweets": 1027,
           "media_url": null,
           "author": {
             "name": "Manchester United",
@@ -36,9 +50,9 @@
           "id": "2087919605725450747",
           "created_at": "2026-08-13T15:10:00+00:00",
           "text": "Feeling good ❤️ https://t.co/f45K5OplRo",
-          "views": "225946",
-          "favorites": 14740,
-          "retweets": 1167,
+          "views": "387480",
+          "favorites": 21780,
+          "retweets": 1655,
           "media_url": "https://pbs.twimg.com/media/HPmwWH-WcAAbt7H.jpg",
           "author": {
             "name": "Manchester United",
@@ -50,24 +64,10 @@
           "id": "2087918347434463548",
           "created_at": "2026-08-13T15:05:00+00:00",
           "text": "Fun and games 🤹‍♂️ https://t.co/U2rFes2DEh",
-          "views": "176281",
-          "favorites": 6780,
-          "retweets": 542,
+          "views": "279174",
+          "favorites": 10150,
+          "retweets": 763,
           "media_url": "https://pbs.twimg.com/media/HPmw6HQXoAAdB3I.jpg",
-          "author": {
-            "name": "Manchester United",
-            "screen_name": "ManUtd",
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2087917100643844452",
-          "created_at": "2026-08-13T15:00:03+00:00",
-          "text": "Raring to go 💪 https://t.co/2td8oHrZjG",
-          "views": "170339",
-          "favorites": 8612,
-          "retweets": 524,
-          "media_url": "https://pbs.twimg.com/media/HPmws6CXkAAvgb7.jpg",
           "author": {
             "name": "Manchester United",
             "screen_name": "ManUtd",
@@ -83,9 +83,9 @@
           "id": "2087943059845570609",
           "created_at": "2026-08-13T16:43:12+00:00",
           "text": "🚨 Sources close to Manchester United insist there is money available in the final weeks of the transfer window. #MUFC [@RobDawsonESPN] https://t.co/KwXwsYoCmQ",
-          "views": "13912",
-          "favorites": 348,
-          "retweets": 19,
+          "views": "43314",
+          "favorites": 1276,
+          "retweets": 63,
           "media_url": "https://pbs.twimg.com/media/HPndJZuWAAA_I_Y.jpg",
           "author": {
             "name": "mufcmpb",
@@ -97,9 +97,9 @@
           "id": "2087941985491701926",
           "created_at": "2026-08-13T16:38:56+00:00",
           "text": "🚨🚨🗣️ Michael Carrick on signings:\n\n“I think we’ve got a pretty good balance in all when you lay the squad out, but yeah, of course, we would like MORE. We would like more, we need to keep PUSHING for more.\n\n“There’s one or two areas where we’d like to IMPROVE and we feel that there’s the possibility to improve, but again, that needs to be something that we can do that makes us better and improves the group, whether that’s quality or whether that’s a little bit of depth.”\n\n#MUFC",
-          "views": "14898",
-          "favorites": 236,
-          "retweets": 22,
+          "views": "111665",
+          "favorites": 623,
+          "retweets": 44,
           "media_url": "https://pbs.twimg.com/media/HPncKuBW0AA0Xz2.jpg",
           "author": {
             "name": "mufcmpb",
@@ -111,9 +111,9 @@
           "id": "2087892334406926814",
           "created_at": "2026-08-13T13:21:38+00:00",
           "text": "🚨 The expectation is still that Manchester United will make multiple signings before the transfer window closes. #MUFC [@JacobsBen, @UnitedStandMUFC] https://t.co/wmaikd9DhK",
-          "views": "123937",
-          "favorites": 2285,
-          "retweets": 99,
+          "views": "142609",
+          "favorites": 2524,
+          "retweets": 108,
           "media_url": "https://pbs.twimg.com/media/HPmvAuZWwAAJ6y8.jpg",
           "author": {
             "name": "mufcmpb",
@@ -125,9 +125,9 @@
           "id": "2087813242009612719",
           "created_at": "2026-08-13T08:07:21+00:00",
           "text": "🚨🚨 OFFICIAL:\n\nEthan Williams has joined Peterborough United on a permanent transfer. #MUFC https://t.co/y1VJ1leRXI",
-          "views": "72852",
-          "favorites": 2858,
-          "retweets": 99,
+          "views": "75555",
+          "favorites": 2979,
+          "retweets": 105,
           "media_url": "https://pbs.twimg.com/media/HPlnE-kW8AAeALF.jpg",
           "author": {
             "name": "mufcmpb",
@@ -139,9 +139,9 @@
           "id": "2087664209270014114",
           "created_at": "2026-08-12T22:15:09+00:00",
           "text": "🚨 JUST IN:\n\nJuventus, AC Milan and Galatasaray are all KEEN on Bruno Fernandes. However, it is thought the player’s preference is to STAY at Manchester United, potentially for the REMAINDER of his career. #MUFC [@sistoney67] https://t.co/2A0SE54Iii",
-          "views": "542542",
-          "favorites": 4460,
-          "retweets": 176,
+          "views": "571473",
+          "favorites": 4537,
+          "retweets": 178,
           "media_url": "https://pbs.twimg.com/media/HPjfiHiXUAEWUEU.jpg",
           "author": {
             "name": "mufcmpb",
@@ -162,9 +162,9 @@
           "id": "2087883801884024941",
           "created_at": "2026-08-13T12:47:44+00:00",
           "text": "RT @SuhailChowdhary: Journalists close to Manchester United are suggesting they’re financially restricted in the market…\n\nThat Youri Tielem…",
-          "views": "27774",
+          "views": "29139",
           "favorites": 0,
-          "retweets": 54,
+          "retweets": 61,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -178,7 +178,7 @@
           "text": "RT @indykaila: Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made dire…",
           "views": null,
           "favorites": 0,
-          "retweets": 423,
+          "retweets": 422,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -190,9 +190,9 @@
           "id": "2087534256696230380",
           "created_at": "2026-08-12T13:38:45+00:00",
           "text": "Really confused how Manchester United &amp; Liverpool are acting in the transfer market.",
-          "views": "466556",
-          "favorites": 4891,
-          "retweets": 163,
+          "views": "471152",
+          "favorites": 4907,
+          "retweets": 165,
           "media_url": null,
           "author": {
             "name": "indykaila News",
@@ -204,24 +204,10 @@
           "id": "2087524550263103618",
           "created_at": "2026-08-12T13:00:11+00:00",
           "text": "New game out! We know people always choose RED 🔴 because they support #AFC #LFC #MUFC 😂",
-          "views": "271913",
-          "favorites": 210,
+          "views": "276386",
+          "favorites": 212,
           "retweets": 9,
           "media_url": null,
-          "author": {
-            "name": "indykaila News",
-            "screen_name": "indykaila",
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2087521282703147375",
-          "created_at": "2026-08-12T12:47:12+00:00",
-          "text": "Exclusive 💣\n\nWe reported last night that @ManUtd made enquiries about Adam Wharton 🔍, but we can confirm @LFC have made direct calls 📞 to Crystal Palace 🦅 this morning.\n\nBig development 👀🔥 https://t.co/fGu99NnOi2",
-          "views": "825605",
-          "favorites": 6865,
-          "retweets": 423,
-          "media_url": "https://pbs.twimg.com/media/HPhdiuNWAAAJeBn.jpg",
           "author": {
             "name": "indykaila News",
             "screen_name": "indykaila",
