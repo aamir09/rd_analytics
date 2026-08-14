@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-14T16:41:18.972855+00:00",
+  "fetchedAt": "2026-08-14T17:45:02.171588+00:00",
   "articles": [
+    {
+      "id": "548431904f33a0ee7964016eb4eb6e29",
+      "title": "Fabrizio Romano Delivers Wan-Bissaka to Aston Villa Transfer Update",
+      "description": "Aston Villa are looking to bring former Manchester United defender Aaron Wan-Bissaka back to the Premier League.",
+      "link": "https://www.givemesport.com/aston-villa-aaron-wan-bissaka-transfer-update-fabrizio-romano/",
+      "published_date": "2026-08-14T16:36:13",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/design-1-2026-08-14t162537-414.png?w=1600&h=900&fit=crop",
+      "topics": [
+        "football transfers",
+        "Premier League",
+        "football news"
+      ]
+    },
     {
       "id": "1052413d79d51754648002d1d599d5db",
       "title": "Manchester United trio set for return as Michael Carrick names squad for AC Milan",
@@ -123,20 +137,6 @@
       "topics": [
         "football",
         "sports news"
-      ]
-    },
-    {
-      "id": "9d375544bfccc49927fc74873188471e",
-      "title": "Manchester United XI vs AC Milan: Confirmed team news, predicted lineup, injury latest for pre-season friendly",
-      "description": "Rashford and Amorim on course for an interesting reunion in high-profile pre-season friendly",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-ac-milan-confirmed-team-news-predicted-lineup-injury-latest-preseason-friendly-2026-b1293343.html",
-      "published_date": "2026-08-13T18:20:41",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/13/19/2290323179..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "pre-season friendly",
-        "injury news",
-        "sports events"
       ]
     }
   ]
