@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-14T10:04:25.820878+00:00",
+  "fetchedAt": "2026-08-14T11:37:35.369886+00:00",
   "articles": [
+    {
+      "id": "bf7b76e36db1fb7a1eeb18463ae2b30d",
+      "title": "Kim Hellberg's message to Middlesbrough players as Radek Vitek arrival sums up competition hope",
+      "description": "Radek Vitek joins from Manchester United to challenge Sol Brynn for the number one spot",
+      "link": "https://www.gazettelive.co.uk/sport/football/transfer-news/kim-hellbergs-message-middlesbrough-players-34456430",
+      "published_date": "2026-08-14T11:00:00",
+      "source": "Teesside Live",
+      "media_url": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34404811.ece/ALTERNATES/s98/1_GettyImages-2288305974.jpg",
+      "topics": [
+        "football",
+        "sports events",
+        "sports news"
+      ]
+    },
     {
       "id": "62f0c43ef957d23cc0ac0a83da81bcd2",
       "title": "Jimmy Rimmer dies aged 78 as tributes paid to ex-Man Utd, Arsenal and Aston Villa icon",
@@ -123,20 +137,6 @@
         "transfer plans",
         "Manchester United",
         "sports news"
-      ]
-    },
-    {
-      "id": "ffcc73f9760a406795f667f56435e79f",
-      "title": "Former Man Utd midfielder Fred set to return to Brazil",
-      "description": "Former Manchester United midfielder  Fred is set to return to Brazilian football land join Atlético Mineiro.The 33-year-old is currently playing in Turkey with Fenerbahçe but according to journal...",
-      "link": "https://sports.yahoo.com/articles/former-man-utd-midfielder-fred-170500457.html",
-      "published_date": "2026-08-13T17:05:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/playmakerstats_articles_264/94d915bc430eeed48b6c71d05e812e2c.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "player transfers"
       ]
     }
   ]
