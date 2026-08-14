@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-14T14:09:43.016291+00:00",
+  "fetchedAt": "2026-08-14T15:42:38.054734+00:00",
   "articles": [
+    {
+      "id": "1052413d79d51754648002d1d599d5db",
+      "title": "Manchester United trio set for return as Michael Carrick names squad for AC Milan",
+      "description": "Red Devils will be without a number of key players against Italian giants",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-squad-ac-milan-rashford-carrick-b1293441.html",
+      "published_date": "2026-08-14T14:40:31",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/14/15/2290322948..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "AC Milan Red Devils",
+        "Michael Carrick"
+      ]
+    },
     {
       "id": "bf7b76e36db1fb7a1eeb18463ae2b30d",
       "title": "Kim Hellberg's message to Middlesbrough players as Radek Vitek arrival sums up competition hope",
@@ -123,20 +137,6 @@
         "pre-season friendly",
         "injury news",
         "sports events"
-      ]
-    },
-    {
-      "id": "00c6382ecc3000a387fc04850ed4120b",
-      "title": "Michael Carrick outlines Man United transfer plans after watching rivals spend big",
-      "description": "Manchester United have added Andrey Santos, Youri Tielemans and Karl Darlow to their ranks this summer",
-      "link": "https://sports.yahoo.com/articles/michael-carrick-wants-more-signings-162407163.html",
-      "published_date": "2026-08-13T17:14:51",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/the_independent_us_sports_articles_270/0c24b268e7cb0c887d998e987ba27c41.jpg",
-      "topics": [
-        "transfer plans",
-        "Manchester United",
-        "sports news"
       ]
     }
   ]
