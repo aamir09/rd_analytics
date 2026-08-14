@@ -1,6 +1,21 @@
 {
-  "fetchedAt": "2026-08-14T01:08:33.286701+00:00",
+  "fetchedAt": "2026-08-14T03:57:07.605563+00:00",
   "articles": [
+    {
+      "id": "22ef532c334917cd16c3bffd9b553f80",
+      "title": "Michael Carrick urges Manchester United to add more players to boost title bid",
+      "description": "Carrick knows United needs more quality and depth if it is to challenge for its first English title since 2013, while also competing in the Champions League.",
+      "link": "https://www.japantimes.co.jp/sports/2026/08/14/soccer/carrick-united-spend-more/",
+      "published_date": "2026-08-14T01:19:00",
+      "source": "Japan Times",
+      "media_url": "https://www.japantimes.co.jp/theme_japantimes/images/no-image.png",
+      "topics": [
+        "football",
+        "Champions League",
+        "Manchester United",
+        "sports competition"
+      ]
+    },
     {
       "id": "3f483992515b82af5fe9a4c193c5c732",
       "title": "Cristiano Ronaldo unveils shock new look just days after marrying Georgina Rodriguez at intimate wedding ceremony",
@@ -122,19 +137,6 @@
         "football contracts",
         "midfielder transfers",
         "Manchester City"
-      ]
-    },
-    {
-      "id": "220ae6130c202100d0118dbdb40fbfa9",
-      "title": "Mikel Arteta refuses to rule out Myles Lewis-Skelly exit after Arsenal offer star to rivals",
-      "description": "Arsenal's Myles Lewis-Skelly has been linked with Manchester United and Chelsea, and Mikel Arteta has refused to rule out a transfer, welcoming speculation around the 19-year-old",
-      "link": "https://sports.yahoo.com/articles/mikel-arteta-refuses-rule-myles-151950042.html",
-      "published_date": "2026-08-13T15:19:50",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/all_out_soccer_276/e8aed41fdb83db4b17191d8df33704de.jpg",
-      "topics": [
-        "sports news",
-        "transfer news"
       ]
     }
   ]
