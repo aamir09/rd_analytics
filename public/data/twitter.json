@@ -1,16 +1,58 @@
 {
-  "fetchedAt": "2026-08-14T09:11:20.548204+00:00",
+  "fetchedAt": "2026-08-14T11:00:17.889437+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2088219093425860893",
+          "created_at": "2026-08-14T11:00:03+00:00",
+          "text": "Don't worry, @HarryMaguire93 – check complete 😉✅ https://t.co/EREw0K3vyG",
+          "views": null,
+          "favorites": 0,
+          "retweets": 0,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2088203990018248812",
+          "created_at": "2026-08-14T10:00:02+00:00",
+          "text": "That new-jersey feeling 💯\n\nExplore our 2026/27 @adidasFootball third-kit collection 👀 https://t.co/d6LS08r9kM https://t.co/w0AxGsmyK1",
+          "views": "123502",
+          "favorites": 3035,
+          "retweets": 302,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2088197270655180865",
+          "created_at": "2026-08-14T09:33:20+00:00",
+          "text": "Manchester United are deeply saddened by the loss of our former goalkeeper, Jimmy Rimmer.\n\nOur thoughts are with Jimmy's loved ones at this difficult time. https://t.co/aAhwoXjjEp",
+          "views": "169345",
+          "favorites": 6469,
+          "retweets": 455,
+          "media_url": "https://pbs.twimg.com/media/HPrDLUQWMAAG1v0.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2088188887801934013",
           "created_at": "2026-08-14T09:00:02+00:00",
           "text": "We're never gonna stop. \n\nIntroducing our 🆕 2026/27 @adidasFootball third jersey ☄️",
-          "views": "65878",
-          "favorites": 1672,
-          "retweets": 206,
+          "views": "216009",
+          "favorites": 7552,
+          "retweets": 747,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,51 +64,9 @@
           "id": "2088173789771346278",
           "created_at": "2026-08-14T08:00:02+00:00",
           "text": "A million reasons, one United ♥️\n\nThis is our 2026/27 @adidasFootball third kit 🔥",
-          "views": "227202",
-          "favorites": 5918,
-          "retweets": 882,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088134521489342862",
-          "created_at": "2026-08-14T05:24:00+00:00",
-          "text": "Best wishes to @AnderHerrera on his birthday 🥰🎈 https://t.co/0Jk0uzdW71",
-          "views": "311187",
-          "favorites": 21220,
-          "retweets": 1295,
-          "media_url": "https://pbs.twimg.com/media/HPmjbOsWIAAhRuT.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088071355287978468",
-          "created_at": "2026-08-14T01:13:00+00:00",
-          "text": "\"He shows an amazing level.\" 📊\n\nNous has been impressed with the new faces in our squad 💪",
-          "views": "282251",
-          "favorites": 4035,
-          "retweets": 225,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2087947539500929366",
-          "created_at": "2026-08-13T17:01:00+00:00",
-          "text": "Attack 🆚 Defence in County Kildare 🔥 https://t.co/2fuUjdcgeK",
-          "views": "405873",
-          "favorites": 6298,
-          "retweets": 354,
+          "views": "383302",
+          "favorites": 8630,
+          "retweets": 1310,
           "media_url": null,
           "author": {
             "name": null,
@@ -80,12 +80,40 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2088212800166326335",
+          "created_at": "2026-08-14T10:35:03+00:00",
+          "text": "🚨 OFFICIAL:\n\nManchester United will wear their 2026/27 third kit for the FIRST time tomorrow against AC Milan! United will also wear it in the opening game of the season against Hull City. #MUFC [MU] https://t.co/OMYnVt7ysy",
+          "views": "16765",
+          "favorites": 422,
+          "retweets": 20,
+          "media_url": "https://pbs.twimg.com/media/HPrSeThWAAAhHu2.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2088204946114007062",
+          "created_at": "2026-08-14T10:03:50+00:00",
+          "text": "How many goals &amp; assists will Bruno Fernandes get in the coming season? 🇵🇹👇 https://t.co/hVN4gtne4j",
+          "views": "41117",
+          "favorites": 289,
+          "retweets": 7,
+          "media_url": "https://pbs.twimg.com/media/HPrLVF0WYAAi66N.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2088176596406374851",
           "created_at": "2026-08-14T08:11:11+00:00",
           "text": "Licha x Cunha x Bruno 😮‍💨🤍 https://t.co/iLad029Bp8",
-          "views": "19008",
-          "favorites": 567,
-          "retweets": 29,
+          "views": "27344",
+          "favorites": 907,
+          "retweets": 47,
           "media_url": "https://pbs.twimg.com/media/HPqxi76WwAA1rB4.jpg",
           "author": {
             "name": null,
@@ -97,9 +125,9 @@
           "id": "2088174386029137983",
           "created_at": "2026-08-14T08:02:24+00:00",
           "text": "🚨🚨 OFFICIAL!!\n\nManchester United release their 2026/27 third kit! #MUFC 🥶 https://t.co/e64msVCV20",
-          "views": "20833",
-          "favorites": 386,
-          "retweets": 28,
+          "views": "34414",
+          "favorites": 680,
+          "retweets": 48,
           "media_url": null,
           "author": {
             "name": null,
@@ -111,38 +139,10 @@
           "id": "2088015145830138025",
           "created_at": "2026-08-13T21:29:38+00:00",
           "text": "🚨 Marcus Rashford via IG:\n\n“First few days back.. 🔴” https://t.co/MhlaT4RJZu",
-          "views": "69218",
-          "favorites": 3184,
-          "retweets": 99,
+          "views": "79449",
+          "favorites": 3429,
+          "retweets": 105,
           "media_url": "https://pbs.twimg.com/media/HPoetR1XQAAPS4P.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088002457636868181",
-          "created_at": "2026-08-13T20:39:13+00:00",
-          "text": "🚨🚨📸 Bruno Fernandes, Matheus Cunha and Amad wearing Manchester United’s 2026/27 third shirt. #MUFC [@ThereseUTD] https://t.co/D9KEj92y62",
-          "views": "60281",
-          "favorites": 2434,
-          "retweets": 88,
-          "media_url": "https://pbs.twimg.com/media/HPoTJtdWsAA7kYP.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2087943059845570609",
-          "created_at": "2026-08-13T16:43:12+00:00",
-          "text": "🚨 Sources close to Manchester United insist there is money available in the final weeks of the transfer window. #MUFC [@RobDawsonESPN] https://t.co/KwXwsYoCmQ",
-          "views": "67649",
-          "favorites": 1873,
-          "retweets": 91,
-          "media_url": "https://pbs.twimg.com/media/HPndJZuWAAA_I_Y.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -162,9 +162,9 @@
           "id": "2087883801884024941",
           "created_at": "2026-08-13T12:47:44+00:00",
           "text": "RT @SuhailChowdhary: Journalists close to Manchester United are suggesting they’re financially restricted in the market…\n\nThat Youri Tielem…",
-          "views": "30878",
+          "views": "30981",
           "favorites": 0,
-          "retweets": 63,
+          "retweets": 61,
           "media_url": null,
           "author": {
             "name": null,
