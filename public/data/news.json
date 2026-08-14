@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-14T05:28:45.874183+00:00",
+  "fetchedAt": "2026-08-14T07:10:32.495322+00:00",
   "articles": [
+    {
+      "id": "081f50fc5f9b5ca46add2037a7a02728",
+      "title": "Man Utd Enquire About Deal to Sign Monaco Star Lamine Camara",
+      "description": "Manchester United are in need of a final midfield addition for Michael Carrick this summer after so far signing Andrey Santos and Youri Tielemans",
+      "link": "https://www.givemesport.com/man-utd-enquire-lamine-camara-transfer-third-midfielder/",
+      "published_date": "2026-08-14T05:15:13",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-caretaker-manager-michael-carrick-celebrates-premier-league-win-over-liverpool-at-old-trafford.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "signings"
+      ]
+    },
     {
       "id": "0421cfd8e410491ef0dabcf53678f7b9",
       "title": "Manchester United’s greatest players: No 3, George Best",
@@ -122,19 +136,6 @@
       "topics": [
         "football",
         "FA Cup"
-      ]
-    },
-    {
-      "id": "c67169c012130db39b92d43bdf3ae89f",
-      "title": "“They really liked him” – Man Utd given golden chance to buy newest member of Amorim’s bomb squad",
-      "description": "Manchester United have a realistic chance at landing AC Milan striker Christopher Nkunku, chiefly thanks to Ruben Amorim.The Frenchman is a Paris Saint-Germain academy product who established himself ...",
-      "link": "https://sports.yahoo.com/articles/really-liked-him-man-utd-170000630.html",
-      "published_date": "2026-08-13T17:00:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/125937f2196cc799aad6998df394279d.jpg",
-      "topics": [
-        "football",
-        "sports news"
       ]
     }
   ]
