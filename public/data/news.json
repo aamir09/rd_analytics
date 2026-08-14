@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-14T08:59:26.825709+00:00",
+  "fetchedAt": "2026-08-14T10:04:25.820878+00:00",
   "articles": [
+    {
+      "id": "62f0c43ef957d23cc0ac0a83da81bcd2",
+      "title": "Jimmy Rimmer dies aged 78 as tributes paid to ex-Man Utd, Arsenal and Aston Villa icon",
+      "description": "Jimmy Rimmer, the two-time European Cup winning goalkeeper, has died at the age of 78 having enjoyed successful spells at Manchester United and Aston Villa",
+      "link": "https://www.mirror.co.uk/sport/football/news/jimmy-rimmer-dies-manutd-astonvilla-37551197",
+      "published_date": "2026-08-14T09:10:14",
+      "source": "The Mirror",
+      "media_url": "https://i2-prod.mirror.co.uk/incoming/article37551161.ece/ALTERNATES/s98/1_Jimmy-Rimmer.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "celebrity news"
+      ]
+    },
     {
       "id": "081f50fc5f9b5ca46add2037a7a02728",
       "title": "Man Utd Enquire About Deal to Sign Monaco Star Lamine Camara",
@@ -123,19 +137,6 @@
         "football",
         "sports news",
         "player transfers"
-      ]
-    },
-    {
-      "id": "9b23a22ed0f7f403dd7b32db76795126",
-      "title": "Key stats before Arsenal face Man City in Community Shield",
-      "description": "On Sunday, the first piece of silverware of the season will be contested for in Cardiff as Premier League champions Arsenal face FA Cup winners Manchester City in the Community Shield.  Only Manchester United (21) have won the Community Shield more often than they have (17, including shared), with the Gunners winning each of their past five.  Arsenal have also won all three matches when competing as reigning Premier League champions (1998, 2002, 2004).",
-      "link": "https://sports.yahoo.com/articles/key-stats-arsenal-face-man-170209882.html",
-      "published_date": "2026-08-13T17:02:09",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/bbc_us_articles_995/6c02b5bbc55b12c4a2ef84280a0ba789.jpg",
-      "topics": [
-        "football",
-        "FA Cup"
       ]
     }
   ]
