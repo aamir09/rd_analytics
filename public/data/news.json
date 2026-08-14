@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-14T17:45:02.171588+00:00",
+  "fetchedAt": "2026-08-14T18:41:18.513385+00:00",
   "articles": [
+    {
+      "id": "2ffd3789da3b0ecd29dcbcb0ab8a0822",
+      "title": "Ben Jacobs: Man Utd Confident of Beating Arsenal to Sign 'Fantastic' Midfield Talent",
+      "description": "Manchester United look to have pulled clear of Arsenal in the race for Louis Page.",
+      "link": "https://www.givemesport.com/jacobs-man-utd-confident-beating-arsenal-to-louis-page-transfer-news/",
+      "published_date": "2026-08-14T18:15:18",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/design-1-2026-08-14t181025-246.png?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "midfield talent",
+        "Manchester United",
+        "Arsenal"
+      ]
+    },
+    {
+      "id": "b9e1d2a0071d35fe9d1c2a11f70725a7",
+      "title": "AC Milan: Former Chelsea stars feature in Ruben Amorim 'bomb squad' ahead of Manchester United reunion",
+      "description": "Ex-Premier League stars among those unwanted by former Man Utd manager",
+      "link": "https://www.standard.co.uk/sport/football/chelsea-fc-ac-milan-amorim-bomb-squad-man-utd-tomori-nkunku-b1293461.html",
+      "published_date": "2026-08-14T17:49:21",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/14/18/2289174759..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "548431904f33a0ee7964016eb4eb6e29",
       "title": "Fabrizio Romano Delivers Wan-Bissaka to Aston Villa Transfer Update",
@@ -110,33 +138,6 @@
         "celebrity news",
         "sports",
         "football"
-      ]
-    },
-    {
-      "id": "10951cfd0f0bfe388b5d7e20d8463fda",
-      "title": "Michael Carrick 'wants more' signings as Manchester United handed new Lewis Hall transfer update",
-      "description": "Red Devils are expected to be busy between now and transfer Deadline Day",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-hall-carrick-b1293344.html",
-      "published_date": "2026-08-13T19:05:53",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/13/19/2290323240..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football transfers",
-        "sports news",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "6f97b46d0b047f2e41a77fd16c5767f0",
-      "title": "Arsenal Coach Gabriel Heinze Recalled Clash With Sir Alex Ferguson",
-      "description": "Arsenal assistant Gabriel Heinze once fell out with Sir Alex Ferguson after pushing to leave Manchester United and join Liverpool.",
-      "link": "https://www.givemesport.com/sir-alex-ferguson-blocked-gabriel-heinze-liverpool-man-utd-move-arsenal/",
-      "published_date": "2026-08-13T18:33:06",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-13-aug-2026-06-35-pm-6075.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news"
       ]
     }
   ]
