@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-15T11:11:21.498372+00:00",
+  "fetchedAt": "2026-08-15T12:19:24.679512+00:00",
   "articles": [
+    {
+      "id": "812ad9a6bb5cc98681a37754bb5ead4e",
+      "title": "Where to watch Man United vs. AC Milan live stream, TV channel, start time for preseason friendly",
+      "description": "Bryan Mbeumo looks to continue his strong preseason for Manchester United as the Red Devils take on Italian giants AC Milan in their final preseason friendly in Poland on Saturday.",
+      "link": "https://www.sportingnews.com/us/soccer/news/watch-man-united-vs-ac-milan-live-stream-tv-channel-time-friendly/507890e29acbf9b1c9e51823",
+      "published_date": "2026-08-15T11:00:02",
+      "source": "Sporting News",
+      "media_url": "https://library.sportingnews.com/styles/thumbnail/s3/2025-11/GettyImages-2245074775.jpg?itok=veQkMtdg",
+      "topics": [
+        "preseason",
+        "sports events",
+        "football"
+      ]
+    },
     {
       "id": "56b78a161c060ad6a6fb9faae2099fd2",
       "title": "Marcus Rashford Handed Ultimate Vindication Before Ruben Amorim Reunion",
@@ -125,20 +139,6 @@
         "football",
         "sports events",
         "sports news"
-      ]
-    },
-    {
-      "id": "62f0c43ef957d23cc0ac0a83da81bcd2",
-      "title": "Jimmy Rimmer dies aged 78 as tributes paid to ex-Man Utd, Arsenal and Aston Villa icon",
-      "description": "Jimmy Rimmer, the two-time European Cup winning goalkeeper, has died at the age of 78 having enjoyed successful spells at Manchester United and Aston Villa",
-      "link": "https://www.mirror.co.uk/sport/football/news/jimmy-rimmer-dies-manutd-astonvilla-37551197",
-      "published_date": "2026-08-14T09:10:14",
-      "source": "The Mirror",
-      "media_url": "https://i2-prod.mirror.co.uk/incoming/article37551161.ece/ALTERNATES/s98/1_Jimmy-Rimmer.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "celebrity news"
       ]
     }
   ]
