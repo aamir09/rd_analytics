@@ -1,30 +1,16 @@
 {
-  "fetchedAt": "2026-08-15T14:26:42.718167+00:00",
+  "fetchedAt": "2026-08-15T16:29:19.506491+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
-          "id": "2088629238580572305",
-          "created_at": "2026-08-15T14:09:49+00:00",
-          "text": "Our boss 🩷 https://t.co/b8K5hcEGKq",
-          "views": "103935",
-          "favorites": 3537,
-          "retweets": 326,
-          "media_url": "https://pbs.twimg.com/media/HPxMnzgXAAEYAnF.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088626538656977223",
-          "created_at": "2026-08-15T13:59:06+00:00",
-          "text": "Checking in ✅",
-          "views": "118640",
-          "favorites": 3400,
-          "retweets": 334,
+          "id": "2088662136276856934",
+          "created_at": "2026-08-15T16:20:33+00:00",
+          "text": "Goal for AC Milan, scored by Ruben Loftus-Cheek.",
+          "views": "132454",
+          "favorites": 1043,
+          "retweets": 111,
           "media_url": null,
           "author": {
             "name": null,
@@ -33,12 +19,12 @@
           }
         },
         {
-          "id": "2088623786014736623",
-          "created_at": "2026-08-15T13:48:09+00:00",
-          "text": "We're live on MUTV ahead of United 🆚 AC Milan in Wroclaw, where we're joined by Tomasz Kuszczak! 🇵🇱🧤\nhttps://t.co/e7ICGRYfZO",
-          "views": "159175",
-          "favorites": 2440,
-          "retweets": 287,
+          "id": "2088661295507616185",
+          "created_at": "2026-08-15T16:17:12+00:00",
+          "text": "Goncalo Ramos heads home for AC Milan, 2-3.",
+          "views": "126484",
+          "favorites": 798,
+          "retweets": 93,
           "media_url": null,
           "author": {
             "name": null,
@@ -47,13 +33,13 @@
           }
         },
         {
-          "id": "2088620725754093699",
-          "created_at": "2026-08-15T13:36:00+00:00",
-          "text": "⚫️ Home\n⚫️ Away\n🔘 Third\n\nℹ️ Squad numbers worn in pre-season are provisional and yet to be finalised.",
-          "views": "216429",
-          "favorites": 3620,
-          "retweets": 391,
-          "media_url": null,
+          "id": "2088660630697906519",
+          "created_at": "2026-08-15T16:14:34+00:00",
+          "text": "🔙 https://t.co/JZha6SrFTZ",
+          "views": "138854",
+          "favorites": 3358,
+          "retweets": 444,
+          "media_url": "https://pbs.twimg.com/media/HPxpoirXYAA1Zfr.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -61,13 +47,27 @@
           }
         },
         {
-          "id": "2088604367532577010",
-          "created_at": "2026-08-15T12:31:00+00:00",
-          "text": "In memory of Franco Baresi 🇮🇹♾️ https://t.co/ULAJRjxDvE",
-          "views": "261840",
-          "favorites": 14665,
-          "retweets": 929,
-          "media_url": "https://pbs.twimg.com/media/HPw1uYmXwAAJZbL.jpg",
+          "id": "2088659661696233738",
+          "created_at": "2026-08-15T16:10:43+00:00",
+          "text": "🔄 Michael makes six changes on the hour mark... https://t.co/8p34dEdQeo",
+          "views": "120764",
+          "favorites": 1051,
+          "retweets": 112,
+          "media_url": "https://pbs.twimg.com/media/HPxot_rXUAA49Dv.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2088658607151722992",
+          "created_at": "2026-08-15T16:06:32+00:00",
+          "text": "AC Milan equalise for a second time through Alphadjo Cisse – it's now 2-2.",
+          "views": "142919",
+          "favorites": 748,
+          "retweets": 72,
+          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -80,13 +80,13 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
-          "id": "2088629747395788971",
-          "created_at": "2026-08-15T14:11:51+00:00",
-          "text": "🚨 Jason Wilcox and Ruben Amorim have had a CHAT in the tunnel at the Tarczyński Arena. #MUFC [@TyMarshall_MEN] https://t.co/SzdsKmXVIE",
-          "views": "20554",
-          "favorites": 394,
-          "retweets": 21,
-          "media_url": "https://pbs.twimg.com/media/HPxNr1zXsAAVpEN.jpg",
+          "id": "2088662027258474754",
+          "created_at": "2026-08-15T16:20:07+00:00",
+          "text": "AC Milan score again. 4-2.",
+          "views": "17764",
+          "favorites": 71,
+          "retweets": 1,
+          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -94,13 +94,13 @@
           }
         },
         {
-          "id": "2088629003779277021",
-          "created_at": "2026-08-15T14:08:54+00:00",
-          "text": "Marcus Rashford and Kobbie Mainoo ARRIVE at the Tarczyński Arena 💫 https://t.co/f2qYsGv0eH",
-          "views": "13721",
-          "favorites": 397,
-          "retweets": 14,
-          "media_url": "https://pbs.twimg.com/media/HPxNAlsWUAAwOBG.jpg",
+          "id": "2088661234375659826",
+          "created_at": "2026-08-15T16:16:58+00:00",
+          "text": "AC Milan score. 3-2.",
+          "views": "22761",
+          "favorites": 158,
+          "retweets": 2,
+          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -108,13 +108,13 @@
           }
         },
         {
-          "id": "2088624945140002846",
-          "created_at": "2026-08-15T13:52:46+00:00",
-          "text": "🚨 Marcus Rashford will have the No.9 shirt for Manchester United against AC Milan today, but squad numbers worn in pre-season are provisional and yet to be finalised. #MUFC [MU] https://t.co/s7FxUORw2c",
-          "views": "32090",
-          "favorites": 532,
-          "retweets": 29,
-          "media_url": "https://pbs.twimg.com/media/HPxJUV5XAAA2LkH.jpg",
+          "id": "2088659810874982769",
+          "created_at": "2026-08-15T16:11:18+00:00",
+          "text": "Marcus Rashford is subbed ON 📸 https://t.co/ZLwigizK8u",
+          "views": "20780",
+          "favorites": 372,
+          "retweets": 8,
+          "media_url": "https://pbs.twimg.com/media/HPxpBxlWkAEDEsf.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -122,13 +122,13 @@
           }
         },
         {
-          "id": "2088619949124108714",
-          "created_at": "2026-08-15T13:32:55+00:00",
-          "text": "🚨🚨 BREAKING!!\n\nManchester United lineup vs AC Milan! 🔴 https://t.co/uEnEowU7rS",
-          "views": "124742",
-          "favorites": 4129,
-          "retweets": 240,
-          "media_url": "https://pbs.twimg.com/media/HPxExflWAAAe_SM.jpg",
+          "id": "2088658977622049171",
+          "created_at": "2026-08-15T16:08:00+00:00",
+          "text": "AC Milan score. 2-2.",
+          "views": "17410",
+          "favorites": 44,
+          "retweets": 0,
+          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -136,13 +136,13 @@
           }
         },
         {
-          "id": "2088261853780627753",
-          "created_at": "2026-08-14T13:49:58+00:00",
-          "text": "🚨🚨 OFFICIAL: Manchester United’s travelling squad to face AC Milan tomorrow:\n\nDermot Mee, Fred Heath, Senne Lammens.\n\nAyden Heaven, Diogo Dalot, Harry Amass, Harry Maguire, Leny Yoro, Lisandro Martínez, Luke Shaw, Noussair Mazraoui, Patrick Dorgu. \n\nAndrey Santos, Bruno Fernandes, Jack Fletcher, Kobbie Mainoo, Toby Collyer, Tyler Fletcher, Youri Tielemans.  \n\nAmad, Bryan Mbeumo, JJ Gabriel, Joshua Zirkzee, Marcus Rashford, Matheus Cunha, Shea Lacey.\n\n#MUFC [MU]",
-          "views": "83157",
-          "favorites": 1848,
-          "retweets": 94,
-          "media_url": "https://pbs.twimg.com/media/HPr_FVnWgAEVwIh.jpg",
+          "id": "2088657410948841682",
+          "created_at": "2026-08-15T16:01:46+00:00",
+          "text": "DORGUUUUU!!!!! 2-1 TO UNITED!!!! 🇩🇰❤️",
+          "views": "19332",
+          "favorites": 111,
+          "retweets": 4,
+          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -153,7 +153,22 @@
     },
     {
       "screen_name": "FabrizioRomano",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2088662654109819268",
+          "created_at": "2026-08-15T16:22:36+00:00",
+          "text": "🚨🔴 Marcus Rashford has made his official comeback at Manchester United after loan at Barcelona last season. https://t.co/egNT43bBCH",
+          "views": "445304",
+          "favorites": 5851,
+          "retweets": 350,
+          "media_url": "https://pbs.twimg.com/media/HPxrm87XIAATbyZ.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        }
+      ]
     },
     {
       "screen_name": "indykaila",
@@ -162,7 +177,7 @@
           "id": "2087883801884024941",
           "created_at": "2026-08-13T12:47:44+00:00",
           "text": "RT @SuhailChowdhary: Journalists close to Manchester United are suggesting they’re financially restricted in the market…\n\nThat Youri Tielem…",
-          "views": "31568",
+          "views": "31596",
           "favorites": 0,
           "retweets": 61,
           "media_url": null,
