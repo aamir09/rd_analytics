@@ -8,7 +8,8 @@ import type {
 } from '../types';
 import { STAT_REGISTRY, STAT_BY_KEY, STAT_CATEGORIES } from '../data/statRegistry';
 import { parsePositionCategory } from '../utils/positionMapper';
-import { Search, ArrowLeftRight, Download, BarChart3, PieChart, ScatterChart, Grid3X3 } from 'lucide-react';
+import { Search, ArrowLeftRight, Download, BarChart3, PieChart, ScatterChart, Grid3X3, Bot, Flame, Trophy, Sparkles } from 'lucide-react';
+import { findMatchingPlayer } from '../services/nlpEngine';
 
 import SeasonToggle from '../components/ui/SeasonToggle';
 import StatPicker from '../components/ui/StatPicker';
@@ -17,6 +18,8 @@ import PizzaChart from '../components/charts/PizzaChart';
 import BeeswarmPlot from '../components/charts/BeeswarmPlot';
 import ScatterPlotChart from '../components/charts/ScatterPlot';
 import ZScoreHeatmap from '../components/charts/ZScoreHeatmap';
+import NLPCompareAssistant from '../components/ui/NLPCompareAssistant';
+import ErrorBoundary from '../components/ui/ErrorBoundary';
 
 // ═══════════════════════════════════════════════════════════════
 // Existing FotMob comparison stats (unchanged)
@@ -47,14 +50,17 @@ const COMPARE_STATS: { key: string; label: string }[] = [
   { key: 'redCards',                    label: 'Red Cards' },
 ];
 
-type CompareMode = 'united' | 'league' | 'analytics';
+type CompareMode = 'ai' | 'united' | 'league' | 'analytics';
 type VizType = 'pizza' | 'beeswarm' | 'scatter' | 'heatmap';
 
-const MODE_TABS: { key: CompareMode; label: string; icon: string; desc: string }[] = [
-  { key: 'united',    label: 'United Squad',    icon: '🔴', desc: 'Head-to-head between Man Utd players' },
-  { key: 'league',    label: 'vs League',       icon: '⚽', desc: 'Compare a United player against any EPL player' },
-  { key: 'analytics', label: 'League Analytics', icon: '📊', desc: 'League-wide visualizations and insights' },
+const MODE_TABS: { key: CompareMode; label: string; Icon: any; desc: string }[] = [
+  { key: 'ai',        label: 'AI Copilot',      Icon: Bot,        desc: 'Multi-Agent player query engine with Gemini & Mistral' },
+  { key: 'united',    label: 'United Squad',    Icon: Flame,      desc: 'Head-to-head between Man Utd players' },
+  { key: 'league',    label: 'vs League',       Icon: Trophy,     desc: 'Compare a United player against any EPL player' },
+  { key: 'analytics', label: 'League Analytics', Icon: BarChart3,  desc: 'League-wide visualizations and insights' },
 ];
+
+
 
 const VIZ_OPTIONS: { key: VizType; label: string; Icon: typeof PieChart; desc: string }[] = [
   { key: 'pizza',    label: 'Pizza Chart',   Icon: PieChart,     desc: 'Percentile profile' },
@@ -160,7 +166,7 @@ export default function Compare() {
 
   // ── State ──
   const [season, setSeason] = useState<'2526' | '2627'>('2526');
-  const [mode, setMode] = useState<CompareMode>('united');
+  const [mode, setMode] = useState<CompareMode>('ai');
   const [vizType, setVizType] = useState<VizType>('pizza');
   const [selectedStats, setSelectedStats] = useState<string[]>(['goals', 'expectedGoals', 'assists', 'keyPasses', 'tackles', 'interceptions']);
 
@@ -171,6 +177,8 @@ export default function Compare() {
   // League comparison state
   const [leaguePlayerA, setLeaguePlayerA] = useState<SofaScorePlayer | null>(null);
   const [leaguePlayerB, setLeaguePlayerB] = useState<SofaScorePlayer | null>(null);
+  const [leaguePlayerC, setLeaguePlayerC] = useState<SofaScorePlayer | null>(null);
+  const [leaguePlayerD, setLeaguePlayerD] = useState<SofaScorePlayer | null>(null);
 
   // Beeswarm metric picker
   const [beeswarmMetric, setBeeswarmMetric] = useState('goals');
@@ -223,10 +231,42 @@ export default function Compare() {
     return sofaData.filter(p => p.statistics && (p.statistics.minutesPlayed ?? 0) > 0);
   }, [sofaData]);
 
+  // Sync AI chart config to UI states
+  const handleApplyChartConfig = (config: any) => {
+    if (!config) return;
+    if (config.vizType) setVizType(config.vizType);
+    if (config.playerA && sofaPlayers.length > 0) {
+      const pA = findMatchingPlayer(config.playerA, sofaPlayers);
+      if (pA) setLeaguePlayerA(pA);
+    }
+    if (config.playerB && sofaPlayers.length > 0) {
+      const pB = findMatchingPlayer(config.playerB, sofaPlayers);
+      if (pB) setLeaguePlayerB(pB);
+    } else if (config.playerB === null) {
+      setLeaguePlayerB(null);
+    }
+    if (config.playerC && sofaPlayers.length > 0) {
+      const pC = findMatchingPlayer(config.playerC, sofaPlayers);
+      if (pC) setLeaguePlayerC(pC);
+    } else if (config.playerC === null || !config.playerC) {
+      setLeaguePlayerC(null);
+    }
+    if (config.playerD && sofaPlayers.length > 0) {
+      const pD = findMatchingPlayer(config.playerD, sofaPlayers);
+      if (pD) setLeaguePlayerD(pD);
+    } else if (config.playerD === null || !config.playerD) {
+      setLeaguePlayerD(null);
+    }
+    if (config.xMetric) setScatterX(config.xMetric);
+    if (config.yMetric) setScatterY(config.yMetric);
+    if (config.selectedStats && Array.isArray(config.selectedStats)) {
+      setSelectedStats(config.selectedStats);
+    }
+  };
+
   // Metric dropdown for beeswarm
   const availableMetrics = useMemo(() => {
     return STAT_REGISTRY.filter(s => {
-      // Check if at least some players have this stat
       if (sofaPlayers.length === 0) return true;
       const count = sofaPlayers.filter(p => {
         const v = (p.statistics as Record<string, unknown>)?.[s.key];
@@ -237,7 +277,8 @@ export default function Compare() {
   }, [sofaPlayers]);
 
   return (
-    <div className="page-wrapper">
+    <ErrorBoundary fallbackTitle="Player Comparison Engine Error">
+      <div className="page-wrapper">
       <div className="container">
         {/* ── Header ── */}
         <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px' }}>
@@ -245,7 +286,7 @@ export default function Compare() {
             <div className="accent-bar" />
             <h1 className="text-heading">Player Comparison</h1>
             <p style={{ color: 'var(--color-text-muted)', marginTop: '6px', fontSize: '0.85rem' }}>
-              Advanced analytics powered by SofaScore & FotMob data
+              Advanced analytics powered by AI Tool Calling, SofaScore & FotMob data
             </p>
           </div>
           <SeasonToggle season={season} onChange={setSeason} />
@@ -268,15 +309,96 @@ export default function Compare() {
                   background: active ? 'white' : 'transparent',
                   boxShadow: active ? 'var(--shadow-sm)' : 'none',
                   color: active ? 'var(--color-text)' : 'var(--color-text-muted)',
+                  display: 'flex', flexDirection: 'column', alignItems: 'center'
                 }}
               >
-                <div style={{ fontSize: '1rem', marginBottom: '2px' }}>{tab.icon}</div>
+                <tab.Icon size={18} style={{ marginBottom: '2px', color: active ? 'var(--color-primary)' : 'var(--color-text-muted)' }} />
                 <div style={{ fontSize: '0.78rem', fontWeight: 700 }}>{tab.label}</div>
                 <div style={{ fontSize: '0.62rem', color: 'var(--color-text-light)', marginTop: '2px' }}>{tab.desc}</div>
               </button>
             );
           })}
         </div>
+
+        {/* ═══════════════════════════════════════════════════════ */}
+        {/* TAB: AI Copilot (Natural Language NLP Tool-calling)    */}
+        {/* ═══════════════════════════════════════════════════════ */}
+        {mode === 'ai' && (
+          <>
+            {sofaLoading ? (
+              <div className="card" style={{ padding: '48px', textAlign: 'center', color: 'var(--color-text-muted)' }}>
+                <div className="spinner" style={{ margin: '0 auto 12px' }} />
+                Loading Premier League player statistics dataset…
+              </div>
+            ) : (
+              <ErrorBoundary fallbackTitle="AI Analytics Copilot Error">
+                <NLPCompareAssistant
+                  allPlayers={sofaPlayers}
+                  onApplyChartConfig={handleApplyChartConfig}
+                />
+
+                {leaguePlayerA && (
+                  <div className="card fade-in" style={{ padding: '20px', position: 'relative' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+                      <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                        AI Synchronized Chart ({vizType ? vizType.toUpperCase() : 'PIZZA'}) · {[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean).map(p => p!.player_name).join(' vs ')}
+                      </div>
+                      <button
+                        onClick={() => downloadChart(chartRef.current, `rd-analytics-${vizType}`)}
+                        style={{
+                          display: 'flex', alignItems: 'center', gap: '4px',
+                          padding: '6px 12px', borderRadius: '8px',
+                          border: '1px solid var(--color-border)',
+                          background: 'white', cursor: 'pointer',
+                          fontSize: '0.72rem', fontWeight: 600, color: 'var(--color-text-muted)',
+                          transition: 'all 0.15s',
+                        }}
+                        onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--color-primary)'; e.currentTarget.style.color = 'var(--color-primary)'; }}
+                        onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--color-border)'; e.currentTarget.style.color = 'var(--color-text-muted)'; }}
+                      >
+                        <Download size={12} /> Download
+                      </button>
+                    </div>
+                    <div ref={chartRef}>
+                      <ErrorBoundary fallbackTitle="Chart Visualization Error">
+                        {vizType === 'pizza' && (
+                          <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <PizzaChart
+                              players={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
+                              allPlayers={sofaPlayers}
+                              selectedStats={selectedStats}
+                            />
+                          </div>
+                        )}
+                        {vizType === 'beeswarm' && (
+                          <BeeswarmPlot
+                            metric={beeswarmMetric}
+                            highlightPlayer={leaguePlayerA}
+                            allPlayers={sofaPlayers}
+                          />
+                        )}
+                        {vizType === 'scatter' && (
+                          <ScatterPlotChart
+                            xMetric={scatterX}
+                            yMetric={scatterY}
+                            allPlayers={sofaPlayers}
+                          />
+                        )}
+                        {vizType === 'heatmap' && (
+                          <ZScoreHeatmap
+                            selectedStats={selectedStats}
+                            allPlayers={sofaPlayers}
+                          />
+                        )}
+                      </ErrorBoundary>
+                    </div>
+                  </div>
+                )}
+              </ErrorBoundary>
+            )}
+          </>
+        )}
+
 
         {/* ═══════════════════════════════════════════════════════ */}
         {/* TAB: United Squad (existing FotMob comparison)         */}
@@ -494,8 +616,7 @@ export default function Compare() {
                       {vizType === 'pizza' && (
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                           <PizzaChart
-                            player={leaguePlayerA}
-                            comparePlayer={leaguePlayerB}
+                            players={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                             allPlayers={sofaPlayers}
                             selectedStats={selectedStats}
                           />
@@ -619,15 +740,27 @@ export default function Compare() {
                   {vizType === 'pizza' && (
                     <div style={{ marginTop: '12px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
                       <LeaguePlayerPicker
-                        label="Primary Player"
+                        label="Player 1 (Primary)"
                         selected={leaguePlayerA}
                         onSelect={setLeaguePlayerA}
                         players={sofaPlayers}
                       />
                       <LeaguePlayerPicker
-                        label="Compare (optional)"
+                        label="Player 2 (Compare)"
                         selected={leaguePlayerB}
                         onSelect={setLeaguePlayerB}
+                        players={sofaPlayers}
+                      />
+                      <LeaguePlayerPicker
+                        label="Player 3 (optional)"
+                        selected={leaguePlayerC}
+                        onSelect={setLeaguePlayerC}
+                        players={sofaPlayers}
+                      />
+                      <LeaguePlayerPicker
+                        label="Player 4 (optional)"
+                        selected={leaguePlayerD}
+                        onSelect={setLeaguePlayerD}
                         players={sofaPlayers}
                       />
                     </div>
@@ -698,8 +831,7 @@ export default function Compare() {
                     {vizType === 'pizza' && leaguePlayerA && (
                       <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <PizzaChart
-                          player={leaguePlayerA}
-                          comparePlayer={leaguePlayerB}
+                          players={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                           allPlayers={sofaPlayers}
                           selectedStats={selectedStats}
                         />
@@ -718,5 +850,6 @@ export default function Compare() {
         )}
       </div>
     </div>
+    </ErrorBoundary>
   );
 }
