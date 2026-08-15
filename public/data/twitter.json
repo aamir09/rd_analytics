@@ -1,16 +1,58 @@
 {
-  "fetchedAt": "2026-08-15T08:33:18.937691+00:00",
+  "fetchedAt": "2026-08-15T10:26:51.249537+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2088566373332955159",
+          "created_at": "2026-08-15T10:00:01+00:00",
+          "text": "🔱 It's all in the  ̶d̶e̶t̶a̶i̶l̶ devil 🔍\n\n🤳 @Snapdragon x #ShotOnSnapdragon",
+          "views": "85703",
+          "favorites": 1470,
+          "retweets": 142,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2088558062235746644",
+          "created_at": "2026-08-15T09:27:00+00:00",
+          "text": "United in Poland 📍🇵🇱 https://t.co/tdy9OfhKyT",
+          "views": "154104",
+          "favorites": 3885,
+          "retweets": 437,
+          "media_url": "https://pbs.twimg.com/media/HPsIXjoXYAEnL_m.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2088551269594222688",
+          "created_at": "2026-08-15T09:00:00+00:00",
+          "text": "Embracing our heritage. Celebrating our future 💫",
+          "views": "136701",
+          "favorites": 3520,
+          "retweets": 272,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2088534657839353930",
           "created_at": "2026-08-15T07:54:00+00:00",
           "text": "⏪ Previously on #MUTOUR26 🔥\n\nBryan 🤝 Josh https://t.co/i36FP5lBej",
-          "views": "92586",
-          "favorites": 1925,
-          "retweets": 171,
+          "views": "209842",
+          "favorites": 4948,
+          "retweets": 339,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,51 +64,9 @@
           "id": "2088515783588499846",
           "created_at": "2026-08-15T06:39:00+00:00",
           "text": "Our final matchday of pre-season has arrived... \n\nBring it on! 👊🔥",
-          "views": "225743",
-          "favorites": 9633,
-          "retweets": 1153,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088354975936106681",
-          "created_at": "2026-08-14T20:00:00+00:00",
-          "text": "Adding the #UCL badge to this shirt ASAP ✨ https://t.co/YyQjwb5HYm",
-          "views": "594261",
-          "favorites": 32849,
-          "retweets": 2231,
-          "media_url": "https://pbs.twimg.com/media/HPr0lNvXUAAo1OL.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088332994285031603",
-          "created_at": "2026-08-14T18:32:39+00:00",
-          "text": "Touchdown in Poland ahead of AC Milan tomorrow 👊🛬 https://t.co/WZ0wvDzgeO",
-          "views": "543647",
-          "favorites": 18374,
-          "retweets": 1247,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088324779644187020",
-          "created_at": "2026-08-14T18:00:01+00:00",
-          "text": "Wroclaw: we have landed 🇵🇱",
-          "views": "575585",
-          "favorites": 13464,
-          "retweets": 825,
+          "views": "414180",
+          "favorites": 14730,
+          "retweets": 1738,
           "media_url": null,
           "author": {
             "name": null,
@@ -83,9 +83,9 @@
           "id": "2088261853780627753",
           "created_at": "2026-08-14T13:49:58+00:00",
           "text": "🚨🚨 OFFICIAL: Manchester United’s travelling squad to face AC Milan tomorrow:\n\nDermot Mee, Fred Heath, Senne Lammens.\n\nAyden Heaven, Diogo Dalot, Harry Amass, Harry Maguire, Leny Yoro, Lisandro Martínez, Luke Shaw, Noussair Mazraoui, Patrick Dorgu. \n\nAndrey Santos, Bruno Fernandes, Jack Fletcher, Kobbie Mainoo, Toby Collyer, Tyler Fletcher, Youri Tielemans.  \n\nAmad, Bryan Mbeumo, JJ Gabriel, Joshua Zirkzee, Marcus Rashford, Matheus Cunha, Shea Lacey.\n\n#MUFC [MU]",
-          "views": "74991",
-          "favorites": 1697,
-          "retweets": 84,
+          "views": "77076",
+          "favorites": 1735,
+          "retweets": 85,
           "media_url": "https://pbs.twimg.com/media/HPr_FVnWgAEVwIh.jpg",
           "author": {
             "name": null,
@@ -97,9 +97,9 @@
           "id": "2088248367574896836",
           "created_at": "2026-08-14T12:56:23+00:00",
           "text": "JJ Gabriel via IG 💫 https://t.co/1wBINgh2Bd",
-          "views": "44319",
-          "favorites": 2847,
-          "retweets": 69,
+          "views": "45385",
+          "favorites": 2948,
+          "retweets": 70,
           "media_url": "https://pbs.twimg.com/media/HPry0iBX0AAGPbz.jpg",
           "author": {
             "name": null,
@@ -111,9 +111,9 @@
           "id": "2088212800166326335",
           "created_at": "2026-08-14T10:35:03+00:00",
           "text": "🚨 OFFICIAL:\n\nManchester United will wear their 2026/27 third kit for the FIRST time tomorrow against AC Milan! United will also wear it in the opening game of the season against Hull City. #MUFC [MU] https://t.co/OMYnVt7ysy",
-          "views": "345409",
-          "favorites": 3264,
-          "retweets": 126,
+          "views": "350185",
+          "favorites": 3338,
+          "retweets": 129,
           "media_url": "https://pbs.twimg.com/media/HPrSeThWAAAhHu2.jpg",
           "author": {
             "name": null,
@@ -125,8 +125,8 @@
           "id": "2088204946114007062",
           "created_at": "2026-08-14T10:03:50+00:00",
           "text": "How many goals &amp; assists will Bruno Fernandes get in the coming season? 🇵🇹👇 https://t.co/hVN4gtne4j",
-          "views": "70602",
-          "favorites": 460,
+          "views": "71042",
+          "favorites": 469,
           "retweets": 16,
           "media_url": "https://pbs.twimg.com/media/HPrLVF0WYAAi66N.jpg",
           "author": {
@@ -139,8 +139,8 @@
           "id": "2088176596406374851",
           "created_at": "2026-08-14T08:11:11+00:00",
           "text": "Licha x Cunha x Bruno 😮‍💨🤍 https://t.co/iLad029Bp8",
-          "views": "36305",
-          "favorites": 1209,
+          "views": "36514",
+          "favorites": 1216,
           "retweets": 57,
           "media_url": "https://pbs.twimg.com/media/HPqxi76WwAA1rB4.jpg",
           "author": {
@@ -162,7 +162,7 @@
           "id": "2087883801884024941",
           "created_at": "2026-08-13T12:47:44+00:00",
           "text": "RT @SuhailChowdhary: Journalists close to Manchester United are suggesting they’re financially restricted in the market…\n\nThat Youri Tielem…",
-          "views": "31493",
+          "views": "31508",
           "favorites": 0,
           "retweets": 61,
           "media_url": null,
