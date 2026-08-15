@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-15T14:13:42.595821+00:00",
+  "fetchedAt": "2026-08-15T15:11:31.376434+00:00",
   "articles": [
+    {
+      "id": "2ed20cdcfdaeb15581901b454bf870ce",
+      "title": "Man United vs. AC MIlan live score, result, highlights from 2026 friendly match",
+      "description": "Ruben Amorim will have a reunion with Manchester United in Saturday's friendly match, where Marcus Rashford is expected to make his Red Devils return.",
+      "link": "https://www.sportingnews.com/us/soccer/manchester-united/news/man-united-vs-ac-milan-live-score-result-highlights/79d2e1d33a9e3a16f538fbe9",
+      "published_date": "2026-08-15T13:57:00",
+      "source": "Sporting News",
+      "media_url": "https://library.sportingnews.com/styles/thumbnail/s3/2026-08/Ruben%20Amorim%20%20AC%20Milan%20080726%20IMAGN%20%E3%82%A2%E3%83%A2%E3%83%AA%E3%83%A0%20%E3%83%9F%E3%83%A9%E3%83%B3%20.JPG?itok=pfZLiYRQ",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "0a8efb570e1d4dca1ea378f8cb5f2c1e",
       "title": "Manchester United XI vs AC Milan: Starting lineup, confirmed team news, injury latest for friendly today",
@@ -125,20 +138,6 @@
       "topics": [
         "football",
         "pre-season friendly",
-        "sports news"
-      ]
-    },
-    {
-      "id": "f691fbf557f904517e4a33938670f4f7",
-      "title": "How to watch Manchester United vs. Milan online for free",
-      "description": "Watch live football for free. How to watch Manchester United vs. Milan in a 2026 pre-season friendly for free.",
-      "link": "https://mashable.com/entertainment/manchester-united-milan-pre-season-friendly-2026-live-stream-for-free",
-      "published_date": "2026-08-15T04:00:00",
-      "source": "Mashable",
-      "media_url": "https://helios-i.mashable.com/imagery/articles/06XFKoaCzTUghlIjHWOT3ou/hero-image.jpg",
-      "topics": [
-        "football",
-        "pre-season games",
         "sports news"
       ]
     }
