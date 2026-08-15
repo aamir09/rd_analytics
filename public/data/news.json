@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-15T12:19:24.679512+00:00",
+  "fetchedAt": "2026-08-15T13:23:18.399458+00:00",
   "articles": [
+    {
+      "id": "957652c68f0707ed9bfb47314df1e5d6",
+      "title": "Manchester United vs AC Milan LIVE: Match stream, latest team news, lineups, TV, prediction",
+      "description": "Marcus Rashford set to return as Ruben Amorim faces former club in Poland",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-vs-ac-milan-live-stream-latest-score-updates-result-b1293457.html",
+      "published_date": "2026-08-15T12:55:34",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/15/13/2217314271..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "812ad9a6bb5cc98681a37754bb5ead4e",
       "title": "Where to watch Man United vs. AC Milan live stream, TV channel, start time for preseason friendly",
@@ -125,20 +138,6 @@
         "football",
         "AC Milan Red Devils",
         "Michael Carrick"
-      ]
-    },
-    {
-      "id": "bf7b76e36db1fb7a1eeb18463ae2b30d",
-      "title": "Kim Hellberg's message to Middlesbrough players as Radek Vitek arrival sums up competition hope",
-      "description": "Radek Vitek joins from Manchester United to challenge Sol Brynn for the number one spot",
-      "link": "https://www.gazettelive.co.uk/sport/football/transfer-news/kim-hellbergs-message-middlesbrough-players-34456430",
-      "published_date": "2026-08-14T11:00:00",
-      "source": "Teesside Live",
-      "media_url": "https://i2-prod.manchestereveningnews.co.uk/sport/football/article34404811.ece/ALTERNATES/s98/1_GettyImages-2288305974.jpg",
-      "topics": [
-        "football",
-        "sports events",
-        "sports news"
       ]
     }
   ]
