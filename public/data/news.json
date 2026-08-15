@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-15T09:17:16.557671+00:00",
+  "fetchedAt": "2026-08-15T10:13:35.572645+00:00",
   "articles": [
+    {
+      "id": "56b78a161c060ad6a6fb9faae2099fd2",
+      "title": "Marcus Rashford Handed Ultimate Vindication Before Ruben Amorim Reunion",
+      "description": "Rashford’s new Manchester United teammate Youri Tielemans delivered a firm rebuttal of the complaints Amorim had about the England international.",
+      "link": "https://www.si.com/soccer/marcus-rashford-ultimate-vindication-ruben-amorim-reunion?utm_source=RSS",
+      "published_date": "2026-08-15T09:45:00",
+      "source": "Sports Illustrated",
+      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2315,h_1302,x_0,y_42/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m02b8gd6xjgavqqv5m.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "team dynamics"
+      ]
+    },
     {
       "id": "035bd5608d1f85c8e37783b4b8c3581f",
       "title": "Manchester United XI vs AC Milan: Predicted lineup, confirmed team news, injury latest for friendly today",
@@ -125,20 +139,6 @@
         "football",
         "sports news",
         "celebrity news"
-      ]
-    },
-    {
-      "id": "081f50fc5f9b5ca46add2037a7a02728",
-      "title": "Man Utd Enquire About Deal to Sign Monaco Star Lamine Camara",
-      "description": "Manchester United are in need of a final midfield addition for Michael Carrick this summer after so far signing Andrey Santos and Youri Tielemans",
-      "link": "https://www.givemesport.com/man-utd-enquire-lamine-camara-transfer-third-midfielder/",
-      "published_date": "2026-08-14T05:15:13",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-caretaker-manager-michael-carrick-celebrates-premier-league-win-over-liverpool-at-old-trafford.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news",
-        "signings"
       ]
     }
   ]
