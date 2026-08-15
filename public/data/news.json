@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-15T04:21:01.077373+00:00",
+  "fetchedAt": "2026-08-15T05:17:20.100531+00:00",
   "articles": [
+    {
+      "id": "f691fbf557f904517e4a33938670f4f7",
+      "title": "How to watch Manchester United vs. Milan online for free",
+      "description": "Watch live football for free. How to watch Manchester United vs. Milan in a 2026 pre-season friendly for free.",
+      "link": "https://mashable.com/entertainment/manchester-united-milan-pre-season-friendly-2026-live-stream-for-free",
+      "published_date": "2026-08-15T04:00:00",
+      "source": "Mashable",
+      "media_url": "https://helios-i.mashable.com/imagery/articles/06XFKoaCzTUghlIjHWOT3ou/hero-image.jpg",
+      "topics": [
+        "football",
+        "pre-season games",
+        "sports news"
+      ]
+    },
     {
       "id": "2ffd3789da3b0ecd29dcbcb0ab8a0822",
       "title": "Ben Jacobs: Man Utd Confident of Beating Arsenal to Sign 'Fantastic' Midfield Talent",
@@ -124,20 +138,6 @@
         "Champions League",
         "Manchester United",
         "sports competition"
-      ]
-    },
-    {
-      "id": "3f483992515b82af5fe9a4c193c5c732",
-      "title": "Cristiano Ronaldo unveils shock new look just days after marrying Georgina Rodriguez at intimate wedding ceremony",
-      "description": "The 41-year-old has been remarkably consistent with his look down the years but, with his fresh trim, it would now be hard to tell him apart from his old Manchester United team-mate Paul Scholes.",
-      "link": "https://www.dailymail.com/sport/football/article-16050829/cristiano-ronaldo-new-look-georgina-rodriguez-wedding.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "published_date": "2026-08-13T19:18:39",
-      "source": "Daily Mail",
-      "media_url": "https://i.dailymail.com/1s/2026/08/13/19/110622791-0-image-m-26_1786647456011.jpg",
-      "topics": [
-        "celebrity news",
-        "sports",
-        "football"
       ]
     }
   ]
