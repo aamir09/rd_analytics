@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-15T20:12:37.943194+00:00",
+  "fetchedAt": "2026-08-15T21:12:32.069086+00:00",
   "articles": [
+    {
+      "id": "237caa60f672cbc7383e299ac4a76146",
+      "title": "Michael Carrick issues verdict on Manchester United pre-season after galling Milan loss: 'No excuses'",
+      "description": "Red Devils boss looking for the silver linings after losing to Ruben Amorim’s Rossoneri",
+      "link": "https://www.standard.co.uk/sport/football/carrick-man-utd-rallying-cry-ac-milan-b1293540.html",
+      "published_date": "2026-08-15T20:31:13",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/15/21/2290294055..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "pre-season",
+        "sports news"
+      ]
+    },
     {
       "id": "cea9fe07b083e672f45d9343c999b112",
       "title": "Man Utd 2-4 AC Milan: ‘Woeful’ Luke Shaw Torn Apart by Angry Fans",
@@ -125,20 +139,6 @@
         "preseason",
         "sports events",
         "football"
-      ]
-    },
-    {
-      "id": "56b78a161c060ad6a6fb9faae2099fd2",
-      "title": "Marcus Rashford Handed Ultimate Vindication Before Ruben Amorim Reunion",
-      "description": "Rashford’s new Manchester United teammate Youri Tielemans delivered a firm rebuttal of the complaints Amorim had about the England international.",
-      "link": "https://www.si.com/soccer/marcus-rashford-ultimate-vindication-ruben-amorim-reunion?utm_source=RSS",
-      "published_date": "2026-08-15T09:45:00",
-      "source": "Sports Illustrated",
-      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2315,h_1302,x_0,y_42/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m02b8gd6xjgavqqv5m.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "team dynamics"
       ]
     }
   ]
