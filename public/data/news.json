@@ -1,6 +1,32 @@
 {
-  "fetchedAt": "2026-08-15T21:12:32.069086+00:00",
+  "fetchedAt": "2026-08-15T22:11:45.153947+00:00",
   "articles": [
+    {
+      "id": "6f6e738634240a95fd4db2e443f43bd7",
+      "title": "3 Man Utd Players Snubbed Ruben Amorim After Loss vs AC Milan",
+      "description": "Ruben Amorim got revenge against Manchester United with a 4-2 win with AC Milan, and some of his old players didn't seem too keen on speaking to him.",
+      "link": "https://www.givemesport.com/man-utd-players-snubbed-ruben-amorim-ac-milan-footage/",
+      "published_date": "2026-08-15T21:40:58",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-15-aug-2026-10-16-pm-9953-1.jpg?w=1200&h=675&fit=crop",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "55be7a99c6e15d8fe78f0010e9c52c6f",
+      "title": "Man Utd vs AC Milan: Ruben Amorim Aims Cheeky 3-Word Dig at Michael Carrick",
+      "description": "Ruben Amorim made a cheeky three-word comment after beating Manchester United with AC Milan on Saturday.",
+      "link": "https://www.givemesport.com/ruben-amorim-appears-aim-three-word-dig-michael-carrick-man-utd/",
+      "published_date": "2026-08-15T21:20:37",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-15-aug-2026-10-12-pm-5912.jpg?w=1200&h=675&fit=crop",
+      "topics": [
+        "football",
+        "sports commentary"
+      ]
+    },
     {
       "id": "237caa60f672cbc7383e299ac4a76146",
       "title": "Michael Carrick issues verdict on Manchester United pre-season after galling Milan loss: 'No excuses'",
@@ -112,33 +138,6 @@
         "football",
         "pre-season",
         "sports news"
-      ]
-    },
-    {
-      "id": "957652c68f0707ed9bfb47314df1e5d6",
-      "title": "Manchester United vs AC Milan LIVE: Match stream, latest team news, lineups, TV, prediction",
-      "description": "Marcus Rashford set to return as Ruben Amorim faces former club in Poland",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-vs-ac-milan-live-stream-latest-score-updates-result-b1293457.html",
-      "published_date": "2026-08-15T12:55:34",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/15/13/2217314271..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "812ad9a6bb5cc98681a37754bb5ead4e",
-      "title": "Where to watch Man United vs. AC Milan live stream, TV channel, start time for preseason friendly",
-      "description": "Bryan Mbeumo looks to continue his strong preseason for Manchester United as the Red Devils take on Italian giants AC Milan in their final preseason friendly in Poland on Saturday.",
-      "link": "https://www.sportingnews.com/us/soccer/news/watch-man-united-vs-ac-milan-live-stream-tv-channel-time-friendly/507890e29acbf9b1c9e51823",
-      "published_date": "2026-08-15T11:00:02",
-      "source": "Sporting News",
-      "media_url": "https://library.sportingnews.com/styles/thumbnail/s3/2025-11/GettyImages-2245074775.jpg?itok=veQkMtdg",
-      "topics": [
-        "preseason",
-        "sports events",
-        "football"
       ]
     }
   ]
