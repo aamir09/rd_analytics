@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-15T07:22:48.461078+00:00",
+  "fetchedAt": "2026-08-15T08:16:43.193505+00:00",
   "articles": [
+    {
+      "id": "035bd5608d1f85c8e37783b4b8c3581f",
+      "title": "Manchester United XI vs AC Milan: Predicted lineup, confirmed team news, injury latest for friendly today",
+      "description": "Rashford and Amorim on course for an interesting reunion in high-profile pre-season friendly",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-ac-milan-predicted-lineup-confirmed-team-news-injury-latest-preseason-friendly-2026-today-b1293343.html",
+      "published_date": "2026-08-15T07:18:45",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/14/08/2290323170..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "pre-season friendly",
+        "injury news",
+        "sports events"
+      ]
+    },
     {
       "id": "67424d3c03377548b13a1c9b08d5af41",
       "title": "How to watch Manchester United vs AC Milan: TV channel and live stream for pre-season friendly today",
@@ -125,18 +139,6 @@
         "football",
         "sports news",
         "signings"
-      ]
-    },
-    {
-      "id": "0421cfd8e410491ef0dabcf53678f7b9",
-      "title": "Manchester United’s greatest players: No 3, George Best",
-      "description": "The Athletic is counting down the club's greatest 25 players. In fourth place, it's the Belfast Boy who transcended football",
-      "link": "https://www.nytimes.com/athletic/7510591/2026/08/14/manchester-united-greatest-players-george-best/",
-      "published_date": "2026-08-14T04:16:40",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/13082830/ManUtdTop25-Best-scaled.jpg",
-      "topics": [
-        "football"
       ]
     }
   ]
