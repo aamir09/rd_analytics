@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-16T06:45:47.957208+00:00",
+  "fetchedAt": "2026-08-16T08:33:47.445085+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2088882701466231076",
+          "created_at": "2026-08-16T06:57:00+00:00",
+          "text": "🗓️ 16.08.2003\n\nThe rest is history. https://t.co/tjJtzWMubL",
+          "views": "264999",
+          "favorites": 20085,
+          "retweets": 3519,
+          "media_url": "https://pbs.twimg.com/media/HPyI-jaXIAAChPC.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2088688256443371611",
           "created_at": "2026-08-15T18:04:20+00:00",
           "text": "Not good enough today but plenty of belief heading into our 2026/27 opener 👊\n\n💬 @Carras16",
-          "views": "518069",
-          "favorites": 6806,
-          "retweets": 517,
+          "views": "550236",
+          "favorites": 7239,
+          "retweets": 546,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +36,9 @@
           "id": "2088667523524730963",
           "created_at": "2026-08-15T16:41:57+00:00",
           "text": "Defeat in our final pre-season game.",
-          "views": "1782625",
-          "favorites": 22646,
-          "retweets": 1980,
+          "views": "1841998",
+          "favorites": 23070,
+          "retweets": 2024,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,9 +50,9 @@
           "id": "2088662136276856934",
           "created_at": "2026-08-15T16:20:33+00:00",
           "text": "Goal for AC Milan, scored by Ruben Loftus-Cheek.",
-          "views": "1191597",
-          "favorites": 5129,
-          "retweets": 388,
+          "views": "1281437",
+          "favorites": 5211,
+          "retweets": 390,
           "media_url": null,
           "author": {
             "name": null,
@@ -50,24 +64,10 @@
           "id": "2088661295507616185",
           "created_at": "2026-08-15T16:17:12+00:00",
           "text": "Goncalo Ramos heads home for AC Milan, 2-3.",
-          "views": "757830",
-          "favorites": 3411,
+          "views": "800108",
+          "favorites": 3497,
           "retweets": 234,
           "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088660630697906519",
-          "created_at": "2026-08-15T16:14:34+00:00",
-          "text": "🔙 https://t.co/JZha6SrFTZ",
-          "views": "802094",
-          "favorites": 33519,
-          "retweets": 2545,
-          "media_url": "https://pbs.twimg.com/media/HPxpoirXYAA1Zfr.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -83,8 +83,8 @@
           "id": "2088662027258474754",
           "created_at": "2026-08-15T16:20:07+00:00",
           "text": "AC Milan score again. 4-2.",
-          "views": "62283",
-          "favorites": 389,
+          "views": "63017",
+          "favorites": 392,
           "retweets": 7,
           "media_url": null,
           "author": {
@@ -97,8 +97,8 @@
           "id": "2088661234375659826",
           "created_at": "2026-08-15T16:16:58+00:00",
           "text": "AC Milan score. 3-2.",
-          "views": "42394",
-          "favorites": 246,
+          "views": "42976",
+          "favorites": 247,
           "retweets": 3,
           "media_url": null,
           "author": {
@@ -111,9 +111,9 @@
           "id": "2088659810874982769",
           "created_at": "2026-08-15T16:11:18+00:00",
           "text": "Marcus Rashford is subbed ON 📸 https://t.co/ZLwigizK8u",
-          "views": "52230",
-          "favorites": 2114,
-          "retweets": 28,
+          "views": "53245",
+          "favorites": 2177,
+          "retweets": 34,
           "media_url": "https://pbs.twimg.com/media/HPxpBxlWkAEDEsf.jpg",
           "author": {
             "name": null,
@@ -125,7 +125,7 @@
           "id": "2088658977622049171",
           "created_at": "2026-08-15T16:08:00+00:00",
           "text": "AC Milan score. 2-2.",
-          "views": "27335",
+          "views": "27645",
           "favorites": 81,
           "retweets": 1,
           "media_url": null,
@@ -139,8 +139,8 @@
           "id": "2088657410948841682",
           "created_at": "2026-08-15T16:01:46+00:00",
           "text": "DORGUUUUU!!!!! 2-1 TO UNITED!!!! 🇩🇰❤️",
-          "views": "27831",
-          "favorites": 147,
+          "views": "28067",
+          "favorites": 146,
           "retweets": 5,
           "media_url": null,
           "author": {
@@ -158,9 +158,9 @@
           "id": "2088662654109819268",
           "created_at": "2026-08-15T16:22:36+00:00",
           "text": "🚨🔴 Marcus Rashford has made his official comeback at Manchester United after loan at Barcelona last season. https://t.co/egNT43bBCH",
-          "views": "2801929",
-          "favorites": 72348,
-          "retweets": 2675,
+          "views": "2903243",
+          "favorites": 74658,
+          "retweets": 2764,
           "media_url": "https://pbs.twimg.com/media/HPxrm87XIAATbyZ.jpg",
           "author": {
             "name": null,
