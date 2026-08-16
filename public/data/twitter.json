@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-16T12:46:57.584396+00:00",
+  "fetchedAt": "2026-08-16T14:27:06.667609+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2088989153190883748",
+          "created_at": "2026-08-16T14:00:00+00:00",
+          "text": "Embedded in community 🧱",
+          "views": "96959",
+          "favorites": 1610,
+          "retweets": 114,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2088921206271672666",
           "created_at": "2026-08-16T09:30:00+00:00",
           "text": "Travelling in @adidasFootball Tiro Tech ⚫️💫",
-          "views": "227627",
-          "favorites": 3948,
-          "retweets": 185,
+          "views": "285006",
+          "favorites": 4591,
+          "retweets": 219,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +36,9 @@
           "id": "2088882701466231076",
           "created_at": "2026-08-16T06:57:00+00:00",
           "text": "🗓️ 16.08.2003\n\nThe rest is history. https://t.co/tjJtzWMubL",
-          "views": "902171",
-          "favorites": 64041,
-          "retweets": 10955,
+          "views": "1195573",
+          "favorites": 75738,
+          "retweets": 12984,
           "media_url": "https://pbs.twimg.com/media/HPyI-jaXIAAChPC.jpg",
           "author": {
             "name": null,
@@ -36,9 +50,9 @@
           "id": "2088688256443371611",
           "created_at": "2026-08-15T18:04:20+00:00",
           "text": "Not good enough today but plenty of belief heading into our 2026/27 opener 👊\n\n💬 @Carras16",
-          "views": "623442",
-          "favorites": 8091,
-          "retweets": 601,
+          "views": "650478",
+          "favorites": 8371,
+          "retweets": 630,
           "media_url": null,
           "author": {
             "name": null,
@@ -50,23 +64,9 @@
           "id": "2088667523524730963",
           "created_at": "2026-08-15T16:41:57+00:00",
           "text": "Defeat in our final pre-season game.",
-          "views": "1956794",
-          "favorites": 23845,
-          "retweets": 2093,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088662136276856934",
-          "created_at": "2026-08-15T16:20:33+00:00",
-          "text": "Goal for AC Milan, scored by Ruben Loftus-Cheek.",
-          "views": "1731664",
-          "favorites": 5415,
-          "retweets": 402,
+          "views": "1993174",
+          "favorites": 24013,
+          "retweets": 2121,
           "media_url": null,
           "author": {
             "name": null,
@@ -83,8 +83,8 @@
           "id": "2088662027258474754",
           "created_at": "2026-08-15T16:20:07+00:00",
           "text": "AC Milan score again. 4-2.",
-          "views": "65565",
-          "favorites": 395,
+          "views": "66687",
+          "favorites": 399,
           "retweets": 7,
           "media_url": null,
           "author": {
@@ -97,8 +97,8 @@
           "id": "2088661234375659826",
           "created_at": "2026-08-15T16:16:58+00:00",
           "text": "AC Milan score. 3-2.",
-          "views": "45219",
-          "favorites": 250,
+          "views": "46236",
+          "favorites": 252,
           "retweets": 3,
           "media_url": null,
           "author": {
@@ -111,9 +111,9 @@
           "id": "2088659810874982769",
           "created_at": "2026-08-15T16:11:18+00:00",
           "text": "Marcus Rashford is subbed ON 📸 https://t.co/ZLwigizK8u",
-          "views": "55991",
-          "favorites": 2298,
-          "retweets": 38,
+          "views": "57335",
+          "favorites": 2365,
+          "retweets": 43,
           "media_url": "https://pbs.twimg.com/media/HPxpBxlWkAEDEsf.jpg",
           "author": {
             "name": null,
@@ -125,7 +125,7 @@
           "id": "2088658977622049171",
           "created_at": "2026-08-15T16:08:00+00:00",
           "text": "AC Milan score. 2-2.",
-          "views": "28678",
+          "views": "29156",
           "favorites": 82,
           "retweets": 1,
           "media_url": null,
@@ -139,8 +139,8 @@
           "id": "2088657410948841682",
           "created_at": "2026-08-15T16:01:46+00:00",
           "text": "DORGUUUUU!!!!! 2-1 TO UNITED!!!! 🇩🇰❤️",
-          "views": "28921",
-          "favorites": 146,
+          "views": "29399",
+          "favorites": 149,
           "retweets": 5,
           "media_url": null,
           "author": {
@@ -158,9 +158,9 @@
           "id": "2088953297503658149",
           "created_at": "2026-08-16T11:37:31+00:00",
           "text": "🚨 Harry Maguire: “It’s been great to see Rúben Amorim. He’s a great manager”.\n\n“I have nothing bad to say about the guy. It just didn't work out at United. But he's got a massive club now. I'll be following them and hope they have an amazing season”. https://t.co/7p3DvxMGPk",
-          "views": "1267732",
-          "favorites": 21177,
-          "retweets": 838,
+          "views": "1882785",
+          "favorites": 36474,
+          "retweets": 1355,
           "media_url": "https://pbs.twimg.com/media/HP1z82lWgAIXqSa.jpg",
           "author": {
             "name": null,
