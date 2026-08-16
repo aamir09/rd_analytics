@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-16T17:12:16.723671+00:00",
+  "fetchedAt": "2026-08-16T18:15:26.149563+00:00",
   "articles": [
     {
       "id": "818b2068a05123de3801601944d37e59",
@@ -110,20 +110,6 @@
       "topics": [
         "football",
         "sports commentary"
-      ]
-    },
-    {
-      "id": "237caa60f672cbc7383e299ac4a76146",
-      "title": "Michael Carrick issues verdict on Manchester United pre-season after galling Milan loss: 'No excuses'",
-      "description": "Red Devils boss looking for the silver linings after losing to Ruben Amorim’s Rossoneri",
-      "link": "https://www.standard.co.uk/sport/football/carrick-man-utd-rallying-cry-ac-milan-b1293540.html",
-      "published_date": "2026-08-15T20:31:13",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/15/21/2290294055..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "pre-season",
-        "sports news"
       ]
     }
   ]
