@@ -1,6 +1,33 @@
 {
-  "fetchedAt": "2026-08-16T11:11:37.863926+00:00",
+  "fetchedAt": "2026-08-16T12:20:16.277685+00:00",
   "articles": [
+    {
+      "id": "3c789e287d8bd2e724727269344b4c11",
+      "title": "Man Utd Can Sign Three More Players Before Transfer Sindow Shuts",
+      "description": "Manchester United can still complete deals for three more players this summer and wrap up a successful window for Michael Carrick",
+      "link": "https://www.givemesport.com/man-utd-complete-three-transfers-before-window-shuts-endrick-baleba/",
+      "published_date": "2026-08-16T11:15:14",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/04/mixcollage-13-apr-2026-10-12-pm-5359.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football deals",
+        "football"
+      ]
+    },
+    {
+      "id": "b1bfb3ae7e220aaf34398572e89d9f46",
+      "title": "Harry Maguire backs Marcus Rashford to stay at Manchester United: 'He can improve us for sure'",
+      "description": "Rashford got 30 minutes as a substitute against AC Milan in Michael Carrick side's final pre-season game.",
+      "link": "https://www.nytimes.com/athletic/7516523/2026/08/16/rashford-maguire-manchester-united/",
+      "published_date": "2026-08-16T11:05:23",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/16052843/GettyImages-2288995431-scaled-e1786872619280.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "player performance"
+      ]
+    },
     {
       "id": "e38ee00410cd2a8e2979e5cf4618e250",
       "title": "Forget Hall: Man Utd Must Sign Antonee Robinson Instead After Shaw Stinker",
@@ -97,33 +124,6 @@
         "football",
         "sports events",
         "AC Milan"
-      ]
-    },
-    {
-      "id": "a6b7c7d8b1613fa71a0c60509b05a103",
-      "title": "Manchester United 2-4 AC Milan: Marcus Rashford returns as Ruben Amorim wins on reunion with Red Devils",
-      "description": "Red Devils close out promising pre-season campaign on low note in Poland",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-ac-milan-score-result-preseason-friendly-amorim-rashford-mainoo-b1293526.html",
-      "published_date": "2026-08-15T16:47:12",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/15/17/2290603525..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "pre-season",
-        "sports news"
-      ]
-    },
-    {
-      "id": "2ed20cdcfdaeb15581901b454bf870ce",
-      "title": "Man United vs. AC MIlan live score, result, highlights from 2026 friendly match",
-      "description": "Ruben Amorim will have a reunion with Manchester United in Saturday's friendly match, where Marcus Rashford is expected to make his Red Devils return.",
-      "link": "https://www.sportingnews.com/us/soccer/manchester-united/news/man-united-vs-ac-milan-live-score-result-highlights/79d2e1d33a9e3a16f538fbe9",
-      "published_date": "2026-08-15T13:57:00",
-      "source": "Sporting News",
-      "media_url": "https://library.sportingnews.com/styles/thumbnail/s3/2026-08/Ruben%20Amorim%20%20AC%20Milan%20080726%20IMAGN%20%E3%82%A2%E3%83%A2%E3%83%AA%E3%83%A0%20%E3%83%9F%E3%83%A9%E3%83%B3%20.JPG?itok=pfZLiYRQ",
-      "topics": [
-        "football",
-        "sports news"
       ]
     }
   ]
