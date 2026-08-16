@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-16T12:20:16.277685+00:00",
+  "fetchedAt": "2026-08-16T13:24:42.740361+00:00",
   "articles": [
+    {
+      "id": "818b2068a05123de3801601944d37e59",
+      "title": "Man Utd Transfer Priority Laid Bare By Ruben Amorim",
+      "description": "Manchester United need to sign a new left-back this summer",
+      "link": "https://www.givemesport.com/man-utd-transfer-priority-ruben-amorim-luke-shaw/",
+      "published_date": "2026-08-16T12:15:13",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/01/ruben-amorim.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "transfer news",
+        "Manchester United",
+        "left-back transfers"
+      ]
+    },
     {
       "id": "3c789e287d8bd2e724727269344b4c11",
       "title": "Man Utd Can Sign Three More Players Before Transfer Sindow Shuts",
@@ -110,20 +124,6 @@
         "football",
         "pre-season",
         "sports news"
-      ]
-    },
-    {
-      "id": "cea9fe07b083e672f45d9343c999b112",
-      "title": "Man Utd 2-4 AC Milan: ‘Woeful’ Luke Shaw Torn Apart by Angry Fans",
-      "description": "Manchester United suffered defeat against their old manager Ruben Amorim, as AC Milan defeated the English giants in a pre-season friendly.",
-      "link": "https://www.givemesport.com/manchester-united-ac-milan-luke-shaw-slammed-fans-ruben-amorim/",
-      "published_date": "2026-08-15T16:48:20",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/04/mixcollage-13-apr-2026-10-12-pm-5359.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports events",
-        "AC Milan"
       ]
     }
   ]
