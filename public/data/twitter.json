@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-17T10:35:37.275852+00:00",
+  "fetchedAt": "2026-08-17T12:51:39.032843+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2089332590561964342",
+          "created_at": "2026-08-17T12:44:42+00:00",
+          "text": "Special moment, special player 🪄",
+          "views": "59590",
+          "favorites": 665,
+          "retweets": 73,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2089313791917879353",
+          "created_at": "2026-08-17T11:30:00+00:00",
+          "text": "Going back to our roots 👊💯",
+          "views": "159604",
+          "favorites": 3296,
+          "retweets": 220,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2089298769300820336",
           "created_at": "2026-08-17T10:30:18+00:00",
           "text": "🇫🇮🇳🇴🇸🇪🇮🇪🇵🇱\n\nOur fans brought the energy this pre-season 🫶 https://t.co/Ie64acQ1Gc",
-          "views": "48794",
-          "favorites": 584,
-          "retweets": 69,
+          "views": "203728",
+          "favorites": 4492,
+          "retweets": 278,
           "media_url": "https://pbs.twimg.com/media/HP6uKD0WoAA4GV7.jpg",
           "author": {
             "name": null,
@@ -22,9 +50,9 @@
           "id": "2089287939620573343",
           "created_at": "2026-08-17T09:47:16+00:00",
           "text": "https://t.co/4pYbVW59Cu",
-          "views": "31237",
-          "favorites": 287,
-          "retweets": 24,
+          "views": "58538",
+          "favorites": 502,
+          "retweets": 35,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,38 +64,10 @@
           "id": "2089286614786711981",
           "created_at": "2026-08-17T09:42:00+00:00",
           "text": "30 years ago today… ✨ https://t.co/J6rRg4pamZ",
-          "views": "133597",
-          "favorites": 4231,
-          "retweets": 341,
+          "views": "311322",
+          "favorites": 8751,
+          "retweets": 659,
           "media_url": "https://pbs.twimg.com/media/HP6jGs9XEAAJajd.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2089050305912537426",
-          "created_at": "2026-08-16T18:03:00+00:00",
-          "text": "Taking inspiration from our city ❤️\n\n🪡 @adidasFootball design director and lifelong Red, Inigo Turner, gives the lowdown on our third kit...",
-          "views": "462373",
-          "favorites": 5088,
-          "retweets": 349,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088989153190883748",
-          "created_at": "2026-08-16T14:00:00+00:00",
-          "text": "Embedded in community 🧱",
-          "views": "551290",
-          "favorites": 9615,
-          "retweets": 469,
-          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -83,9 +83,9 @@
           "id": "2089278569444765921",
           "created_at": "2026-08-17T09:10:02+00:00",
           "text": "🚨 Sources have said the expectation is Marcus Rashford will STAY at Manchester United. However, there remains a chance he will NOT, which is why Michael Carrick and United players who have been asked about him avoid offering a definitive judgement. #MUFC [@sistoney67] https://t.co/OLl8fdBtr2",
-          "views": "50431",
-          "favorites": 732,
-          "retweets": 40,
+          "views": "102464",
+          "favorites": 1233,
+          "retweets": 51,
           "media_url": "https://pbs.twimg.com/media/HP6bySFWQAA7w2q.jpg",
           "author": {
             "name": null,
@@ -97,24 +97,10 @@
           "id": "2089259544320921899",
           "created_at": "2026-08-17T07:54:26+00:00",
           "text": "🚨 Yesterday, one of the big three Turkish clubs asked Marcus Rashford’s agent about the player’s transfer conditions. #MUFC [@yagosabuncuoglu] https://t.co/9OHSbYChtB",
-          "views": "61570",
-          "favorites": 924,
-          "retweets": 36,
+          "views": "73852",
+          "favorites": 1071,
+          "retweets": 39,
           "media_url": "https://pbs.twimg.com/media/HP6KeynW0AEGJCs.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2089063176943915145",
-          "created_at": "2026-08-16T18:54:08+00:00",
-          "text": "Manchester United’s first 3 games of the Premier League season:\n\n- Hull City (A)\n- Ipswich Town (H)\n- Everton (A) \n\nHow many points will we get?👇 https://t.co/od6hYPmoKR",
-          "views": "143826",
-          "favorites": 579,
-          "retweets": 23,
-          "media_url": "https://pbs.twimg.com/media/HP3X4nwXYAAkp0J.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -125,8 +111,8 @@
           "id": "2088662027258474754",
           "created_at": "2026-08-15T16:20:07+00:00",
           "text": "AC Milan score again. 4-2.",
-          "views": "74168",
-          "favorites": 406,
+          "views": "75261",
+          "favorites": 409,
           "retweets": 7,
           "media_url": null,
           "author": {
@@ -139,10 +125,24 @@
           "id": "2088661234375659826",
           "created_at": "2026-08-15T16:16:58+00:00",
           "text": "AC Milan score. 3-2.",
-          "views": "52914",
-          "favorites": 256,
+          "views": "53901",
+          "favorites": 259,
           "retweets": 3,
           "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2088659810874982769",
+          "created_at": "2026-08-15T16:11:18+00:00",
+          "text": "Marcus Rashford is subbed ON 📸 https://t.co/ZLwigizK8u",
+          "views": "65696",
+          "favorites": 2547,
+          "retweets": 44,
+          "media_url": "https://pbs.twimg.com/media/HPxpBxlWkAEDEsf.jpg",
           "author": {
             "name": null,
             "screen_name": null,
