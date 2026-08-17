@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-17T15:17:28.913877+00:00",
+  "fetchedAt": "2026-08-17T16:16:19.080907+00:00",
   "articles": [
+    {
+      "id": "6312a33539963f65eb26940c3dc84072",
+      "title": "Ruud van Nistelrooy Revealed His Son Was Named After Former Celtic & Man Utd Player",
+      "description": "Former Manchester United striker Ruud van Nistelrooy was inspired to name his son after one of his Old Trafford teammates.",
+      "link": "https://www.givemesport.com/ruud-van-nistelrooy-revealed-his-son-was-named-after-celtic-man-utd-player/",
+      "published_date": "2026-08-17T15:46:07",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/04/mixcollage-23-apr-2025-06-16-pm-6999.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "85018d6b8b0d17f4ed7e8f028ceae727",
       "title": "How Manchester United should line up for Hull clash as Marcus Rashford question lingers",
@@ -95,21 +108,6 @@
         "sports news",
         "Manchester United",
         "sports management"
-      ]
-    },
-    {
-      "id": "9c99c8d46e2936832677e0814a3db66d",
-      "title": "“Incredible” Man United target available for the right offer after manager admission",
-      "description": "Manchester United have been linked with a move for Club Brugge defender Joaquin Seys. The 21-year-old left back is highly rated in Belgium, and he has a big future ahead of himself. Manchester United...",
-      "link": "https://sports.yahoo.com/articles/incredible-man-united-target-available-060000878.html",
-      "published_date": "2026-08-16T06:00:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/d5a5f31ee3b43d367a9e5e1c6c2609f5.jpg",
-      "topics": [
-        "football",
-        "transfer news",
-        "Manchester United",
-        "club clubs"
       ]
     }
   ]
