@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-17T07:43:50.084336+00:00",
+  "fetchedAt": "2026-08-17T08:32:37.569487+00:00",
   "articles": [
+    {
+      "id": "dd3ed6a208117771009fc328e1ead0ad",
+      "title": "Maguire sends clear message to INEOS over potential teammate who would ‘improve’ Man Utd next season",
+      "description": "Harry Maguire has reiterated his desire for Marcus Rashford to stay at Manchester United amid his uncertain situation.The forward played his first minutes in a Red Devils shirt since December 2024 on ...",
+      "link": "https://sports.yahoo.com/articles/maguire-sends-clear-message-ineos-071000932.html",
+      "published_date": "2026-08-17T07:10:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/12f516c0c515b0280cb6f8121fcf00f9.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "player development"
+      ]
+    },
     {
       "id": "ee0ddb60026f8f1f20e525bf161c526a",
       "title": "Manchester United injury update: Benjamin Sesko, Mason Mount, Matthijs De Ligt latest news and return dates",
@@ -97,19 +111,6 @@
         "football",
         "Manchester United",
         "manager management"
-      ]
-    },
-    {
-      "id": "6f6e738634240a95fd4db2e443f43bd7",
-      "title": "3 Man Utd Players Snubbed Ruben Amorim After Loss vs AC Milan",
-      "description": "Ruben Amorim got revenge against Manchester United with a 4-2 win with AC Milan, and some of his old players didn't seem too keen on speaking to him.",
-      "link": "https://www.givemesport.com/man-utd-players-snubbed-ruben-amorim-ac-milan-footage/",
-      "published_date": "2026-08-15T21:40:58",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-15-aug-2026-10-16-pm-9953-1.jpg?w=1200&h=675&fit=crop",
-      "topics": [
-        "football",
-        "sports news"
       ]
     }
   ]
