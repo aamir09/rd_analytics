@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-17T16:16:19.080907+00:00",
+  "fetchedAt": "2026-08-17T17:18:39.522567+00:00",
   "articles": [
+    {
+      "id": "433e90d6b689f9b1fdc33f55c85b4d89",
+      "title": "Sources: Man Utd Make Bruno Fernandes Decision as Galatasaray Plot Bid",
+      "description": "Galatasaray are readying a bid for Manchester United captain Bruno Fernandes.",
+      "link": "https://www.givemesport.com/man-utd-bruno-fernandes-transfer-stance-galatasaray-offer/",
+      "published_date": "2026-08-17T16:16:47",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/design-1-2026-08-17t165015-858.png?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "team dynamics"
+      ]
+    },
     {
       "id": "6312a33539963f65eb26940c3dc84072",
       "title": "Ruud van Nistelrooy Revealed His Son Was Named After Former Celtic & Man Utd Player",
@@ -93,21 +107,6 @@
         "football",
         "sports news",
         "player performance"
-      ]
-    },
-    {
-      "id": "e38ee00410cd2a8e2979e5cf4618e250",
-      "title": "Forget Hall: Man Utd Must Sign Antonee Robinson Instead After Shaw Stinker",
-      "description": "Manchester United need to ditch their pursuit of Newcastle United's Lewis Hall and go after Fulham's Antonee Robinson instead.",
-      "link": "https://www.givemesport.com/forget-lewis-hall-man-utd-must-complete-antonee-robinson-transfer/",
-      "published_date": "2026-08-16T08:15:13",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2024/01/mixcollage-25-jan-2024-12-20-pm-8818.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news",
-        "Manchester United",
-        "sports management"
       ]
     }
   ]
