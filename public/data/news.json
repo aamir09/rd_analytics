@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-17T20:16:14.934054+00:00",
+  "fetchedAt": "2026-08-17T21:17:11.458650+00:00",
   "articles": [
+    {
+      "id": "1c7b11abd1eb903aa94a023bce95bf94",
+      "title": "Paul Scholes Predicts Final 2026-27 Premier League Top 6",
+      "description": "Manchester United legend Paul Scholes has made some big calls in his Premier League predictions for the 2026/27 season.",
+      "link": "https://www.givemesport.com/paul-scholes-predicts-premier-league-top-six-2026-27/",
+      "published_date": "2026-08-17T20:05:57",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-17-aug-2026-07-52-pm-8003.jpg?w=1200&h=675&fit=crop",
+      "topics": [
+        "Premier League",
+        "football predictions",
+        "football"
+      ]
+    },
     {
       "id": "93d4c05d4e8396e4ef506bedfc289612",
       "title": "Man Utd in Talks With Championship Club to Sell Toby Collyer",
@@ -108,20 +122,6 @@
       "topics": [
         "sports news",
         "Premier League"
-      ]
-    },
-    {
-      "id": "818b2068a05123de3801601944d37e59",
-      "title": "Man Utd Transfer Priority Laid Bare By Ruben Amorim",
-      "description": "Manchester United need to sign a new left-back this summer",
-      "link": "https://www.givemesport.com/man-utd-transfer-priority-ruben-amorim-luke-shaw/",
-      "published_date": "2026-08-16T12:15:13",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/01/ruben-amorim.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "transfer news",
-        "Manchester United",
-        "left-back transfers"
       ]
     }
   ]
