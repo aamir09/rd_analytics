@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-17T18:24:51.706410+00:00",
+  "fetchedAt": "2026-08-17T19:21:11.782667+00:00",
   "articles": [
+    {
+      "id": "1ea1594e45e671fb2a39bff2c89446a4",
+      "title": "Manchester United in contract talks with Bruno Fernandes as Galatasaray make lucrative offer",
+      "description": "The Turkish club offered the 31-year-old a salary of €20million a year, but the player wants to remain at Old Trafford",
+      "link": "https://www.nytimes.com/athletic/7442854/2026/08/17/bruno-fernandes-galatasaray-transfer/",
+      "published_date": "2026-08-17T18:40:50",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/07/13131633/GettyImages-2244464340-scaled.jpg",
+      "topics": [
+        "football contracts",
+        "sports news",
+        "club contracts"
+      ]
+    },
     {
       "id": "433e90d6b689f9b1fdc33f55c85b4d89",
       "title": "Sources: Man Utd Make Bruno Fernandes Decision as Galatasaray Plot Bid",
