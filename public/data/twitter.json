@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-17T14:32:01.691892+00:00",
+  "fetchedAt": "2026-08-17T16:31:50.260622+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2089374190306488454",
+          "created_at": "2026-08-17T15:30:00+00:00",
+          "text": "There's a reason our third shirt will look different in the #UCL 👀👇",
+          "views": "254661",
+          "favorites": 1916,
+          "retweets": 139,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2089366876363030779",
+          "created_at": "2026-08-17T15:00:56+00:00",
+          "text": "On this day in 2012, Robin van Persie became a Red... 🇾🇪 https://t.co/IpPsCA70Oa",
+          "views": "162956",
+          "favorites": 4898,
+          "retweets": 614,
+          "media_url": "https://pbs.twimg.com/media/HP7sGapWEAAW3Z-.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2089354034566312415",
           "created_at": "2026-08-17T14:09:54+00:00",
           "text": "4️⃣ of our #PL fixtures in October have been rearranged for live TV coverage 🚨",
-          "views": "95207",
-          "favorites": 1286,
-          "retweets": 141,
+          "views": "229780",
+          "favorites": 4955,
+          "retweets": 420,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +50,9 @@
           "id": "2089342341857337626",
           "created_at": "2026-08-17T13:23:27+00:00",
           "text": "Still iconic. \n\nDavid Beckham. That halfway-line strike 🚀 https://t.co/k9Zfesi15G",
-          "views": "156222",
-          "favorites": 5089,
-          "retweets": 424,
+          "views": "249874",
+          "favorites": 8406,
+          "retweets": 646,
           "media_url": "https://pbs.twimg.com/media/HP7VyQ_WMAAs4RD.jpg",
           "author": {
             "name": null,
@@ -36,38 +64,10 @@
           "id": "2089332590561964342",
           "created_at": "2026-08-17T12:44:42+00:00",
           "text": "Special moment, special player 🪄",
-          "views": "163543",
-          "favorites": 2926,
-          "retweets": 291,
+          "views": "286080",
+          "favorites": 4312,
+          "retweets": 406,
           "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2089313791917879353",
-          "created_at": "2026-08-17T11:30:00+00:00",
-          "text": "Going back to our roots 👊💯",
-          "views": "318305",
-          "favorites": 4529,
-          "retweets": 296,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2089298769300820336",
-          "created_at": "2026-08-17T10:30:18+00:00",
-          "text": "🇫🇮🇳🇴🇸🇪🇮🇪🇵🇱\n\nOur fans brought the energy this pre-season 🫶 https://t.co/Ie64acQ1Gc",
-          "views": "294657",
-          "favorites": 5589,
-          "retweets": 332,
-          "media_url": "https://pbs.twimg.com/media/HP6uKD0WoAA4GV7.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -80,12 +80,54 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2089386328567714070",
+          "created_at": "2026-08-17T16:18:14+00:00",
+          "text": "🚨 One to keep an eye on for Manchester United is David Raum. #MUFC [@alex_crook, @talkSPORT] https://t.co/mTk7nRMLZx",
+          "views": "19788",
+          "favorites": 367,
+          "retweets": 20,
+          "media_url": "https://pbs.twimg.com/media/HP79yoCWoAAkywa.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2089367109604110782",
+          "created_at": "2026-08-17T15:01:52+00:00",
+          "text": "🚨 JUST IN:\n\nWest Brom have approached Manchester United over re-signing Toby Collyer on a permanent deal. #MUFC [Sky] https://t.co/GxdTKiTcvK",
+          "views": "52022",
+          "favorites": 1631,
+          "retweets": 68,
+          "media_url": "https://pbs.twimg.com/media/HP7sT7IXMAAa_X2.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2089364840292782190",
+          "created_at": "2026-08-17T14:52:51+00:00",
+          "text": "🚨 NEW:\n\nGalatasaray are prepared to DOUBLE Bruno Fernandes’ wages in a bid to lure him away from Manchester United. \n\nThe Turkish club are ready to test United’s resolve over him THIS WEEK by proposing a package worth €50m including add-ons. United are steadfastly opposed to selling him.\n\n#MUFC [@TelegraphDucker]",
+          "views": "80636",
+          "favorites": 492,
+          "retweets": 23,
+          "media_url": "https://pbs.twimg.com/media/HP7qPzkWkAAhQYS.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
           "id": "2089353994078441604",
           "created_at": "2026-08-17T14:09:45+00:00",
           "text": "🚨 JUST IN:\n\nManchester United intend to reject ANY offer for Bruno Fernandes before the transfer deadline.\n\nGalatasaray had a deal they were intending to put to United, which would reach a final fee of €50m. However, the message from senior sources at Old Trafford is that they would be WASTING their time.\n\n#MUFC [@sistoney67]",
-          "views": "29718",
-          "favorites": 374,
-          "retweets": 26,
+          "views": "111559",
+          "favorites": 847,
+          "retweets": 46,
           "media_url": "https://pbs.twimg.com/media/HP7gYccXIAEPPfo.jpg",
           "author": {
             "name": null,
@@ -97,52 +139,10 @@
           "id": "2089278569444765921",
           "created_at": "2026-08-17T09:10:02+00:00",
           "text": "🚨 Sources have said the expectation is Marcus Rashford will STAY at Manchester United. However, there remains a chance he will NOT, which is why Michael Carrick and United players who have been asked about him avoid offering a definitive judgement. #MUFC [@sistoney67] https://t.co/OLl8fdBtr2",
-          "views": "135624",
-          "favorites": 1461,
-          "retweets": 58,
+          "views": "165856",
+          "favorites": 1600,
+          "retweets": 63,
           "media_url": "https://pbs.twimg.com/media/HP6bySFWQAA7w2q.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2089259544320921899",
-          "created_at": "2026-08-17T07:54:26+00:00",
-          "text": "🚨 Yesterday, one of the big three Turkish clubs asked Marcus Rashford’s agent about the player’s transfer conditions. #MUFC [@yagosabuncuoglu] https://t.co/9OHSbYChtB",
-          "views": "80719",
-          "favorites": 1140,
-          "retweets": 40,
-          "media_url": "https://pbs.twimg.com/media/HP6KeynW0AEGJCs.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088662027258474754",
-          "created_at": "2026-08-15T16:20:07+00:00",
-          "text": "AC Milan score again. 4-2.",
-          "views": "76251",
-          "favorites": 411,
-          "retweets": 7,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": null
-          }
-        },
-        {
-          "id": "2088661234375659826",
-          "created_at": "2026-08-15T16:16:58+00:00",
-          "text": "AC Milan score. 3-2.",
-          "views": "54677",
-          "favorites": 259,
-          "retweets": 3,
-          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -157,7 +157,36 @@
     },
     {
       "screen_name": "indykaila",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2089385829097496928",
+          "created_at": "2026-08-17T16:16:15+00:00",
+          "text": "Manchester United DEMAND Bruno Fernandes STAYS 🔴💯 \n\nThey SCREAMED the SAME ultimatum to his agent 📢📞😤 STOP all those sneaky calls to 🇹🇷🚫❌\n\nHe MUST listen 👂 RIGHT NOW",
+          "views": "63188",
+          "favorites": 585,
+          "retweets": 33,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        },
+        {
+          "id": "2089359810709918023",
+          "created_at": "2026-08-17T14:32:51+00:00",
+          "text": "BREAKING in the Telegraph 💣\n\nGALATASARAY ARE GOING ALL OUT FOR BRUNO FERNANDES 🚨\n\nThe Turkish champions are prepared to DOUBLE his wages in a massive bid to rip him away from Manchester United.\n€50m offer on the table (plus add-ons).",
+          "views": "526278",
+          "favorites": 4189,
+          "retweets": 183,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": null
+          }
+        }
+      ]
     },
     {
       "screen_name": "David_Ornstein",
