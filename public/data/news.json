@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-17T19:21:11.782667+00:00",
+  "fetchedAt": "2026-08-17T20:16:14.934054+00:00",
   "articles": [
+    {
+      "id": "93d4c05d4e8396e4ef506bedfc289612",
+      "title": "Man Utd in Talks With Championship Club to Sell Toby Collyer",
+      "description": "Manchester United are reportedly in talks with West Bromwich Albion over the permanent sale of Toby Collyer.",
+      "link": "https://www.givemesport.com/man-utd-collyer-sell-fernandes-backed-transfer-news/",
+      "published_date": "2026-08-17T19:15:14",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-captain-bruno-fernandes-reacts-in-premier-league-fixture.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "club negotiations",
+        "club news"
+      ]
+    },
+    {
+      "id": "904a21b3ea8bb2ea4c910569ae446cf7",
+      "title": "Manchester United face Bruno Fernandes transfer challenge with 'offer prepared'",
+      "description": "Manchester United could have a fight on their hands to keep Bruno Fernandes .",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-fernandes-galatasaray-b1293727.html",
+      "published_date": "2026-08-17T19:07:07",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/17/20/01M087ESDKKD461P1X06HMC9VS.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "transfer challenges",
+        "Manchester United",
+        "Bruno Fernandes"
+      ]
+    },
     {
       "id": "1ea1594e45e671fb2a39bff2c89446a4",
       "title": "Manchester United in contract talks with Bruno Fernandes as Galatasaray make lucrative offer",
@@ -94,33 +122,6 @@
         "transfer news",
         "Manchester United",
         "left-back transfers"
-      ]
-    },
-    {
-      "id": "3c789e287d8bd2e724727269344b4c11",
-      "title": "Man Utd Can Sign Three More Players Before Transfer Sindow Shuts",
-      "description": "Manchester United can still complete deals for three more players this summer and wrap up a successful window for Michael Carrick",
-      "link": "https://www.givemesport.com/man-utd-complete-three-transfers-before-window-shuts-endrick-baleba/",
-      "published_date": "2026-08-16T11:15:14",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/04/mixcollage-13-apr-2026-10-12-pm-5359.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football deals",
-        "football"
-      ]
-    },
-    {
-      "id": "b1bfb3ae7e220aaf34398572e89d9f46",
-      "title": "Harry Maguire backs Marcus Rashford to stay at Manchester United: 'He can improve us for sure'",
-      "description": "Rashford got 30 minutes as a substitute against AC Milan in Michael Carrick side's final pre-season game.",
-      "link": "https://www.nytimes.com/athletic/7516523/2026/08/16/rashford-maguire-manchester-united/",
-      "published_date": "2026-08-16T11:05:23",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/16052843/GettyImages-2288995431-scaled-e1786872619280.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "player performance"
       ]
     }
   ]
