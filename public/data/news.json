@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-17T11:17:21.545253+00:00",
+  "fetchedAt": "2026-08-17T12:23:43.785909+00:00",
   "articles": [
+    {
+      "id": "85018d6b8b0d17f4ed7e8f028ceae727",
+      "title": "How Manchester United should line up for Hull clash as Marcus Rashford question lingers",
+      "description": "Forward’s future in flux as transfer window enters final fortnight",
+      "link": "https://www.standard.co.uk/sport/football/how-man-utd-should-line-up-hull-rashford-santos-mount-injury-latest-b1293653.html",
+      "published_date": "2026-08-17T11:23:21",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/17/11/45/Rashford-Carrick-Santos.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "transfer window",
+        "football"
+      ]
+    },
     {
       "id": "dd3ed6a208117771009fc328e1ead0ad",
       "title": "Maguire sends clear message to INEOS over potential teammate who would ‘improve’ Man Utd next season",
@@ -97,20 +110,6 @@
         "transfer news",
         "Manchester United",
         "club clubs"
-      ]
-    },
-    {
-      "id": "af4695912b4fcab2ad834ffd159db3d2",
-      "title": "Losing to old boss Ruben Amorim was a timely warning. Manchester United need reinforcements",
-      "description": "The need for Manchester United reinforcements, especially at left-back, was highlighted by the tactics of the club's former manager",
-      "link": "https://www.nytimes.com/athletic/7515753/2026/08/16/manchester-united-milan-transfers-carrick-amorim/",
-      "published_date": "2026-08-16T04:13:45",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/15175817/GettyImages-2290066488-scaled.jpg",
-      "topics": [
-        "football",
-        "Manchester United",
-        "manager management"
       ]
     }
   ]
