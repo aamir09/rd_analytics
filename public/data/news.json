@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-18T15:22:24.032584+00:00",
+  "fetchedAt": "2026-08-18T16:20:53.939798+00:00",
   "articles": [
+    {
+      "id": "fb1a6fc7d1728e642272a0fb4c8d571e",
+      "title": "Manchester United get double injury boost as pair return to training before Hull clash",
+      "description": "Mason Mount is still sidelined with a foot injury but there is positive news elsewhere",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-injury-latest-sesko-de-ligt-mount-b1293845.html",
+      "published_date": "2026-08-18T15:52:07",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/18/16/2290466657..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football injury",
+        "Manchester United",
+        "sports news"
+      ]
+    },
     {
       "id": "5447476f822ac060961c883a55f68702",
       "title": "Hull City Picks Cincinnati for Premier League's First Official Watch Party",
