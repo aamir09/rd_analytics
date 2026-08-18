@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-18T12:25:48.213023+00:00",
+  "fetchedAt": "2026-08-18T13:35:14.900543+00:00",
   "articles": [
+    {
+      "id": "298d8e1158e94ead0e52906423706830",
+      "title": "Aston Villa see Aaron Wan-Bissaka loan offer rejected by West Ham",
+      "description": "Wan-Bissaka, 28, has made 65 appearances across his two seasons at West Ham, having previously played 190 times for Manchester United.",
+      "link": "https://www.nytimes.com/athletic/7521000/2026/08/18/aston-villa-wan-bissaka-west-ham/",
+      "published_date": "2026-08-18T12:27:05",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/18070356/wan-bissaka-drc-wc-scaled-e1787051061817.jpg",
+      "topics": [
+        "football",
+        "loan deals",
+        "sports news"
+      ]
+    },
     {
       "id": "3c655cc9410633ec6dbe64a477af4dc7",
       "title": "Myles Lewis-Skelly Has Played His Way Into a Career Crossroads",
@@ -96,20 +110,6 @@
         "Premier League",
         "football predictions",
         "football"
-      ]
-    },
-    {
-      "id": "93d4c05d4e8396e4ef506bedfc289612",
-      "title": "Man Utd in Talks With Championship Club to Sell Toby Collyer",
-      "description": "Manchester United are reportedly in talks with West Bromwich Albion over the permanent sale of Toby Collyer.",
-      "link": "https://www.givemesport.com/man-utd-collyer-sell-fernandes-backed-transfer-news/",
-      "published_date": "2026-08-17T19:15:14",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-captain-bruno-fernandes-reacts-in-premier-league-fixture.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "club negotiations",
-        "club news"
       ]
     }
   ]
