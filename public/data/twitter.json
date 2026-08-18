@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-18T12:53:31.806621+00:00",
+  "fetchedAt": "2026-08-18T14:37:15.635368+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2089708392042635370",
+          "created_at": "2026-08-18T13:38:00+00:00",
+          "text": "Most-owned United player ✔️\nThird most-owned overall ✔️\n\nIs there room for @B_Fernandes8 in your 2026/27 #FPL team? 👀 https://t.co/7Qt81V6ELd https://t.co/BtoUyxd5Ow",
+          "views": "129348",
+          "favorites": 2439,
+          "retweets": 197,
+          "media_url": "https://pbs.twimg.com/media/HQAHZbhW8AAfnpF.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2089704636265406834",
+          "created_at": "2026-08-18T13:23:04+00:00",
+          "text": "RT @adidasfootball: dreams to come, United. ❤️✨ https://t.co/D2CZpnolGo",
+          "views": "64177",
+          "favorites": 0,
+          "retweets": 318,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2089683733981069797",
           "created_at": "2026-08-18T12:00:01+00:00",
           "text": "New season ready 🔴⚪️🔵\n\nThe set is complete ✔️",
-          "views": "143607",
-          "favorites": 3866,
-          "retweets": 325,
+          "views": "221857",
+          "favorites": 6062,
+          "retweets": 516,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +50,9 @@
           "id": "2089671860808011884",
           "created_at": "2026-08-18T11:12:50+00:00",
           "text": "🚨 There are updates on three Reds from today's training session...",
-          "views": "264898",
-          "favorites": 8472,
-          "retweets": 454,
+          "views": "344998",
+          "favorites": 11566,
+          "retweets": 615,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,37 +64,9 @@
           "id": "2089668915852923106",
           "created_at": "2026-08-18T11:01:08+00:00",
           "text": "Player cam 🤝😂\n\n🤳 @Snapdragon x #ShotOnSnapdragon https://t.co/pnKci0uk6G",
-          "views": "177796",
-          "favorites": 3354,
-          "retweets": 243,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2089400589092635041",
-          "created_at": "2026-08-17T17:14:54+00:00",
-          "text": "All the best to young forward, Ethan Ennis, who has agreed a move to League One side Stockport County.\n\nWe wish him all the best with his next step ❤️",
-          "views": "479848",
-          "favorites": 9530,
-          "retweets": 516,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2089374190306488454",
-          "created_at": "2026-08-17T15:30:00+00:00",
-          "text": "There's a reason our third shirt will look different in the #UCL 👀👇",
-          "views": "945304",
-          "favorites": 7655,
-          "retweets": 458,
+          "views": "274678",
+          "favorites": 4773,
+          "retweets": 320,
           "media_url": null,
           "author": {
             "name": null,
@@ -80,12 +80,26 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2089703858758902112",
+          "created_at": "2026-08-18T13:19:59+00:00",
+          "text": "🚨 Ivan Toney and Jean-Philippe Mateta are two of many names Manchester United are monitoring for the striker position - but only in the case that Joshua Zirkzee departs. Both are seen as experienced and lower cost options. #MUFC [@SullyTalkz] https://t.co/fvTvtBYTAb",
+          "views": "71366",
+          "favorites": 1398,
+          "retweets": 89,
+          "media_url": "https://pbs.twimg.com/media/HQAelWCWQAEOvdq.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2089673498113327523",
           "created_at": "2026-08-18T11:19:20+00:00",
           "text": "🚨🚨🌟 JUST IN:\n\nManchester United are CONFIDENT JJ Gabriel will commit his future to Old Trafford amid interest from Chelsea. #MUFC [@alex_crook] https://t.co/GxpFeTwSy8",
-          "views": "47397",
-          "favorites": 2382,
-          "retweets": 86,
+          "views": "70672",
+          "favorites": 3523,
+          "retweets": 128,
           "media_url": "https://pbs.twimg.com/media/HQAC-LXXIAAUtRm.jpg",
           "author": {
             "name": null,
@@ -97,9 +111,9 @@
           "id": "2089664477134233994",
           "created_at": "2026-08-18T10:43:30+00:00",
           "text": "🚨🚨🗣️ Harry Maguire on squad depth and new signings for Manchester United:\n\n“When you play for this club, you want competition for places and it’s so important that we have a HUGE squad. \n\n“I’m at an age now where they can bring in as many as they want, bring in all the best players. I want to win all the trophies and be greedy about it, but it’s up to the club.\n\n“I’m sure they’re working HARD out there to try and bring in the right players. The more, the merrier. The stronger squad that we have, the more opportunity we have of winning these trophies and that’s what it’s all about when you play for this club.\n\n“We’ve got a good depth of squad, but of course, I’m sure they’re working hard on helping us and bringing MORE in.”\n\n#MUFC [@DanyalHKhan]",
-          "views": "59257",
-          "favorites": 986,
-          "retweets": 53,
+          "views": "68629",
+          "favorites": 1134,
+          "retweets": 60,
           "media_url": "https://pbs.twimg.com/media/HP_6xEMXoAAfuxe.jpg",
           "author": {
             "name": null,
@@ -111,9 +125,9 @@
           "id": "2089655348751688115",
           "created_at": "2026-08-18T10:07:13+00:00",
           "text": "🚨🚨🎥 Benjamin Šeško and Matthijs de Ligt are training with the Manchester United group at Carrington this morning. NO Mason Mount. #MUFC [@DanyalHKhan] https://t.co/bcwvuRhN1k",
-          "views": "114517",
-          "favorites": 2044,
-          "retweets": 104,
+          "views": "159374",
+          "favorites": 2360,
+          "retweets": 127,
           "media_url": null,
           "author": {
             "name": null,
@@ -125,24 +139,10 @@
           "id": "2089654207724892489",
           "created_at": "2026-08-18T10:02:41+00:00",
           "text": "🚨🚨🗣️ @alex_crook:\n\n“I do expect one BIG signing at least, between now and September 1st, at Manchester United.” #MUFC [@talkSPORT] https://t.co/LYg4iOZpCI",
-          "views": "59891",
-          "favorites": 1772,
-          "retweets": 67,
+          "views": "71808",
+          "favorites": 2083,
+          "retweets": 88,
           "media_url": "https://pbs.twimg.com/media/HP_xbSEXwAAWSn4.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2089475792132575388",
-          "created_at": "2026-08-17T22:13:44+00:00",
-          "text": "Throwback to THAT Alex Telles volley 🤯🇧🇷 https://t.co/zknVQmrNH0",
-          "views": "82780",
-          "favorites": 896,
-          "retweets": 33,
-          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -159,12 +159,26 @@
       "screen_name": "indykaila",
       "tweets": [
         {
+          "id": "2089722530735026468",
+          "created_at": "2026-08-18T14:34:11+00:00",
+          "text": "RT @indykaila: Mega busy day today!\n\nAt 5pm we drop BREAKING exclusive Manchester United news 🚨\n\nGet ready. The bomb 💣 is about to go off…",
+          "views": null,
+          "favorites": 0,
+          "retweets": 72,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
+          }
+        },
+        {
           "id": "2089688739593277581",
           "created_at": "2026-08-18T12:19:54+00:00",
           "text": "Mega busy day today!\n\nAt 5pm we drop BREAKING exclusive Manchester United news 🚨\n\nGet ready. The bomb 💣 is about to go off\n\nStay locked in 🔒 https://t.co/A5fRHJsEUX",
-          "views": "90587",
-          "favorites": 495,
-          "retweets": 37,
+          "views": "199660",
+          "favorites": 1120,
+          "retweets": 72,
           "media_url": "https://pbs.twimg.com/media/HQAQ1P0WwAArX3x.jpg",
           "author": {
             "name": null,
@@ -176,23 +190,9 @@
           "id": "2089385829097496928",
           "created_at": "2026-08-17T16:16:15+00:00",
           "text": "Manchester United DEMAND Bruno Fernandes STAYS 🔴💯 \n\nThey SCREAMED the SAME ultimatum to his agent 📢📞😤 STOP all those sneaky calls to 🇹🇷🚫❌\n\nHe MUST listen 👂 RIGHT NOW",
-          "views": "342750",
-          "favorites": 2263,
+          "views": "346288",
+          "favorites": 2284,
           "retweets": 94,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2089359810709918023",
-          "created_at": "2026-08-17T14:32:51+00:00",
-          "text": "BREAKING in the Telegraph 💣\n\nGALATASARAY ARE GOING ALL OUT FOR BRUNO FERNANDES 🚨\n\nThe Turkish champions are prepared to DOUBLE his wages in a massive bid to rip him away from Manchester United.\n€50m offer on the table (plus add-ons).",
-          "views": "814895",
-          "favorites": 5612,
-          "retweets": 247,
           "media_url": null,
           "author": {
             "name": null,
