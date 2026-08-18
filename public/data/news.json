@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-18T10:19:02.934082+00:00",
+  "fetchedAt": "2026-08-18T11:16:46.673415+00:00",
   "articles": [
+    {
+      "id": "f7188fcd505e89c5e7772a96c709e3e6",
+      "title": "Paul Scholes handed six-month driving ban after speeding prosecutions",
+      "description": "The 51-year-old former Manchester United footballer racked up two driving convictions in the space of two days.",
+      "link": "https://www.standard.co.uk/news/crime/paul-scholes-manchester-united-greater-manchester-police-mercedes-england-b1293790.html",
+      "published_date": "2026-08-18T10:38:32",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/18/11/697fb05d99ff86d5514b5f336e0f3095Y29udGVudHNlYXJjaGFwaSwxNzg3MTM1MTg2-2.74560334.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "driving ban",
+        "football"
+      ]
+    },
     {
       "id": "48aae21e2240e3a06de8fa18362fc55a",
       "title": "Bruno Fernandes To Stay At Man Utd Despite €20m-A-Year Galatasaray Offer",
@@ -96,20 +109,6 @@
         "football contracts",
         "sports news",
         "club contracts"
-      ]
-    },
-    {
-      "id": "433e90d6b689f9b1fdc33f55c85b4d89",
-      "title": "Sources: Man Utd Make Bruno Fernandes Decision as Galatasaray Plot Bid",
-      "description": "Galatasaray are readying a bid for Manchester United captain Bruno Fernandes.",
-      "link": "https://www.givemesport.com/man-utd-bruno-fernandes-transfer-stance-galatasaray-offer/",
-      "published_date": "2026-08-17T16:16:47",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/design-1-2026-08-17t165015-858.png?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news",
-        "team dynamics"
       ]
     }
   ]
