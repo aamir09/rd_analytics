@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-18T18:23:28.746654+00:00",
+  "fetchedAt": "2026-08-18T19:21:24.118813+00:00",
   "articles": [
+    {
+      "id": "e18d1b491097ca362a6168ce9ac8ab4e",
+      "title": "Manchester United in contract renewal talks with key midfielder",
+      "description": "After Galatasaray offered Bruno Fernandes a tempting offer, Manchester United has opted to start negotiating over a new contract with their star midfielder.",
+      "link": "https://www.sportingnews.com/us/soccer/manchester-united/news/manchester-united-contract-renewal-talks-key-midfielder/b7e7fece6003a2b40812fa98",
+      "published_date": "2026-08-18T18:21:33",
+      "source": "Sporting News",
+      "media_url": "https://library.sportingnews.com/styles/thumbnail/s3/2025-08/GettyImages-2231897414.jpg?itok=Hwm8b-LA",
+      "topics": [
+        "contract negotiations",
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "d7a033330008b79e47faabd47d5bc0ed",
       "title": "5 Man Utd Mistakes Made This Transfer Window That Will Cost Them",
@@ -122,20 +136,6 @@
         "football",
         "sports news",
         "club news"
-      ]
-    },
-    {
-      "id": "ab75da354a91a36cc4477b3b5d5106c2",
-      "title": "Bruno Fernandes contract twist as Manchester United transfer stance revealed",
-      "description": "Galatasaray have targeted an ambitious swoop for the Red Devils captain this summer",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-bruno-fernandes-galatasaray-b1293763.html",
-      "published_date": "2026-08-18T08:54:04",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/18/09/2290612548..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "sports news",
-        "transfer news"
       ]
     }
   ]
