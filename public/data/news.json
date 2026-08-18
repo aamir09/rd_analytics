@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-18T17:18:54.951632+00:00",
+  "fetchedAt": "2026-08-18T18:23:28.746654+00:00",
   "articles": [
+    {
+      "id": "d7a033330008b79e47faabd47d5bc0ed",
+      "title": "5 Man Utd Mistakes Made This Transfer Window That Will Cost Them",
+      "description": "Manchester United have made five glaring errors during this summer's transfer window and have let Michael Carrick down.",
+      "link": "https://www.givemesport.com/man-utd-mistakes-transfer-window-hall-tchouameni/",
+      "published_date": "2026-08-18T17:16:14",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/design-1-2026-08-17t204821-409.png?w=1600&h=900&fit=crop",
+      "topics": [
+        "transfer window",
+        "football"
+      ]
+    },
     {
       "id": "fb1a6fc7d1728e642272a0fb4c8d571e",
       "title": "Manchester United get double injury boost as pair return to training before Hull clash",
@@ -123,19 +136,6 @@
         "football",
         "sports news",
         "transfer news"
-      ]
-    },
-    {
-      "id": "c8886acf314804d07a304359619cb582",
-      "title": "Manchester United’s greatest players: No 2, Ryan Giggs",
-      "description": "Ryan Giggs ranks No 2 in Manchester United's greatest ever players",
-      "link": "https://www.nytimes.com/athletic/7518502/2026/08/18/manchester-united-greatest-players-ryan-giggs/",
-      "published_date": "2026-08-18T04:25:31",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/17090843/ManUtdTop25-Giggs-scaled.jpg",
-      "topics": [
-        "football",
-        "Manchester United"
       ]
     }
   ]
