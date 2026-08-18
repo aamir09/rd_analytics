@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-18T04:25:53.194457+00:00",
+  "fetchedAt": "2026-08-18T05:20:35.050825+00:00",
   "articles": [
+    {
+      "id": "c8886acf314804d07a304359619cb582",
+      "title": "Manchester United’s greatest players: No 2, Ryan Giggs",
+      "description": "Ryan Giggs ranks No 2 in Manchester United's greatest ever players",
+      "link": "https://www.nytimes.com/athletic/7518502/2026/08/18/manchester-united-greatest-players-ryan-giggs/",
+      "published_date": "2026-08-18T04:25:31",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/17090843/ManUtdTop25-Giggs-scaled.jpg",
+      "topics": [
+        "football",
+        "Manchester United"
+      ]
+    },
     {
       "id": "1c7b11abd1eb903aa94a023bce95bf94",
       "title": "Paul Scholes Predicts Final 2026-27 Premier League Top 6",
@@ -95,20 +108,6 @@
       "topics": [
         "transfer window",
         "football"
-      ]
-    },
-    {
-      "id": "dd3ed6a208117771009fc328e1ead0ad",
-      "title": "Maguire sends clear message to INEOS over potential teammate who would ‘improve’ Man Utd next season",
-      "description": "Harry Maguire has reiterated his desire for Marcus Rashford to stay at Manchester United amid his uncertain situation.The forward played his first minutes in a Red Devils shirt since December 2024 on ...",
-      "link": "https://sports.yahoo.com/articles/maguire-sends-clear-message-ineos-071000932.html",
-      "published_date": "2026-08-17T07:10:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/12f516c0c515b0280cb6f8121fcf00f9.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "player development"
       ]
     }
   ]
