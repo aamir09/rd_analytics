@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T19:21:24.118813+00:00",
+  "fetchedAt": "2026-08-18T20:13:15.060937+00:00",
   "articles": [
     {
       "id": "e18d1b491097ca362a6168ce9ac8ab4e",
@@ -12,6 +12,20 @@
       "topics": [
         "contract negotiations",
         "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "c9ad5b614a1301dc643447175515fdfc",
+      "title": "2026-27 season preview: Manchester United",
+      "description": "Next up is dark horse title challenger Manchester United.",
+      "link": "https://www.yardbarker.com/soccer/articles/2026_27_season_preview_manchester_united/s1_13132_44190425",
+      "published_date": "2026-08-18T17:27:10",
+      "source": "Yardbarker",
+      "media_url": "http://www.yardbarker.com/media/1/5/15435bcecee00878e37f8946c999e4903f8b65bb/thumb_16x9/2026-27-season-preview-manchester-united.jpg?v=1",
+      "topics": [
+        "football",
+        "sports events",
         "sports news"
       ]
     },
@@ -122,20 +136,6 @@
       "topics": [
         "driving ban",
         "football"
-      ]
-    },
-    {
-      "id": "48aae21e2240e3a06de8fa18362fc55a",
-      "title": "Bruno Fernandes To Stay At Man Utd Despite €20m-A-Year Galatasaray Offer",
-      "description": "Manchester United captain will not be leaving the club this summer",
-      "link": "https://www.givemesport.com/bruno-fernandes-transfer-decision-man-utd-stay/",
-      "published_date": "2026-08-18T10:15:17",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/06/mixcollage-04-jun-2026-12-46-pm-8369.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news",
-        "club news"
       ]
     }
   ]
