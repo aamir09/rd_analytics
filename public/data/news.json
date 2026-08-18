@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-18T09:23:38.630021+00:00",
+  "fetchedAt": "2026-08-18T10:19:02.934082+00:00",
   "articles": [
+    {
+      "id": "48aae21e2240e3a06de8fa18362fc55a",
+      "title": "Bruno Fernandes To Stay At Man Utd Despite €20m-A-Year Galatasaray Offer",
+      "description": "Manchester United captain will not be leaving the club this summer",
+      "link": "https://www.givemesport.com/bruno-fernandes-transfer-decision-man-utd-stay/",
+      "published_date": "2026-08-18T10:15:17",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/06/mixcollage-04-jun-2026-12-46-pm-8369.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "club news"
+      ]
+    },
     {
       "id": "ab75da354a91a36cc4477b3b5d5106c2",
       "title": "Bruno Fernandes contract twist as Manchester United transfer stance revealed",
@@ -96,19 +110,6 @@
         "football",
         "sports news",
         "team dynamics"
-      ]
-    },
-    {
-      "id": "6312a33539963f65eb26940c3dc84072",
-      "title": "Ruud van Nistelrooy Revealed His Son Was Named After Former Celtic & Man Utd Player",
-      "description": "Former Manchester United striker Ruud van Nistelrooy was inspired to name his son after one of his Old Trafford teammates.",
-      "link": "https://www.givemesport.com/ruud-van-nistelrooy-revealed-his-son-was-named-after-celtic-man-utd-player/",
-      "published_date": "2026-08-17T15:46:07",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/04/mixcollage-23-apr-2025-06-16-pm-6999.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news"
       ]
     }
   ]
