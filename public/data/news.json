@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-19T20:16:58.699937+00:00",
+  "fetchedAt": "2026-08-19T21:17:00.135988+00:00",
   "articles": [
+    {
+      "id": "93228a7df3efa385c064c2941cd3318f",
+      "title": "Ederson explains why Manchester United transfer collapsed after £65m 'deal agreed'",
+      "description": "Brazilian had looked set to become Michael Carrick’s first signing",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-ederson-baleba-b1294014.html",
+      "published_date": "2026-08-19T20:39:02",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/05/31/18/01KSMSB3K6ZE1751EHRW3GWN1B.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football transfers",
+        "Manchester United",
+        "sports news"
+      ]
+    },
     {
       "id": "081d2d6431fbc1a0442448f4a65c0632",
       "title": "Why Man United want Brighton's Carlos Baleba to complete £150m bargain midfield rebuild",
@@ -126,20 +140,6 @@
         "celebrity news",
         "football",
         "sports news"
-      ]
-    },
-    {
-      "id": "af90ba30ad730edf1a0118ff326370d2",
-      "title": "Romano: Man Utd 'Very Interested' in Signing Lewis-Skelly After Baleba",
-      "description": "Manchester United could be in for a busy end to the 2026 summer transfer window",
-      "link": "https://www.givemesport.com/man-utd-very-interested-lewis-skelly-transfer-carlos-baleba/",
-      "published_date": "2026-08-19T11:16:12",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-caretaker-manager-michael-carrick-celebrates-premier-league-win-over-liverpool-at-old-trafford.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "transfer news",
-        "football",
-        "sports management"
       ]
     }
   ]
