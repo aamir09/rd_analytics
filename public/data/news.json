@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-19T13:37:10.124589+00:00",
+  "fetchedAt": "2026-08-19T14:23:28.042134+00:00",
   "articles": [
+    {
+      "id": "5415118a64ed61ffb61a946ed46caa0b",
+      "title": "How Carlos Baleba would fit at Manchester United and what else to know",
+      "description": "If a fee can be agreed with Brighton, what effect could the 22-year-old midfielder have on Michael Carrick's new-look United side?",
+      "link": "https://www.nytimes.com/athletic/7523291/2026/08/19/baleba-manchester-united-transfer-tactics/",
+      "published_date": "2026-08-19T14:03:37",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19091900/GettyImages-2261791761-e1787145568908.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "player transfers"
+      ]
+    },
     {
       "id": "44eaa898e23f8d976d7e804bce471e5c",
       "title": "Romano: Man Utd Could Complete 'Surprise' Striker Signing After Baleba",
@@ -112,20 +126,6 @@
         "football",
         "transfer news",
         "Manchester United"
-      ]
-    },
-    {
-      "id": "68a4aee4c3a94d8abaee139a33217dea",
-      "title": "David Ornstein: Man Utd Close in on Carlos Baleba Transfer After £65m Bid",
-      "description": "Manchester United are close to landing their third midfield transfer",
-      "link": "https://www.givemesport.com/breaking-man-utd-closing-in-carlos-baleba-transfer-65m-offer/",
-      "published_date": "2026-08-19T08:57:33",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/01/mixcollage-31-jan-2025-07-48-am-2421.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football transfers",
-        "Manchester United",
-        "Carlos Baleba"
       ]
     }
   ]
