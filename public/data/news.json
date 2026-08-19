@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-19T10:19:09.451367+00:00",
+  "fetchedAt": "2026-08-19T11:16:45.114231+00:00",
   "articles": [
+    {
+      "id": "8b451692773ace02d4ffb916faf27678",
+      "title": "Can Carlos Baleba make Manchester United debut this weekend? Talks continue over summer transfer",
+      "description": "Man Utd kick off the new Premier League season away at Hull on Saturday",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-baleba-debut-deadline-b1293932.html",
+      "published_date": "2026-08-19T10:09:15",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/19/9/37/BalebaManUtd19082026.png?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "Premier League",
+        "football",
+        "transfer news"
+      ]
+    },
     {
       "id": "9b4e97ca6f2ba34c525332cb7db68e9c",
       "title": "Man Utd close on deal for Brighton's Baleba",
@@ -112,19 +126,6 @@
         "football",
         "sports events",
         "sports news"
-      ]
-    },
-    {
-      "id": "d7a033330008b79e47faabd47d5bc0ed",
-      "title": "5 Man Utd Mistakes Made This Transfer Window That Will Cost Them",
-      "description": "Manchester United have made five glaring errors during this summer's transfer window and have let Michael Carrick down.",
-      "link": "https://www.givemesport.com/man-utd-mistakes-transfer-window-hall-tchouameni/",
-      "published_date": "2026-08-18T17:16:14",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/design-1-2026-08-17t204821-409.png?w=1600&h=900&fit=crop",
-      "topics": [
-        "transfer window",
-        "football"
       ]
     }
   ]
