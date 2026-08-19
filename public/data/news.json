@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-19T19:18:21.746659+00:00",
+  "fetchedAt": "2026-08-19T20:16:58.699937+00:00",
   "articles": [
+    {
+      "id": "081d2d6431fbc1a0442448f4a65c0632",
+      "title": "Why Man United want Brighton's Carlos Baleba to complete £150m bargain midfield rebuild",
+      "description": "Carlos Baleba could complete Manchester United's midfield refit if he follows Andrey Santos and Youri Tielemans to Old Trafford.",
+      "link": "https://www.sportingnews.com/us/soccer/manchester-united/news/man-united-carlos-baleba-%C2%A3150m-midfield-rebuild/fd4e2543d02a35db80607266",
+      "published_date": "2026-08-19T19:54:52",
+      "source": "Sporting News",
+      "media_url": "https://ng-sportingnews.com/s3/files/styles/thumbnail/s3/2026-08/GettyImages-2277991092.jpg?itok=ZyP_6-5A",
+      "topics": [
+        "midfield rebuild",
+        "Manchester United",
+        "Carlos Baleba"
+      ]
+    },
     {
       "id": "62809b8d033059e26948e7551f26f19b",
       "title": "How Carlos Baleba Slots Into Unstoppable Man Utd XI This Season",
@@ -126,20 +140,6 @@
         "transfer news",
         "football",
         "sports management"
-      ]
-    },
-    {
-      "id": "8b451692773ace02d4ffb916faf27678",
-      "title": "Can Carlos Baleba make Manchester United debut this weekend? Talks continue over summer transfer",
-      "description": "Man Utd kick off the new Premier League season away at Hull on Saturday",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-baleba-debut-deadline-b1293932.html",
-      "published_date": "2026-08-19T10:09:15",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/19/9/37/BalebaManUtd19082026.png?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "Premier League",
-        "football",
-        "transfer news"
       ]
     }
   ]
