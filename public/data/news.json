@@ -1,6 +1,21 @@
 {
-  "fetchedAt": "2026-08-19T12:26:00.252261+00:00",
+  "fetchedAt": "2026-08-19T13:37:10.124589+00:00",
   "articles": [
+    {
+      "id": "44eaa898e23f8d976d7e804bce471e5c",
+      "title": "Romano: Man Utd Could Complete 'Surprise' Striker Signing After Baleba",
+      "description": "Fabrizio Romano has revealed that Manchester United could land a striker this summer if they sell Joshua Zirkzee.",
+      "link": "https://www.givemesport.com/man-utd-surprise-striker-signing-after-carlos-baleba/",
+      "published_date": "2026-08-19T12:15:12",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/06/mixcollage-03-jun-2026-01-01-pm-378.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United",
+        "Chelsea"
+      ]
+    },
     {
       "id": "1cf66c0a7000e8ad6dc8c111a3b69a2a",
       "title": "How Manchester United can line up with Carlos Baleba after £65m transfer",
@@ -111,20 +126,6 @@
         "football transfers",
         "Manchester United",
         "Carlos Baleba"
-      ]
-    },
-    {
-      "id": "88091c099280f4c66a8126bf4e017085",
-      "title": "Manchester United and Brighton closing in on deal for Carlos Baleba",
-      "description": "United have made an offer of around £60million plus £5m in add-ons for the 22-year-old midfielder.",
-      "link": "https://www.nytimes.com/athletic/7243081/2026/08/19/carlos-baleba-manchester-united-transfer/",
-      "published_date": "2026-08-19T08:49:21",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/04/30062134/carlos-baleba-april-26-scaled-e1777544539637.jpg",
-      "topics": [
-        "football deals",
-        "sports news",
-        "player acquisitions"
       ]
     }
   ]
