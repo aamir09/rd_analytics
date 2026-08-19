@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-19T08:25:18.245407+00:00",
+  "fetchedAt": "2026-08-19T09:24:26.530019+00:00",
   "articles": [
+    {
+      "id": "68a4aee4c3a94d8abaee139a33217dea",
+      "title": "David Ornstein: Man Utd Close in on Carlos Baleba Transfer After £65m Bid",
+      "description": "Manchester United are close to landing their third midfield transfer",
+      "link": "https://www.givemesport.com/breaking-man-utd-closing-in-carlos-baleba-transfer-65m-offer/",
+      "published_date": "2026-08-19T08:57:33",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/01/mixcollage-31-jan-2025-07-48-am-2421.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football transfers",
+        "Manchester United",
+        "Carlos Baleba"
+      ]
+    },
+    {
+      "id": "88091c099280f4c66a8126bf4e017085",
+      "title": "Manchester United and Brighton closing in on deal for Carlos Baleba",
+      "description": "United have made an offer of around £60million plus £5m in add-ons for the 22-year-old midfielder.",
+      "link": "https://www.nytimes.com/athletic/7243081/2026/08/19/carlos-baleba-manchester-united-transfer/",
+      "published_date": "2026-08-19T08:49:21",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/04/30062134/carlos-baleba-april-26-scaled-e1777544539637.jpg",
+      "topics": [
+        "football deals",
+        "sports news",
+        "player acquisitions"
+      ]
+    },
     {
       "id": "954e3cd5db7c48480b80d9977a783cb8",
       "title": "Arsenal reveal Myles Lewis-Skelly stance after £45m Manchester United transfer is labelled a 'no brainer'",
@@ -109,34 +137,6 @@
       "topics": [
         "sports news",
         "football"
-      ]
-    },
-    {
-      "id": "298d8e1158e94ead0e52906423706830",
-      "title": "Aston Villa see Aaron Wan-Bissaka loan offer rejected by West Ham",
-      "description": "Wan-Bissaka, 28, has made 65 appearances across his two seasons at West Ham, having previously played 190 times for Manchester United.",
-      "link": "https://www.nytimes.com/athletic/7521000/2026/08/18/aston-villa-wan-bissaka-west-ham/",
-      "published_date": "2026-08-18T12:27:05",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/18070356/wan-bissaka-drc-wc-scaled-e1787051061817.jpg",
-      "topics": [
-        "football",
-        "loan deals",
-        "sports news"
-      ]
-    },
-    {
-      "id": "3c655cc9410633ec6dbe64a477af4dc7",
-      "title": "Myles Lewis-Skelly Has Played His Way Into a Career Crossroads",
-      "description": "Chelsea and Manchester United have both been linked with the young star.",
-      "link": "https://www.si.com/soccer/myles-lewis-skelly-played-way-career-crossroads?utm_source=RSS",
-      "published_date": "2026-08-18T12:00:02",
-      "source": "Sports Illustrated",
-      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3648,h_2052,x_0,y_64/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m0a970bg2jszz9m7mk.jpg",
-      "topics": [
-        "football",
-        "career development",
-        "sports news"
       ]
     }
   ]
