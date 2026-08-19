@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-19T09:24:26.530019+00:00",
+  "fetchedAt": "2026-08-19T10:19:09.451367+00:00",
   "articles": [
+    {
+      "id": "9b4e97ca6f2ba34c525332cb7db68e9c",
+      "title": "Man Utd close on deal for Brighton's Baleba",
+      "description": "Manchester United are in talks to sign Cameroon international Carlos Baleba having reignited their interest in the midfielder.",
+      "link": "https://sports.yahoo.com/articles/man-utd-close-deal-brightons-095100844.html",
+      "published_date": "2026-08-19T09:51:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/bbc_us_articles_995/4c14b36ebfa12ec956e161cf9b658dc3.jpg",
+      "topics": [
+        "football",
+        "transfer news",
+        "Manchester United"
+      ]
+    },
+    {
+      "id": "955cee3a8238d07f9dc70367bc46f5c8",
+      "title": "Manchester United confident on Baleba deal despite opening bid rejection",
+      "description": "Manchester United are confident of signing Carlos Baleba from Brighton and Hove Albion despite having an opening offer rejected.Brighton have turned down a bid from Manchester United worth £65m inclu...",
+      "link": "https://sports.yahoo.com/articles/manchester-united-confident-baleba-deal-094000401.html",
+      "published_date": "2026-08-19T09:40:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/the_football_faithful_articles_458/24bdc72ba857a7a263048117eec10c72.jpg",
+      "topics": [
+        "football",
+        "transfer news",
+        "Manchester United"
+      ]
+    },
     {
       "id": "68a4aee4c3a94d8abaee139a33217dea",
       "title": "David Ornstein: Man Utd Close in on Carlos Baleba Transfer After £65m Bid",
@@ -96,46 +124,6 @@
       "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/design-1-2026-08-17t204821-409.png?w=1600&h=900&fit=crop",
       "topics": [
         "transfer window",
-        "football"
-      ]
-    },
-    {
-      "id": "fb1a6fc7d1728e642272a0fb4c8d571e",
-      "title": "Manchester United get double injury boost as pair return to training before Hull clash",
-      "description": "Mason Mount is still sidelined with a foot injury but there is positive news elsewhere",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-injury-latest-sesko-de-ligt-mount-b1293845.html",
-      "published_date": "2026-08-18T15:52:07",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/18/16/2290466657..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football injury",
-        "Manchester United",
-        "sports news"
-      ]
-    },
-    {
-      "id": "5447476f822ac060961c883a55f68702",
-      "title": "Hull City Picks Cincinnati for Premier League's First Official Watch Party",
-      "description": "The Stretch at The Banks hosts Cincinnati's first official Premier League watch party Saturday as Hull City faces Manchester United at 7:30 a.m.",
-      "link": "https://hoodline.com/2026/08/hull-city-picks-cincinnati-for-premier-league-s-first-official-watch-party/",
-      "published_date": "2026-08-18T13:34:54",
-      "source": "Hoodline",
-      "media_url": "https://img.hoodline.com/2026/8/hull-city-picks-cincinnati-for-premier-leagues-first-official-watch-party-2.webp",
-      "topics": [
-        "Premier League",
-        "sports events"
-      ]
-    },
-    {
-      "id": "c233c4fad662d889e1a6993c5a00630e",
-      "title": "Paul Scholes handed six-month driving ban after being taken to court twice in two days",
-      "description": "Manchester United legend Paul Scholes was handed a road ban along with fines, after two infractions culminated in two court appearances in as many days last week",
-      "link": "https://www.mirror.co.uk/sport/football/news/paul-scholes-driving-ban-court-37564997",
-      "published_date": "2026-08-18T13:24:51",
-      "source": "The Mirror",
-      "media_url": "https://i2-prod.mirror.co.uk/sport/football/news/article36843065.ece/ALTERNATES/s98/0_Manchester-United-v-Athletic-Club-UEFA-Europa-League-202425-Semi-Final-Second-Leg.jpg",
-      "topics": [
-        "sports news",
         "football"
       ]
     }
