@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-08-19T11:16:45.114231+00:00",
+  "fetchedAt": "2026-08-19T12:26:00.252261+00:00",
   "articles": [
+    {
+      "id": "1cf66c0a7000e8ad6dc8c111a3b69a2a",
+      "title": "How Manchester United can line up with Carlos Baleba after £65m transfer",
+      "description": "Michael Carrick to have welcome selection headache with key transfer target incoming",
+      "link": "https://www.standard.co.uk/sport/football/how-man-utd-lineup-baleba-b1293949.html",
+      "published_date": "2026-08-19T11:41:54",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/19/11/43/baleba.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "transfer news",
+        "Manchester United",
+        "Carlos Baleba"
+      ]
+    },
+    {
+      "id": "35a0b12c37accc7359b86b60ed97f00d",
+      "title": "Manchester United Hit With Fresh Concern Over Carlos Baleba Transfer",
+      "description": "Manchester United are close to finalizing a major transfer deal for Carlos Baleba as negotiations with Brighton & Hove Albion move towards completion. Sports reports the deal is expected to cost more than £60 million, making Baleba one of the window’s biggest additions. The 22-year-old midfielder is preparing to travel to Manchester in the coming days, with a […] The post Manchester United Hit With Fresh Concern Over Carlos Baleba Transfer appeared first on HEAVY .",
+      "link": "https://heavy.com/sports/soccer/premier-league/manchester-united-fc/manchester-united-hit-with-fresh-concern-over-carlos-baleba-transfer/",
+      "published_date": "2026-08-19T11:36:43",
+      "source": "Heavy",
+      "media_url": "https://heavy.com/wp-content/uploads/2026/08/brighton-hove-albion-v-leeds-united-premier-league-brighton-england.jpg?quality=65&strip=all",
+      "topics": [
+        "transfer negotiations",
+        "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "f013c89fe9049009263188bc2394a5ac",
+      "title": "Adnan Januzaj - What’s Happened to Former Wonderkid Tipped to Become Man Utd Legend",
+      "description": "He was tipped for greatness at Manchester United, but things haven't panned out as planned for Adnan Januzaj",
+      "link": "https://www.givemesport.com/adnan-januazj-what-happened-former-manchester-united-wonderkid/",
+      "published_date": "2026-08-19T11:22:53",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/04/mixcollage-13-apr-2025-11-38-am-507.jpg?w=1200&h=675&fit=crop",
+      "topics": [
+        "celebrity news",
+        "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "af90ba30ad730edf1a0118ff326370d2",
+      "title": "Romano: Man Utd 'Very Interested' in Signing Lewis-Skelly After Baleba",
+      "description": "Manchester United could be in for a busy end to the 2026 summer transfer window",
+      "link": "https://www.givemesport.com/man-utd-very-interested-lewis-skelly-transfer-carlos-baleba/",
+      "published_date": "2026-08-19T11:16:12",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/05/manchester-united-caretaker-manager-michael-carrick-celebrates-premier-league-win-over-liverpool-at-old-trafford.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "transfer news",
+        "football",
+        "sports management"
+      ]
+    },
     {
       "id": "8b451692773ace02d4ffb916faf27678",
       "title": "Can Carlos Baleba make Manchester United debut this weekend? Talks continue over summer transfer",
@@ -69,63 +125,6 @@
         "football deals",
         "sports news",
         "player acquisitions"
-      ]
-    },
-    {
-      "id": "954e3cd5db7c48480b80d9977a783cb8",
-      "title": "Arsenal reveal Myles Lewis-Skelly stance after £45m Manchester United transfer is labelled a 'no brainer'",
-      "description": "A fresh hands-off warning has been issued",
-      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-lewis-skelly-man-utd-b1293901.html",
-      "published_date": "2026-08-19T06:57:02",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/19/07/01M05PCMY1AFWMSXXJW4TETBBC.jpg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "sports news",
-        "Arsenal",
-        "Myles Lewis-Skelly"
-      ]
-    },
-    {
-      "id": "4f18d8aeec52e34fc2c6d71672b8d7de",
-      "title": "Manchester United 2026-27 preview: Rashford returns, can Carrick restore the glory days?",
-      "description": "A new-look midfield has brought some tactical tweaks in pre-season as United prepare for what they hope is a marathon campaign",
-      "link": "https://www.nytimes.com/athletic/7393216/2026/08/19/manchester-united-2026-27-preview/",
-      "published_date": "2026-08-19T04:16:39",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/15054740/GettyImages-2286014600-scaled-e1786787283751.jpg",
-      "topics": [
-        "football",
-        "pre-season",
-        "midfield changes"
-      ]
-    },
-    {
-      "id": "e18d1b491097ca362a6168ce9ac8ab4e",
-      "title": "Manchester United in contract renewal talks with key midfielder",
-      "description": "After Galatasaray offered Bruno Fernandes a tempting offer, Manchester United has opted to start negotiating over a new contract with their star midfielder.",
-      "link": "https://www.sportingnews.com/us/soccer/manchester-united/news/manchester-united-contract-renewal-talks-key-midfielder/b7e7fece6003a2b40812fa98",
-      "published_date": "2026-08-18T18:21:33",
-      "source": "Sporting News",
-      "media_url": "https://library.sportingnews.com/styles/thumbnail/s3/2025-08/GettyImages-2231897414.jpg?itok=Hwm8b-LA",
-      "topics": [
-        "contract negotiations",
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "c9ad5b614a1301dc643447175515fdfc",
-      "title": "2026-27 season preview: Manchester United",
-      "description": "Next up is dark horse title challenger Manchester United.",
-      "link": "https://www.yardbarker.com/soccer/articles/2026_27_season_preview_manchester_united/s1_13132_44190425",
-      "published_date": "2026-08-18T17:27:10",
-      "source": "Yardbarker",
-      "media_url": "http://www.yardbarker.com/media/1/5/15435bcecee00878e37f8946c999e4903f8b65bb/thumb_16x9/2026-27-season-preview-manchester-united.jpg?v=1",
-      "topics": [
-        "football",
-        "sports events",
-        "sports news"
       ]
     }
   ]
