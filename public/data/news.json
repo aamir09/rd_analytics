@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-19T14:23:28.042134+00:00",
+  "fetchedAt": "2026-08-19T15:22:05.253549+00:00",
   "articles": [
+    {
+      "id": "eeb644f2d07c0cdefd09604dbe6620ec",
+      "title": "Arsenal working to complete signings of Manchester United's James Scanlon, Habeeb Ogunneye",
+      "description": "The Premier League champions are confident of finalising deals for 19-year-old winger Scanlon and 20-year-old right-back Ogunneye.",
+      "link": "https://www.nytimes.com/athletic/7523764/2026/08/19/arsenal-scanlon-ogunneye-man-utd-academy-transfer-news/",
+      "published_date": "2026-08-19T14:19:47",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19093326/GettyImages-2199413111-scaled-e1787146504631.jpg",
+      "topics": [
+        "premier league",
+        "sports news",
+        "signings"
+      ]
+    },
     {
       "id": "5415118a64ed61ffb61a946ed46caa0b",
       "title": "How Carlos Baleba would fit at Manchester United and what else to know",
@@ -108,20 +122,6 @@
       "published_date": "2026-08-19T09:51:00",
       "source": "Yahoo Sports",
       "media_url": "https://media.zenfs.com/en/bbc_us_articles_995/4c14b36ebfa12ec956e161cf9b658dc3.jpg",
-      "topics": [
-        "football",
-        "transfer news",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "955cee3a8238d07f9dc70367bc46f5c8",
-      "title": "Manchester United confident on Baleba deal despite opening bid rejection",
-      "description": "Manchester United are confident of signing Carlos Baleba from Brighton and Hove Albion despite having an opening offer rejected.Brighton have turned down a bid from Manchester United worth £65m inclu...",
-      "link": "https://sports.yahoo.com/articles/manchester-united-confident-baleba-deal-094000401.html",
-      "published_date": "2026-08-19T09:40:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/the_football_faithful_articles_458/24bdc72ba857a7a263048117eec10c72.jpg",
       "topics": [
         "football",
         "transfer news",
