@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-19T04:27:56.061575+00:00",
+  "fetchedAt": "2026-08-19T05:21:06.421254+00:00",
   "articles": [
+    {
+      "id": "4f18d8aeec52e34fc2c6d71672b8d7de",
+      "title": "Manchester United 2026-27 preview: Rashford returns, can Carrick restore the glory days?",
+      "description": "A new-look midfield has brought some tactical tweaks in pre-season as United prepare for what they hope is a marathon campaign",
+      "link": "https://www.nytimes.com/athletic/7393216/2026/08/19/manchester-united-2026-27-preview/",
+      "published_date": "2026-08-19T04:16:39",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/15054740/GettyImages-2286014600-scaled-e1786787283751.jpg",
+      "topics": [
+        "football",
+        "pre-season",
+        "midfield changes"
+      ]
+    },
     {
       "id": "e18d1b491097ca362a6168ce9ac8ab4e",
       "title": "Manchester United in contract renewal talks with key midfielder",
@@ -123,19 +137,6 @@
         "sports news",
         "Manchester United",
         "Red Devils"
-      ]
-    },
-    {
-      "id": "f7188fcd505e89c5e7772a96c709e3e6",
-      "title": "Paul Scholes handed six-month driving ban after speeding prosecutions",
-      "description": "The 51-year-old former Manchester United footballer racked up two driving convictions in the space of two days.",
-      "link": "https://www.standard.co.uk/news/crime/paul-scholes-manchester-united-greater-manchester-police-mercedes-england-b1293790.html",
-      "published_date": "2026-08-18T10:38:32",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/18/11/697fb05d99ff86d5514b5f336e0f3095Y29udGVudHNlYXJjaGFwaSwxNzg3MTM1MTg2-2.74560334.jpg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "driving ban",
-        "football"
       ]
     }
   ]
