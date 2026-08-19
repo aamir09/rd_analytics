@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-19T10:32:57.437573+00:00",
+  "fetchedAt": "2026-08-19T12:54:04.582286+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2090047845923471834",
+          "created_at": "2026-08-19T12:06:52+00:00",
+          "text": "🚨 @MU_Foundation wants to hear from you!\n\nOur Foundation is seeking past and present participants from its community programmes ahead of its 20th anniversary next March ❤️\n\nIf you have a story to share, get in touch 👇",
+          "views": "127088",
+          "favorites": 1678,
+          "retweets": 113,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2090001515041665494",
           "created_at": "2026-08-19T09:02:46+00:00",
           "text": "Let us know, Reds 💭🔴 https://t.co/068rqdEBXc",
-          "views": "190121",
-          "favorites": 5522,
-          "retweets": 333,
+          "views": "292310",
+          "favorites": 7785,
+          "retweets": 451,
           "media_url": "https://pbs.twimg.com/media/HQEkcmzXkAAZaY9.jpg",
           "author": {
             "name": null,
@@ -22,9 +36,9 @@
           "id": "2089789427866337658",
           "created_at": "2026-08-18T19:00:00+00:00",
           "text": "Three kits. \nOne club. \n\n🇾🇪 https://t.co/i7Dgne9NQ1",
-          "views": "583330",
-          "favorites": 15509,
-          "retweets": 1542,
+          "views": "630665",
+          "favorites": 16556,
+          "retweets": 1658,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,9 +50,9 @@
           "id": "2089708392042635370",
           "created_at": "2026-08-18T13:38:00+00:00",
           "text": "Most-owned United player ✔️\nThird most-owned overall ✔️\n\nIs there room for @B_Fernandes8 in your 2026/27 #FPL team? 👀 https://t.co/7Qt81V6ELd https://t.co/BtoUyxd5Ow",
-          "views": "548053",
-          "favorites": 7829,
-          "retweets": 623,
+          "views": "572899",
+          "favorites": 8221,
+          "retweets": 654,
           "media_url": "https://pbs.twimg.com/media/HQAHZbhW8AAfnpF.jpg",
           "author": {
             "name": null,
@@ -50,23 +64,9 @@
           "id": "2089704636265406834",
           "created_at": "2026-08-18T13:23:04+00:00",
           "text": "RT @adidasfootball: dreams to come, United. ❤️✨ https://t.co/D2CZpnolGo",
-          "views": "92657",
+          "views": "93666",
           "favorites": 0,
-          "retweets": 619,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2089683733981069797",
-          "created_at": "2026-08-18T12:00:01+00:00",
-          "text": "New season ready 🔴⚪️🔵\n\nThe set is complete ✔️",
-          "views": "647453",
-          "favorites": 15419,
-          "retweets": 1249,
+          "retweets": 629,
           "media_url": null,
           "author": {
             "name": null,
@@ -80,69 +80,69 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2090051051256779192",
+          "created_at": "2026-08-19T12:19:36+00:00",
+          "text": "🚨 NEW!!\n\nManchester United’s interest in Myles Lewis-Skelly is understood to be GROWING. #MUFC [@TomCantonMedia] https://t.co/ImBSyL6K80",
+          "views": "43125",
+          "favorites": 1372,
+          "retweets": 97,
+          "media_url": "https://pbs.twimg.com/media/HQFaWezWUAA3mhl.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2090049900608110642",
+          "created_at": "2026-08-19T12:15:02+00:00",
+          "text": "🚨 JUST IN:\n\nManchester United have held DISCUSSIONS with the player side of Jorge Salinas. The data team rate him highly and he’s seen as high potential player. David Raum is also on the list and liked. #MUFC [@SullyTalkz] https://t.co/HRJZMutEjU",
+          "views": "38182",
+          "favorites": 1143,
+          "retweets": 60,
+          "media_url": "https://pbs.twimg.com/media/HQFZTpsWoAA02HW.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2090049371433816331",
+          "created_at": "2026-08-19T12:12:56+00:00",
+          "text": "🚨 Manchester United remain in the market for a left-back. Lewis Hall and Myles Lewis-Skelly are high on the list of candidates. #MUFC [@JamieJackson___] https://t.co/urCLMQGDcp",
+          "views": "35095",
+          "favorites": 1653,
+          "retweets": 91,
+          "media_url": "https://pbs.twimg.com/media/HQFY023WYAE0knE.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2090043439282794733",
+          "created_at": "2026-08-19T11:49:21+00:00",
+          "text": "🚨 JUST IN:\n\nArsenal are working on transfers for both James Scanlon and Habeeb Ogunneye from Manchester United. They are confident that deals for both players can be agreed this summer. #MUFC [@SamJDean] https://t.co/yOzzeoWmdm",
+          "views": "68867",
+          "favorites": 837,
+          "retweets": 43,
+          "media_url": "https://pbs.twimg.com/media/HQFTbjaX0AArzEZ.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2090023411703525781",
           "created_at": "2026-08-19T10:29:46+00:00",
           "text": "🚨 Manchester United still WANT to sign a left-back after signing Carlos Baleba. #MUFC [@SullyTalkz] https://t.co/euSFjSnOXv",
-          "views": "7301",
-          "favorites": 240,
-          "retweets": 23,
+          "views": "73714",
+          "favorites": 4540,
+          "retweets": 219,
           "media_url": "https://pbs.twimg.com/media/HQFBN0BW4AA_nA4.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090016086993334621",
-          "created_at": "2026-08-19T10:00:40+00:00",
-          "text": "🚨 NEW:\n\nCarlos Baleba is expected to be out with injury for another two to three weeks. #MUFC [@sistoney67] https://t.co/E3Q3MOnxIZ",
-          "views": "29173",
-          "favorites": 879,
-          "retweets": 31,
-          "media_url": "https://pbs.twimg.com/media/HQE6jdnXcAALlO8.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090013721183592742",
-          "created_at": "2026-08-19T09:51:16+00:00",
-          "text": "RE-UNITED 🔜🔴 https://t.co/8DVeExze9c",
-          "views": "29219",
-          "favorites": 1718,
-          "retweets": 66,
-          "media_url": "https://pbs.twimg.com/media/HQE4ZxLW4AAnSYV.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090011507488661978",
-          "created_at": "2026-08-19T09:42:28+00:00",
-          "text": "🚨 Carlos Baleba is NOT far away from fitness after an ankle issue. #MUFC [@alex_crook] https://t.co/kdLNNytHr5",
-          "views": "34175",
-          "favorites": 1404,
-          "retweets": 57,
-          "media_url": "https://pbs.twimg.com/media/HQE2YKEXQAAvU7p.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090008437681721751",
-          "created_at": "2026-08-19T09:30:16+00:00",
-          "text": "🚨🚨🇨🇲 BREAKING:\n\nManchester United are SET to sign Carlos Baleba! #MUFC [@FabrizioRomano] https://t.co/DQZOYkLB61",
-          "views": "33392",
-          "favorites": 1711,
-          "retweets": 67,
-          "media_url": "https://pbs.twimg.com/media/HQEzmKSXIAAIgsh.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -158,9 +158,9 @@
           "id": "2090014596975276482",
           "created_at": "2026-08-19T09:54:45+00:00",
           "text": "🚨🔴 Carlos Baleba made clear to his camp his only dream since August 2025: Manchester United.\n\nBaleba agreed personal terms with #MUFC one year ago but Brighton closed the doors; now negotiations at final stages.\n\nThe agreement player-United remains valid: he only wants United. https://t.co/hECUOoIPJn",
-          "views": "1023025",
-          "favorites": 23933,
-          "retweets": 2170,
+          "views": "2340756",
+          "favorites": 51231,
+          "retweets": 4118,
           "media_url": "https://pbs.twimg.com/media/HQE5Ms6XYAAZWow.jpg",
           "author": {
             "name": null,
@@ -172,9 +172,9 @@
           "id": "2090007773756924187",
           "created_at": "2026-08-19T09:27:38+00:00",
           "text": "🚨🔴 Manchester United are set to sign Carlos Baleba from Brighton as new midfielder!\n\nOfficial bid over €70m plus €6m add-ons sent to Brighton, as per @David_Ornstein.\n\nNo club to club agreement yet but #MUFC to send new bid.\n\nBaleba, pushing since August 2025 to join United. https://t.co/pINmzs2TNI",
-          "views": "3078185",
-          "favorites": 65767,
-          "retweets": 6386,
+          "views": "6422843",
+          "favorites": 111635,
+          "retweets": 10037,
           "media_url": "https://pbs.twimg.com/media/HQEy_hTXEAATU16.jpg",
           "author": {
             "name": null,
@@ -188,12 +188,40 @@
       "screen_name": "indykaila",
       "tweets": [
         {
+          "id": "2090039889752395937",
+          "created_at": "2026-08-19T11:35:15+00:00",
+          "text": "RT @indykaila: It will be a 5-year contract for Carlos Baleba. He is so excited to join Manchester United. He will be fully fit around Sept…",
+          "views": null,
+          "favorites": 0,
+          "retweets": 429,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
+          }
+        },
+        {
+          "id": "2090027462268752330",
+          "created_at": "2026-08-19T10:45:52+00:00",
+          "text": "Left back #mufc",
+          "views": "384748",
+          "favorites": 8021,
+          "retweets": 560,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
+          }
+        },
+        {
           "id": "2090021230128533594",
           "created_at": "2026-08-19T10:21:06+00:00",
           "text": "RT @indykaila: This morning, a significant meeting took place in London between representatives of Carlos Baleba and Manchester United offi…",
           "views": null,
           "favorites": 0,
-          "retweets": 767,
+          "retweets": 911,
           "media_url": null,
           "author": {
             "name": null,
@@ -205,9 +233,9 @@
           "id": "2090013825915302013",
           "created_at": "2026-08-19T09:51:41+00:00",
           "text": "Manchester United have not finished in the transfer market.",
-          "views": "138961",
-          "favorites": 3239,
-          "retweets": 259,
+          "views": "406295",
+          "favorites": 7027,
+          "retweets": 522,
           "media_url": null,
           "author": {
             "name": null,
@@ -219,24 +247,10 @@
           "id": "2090008898803474771",
           "created_at": "2026-08-19T09:32:06+00:00",
           "text": "Exclusive 💣\n\nCarlos Baleba has agreed personal terms with Manchester United on reduced terms from last summer. https://t.co/6N1jrUKXc4",
-          "views": "132916",
-          "favorites": 2778,
-          "retweets": 167,
+          "views": "206453",
+          "favorites": 4142,
+          "retweets": 252,
           "media_url": "https://pbs.twimg.com/media/HQE0A9TXUAAw2HN.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2090006251694420177",
-          "created_at": "2026-08-19T09:21:35+00:00",
-          "text": "It will be a 5-year contract for Carlos Baleba. He is so excited to join Manchester United. He will be fully fit around September.",
-          "views": "191550",
-          "favorites": 4338,
-          "retweets": 310,
-          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -252,9 +266,9 @@
           "id": "2089998414637363381",
           "created_at": "2026-08-19T08:50:26+00:00",
           "text": "🚨 EXCLUSIVE: Manchester United closing in on deal to sign Carlos Baleba from Brighton &amp; Hove Albion. #MUFC offer for 22yo Cameroon midfielder ~£60+5m; below #BHAFC valuation but amicable talks continue as all parties work to reach agreement @TheAthleticFC https://t.co/WmP1bD2JuT",
-          "views": "10964391",
-          "favorites": 88924,
-          "retweets": 15411,
+          "views": "19198723",
+          "favorites": 113495,
+          "retweets": 18789,
           "media_url": null,
           "author": {
             "name": null,
