@@ -1,6 +1,21 @@
 {
-  "fetchedAt": "2026-08-19T18:20:17.430433+00:00",
+  "fetchedAt": "2026-08-19T19:18:21.746659+00:00",
   "articles": [
+    {
+      "id": "62809b8d033059e26948e7551f26f19b",
+      "title": "How Carlos Baleba Slots Into Unstoppable Man Utd XI This Season",
+      "description": "Manchester United are finalising a move for Brighton hotshot Carlos Baleba on a £65 million deal after a long summer pursuit.",
+      "link": "https://www.givemesport.com/man-utd-perfect-xi-carlos-baleba/",
+      "published_date": "2026-08-19T19:15:12",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/01/mixcollage-31-jan-2025-07-48-am-2421.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United",
+        "Carlos Baleba"
+      ]
+    },
     {
       "id": "f36eecbc5545d616c05b05793639ff8d",
       "title": "Fabrizio Romano: Man United's Next Move After Baleba and Barcola to Liverpool Latest",
@@ -125,20 +140,6 @@
         "Premier League",
         "football",
         "transfer news"
-      ]
-    },
-    {
-      "id": "9b4e97ca6f2ba34c525332cb7db68e9c",
-      "title": "Man Utd close on deal for Brighton's Baleba",
-      "description": "Manchester United are in talks to sign Cameroon international Carlos Baleba having reignited their interest in the midfielder.",
-      "link": "https://sports.yahoo.com/articles/man-utd-close-deal-brightons-095100844.html",
-      "published_date": "2026-08-19T09:51:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/bbc_us_articles_995/4c14b36ebfa12ec956e161cf9b658dc3.jpg",
-      "topics": [
-        "football",
-        "transfer news",
-        "Manchester United"
       ]
     }
   ]
