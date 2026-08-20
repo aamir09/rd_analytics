@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-20T14:39:51.683990+00:00",
+  "fetchedAt": "2026-08-20T16:38:49.123399+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2090477627635007738",
+          "created_at": "2026-08-20T16:34:40+00:00",
+          "text": "Michael's first #PL press conference of 2026/27 🎙️✔️\n\nFind out what the boss had to say about our options for Saturday ⬇️",
+          "views": "55043",
+          "favorites": 574,
+          "retweets": 62,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2090467190206050472",
+          "created_at": "2026-08-20T15:53:11+00:00",
+          "text": "Two more.",
+          "views": "250844",
+          "favorites": 6098,
+          "retweets": 365,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2090438761012191403",
           "created_at": "2026-08-20T14:00:13+00:00",
           "text": "Bruno has the vision 😤📸 https://t.co/FMuqmPXg0Z",
-          "views": "120195",
-          "favorites": 3679,
-          "retweets": 282,
+          "views": "266422",
+          "favorites": 10166,
+          "retweets": 657,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +50,9 @@
           "id": "2090416057353724107",
           "created_at": "2026-08-20T12:30:00+00:00",
           "text": "New season, new rule changes 👀\n\nGet up to speed ahead of the 2026/27 #PL season 🧠",
-          "views": "209356",
-          "favorites": 6370,
-          "retweets": 456,
+          "views": "376018",
+          "favorites": 9261,
+          "retweets": 616,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,185 +64,40 @@
           "id": "2090387560539554195",
           "created_at": "2026-08-20T10:36:46+00:00",
           "text": "The boys ⚪️🤝",
-          "views": "300620",
-          "favorites": 7714,
-          "retweets": 515,
+          "views": "381614",
+          "favorites": 9016,
+          "retweets": 582,
           "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
             "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2090372806894567846",
-          "created_at": "2026-08-20T09:38:09+00:00",
-          "text": "On Saturday, we wear ivory 🤍\n\nReply with your preferred name and number ahead of the weekend for a personalised lockscreen 👇 https://t.co/TjrJHSJ4pc",
-          "views": "1137558",
-          "favorites": 30744,
-          "retweets": 2452,
-          "media_url": "https://pbs.twimg.com/media/HQJ6sBTXgAApPQM.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2090348120219546050",
-          "created_at": "2026-08-20T08:00:03+00:00",
-          "text": "One week to go until the #UCL league-phase draw! 🔜🗓️\n\nWe'll need you with us every step of the way in Europe ❤️👇",
-          "views": "325748",
-          "favorites": 10049,
-          "retweets": 796,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        }
-      ]
-    },
-    {
-      "screen_name": "mufcMPB",
-      "tweets": [
-        {
-          "id": "2090421957992788084",
-          "created_at": "2026-08-20T12:53:27+00:00",
-          "text": "🚨 JUST IN:\n\nHabeeb Ogunneye is scheduled to undergo a medical today ahead of a move to Arsenal. The deal is a free transfer with a 40% sell-on clause for Manchester United. Announcement over the weekend. #MUFC [@tabuteauS, @MattVerri] https://t.co/boPPVvZjyr",
-          "views": "37819",
-          "favorites": 510,
-          "retweets": 20,
-          "media_url": "https://pbs.twimg.com/media/HQKrsN-WwAAdebV.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090420722074005774",
-          "created_at": "2026-08-20T12:48:32+00:00",
-          "text": "🚨🚨🗣️ Brighton CEO Paul Barber asked if Carlos Baleba is joining Manchester United:\n\n“It’s not something that I can talk about right now. This time of year, we’re always going to be subject to bids for our players.\n\n“Nothing really to say on Carlos at the moment, other than that he’s a hugely talented young midfielder, who’s done really well for us and has attracted interest from some of the biggest clubs in the world now for a couple of years. So, let’s see where we go.” \n\n#MUFC [@talkSPORT]",
-          "views": "111101",
-          "favorites": 2133,
-          "retweets": 94,
-          "media_url": "https://pbs.twimg.com/media/HQKqkLuX0AEcxCR.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090401555061055913",
-          "created_at": "2026-08-20T11:32:23+00:00",
-          "text": "🚨 JUST IN:\n\nLewis Hall is in discussions with Newcastle over a NEW CONTRACT amid interest from Manchester United. #MUFC [@SamC_reports] https://t.co/GA6WnLw8qK",
-          "views": "91761",
-          "favorites": 959,
-          "retweets": 47,
-          "media_url": "https://pbs.twimg.com/media/HQKZIiVWMAA1Nty.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090400048748052981",
-          "created_at": "2026-08-20T11:26:24+00:00",
-          "text": "Bruno x Zirkzee x Dalot 😮‍💨🤍 https://t.co/2qdBvBJiWo",
-          "views": "28135",
-          "favorites": 487,
-          "retweets": 15,
-          "media_url": "https://pbs.twimg.com/media/HQKXw5EXgAA8TnV.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2090398210716045645",
-          "created_at": "2026-08-20T11:19:05+00:00",
-          "text": "🚨 JUST IN:\n\nNoah Ajayi is now CLOSE to signing his first professional contract with Manchester United. #MUFC [@StevenRailston] https://t.co/AfT81XrBpS",
-          "views": "63204",
-          "favorites": 3730,
-          "retweets": 151,
-          "media_url": "https://pbs.twimg.com/media/HQKWF6RW8AAa5Ev.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
           }
         }
       ]
     },
     {
       "screen_name": "FabrizioRomano",
-      "tweets": []
-    },
-    {
-      "screen_name": "indykaila",
       "tweets": [
         {
-          "id": "2090383119354335249",
-          "created_at": "2026-08-20T10:19:07+00:00",
-          "text": "RT @UtdJournalist: 🚨 BREAKING!\n\nManchester United are going for Lewis Hall! https://t.co/TwmqKHLKsY",
-          "views": "29722",
-          "favorites": 0,
-          "retweets": 137,
-          "media_url": "https://pbs.twimg.com/media/HQKDqY6XEAAYdLM.jpg",
+          "id": "2090450436490756550",
+          "created_at": "2026-08-20T14:46:37+00:00",
+          "text": "🚨🔴 Manchester United keep looking for new left back, next priority after Baleba deal.\n\nThere have been calls with Alejandro Balde’s camp over last days to understand if exit is possible and conditions.\n\n🔵🔴 Balde, happy at Barcelona.\n\n🎥 https://t.co/I3pQouCrr8 https://t.co/0UBK0jOMSe",
+          "views": "4379138",
+          "favorites": 57252,
+          "retweets": 3177,
+          "media_url": "https://pbs.twimg.com/media/HQLFl0yW8AAtUql.jpg",
           "author": {
             "name": null,
             "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2090368425033953369",
-          "created_at": "2026-08-20T09:20:44+00:00",
-          "text": "Manchester United have to push.\nNo excuses. No giving up.\nThe player is demanding it. \n\nLewis Hall wants the move to Old Trafford 💣\n\nGo make it happen for him🔴 https://t.co/AszYeMqsEX",
-          "views": "300173",
-          "favorites": 4383,
-          "retweets": 273,
-          "media_url": "https://pbs.twimg.com/media/HQJ7ALCWEAAMF8t.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2090311121953595833",
-          "created_at": "2026-08-20T05:33:02+00:00",
-          "text": "RT @indykaila: 🚨 Manchester United officials are WORKING OVERNIGHT on transfers! 💣\n\nThis is pure dedication… no sleep, no limits 🛌❌, just r…",
-          "views": null,
-          "favorites": 0,
-          "retweets": 325,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2090205360896286781",
-          "created_at": "2026-08-19T22:32:46+00:00",
-          "text": "🚨 Manchester United officials are WORKING OVERNIGHT on transfers! 💣\n\nThis is pure dedication… no sleep, no limits 🛌❌, just relentless work behind the scenes!\n\nWhat an incredible effort today! \n#MUFC https://t.co/4PyXKTfczE",
-          "views": "626405",
-          "favorites": 6390,
-          "retweets": 325,
-          "media_url": "https://pbs.twimg.com/media/HQHmsmyW4AAmXpA.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
+            "avatar": "https://pbs.twimg.com/profile_images/1741753635158024192/j0m8Ucvv_normal.jpg"
           }
         }
       ]
+    },
+    {
+      "screen_name": "indykaila",
+      "tweets": []
     },
     {
       "screen_name": "David_Ornstein",
@@ -223,9 +106,9 @@
           "id": "2089998414637363381",
           "created_at": "2026-08-19T08:50:26+00:00",
           "text": "🚨 EXCLUSIVE: Manchester United closing in on deal to sign Carlos Baleba from Brighton &amp; Hove Albion. #MUFC offer for 22yo Cameroon midfielder ~£60+5m; below #BHAFC valuation but amicable talks continue as all parties work to reach agreement @TheAthleticFC https://t.co/WmP1bD2JuT",
-          "views": "30603402",
-          "favorites": 139667,
-          "retweets": 21548,
+          "views": "30993800",
+          "favorites": 140116,
+          "retweets": 21578,
           "media_url": null,
           "author": {
             "name": null,
