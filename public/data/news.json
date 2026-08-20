@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-20T04:27:35.164837+00:00",
+  "fetchedAt": "2026-08-20T05:22:08.542015+00:00",
   "articles": [
+    {
+      "id": "e0fcdda33d0906ced580434b7df6f35d",
+      "title": "Manchester United's Andrey Santos is an 'exemplary player'. Can he be a Premier League star?",
+      "description": "The Athletic spoke two people who have coached Santos. Their message is clear: trust him",
+      "link": "https://www.nytimes.com/athletic/7521853/2026/08/20/andrey-santos-manchester-united-profile/",
+      "published_date": "2026-08-20T04:12:40",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19094812/GettyImages-2289722207-1-scaled-e1787147335142.jpg",
+      "topics": [
+        "Premier League",
+        "sports coaching",
+        "sports leadership"
+      ]
+    },
     {
       "id": "dbb97acc09577a36e5c4c1c84712baff",
       "title": "Why Australia’s newest Premier League star reminds me of a young Harry Kewell",
@@ -111,20 +125,6 @@
         "premier league",
         "sports news",
         "signings"
-      ]
-    },
-    {
-      "id": "5415118a64ed61ffb61a946ed46caa0b",
-      "title": "How Carlos Baleba would fit at Manchester United and what else to know",
-      "description": "If a fee can be agreed with Brighton, what effect could the 22-year-old midfielder have on Michael Carrick's new-look United side?",
-      "link": "https://www.nytimes.com/athletic/7523291/2026/08/19/baleba-manchester-united-transfer-tactics/",
-      "published_date": "2026-08-19T14:03:37",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19091900/GettyImages-2261791761-e1787145568908.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "player transfers"
       ]
     }
   ]
