@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-20T04:40:52.081523+00:00",
+  "fetchedAt": "2026-08-20T06:52:35.775087+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2090324451221176585",
+          "created_at": "2026-08-20T06:26:00+00:00",
+          "text": "💬 \"I'd be quietly confident we can win that game and start the season on the right foot.\"\n\n❤️ @RioFerdy5 previews our #PL opener and the 2026/27 campaign...",
+          "views": "75880",
+          "favorites": 1362,
+          "retweets": 96,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2090136757899588078",
           "created_at": "2026-08-19T18:00:10+00:00",
           "text": "Lights. Camera. Third kit 🎬⚪️\n\n🤳 @Snapdragon x #ShotOnSnapdragon https://t.co/lcXgd5Vsdk",
-          "views": "303061",
-          "favorites": 6658,
-          "retweets": 462,
+          "views": "320811",
+          "favorites": 7117,
+          "retweets": 493,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +36,9 @@
           "id": "2090118343391166609",
           "created_at": "2026-08-19T16:47:00+00:00",
           "text": "Kobbie 😁❤️",
-          "views": "658909",
-          "favorites": 24629,
-          "retweets": 1270,
+          "views": "705348",
+          "favorites": 26218,
+          "retweets": 1351,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,9 +50,9 @@
           "id": "2090094688019599871",
           "created_at": "2026-08-19T15:13:00+00:00",
           "text": "High spirits for Hull (A) 🔋➕ https://t.co/MMN5EdR553",
-          "views": "554805",
-          "favorites": 16680,
-          "retweets": 966,
+          "views": "580112",
+          "favorites": 17228,
+          "retweets": 997,
           "media_url": "https://pbs.twimg.com/media/HQFtLPnW8AEqizL.jpg",
           "author": {
             "name": null,
@@ -50,24 +64,10 @@
           "id": "2090093681306915069",
           "created_at": "2026-08-19T15:09:00+00:00",
           "text": "Y ⚽️ U R I https://t.co/dMim7ccMF2",
-          "views": "670788",
-          "favorites": 37034,
-          "retweets": 1966,
+          "views": "704862",
+          "favorites": 38617,
+          "retweets": 2057,
           "media_url": "https://pbs.twimg.com/media/HQFuNuvXYAAWnCn.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2090092423577755843",
-          "created_at": "2026-08-19T15:04:00+00:00",
-          "text": "Let's get to work 👊 https://t.co/Wm6vEdT9ay",
-          "views": "472432",
-          "favorites": 28713,
-          "retweets": 1677,
-          "media_url": "https://pbs.twimg.com/media/HQFw0g0WcAAOeUA.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -83,9 +83,9 @@
           "id": "2090117321436123530",
           "created_at": "2026-08-19T16:42:56+00:00",
           "text": "🚨🚨🗣️ @sistoney67 on Manchester United in the transfer market:\n\n“Baleba cannot be the end. It is accepted the need for a new left-back is ACUTE. No-one knows who it will be at this stage. But it is fair to assume there WILL be one.” #MUFC [BBC] https://t.co/r78Is2nS3T",
-          "views": "184684",
-          "favorites": 3259,
-          "retweets": 146,
+          "views": "189873",
+          "favorites": 3341,
+          "retweets": 148,
           "media_url": "https://pbs.twimg.com/media/HQGWnxwXAAAgXz4.jpg",
           "author": {
             "name": null,
@@ -97,9 +97,9 @@
           "id": "2090060348103512254",
           "created_at": "2026-08-19T12:56:33+00:00",
           "text": "🚨🚨🗣️ @FabrizioRomano on Manchester United in the transfer market:\n\n“This is absolutely NOT OVER. United are expected to do MORE. United are MOVING on different targets. United keep looking at left-back and we have to see what’s gonna happen with striker if Zirkzee leaves.” #MUFC",
-          "views": "255405",
-          "favorites": 5043,
-          "retweets": 227,
+          "views": "257756",
+          "favorites": 5094,
+          "retweets": 230,
           "media_url": "https://pbs.twimg.com/media/HQFizrFW8AAWGCf.jpg",
           "author": {
             "name": null,
@@ -111,9 +111,9 @@
           "id": "2090051051256779192",
           "created_at": "2026-08-19T12:19:36+00:00",
           "text": "🚨 NEW!!\n\nManchester United’s interest in Myles Lewis-Skelly is understood to be GROWING. #MUFC [@TomCantonMedia] https://t.co/ImBSyL6K80",
-          "views": "186874",
-          "favorites": 4955,
-          "retweets": 240,
+          "views": "189864",
+          "favorites": 4993,
+          "retweets": 241,
           "media_url": "https://pbs.twimg.com/media/HQFaWezWUAA3mhl.jpg",
           "author": {
             "name": null,
@@ -125,9 +125,9 @@
           "id": "2090049900608110642",
           "created_at": "2026-08-19T12:15:02+00:00",
           "text": "🚨 JUST IN:\n\nManchester United have held DISCUSSIONS with the player side of Jorge Salinas. The data team rate him highly and he’s seen as high potential player. David Raum is also on the list and liked. #MUFC [@SullyTalkz] https://t.co/HRJZMutEjU",
-          "views": "97253",
-          "favorites": 2824,
-          "retweets": 125,
+          "views": "98869",
+          "favorites": 2865,
+          "retweets": 126,
           "media_url": "https://pbs.twimg.com/media/HQFZTpsWoAA02HW.jpg",
           "author": {
             "name": null,
@@ -139,8 +139,8 @@
           "id": "2090049371433816331",
           "created_at": "2026-08-19T12:12:56+00:00",
           "text": "🚨 Manchester United remain in the market for a left-back. Lewis Hall and Myles Lewis-Skelly are high on the list of candidates. #MUFC [@JamieJackson___] https://t.co/urCLMQGDcp",
-          "views": "114895",
-          "favorites": 3977,
+          "views": "116458",
+          "favorites": 4022,
           "retweets": 196,
           "media_url": "https://pbs.twimg.com/media/HQFY023WYAE0knE.jpg",
           "author": {
@@ -153,18 +153,47 @@
     },
     {
       "screen_name": "FabrizioRomano",
-      "tweets": []
+      "tweets": [
+        {
+          "id": "2090317914171695347",
+          "created_at": "2026-08-20T06:00:01+00:00",
+          "text": "🚨 Manchester United set to return to table of negotiations today with Brighton for Carlos Baleba.\n\nConfidence since yesterday to get the deal done for the midfielder. 🇨🇲\n\n🎥➕ https://t.co/FMilReyxEl https://t.co/SbJmhiRQaB",
+          "views": "791939",
+          "favorites": 17254,
+          "retweets": 1348,
+          "media_url": "https://pbs.twimg.com/media/HQIE5szWQAAI_KA.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1741753635158024192/j0m8Ucvv_normal.jpg"
+          }
+        }
+      ]
     },
     {
       "screen_name": "indykaila",
       "tweets": [
         {
+          "id": "2090311121953595833",
+          "created_at": "2026-08-20T05:33:02+00:00",
+          "text": "RT @indykaila: 🚨 Manchester United officials are WORKING OVERNIGHT on transfers! 💣\n\nThis is pure dedication… no sleep, no limits 🛌❌, just r…",
+          "views": null,
+          "favorites": 0,
+          "retweets": 276,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
+          }
+        },
+        {
           "id": "2090205360896286781",
           "created_at": "2026-08-19T22:32:46+00:00",
           "text": "🚨 Manchester United officials are WORKING OVERNIGHT on transfers! 💣\n\nThis is pure dedication… no sleep, no limits 🛌❌, just relentless work behind the scenes!\n\nWhat an incredible effort today! \n#MUFC https://t.co/4PyXKTfczE",
-          "views": "280232",
-          "favorites": 4727,
-          "retweets": 247,
+          "views": "383936",
+          "favorites": 5437,
+          "retweets": 276,
           "media_url": "https://pbs.twimg.com/media/HQHmsmyW4AAmXpA.jpg",
           "author": {
             "name": null,
@@ -178,7 +207,7 @@
           "text": "RT @indykaila: This morning, a significant meeting took place in London between representatives of Carlos Baleba and Manchester United offi…",
           "views": null,
           "favorites": 0,
-          "retweets": 1067,
+          "retweets": 1069,
           "media_url": null,
           "author": {
             "name": null,
@@ -192,7 +221,7 @@
           "text": "RT @indykaila: Exclusive 💣\n\nCarlos Baleba has agreed personal terms with Manchester United on reduced terms from last summer. https://t.co/…",
           "views": null,
           "favorites": 0,
-          "retweets": 295,
+          "retweets": 296,
           "media_url": null,
           "author": {
             "name": null,
@@ -204,24 +233,10 @@
           "id": "2090109827263484390",
           "created_at": "2026-08-19T16:13:09+00:00",
           "text": "Exclusive 💣\n\n▪️Multiple left back targeted 🎯 \n▪️Mystery loan striker options 🫣\n\nManchester United are going back in for Lewis Hall, and this time it’s personal.\n\nSources close to the deal confirm the Red Devils will make one final, aggressive contact with Newcastle after learning the left-back is desperate to move to Old Trafford.\n\nThe player sees himself as the long-term solution at left-back at @ManUtd and is pushing hard for the switch.\n\nBut if @NUFC dig in and play hardball?\n\nUnited already have a Plan B locked and loaded: Racing Santander’s Jorge Salinas. The Spanish 🇪🇸 full-back is a confirmed alternative ready to step up if Hall stays put.\n\nManchester United are also in the market for a striker and not ruling out short-term solutions. Loans are on the table as they look to add firepower 🧨 before the window shuts.\n\nThe next few weeks could be explosive.\nWho’s ready for this? 🔴💣",
-          "views": "940674",
-          "favorites": 10019,
-          "retweets": 732,
+          "views": "963485",
+          "favorites": 10111,
+          "retweets": 739,
           "media_url": "https://pbs.twimg.com/media/HQGPzhDWoAA4AwE.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/683931964408225792/TUHhzKFp_normal.jpg"
-          }
-        },
-        {
-          "id": "2090064526792179867",
-          "created_at": "2026-08-19T13:13:09+00:00",
-          "text": "🚨 HUGE UPDATE INCOMING 🚨\nAnother MAJOR exclusive on Manchester United is dropping in a brand new separate story! 💣🔴\n\nWe’re just double-confirming every detail right now…\n\n⏰ Going live at 5pm sharp.\nStay 🔐 in 👀",
-          "views": "1829391",
-          "favorites": 12479,
-          "retweets": 758,
-          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -237,9 +252,9 @@
           "id": "2089998414637363381",
           "created_at": "2026-08-19T08:50:26+00:00",
           "text": "🚨 EXCLUSIVE: Manchester United closing in on deal to sign Carlos Baleba from Brighton &amp; Hove Albion. #MUFC offer for 22yo Cameroon midfielder ~£60+5m; below #BHAFC valuation but amicable talks continue as all parties work to reach agreement @TheAthleticFC https://t.co/WmP1bD2JuT",
-          "views": "28643915",
-          "favorites": 136793,
-          "retweets": 21320,
+          "views": "29019894",
+          "favorites": 137557,
+          "retweets": 21385,
           "media_url": null,
           "author": {
             "name": null,
