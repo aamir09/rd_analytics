@@ -1,6 +1,21 @@
 {
-  "fetchedAt": "2026-08-20T08:26:48.814053+00:00",
+  "fetchedAt": "2026-08-20T09:24:38.490579+00:00",
   "articles": [
+    {
+      "id": "66acc5678eb829c8230432345e26327d",
+      "title": "Arsenal raid Manchester United for shock double transfer with deal close",
+      "description": "Gunners stepping up signings after Ezri Konsa agreement with Aston Villa",
+      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-man-utd-scanlon-ogunneye-b1294034.html",
+      "published_date": "2026-08-20T08:40:16",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/20/6/59/FotoJet-2026-08-20T070049-117.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football transfers",
+        "Arsenal",
+        "Aston Villa",
+        "Ezri Konsa"
+      ]
+    },
     {
       "id": "e0fcdda33d0906ced580434b7df6f35d",
       "title": "Manchester United's Andrey Santos is an 'exemplary player'. Can he be a Premier League star?",
@@ -111,20 +126,6 @@
       "topics": [
         "football transfer news",
         "football"
-      ]
-    },
-    {
-      "id": "eeb644f2d07c0cdefd09604dbe6620ec",
-      "title": "Arsenal working to complete signings of Manchester United's James Scanlon, Habeeb Ogunneye",
-      "description": "The Premier League champions are confident of finalising deals for 19-year-old winger Scanlon and 20-year-old right-back Ogunneye.",
-      "link": "https://www.nytimes.com/athletic/7523764/2026/08/19/arsenal-scanlon-ogunneye-man-utd-academy-transfer-news/",
-      "published_date": "2026-08-19T14:19:47",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19093326/GettyImages-2199413111-scaled-e1787146504631.jpg",
-      "topics": [
-        "premier league",
-        "sports news",
-        "signings"
       ]
     }
   ]
