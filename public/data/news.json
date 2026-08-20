@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-20T14:25:59.752594+00:00",
+  "fetchedAt": "2026-08-20T15:25:07.704201+00:00",
   "articles": [
+    {
+      "id": "86fddb6aa166593b84feca6cf711798f",
+      "title": "Romano: Man Utd in Talks to Sign Barcelona Star Alejandro Balde",
+      "description": "Manchester United hold talks over signing Alejandro Balde from Barcelona amid their left-back search.",
+      "link": "https://www.givemesport.com/breaking-man-utd-transfer-talks-alejandro-balde-barcelona/",
+      "published_date": "2026-08-20T14:51:51",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/02/mixcollage-10-feb-2026-09-49-pm-4426.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "signings"
+      ]
+    },
     {
       "id": "e32ab234410f38454ec0ca3a8a263f81",
       "title": "Mikel Arteta '100%' confident Myles Lewis-Skelly will stay at Arsenal",
@@ -122,20 +136,6 @@
       "link": "https://www.theage.com.au/sport/soccer/why-australia-s-newest-premier-league-star-reminds-me-of-a-young-harry-kewell-20260819-p60pqj.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
       "published_date": "2026-08-20T01:33:00",
       "source": "The Age",
-      "media_url": "https://static.ffx.io/images/$zoom_0.5758981021784785%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_588%2C$y_52/t_crop_custom/q_86%2Cf_auto/t_metro_opinion_no_age_social_wm/731a445bd2a07aabe9d55ea9fa7ccd71aa1f9ed6",
-      "topics": [
-        "Premier League",
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "4f1f28beb5684d1d2b3bc10f4207e00b",
-      "title": "Why Australia’s newest Premier League star reminds me of a young Harry Kewell",
-      "description": "Socceroo Lucas Herrington could make his Premier League debut against Manchester United on Saturday night – the latest big step in his phenomenal rise.",
-      "link": "https://www.smh.com.au/sport/soccer/why-australia-s-newest-premier-league-star-reminds-me-of-a-young-harry-kewell-20260819-p60pqj.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
-      "published_date": "2026-08-20T01:33:00",
-      "source": "Sydney Morning Herald",
       "media_url": "https://static.ffx.io/images/$zoom_0.5758981021784785%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_588%2C$y_52/t_crop_custom/q_86%2Cf_auto/t_metro_opinion_no_age_social_wm/731a445bd2a07aabe9d55ea9fa7ccd71aa1f9ed6",
       "topics": [
         "Premier League",
