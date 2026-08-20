@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-20T19:23:56.273512+00:00",
+  "fetchedAt": "2026-08-20T20:18:23.447283+00:00",
   "articles": [
+    {
+      "id": "0ade99b0982792273565e3de88536fb9",
+      "title": "Michael Carrick drops Marcus Rashford hint as Manchester United return approaches",
+      "description": "England star is set to stay at Old Trafford amid exit rumours",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-carrick-rashford-return-b1294144.html",
+      "published_date": "2026-08-20T19:46:46",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/20/20/01M0DT3XN1B5HKMQT6YN35Q27N.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United"
+      ]
+    },
     {
       "id": "d933d753baafa08b342fcc16021d8916",
       "title": "Michael Carrick confirms Manchester United transfer target as Carlos Baleba 'agrees' personal terms",
@@ -109,21 +123,6 @@
         "football transfers",
         "Manchester United",
         "Carlos Baleba"
-      ]
-    },
-    {
-      "id": "27d3e1050ae95a270a6b16261680530a",
-      "title": "“Future star”: Arsenal agree deal to sign Man United youngster as Gunners eye his teammate next",
-      "description": "0Arsenal have agreed a deal to sign Manchester United youngster Habeeb Ogunneye, while the Gunners are also eyeing a winger at Old Trafford, according to a new update.Ogunneye is a GunnerYesterday, Th...",
-      "link": "https://sports.yahoo.com/articles/future-star-arsenal-agree-deal-154000717.html",
-      "published_date": "2026-08-20T15:40:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/the_peoples_person_articles_356/f0f8ae4cc180d2245b05160c916a96d1.jpg",
-      "topics": [
-        "football",
-        "sports news",
-        "Arsenal",
-        "Manchester United"
       ]
     }
   ]
