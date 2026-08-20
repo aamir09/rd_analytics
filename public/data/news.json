@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-20T21:19:26.694102+00:00",
+  "fetchedAt": "2026-08-20T22:17:06.993886+00:00",
   "articles": [
+    {
+      "id": "6c9df1ecf1b41084177ccbcea93647ed",
+      "title": "New Manchester United transfer target revealed as '£65m deal agreed'",
+      "description": "Red Devils have set their sights on a new defender",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-balde-b1294148.html",
+      "published_date": "2026-08-20T21:03:45",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/13/19/2290323240..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football transfers",
+        "Manchester United",
+        "sports news"
+      ]
+    },
     {
       "id": "0ade99b0982792273565e3de88536fb9",
       "title": "Michael Carrick drops Marcus Rashford hint as Manchester United return approaches",
@@ -109,20 +123,6 @@
         "Premier League",
         "football",
         "sports tactics"
-      ]
-    },
-    {
-      "id": "aea60a1eba09fa68e8b42ca97d59fb98",
-      "title": "Brighton boss breaks silence on Carlos Baleba transfer amid Manchester United bid",
-      "description": "Brighton and Hove Albion's chief executive Paul Barber has signaled that the Seagulls could entertain a 'sensible' offer for Carlos Baleba, as Manchester United reignite their pursuit of the midfielder",
-      "link": "https://sports.yahoo.com/articles/brighton-boss-breaks-silence-carlos-154514500.html",
-      "published_date": "2026-08-20T15:45:14",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/all_out_soccer_276/abc747ce53bf3debcd0db25396092eca.jpg",
-      "topics": [
-        "football transfers",
-        "Manchester United",
-        "Carlos Baleba"
       ]
     }
   ]
