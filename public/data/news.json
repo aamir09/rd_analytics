@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-20T13:38:46.888008+00:00",
+  "fetchedAt": "2026-08-20T14:25:59.752594+00:00",
   "articles": [
+    {
+      "id": "e32ab234410f38454ec0ca3a8a263f81",
+      "title": "Mikel Arteta '100%' confident Myles Lewis-Skelly will stay at Arsenal",
+      "description": "Lewis-Skelly has been subject to transfer speculation throughout the summer, with interest from Chelsea and Manchester United.",
+      "link": "https://www.nytimes.com/athletic/7526599/2026/08/20/myles-lewis-skelly-transfer-future-mikel-arteta-arsenal/",
+      "published_date": "2026-08-20T13:37:38",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/05/27115429/GettyImages-2274993034-scaled.jpg",
+      "topics": [
+        "transfer news",
+        "sports management",
+        "Arsenal"
+      ]
+    },
     {
       "id": "b7fcf636b70cab10ca584f94e5a89a96",
       "title": "Chelsea vs Manchester United: Kalshi Weighs Which Side Will Finish Top 4 in EPL",
