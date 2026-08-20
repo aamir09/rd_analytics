@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-20T12:28:04.181984+00:00",
+  "fetchedAt": "2026-08-20T13:38:46.888008+00:00",
   "articles": [
+    {
+      "id": "b7fcf636b70cab10ca584f94e5a89a96",
+      "title": "Chelsea vs Manchester United: Kalshi Weighs Which Side Will Finish Top 4 in EPL",
+      "description": "Chelsea and Manchester United are trending towards fourth place in the Premier League  on Kalshi.",
+      "link": "https://www.si.com/prediction-markets/chelsea-vs-manchester-united-kalshi-weighs-which-side-will-finish-top-4-in-epl-01m0dcm2y77e?utm_source=RSS",
+      "published_date": "2026-08-20T12:45:20",
+      "source": "Sports Illustrated",
+      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4297,h_2417,x_0,y_99/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m0dcrag2g9k635bm1f.jpg",
+      "topics": [
+        "Premier League",
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "eec60ef23240e8cceae51e5cc977c862",
       "title": "Romano Reveals Two More Signings Man Utd Signings Could Make After Baleba",
@@ -113,20 +127,6 @@
         "Premier League",
         "football",
         "sports news"
-      ]
-    },
-    {
-      "id": "f9dd2fc5a0ddb78c5df89456290433cb",
-      "title": "Marcus Rashford drops Manchester United transfer hint ahead of Premier League opener",
-      "description": "England international has been welcomed back after loan spells",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-rashford-b1294015.html",
-      "published_date": "2026-08-19T20:49:13",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/15/17/2290603525..?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football transfers",
-        "Premier League",
-        "football"
       ]
     }
   ]
