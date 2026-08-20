@@ -1,6 +1,49 @@
 {
-  "fetchedAt": "2026-08-20T15:25:07.704201+00:00",
+  "fetchedAt": "2026-08-20T16:23:19.381545+00:00",
   "articles": [
+    {
+      "id": "9ce0b22b7e2ff55e6c668c623f485b8c",
+      "title": "One Burning Question for Every Premier League Club Before the 2026–27 Season",
+      "description": "Manchester United’s timings, Liverpool’s tactics and Arsenal’s technical skills are all under scrutiny this season.",
+      "link": "https://www.si.com/soccer/one-burning-question-every-premier-league-club-2026-27-season?utm_source=RSS",
+      "published_date": "2026-08-20T16:00:03",
+      "source": "Sports Illustrated",
+      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1919,h_1079,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m0d4ghp9ncqgqr9v6t.jpg",
+      "topics": [
+        "Premier League",
+        "football",
+        "sports tactics"
+      ]
+    },
+    {
+      "id": "aea60a1eba09fa68e8b42ca97d59fb98",
+      "title": "Brighton boss breaks silence on Carlos Baleba transfer amid Manchester United bid",
+      "description": "Brighton and Hove Albion's chief executive Paul Barber has signaled that the Seagulls could entertain a 'sensible' offer for Carlos Baleba, as Manchester United reignite their pursuit of the midfielder",
+      "link": "https://sports.yahoo.com/articles/brighton-boss-breaks-silence-carlos-154514500.html",
+      "published_date": "2026-08-20T15:45:14",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/all_out_soccer_276/abc747ce53bf3debcd0db25396092eca.jpg",
+      "topics": [
+        "football transfers",
+        "Manchester United",
+        "Carlos Baleba"
+      ]
+    },
+    {
+      "id": "27d3e1050ae95a270a6b16261680530a",
+      "title": "“Future star”: Arsenal agree deal to sign Man United youngster as Gunners eye his teammate next",
+      "description": "0Arsenal have agreed a deal to sign Manchester United youngster Habeeb Ogunneye, while the Gunners are also eyeing a winger at Old Trafford, according to a new update.Ogunneye is a GunnerYesterday, Th...",
+      "link": "https://sports.yahoo.com/articles/future-star-arsenal-agree-deal-154000717.html",
+      "published_date": "2026-08-20T15:40:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/the_peoples_person_articles_356/f0f8ae4cc180d2245b05160c916a96d1.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "Arsenal",
+        "Manchester United"
+      ]
+    },
     {
       "id": "86fddb6aa166593b84feca6cf711798f",
       "title": "Romano: Man Utd in Talks to Sign Barcelona Star Alejandro Balde",
@@ -98,49 +141,6 @@
         "football transfers",
         "Manchester United",
         "Michael Carrick"
-      ]
-    },
-    {
-      "id": "66acc5678eb829c8230432345e26327d",
-      "title": "Arsenal raid Manchester United for shock double transfer with deal close",
-      "description": "Gunners stepping up signings after Ezri Konsa agreement with Aston Villa",
-      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-man-utd-scanlon-ogunneye-b1294034.html",
-      "published_date": "2026-08-20T08:40:16",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/20/6/59/FotoJet-2026-08-20T070049-117.jpg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football transfers",
-        "Arsenal",
-        "Aston Villa",
-        "Ezri Konsa"
-      ]
-    },
-    {
-      "id": "e0fcdda33d0906ced580434b7df6f35d",
-      "title": "Manchester United's Andrey Santos is an 'exemplary player'. Can he be a Premier League star?",
-      "description": "The Athletic spoke two people who have coached Santos. Their message is clear: trust him",
-      "link": "https://www.nytimes.com/athletic/7521853/2026/08/20/andrey-santos-manchester-united-profile/",
-      "published_date": "2026-08-20T04:12:40",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19094812/GettyImages-2289722207-1-scaled-e1787147335142.jpg",
-      "topics": [
-        "Premier League",
-        "sports coaching",
-        "sports leadership"
-      ]
-    },
-    {
-      "id": "dbb97acc09577a36e5c4c1c84712baff",
-      "title": "Why Australia’s newest Premier League star reminds me of a young Harry Kewell",
-      "description": "Socceroo Lucas Herrington could make his Premier League debut against Manchester United on Saturday night – the latest big step in his phenomenal rise.",
-      "link": "https://www.theage.com.au/sport/soccer/why-australia-s-newest-premier-league-star-reminds-me-of-a-young-harry-kewell-20260819-p60pqj.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
-      "published_date": "2026-08-20T01:33:00",
-      "source": "The Age",
-      "media_url": "https://static.ffx.io/images/$zoom_0.5758981021784785%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_588%2C$y_52/t_crop_custom/q_86%2Cf_auto/t_metro_opinion_no_age_social_wm/731a445bd2a07aabe9d55ea9fa7ccd71aa1f9ed6",
-      "topics": [
-        "Premier League",
-        "football",
-        "sports news"
       ]
     }
   ]
