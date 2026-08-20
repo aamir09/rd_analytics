@@ -1,16 +1,30 @@
 {
-  "fetchedAt": "2026-08-20T16:38:49.123399+00:00",
+  "fetchedAt": "2026-08-20T18:45:03.768749+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2090481702544060645",
+          "created_at": "2026-08-20T16:50:51+00:00",
+          "text": "\"It’s been pretty obvious... that he's come back fantastically well.\"\n\n💬 @Carras16 🔛 @MarcusRashford 👇",
+          "views": "213148",
+          "favorites": 10151,
+          "retweets": 801,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2090477627635007738",
           "created_at": "2026-08-20T16:34:40+00:00",
           "text": "Michael's first #PL press conference of 2026/27 🎙️✔️\n\nFind out what the boss had to say about our options for Saturday ⬇️",
-          "views": "55043",
-          "favorites": 574,
-          "retweets": 62,
+          "views": "211063",
+          "favorites": 5404,
+          "retweets": 473,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +36,9 @@
           "id": "2090467190206050472",
           "created_at": "2026-08-20T15:53:11+00:00",
           "text": "Two more.",
-          "views": "250844",
-          "favorites": 6098,
-          "retweets": 365,
+          "views": "601821",
+          "favorites": 13252,
+          "retweets": 747,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,9 +50,9 @@
           "id": "2090438761012191403",
           "created_at": "2026-08-20T14:00:13+00:00",
           "text": "Bruno has the vision 😤📸 https://t.co/FMuqmPXg0Z",
-          "views": "266422",
-          "favorites": 10166,
-          "retweets": 657,
+          "views": "426413",
+          "favorites": 15051,
+          "retweets": 903,
           "media_url": null,
           "author": {
             "name": null,
@@ -50,28 +64,89 @@
           "id": "2090416057353724107",
           "created_at": "2026-08-20T12:30:00+00:00",
           "text": "New season, new rule changes 👀\n\nGet up to speed ahead of the 2026/27 #PL season 🧠",
-          "views": "376018",
-          "favorites": 9261,
-          "retweets": 616,
+          "views": "482029",
+          "favorites": 11123,
+          "retweets": 724,
           "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
             "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
           }
-        },
+        }
+      ]
+    },
+    {
+      "screen_name": "mufcMPB",
+      "tweets": [
         {
-          "id": "2090387560539554195",
-          "created_at": "2026-08-20T10:36:46+00:00",
-          "text": "The boys ⚪️🤝",
-          "views": "381614",
-          "favorites": 9016,
-          "retweets": 582,
-          "media_url": null,
+          "id": "2090471656036634946",
+          "created_at": "2026-08-20T16:10:56+00:00",
+          "text": "🚨 JUST IN:\n\nAt Barcelona, they have been considering for some time that Alejandro Balde [linked to Manchester United] could LEAVE this summer, though it’s UNLIKELY. \n\nHansi Flick has doubts about him, while the player is happy in Barcelona. Barça’s sporting area recently travelled to England. \n\n#MUFC [@monfortcarlos]",
+          "views": "81045",
+          "favorites": 995,
+          "retweets": 46,
+          "media_url": "https://pbs.twimg.com/media/HQLY4-QWUAAQukt.jpg",
           "author": {
             "name": null,
             "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2090456044027761009",
+          "created_at": "2026-08-20T15:08:54+00:00",
+          "text": "🚨 BREAKING:\n\nManchester United have made a CALL to Alejandro Balde’s agent, Jorge Mendes, to understand the player’s situation. Balde wants to stay at Barcelona in principle, but he would leave only if the club tell him he can go. #MUFC [@FabrizioRomano] https://t.co/FhjCRh6yDP",
+          "views": "168647",
+          "favorites": 2460,
+          "retweets": 107,
+          "media_url": "https://pbs.twimg.com/media/HQLKsKpWUAA-qTv.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2090421957992788084",
+          "created_at": "2026-08-20T12:53:27+00:00",
+          "text": "🚨 JUST IN:\n\nHabeeb Ogunneye is scheduled to undergo a medical today ahead of a move to Arsenal. The deal is a free transfer with a 40% sell-on clause for Manchester United. Announcement over the weekend. #MUFC [@tabuteauS, @MattVerri] https://t.co/boPPVvZjyr",
+          "views": "59212",
+          "favorites": 864,
+          "retweets": 35,
+          "media_url": "https://pbs.twimg.com/media/HQKrsN-WwAAdebV.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2090420722074005774",
+          "created_at": "2026-08-20T12:48:32+00:00",
+          "text": "🚨🚨🗣️ Brighton CEO Paul Barber asked if Carlos Baleba is joining Manchester United:\n\n“It’s not something that I can talk about right now. This time of year, we’re always going to be subject to bids for our players.\n\n“Nothing really to say on Carlos at the moment, other than that he’s a hugely talented young midfielder, who’s done really well for us and has attracted interest from some of the biggest clubs in the world now for a couple of years. So, let’s see where we go.” \n\n#MUFC [@talkSPORT]",
+          "views": "170587",
+          "favorites": 2953,
+          "retweets": 132,
+          "media_url": "https://pbs.twimg.com/media/HQKqkLuX0AEcxCR.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2090401555061055913",
+          "created_at": "2026-08-20T11:32:23+00:00",
+          "text": "🚨 JUST IN:\n\nLewis Hall is in discussions with Newcastle over a NEW CONTRACT amid interest from Manchester United. #MUFC [@SamC_reports] https://t.co/GA6WnLw8qK",
+          "views": "111405",
+          "favorites": 1113,
+          "retweets": 55,
+          "media_url": "https://pbs.twimg.com/media/HQKZIiVWMAA1Nty.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
           }
         }
       ]
@@ -83,9 +158,9 @@
           "id": "2090450436490756550",
           "created_at": "2026-08-20T14:46:37+00:00",
           "text": "🚨🔴 Manchester United keep looking for new left back, next priority after Baleba deal.\n\nThere have been calls with Alejandro Balde’s camp over last days to understand if exit is possible and conditions.\n\n🔵🔴 Balde, happy at Barcelona.\n\n🎥 https://t.co/I3pQouCrr8 https://t.co/0UBK0jOMSe",
-          "views": "4379138",
-          "favorites": 57252,
-          "retweets": 3177,
+          "views": "6457911",
+          "favorites": 76915,
+          "retweets": 4116,
           "media_url": "https://pbs.twimg.com/media/HQLFl0yW8AAtUql.jpg",
           "author": {
             "name": null,
@@ -106,9 +181,9 @@
           "id": "2089998414637363381",
           "created_at": "2026-08-19T08:50:26+00:00",
           "text": "🚨 EXCLUSIVE: Manchester United closing in on deal to sign Carlos Baleba from Brighton &amp; Hove Albion. #MUFC offer for 22yo Cameroon midfielder ~£60+5m; below #BHAFC valuation but amicable talks continue as all parties work to reach agreement @TheAthleticFC https://t.co/WmP1bD2JuT",
-          "views": "30993800",
-          "favorites": 140116,
-          "retweets": 21578,
+          "views": "31229105",
+          "favorites": 140578,
+          "retweets": 21611,
           "media_url": null,
           "author": {
             "name": null,
