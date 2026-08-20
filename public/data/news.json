@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-08-20T16:23:19.381545+00:00",
+  "fetchedAt": "2026-08-20T17:20:26.681210+00:00",
   "articles": [
+    {
+      "id": "cd53bc061be17a0617182026f75243df",
+      "title": "Manchester United XI vs Hull: Confirmed team news, predicted lineup, injury latest for Premier League",
+      "description": "Carrick can unleash a new-look midfield pivot in Premier League opener",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-hull-confirmed-team-news-predicted-lineup-injury-latest-premier-league-2026-b1294124.html",
+      "published_date": "2026-08-20T17:03:37",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/02/03/11/37/predictedximanutdcarrick.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "Premier League",
+        "midfield",
+        "sports news"
+      ]
+    },
+    {
+      "id": "2f978e675468d4bb2220e13a515eceb5",
+      "title": "Michael Carrick reveals Benjamin Sesko injury latest in new Manchester United update",
+      "description": "Michael Carrick also provides updates on Karl Darlow, Mason Mount and Matthijs de Ligt",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-injury-latest-sesko-mount-carrick-b1294123.html",
+      "published_date": "2026-08-20T16:43:55",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/20/17/2291300444..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football injury news",
+        "Manchester United",
+        "sports updates"
+      ]
+    },
+    {
+      "id": "a092bcb2cf0c081fa1d58b8f221f1606",
+      "title": "Newcastle's Lewis Hall Wants to Join Man Utd After Carlos Baleba",
+      "description": "Lewis Hall is keen on joining Manchester United, amid Newcastle's struggle to retain top players this season.",
+      "link": "https://www.givemesport.com/man-utd-transfer-lewis-hall-wants-move-newcastle/",
+      "published_date": "2026-08-20T16:36:12",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/03/manchester-united-caretaker-boss-michael-carrick-claps-the-fans.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United"
+      ]
+    },
+    {
+      "id": "41c4a717264163dbeb4791151ac5d758",
+      "title": "Manchester United's Benjamin Sesko close to 'getting some minutes' - Michael Carrick",
+      "description": "Sesko has missed all of pre-season and has been out since coming off with a shin injury against Liverpool at the start of May.",
+      "link": "https://www.nytimes.com/athletic/7526991/2026/08/20/man-united-sesko-carrick-injury-update/",
+      "published_date": "2026-08-20T16:35:33",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/20121404/sesko-man-utd-pre-season-scaled.jpg",
+      "topics": [
+        "football",
+        "injury news",
+        "Manchester United"
+      ]
+    },
     {
       "id": "9ce0b22b7e2ff55e6c668c623f485b8c",
       "title": "One Burning Question for Every Premier League Club Before the 2026–27 Season",
@@ -70,77 +126,6 @@
         "transfer news",
         "sports management",
         "Arsenal"
-      ]
-    },
-    {
-      "id": "b7fcf636b70cab10ca584f94e5a89a96",
-      "title": "Chelsea vs Manchester United: Kalshi Weighs Which Side Will Finish Top 4 in EPL",
-      "description": "Chelsea and Manchester United are trending towards fourth place in the Premier League  on Kalshi.",
-      "link": "https://www.si.com/prediction-markets/chelsea-vs-manchester-united-kalshi-weighs-which-side-will-finish-top-4-in-epl-01m0dcm2y77e?utm_source=RSS",
-      "published_date": "2026-08-20T12:45:20",
-      "source": "Sports Illustrated",
-      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4297,h_2417,x_0,y_99/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m0dcrag2g9k635bm1f.jpg",
-      "topics": [
-        "Premier League",
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "eec60ef23240e8cceae51e5cc977c862",
-      "title": "Romano Reveals Two More Signings Man Utd Signings Could Make After Baleba",
-      "description": "Manchester United are still expected to make moves in the transfer market once the signing of Carlos Baleba is finalised",
-      "link": "https://www.givemesport.com/man-utd-two-signings-after-baleba-revealed-romano/",
-      "published_date": "2026-08-20T12:15:12",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/04/manchester-united-caretaker-manager-michael-carrick-claps-the-fans.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "transfer market",
-        "football signings",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "c58a0c50a81b3cbcd24160b813bdd492",
-      "title": "Who are James Scanlon and Habeeb Ogunneye? Arsenal book medical for double Manchester United transfer raid",
-      "description": "Gunners set to add two more youngsters to their ranks after agreeing a deal for Liverpool’s Vincent Joseph",
-      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-scanlon-ogunneye-medical-man-utd-b1294069.html",
-      "published_date": "2026-08-20T11:45:38",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/20/11/35/FotoJet.jpeg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football",
-        "transfer news",
-        "sports news"
-      ]
-    },
-    {
-      "id": "39cd26020c3c791782d6959afee22c59",
-      "title": "Arsenal raid Manchester United for shock double transfer as medical booked",
-      "description": "Gunners stepping up signings after Ezri Konsa agreement with Aston Villa",
-      "link": "https://www.standard.co.uk/sport/football/arsenal-fc-transfer-news-scanlon-ogunneye-medical-man-utd-b1294034.html",
-      "published_date": "2026-08-20T11:22:27",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/08/20/6/59/FotoJet-2026-08-20T070049-117.jpg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "football transfers",
-        "sports news",
-        "Arsenal",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "ab7cf5d156252a54e5cadf43302f1536",
-      "title": "Romano: Man Utd Expect to Complete Carlos Baleba Transfer Agreement Today",
-      "description": "Manchester United are closing in on a deal to complete their new-look midfield for Michael Carrick ahead of the 2026/27 season",
-      "link": "https://www.givemesport.com/man-utd-expect-complete-carlos-baleba-transfer-agreement/",
-      "published_date": "2026-08-20T11:16:15",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-02-aug-2026-07-06-am-7349.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football transfers",
-        "Manchester United",
-        "Michael Carrick"
       ]
     }
   ]
