@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-20T17:20:26.681210+00:00",
+  "fetchedAt": "2026-08-20T18:24:32.341557+00:00",
   "articles": [
+    {
+      "id": "d933d753baafa08b342fcc16021d8916",
+      "title": "Michael Carrick confirms Manchester United transfer target as Carlos Baleba 'agrees' personal terms",
+      "description": "Man United will be active for the remainder of the summer transfer window",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-carrick-baleba-b1294134.html",
+      "published_date": "2026-08-20T17:21:01",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/20/18/2290590182..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "transfer news",
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "cd53bc061be17a0617182026f75243df",
       "title": "Manchester United XI vs Hull: Confirmed team news, predicted lineup, injury latest for Premier League",
@@ -13,6 +27,18 @@
         "Premier League",
         "midfield",
         "sports news"
+      ]
+    },
+    {
+      "id": "0c2eae2f39fdc4149b842a3862653ce8",
+      "title": "2025-26 was Manchester United's Bruno Fernandes season - they don't want another one",
+      "description": "As brilliant as Fernandes is, United will need other players who are capable of taking more responsibility to step up and change a match",
+      "link": "https://www.nytimes.com/athletic/7526476/2026/08/20/bruno-fernandes-manchester-united-assists-goals-reliance/",
+      "published_date": "2026-08-20T17:00:27",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/20095447/GettyImages-2277984516-scaled.jpg",
+      "topics": [
+        "football"
       ]
     },
     {
@@ -98,34 +124,6 @@
         "sports news",
         "Arsenal",
         "Manchester United"
-      ]
-    },
-    {
-      "id": "86fddb6aa166593b84feca6cf711798f",
-      "title": "Romano: Man Utd in Talks to Sign Barcelona Star Alejandro Balde",
-      "description": "Manchester United hold talks over signing Alejandro Balde from Barcelona amid their left-back search.",
-      "link": "https://www.givemesport.com/breaking-man-utd-transfer-talks-alejandro-balde-barcelona/",
-      "published_date": "2026-08-20T14:51:51",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/02/mixcollage-10-feb-2026-09-49-pm-4426.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news",
-        "signings"
-      ]
-    },
-    {
-      "id": "e32ab234410f38454ec0ca3a8a263f81",
-      "title": "Mikel Arteta '100%' confident Myles Lewis-Skelly will stay at Arsenal",
-      "description": "Lewis-Skelly has been subject to transfer speculation throughout the summer, with interest from Chelsea and Manchester United.",
-      "link": "https://www.nytimes.com/athletic/7526599/2026/08/20/myles-lewis-skelly-transfer-future-mikel-arteta-arsenal/",
-      "published_date": "2026-08-20T13:37:38",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/05/27115429/GettyImages-2274993034-scaled.jpg",
-      "topics": [
-        "transfer news",
-        "sports management",
-        "Arsenal"
       ]
     }
   ]
