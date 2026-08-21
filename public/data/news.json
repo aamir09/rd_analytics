@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-21T20:15:33.999415+00:00",
+  "fetchedAt": "2026-08-21T21:14:46.083754+00:00",
   "articles": [
+    {
+      "id": "89a9b8a86e1a68e4979cbc61eebc898b",
+      "title": "Carlos Baleba: Manchester United book medical for latest summer signing after agreeing £70m transfer",
+      "description": "United adding more midfield depth after signing Andrey Santos and Youri Tielemans",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-transfer-news-baleba-medical-b1294275.html",
+      "published_date": "2026-08-21T19:59:06",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/21/20/01M0JX8XTD37PDPQF47521DE81.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "sports news",
+        "transfer news",
+        "midfield transfers"
+      ]
+    },
     {
       "id": "7358cb94de2723f66b34ca6364d67176",
       "title": "Carlos Baleba set for Manchester United medical after £70m deal agreed with Brighton",
@@ -122,20 +136,6 @@
         "football negotiations",
         "transfer agreements",
         "football"
-      ]
-    },
-    {
-      "id": "8b01bf0b360ed6e34c9128becf7e43ba",
-      "title": "Manchester United 2026-27 breakthrough player: Shea Lacey",
-      "description": "Left-footed, skilled at dribbling and clever when creating, Lacey can become the sort of flying winger United fans have long adored",
-      "link": "https://www.nytimes.com/athletic/7521287/2026/08/21/manchester-united-2026-27-breakthrough-player-shea-lacey/",
-      "published_date": "2026-08-21T16:00:53",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/21103726/GettyImages-2254518193-scaled.jpg",
-      "topics": [
-        "football",
-        "Manchester United",
-        "player development"
       ]
     }
   ]
