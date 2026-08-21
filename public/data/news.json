@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-08-21T13:38:16.733625+00:00",
+  "fetchedAt": "2026-08-21T14:25:06.267885+00:00",
   "articles": [
+    {
+      "id": "c3c1f6fbf26bc8992c8049f1684b1186",
+      "title": "Cristiano Ronaldo Official EA Sports FC 27 Rating Revealed",
+      "description": "The Real Madrid and Manchester United legend is still scoring for Al Nassr, but is not quite considered among the elite in EA Sports FC 27",
+      "link": "https://www.givemesport.com/cristiano-ronaldo-ea-sports-fc-27-rating/",
+      "published_date": "2026-08-21T14:11:09",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/07/mixcollage-28-jul-2026-11-56-am-2271.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports ratings"
+      ]
+    },
     {
       "id": "4eb75fe3182deeebedb58f15051e9e10",
       "title": "Premier League: Supercomputer Predicts Winners AND Losers",
@@ -108,20 +121,6 @@
       "topics": [
         "transfer news",
         "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "cd53bc061be17a0617182026f75243df",
-      "title": "Manchester United XI vs Hull: Confirmed team news, predicted lineup, injury latest for Premier League",
-      "description": "Carrick can unleash a new-look midfield pivot in Premier League opener",
-      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-hull-confirmed-team-news-predicted-lineup-injury-latest-premier-league-2026-b1294124.html",
-      "published_date": "2026-08-20T17:03:37",
-      "source": "Evening Standard",
-      "media_url": "https://static.standard.co.uk/2026/02/03/11/37/predictedximanutdcarrick.jpeg?width=1200&auto=webp&crop=3%3A2",
-      "topics": [
-        "Premier League",
-        "midfield",
         "sports news"
       ]
     }
