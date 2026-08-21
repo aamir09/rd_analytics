@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-21T19:19:51.077585+00:00",
+  "fetchedAt": "2026-08-21T20:15:33.999415+00:00",
   "articles": [
+    {
+      "id": "7358cb94de2723f66b34ca6364d67176",
+      "title": "Carlos Baleba set for Manchester United medical after £70m deal agreed with Brighton",
+      "description": "Baleba, 22, has played 112 times for Brighton since joining from Lille in the summer of 2023.",
+      "link": "https://www.nytimes.com/athletic/7523511/2026/08/21/carlos-baleba-transfer-man-utd/",
+      "published_date": "2026-08-21T19:32:17",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19082700/carlos-baleba-bri-scaled-e1787142445612.jpg",
+      "topics": [
+        "sports news",
+        "medical deals",
+        "Manchester United"
+      ]
+    },
     {
       "id": "08cbe5b3a73af126f652b8a8f71368c7",
       "title": "Paddy Power offer: Get 50/1 on Man Utd to avoid defeat vs Hull City",
@@ -26,6 +40,19 @@
       "topics": [
         "sports news",
         "sports events"
+      ]
+    },
+    {
+      "id": "a1d64170a225233afa3430afdd1dfcd7",
+      "title": "'Here We Go' - Man Utd Agree Deal to Sign Brighton Star Carlos Baleba",
+      "description": "Manchester United have agreed a deal to sign Brighton midfielder Carlos Baleba.",
+      "link": "https://www.givemesport.com/breaking-man-utd-agree-carlos-baleba-transfer/",
+      "published_date": "2026-08-21T18:59:41",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/08/mixcollage-19-aug-2025-01-29-pm-9241.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football deals",
+        "Manchester United"
       ]
     },
     {
@@ -109,20 +136,6 @@
         "football",
         "Manchester United",
         "player development"
-      ]
-    },
-    {
-      "id": "2adae179e71cd5fef8afe52c0ab50e87",
-      "title": "Liverpool Barcola Talks, Man Utd Baleba Deal & Man City’s Enzo Plan",
-      "description": "Liverpool are pushing to strengthen their attack before the transfer deadline, with Bradley Barcola talks ongoing and several alternatives under consideration. Manchester United also remain confident of signing Carlos Baleba after continuing negotiations with Brighton.Elsewhere, Manchester City are weighing up major midfield moves, including Enzo Fernandez, while Tottenham continue talks over further additions. Aston Villa are also set for a busy end to the window, with Nicolas Jackson a target and Al-Hilal pushing to sign Ollie Watkins.",
-      "link": "https://www.givemesport.com/video/liverpool-barcola-talks-man-utd-baleba-deal-man-city-s-enzo-plan/",
-      "published_date": "2026-08-21T15:15:16",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/bj-newsletter-thumbnail.png?w=1200&h=675&fit=crop",
-      "topics": [
-        "transfer negotiations",
-        "midfield moves",
-        "Manchester United"
       ]
     }
   ]
