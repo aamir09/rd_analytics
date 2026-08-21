@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-21T12:27:45.617414+00:00",
+  "fetchedAt": "2026-08-21T13:38:16.733625+00:00",
   "articles": [
+    {
+      "id": "4eb75fe3182deeebedb58f15051e9e10",
+      "title": "Premier League: Supercomputer Predicts Winners AND Losers",
+      "description": "Premier League, world class footballers, world class players, Premier League best players, Erling Haaland, Virgil van Dijk, Declan Rice, Bruno Fernandes, Moises Caicedo, Arsenal, Liverpool, Manchester City, Manchester United, Chelsea, football, soccer, GiveMeSport, Premier League 2026",
+      "link": "https://www.givemesport.com/video/premier-league-supercomputer-predicts-winners-and-losers/",
+      "published_date": "2026-08-21T12:55:10",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/supercomputer.png?w=1200&h=675&fit=crop",
+      "topics": [
+        "football",
+        "Premier League",
+        "sports predictions"
+      ]
+    },
     {
       "id": "b3bca8e9adf0ec829cb4e248526d43b3",
       "title": "The calm one? Jose Mourinho addresses media for first time since Real Madrid return",
@@ -109,18 +123,6 @@
         "Premier League",
         "midfield",
         "sports news"
-      ]
-    },
-    {
-      "id": "0c2eae2f39fdc4149b842a3862653ce8",
-      "title": "2025-26 was Manchester United's Bruno Fernandes season - they don't want another one",
-      "description": "As brilliant as Fernandes is, United will need other players who are capable of taking more responsibility to step up and change a match",
-      "link": "https://www.nytimes.com/athletic/7526476/2026/08/20/bruno-fernandes-manchester-united-assists-goals-reliance/",
-      "published_date": "2026-08-20T17:00:27",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/20095447/GettyImages-2277984516-scaled.jpg",
-      "topics": [
-        "football"
       ]
     }
   ]
