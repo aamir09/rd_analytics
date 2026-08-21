@@ -1,6 +1,46 @@
 {
-  "fetchedAt": "2026-08-21T05:24:14.355435+00:00",
+  "fetchedAt": "2026-08-21T06:30:02.677792+00:00",
   "articles": [
+    {
+      "id": "f196289153fb0f430fa646a1cdf9d5f1",
+      "title": "Michael Carrick has made Manchester United ‘more boring’. That might be his superpower",
+      "description": "The former England international and Red Devils favourite is the quiet man who has assumed arguably the Premier League’s toughest job.",
+      "link": "https://www.smh.com.au/sport/soccer/michael-carrick-has-made-manchester-united-more-boring-that-might-be-his-superpower-20260819-p60pt0.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
+      "published_date": "2026-08-21T05:33:00",
+      "source": "Sydney Morning Herald",
+      "media_url": "https://static.ffx.io/images/$zoom_0.2355%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_35/t_crop_custom/q_86%2Cf_auto/9dd1df7ed9f79954966e85970d0c8b889391d63e690f329f1c69d21d4de1cf76",
+      "topics": [
+        "football",
+        "Premier League"
+      ]
+    },
+    {
+      "id": "9cd7d01ea1856191f1fe9822fda1148b",
+      "title": "Michael Carrick has made Manchester United ‘more boring’. That might be his superpower",
+      "description": "The former England international and Red Devils favourite is the quiet man who has assumed arguably the Premier League’s toughest job.",
+      "link": "https://www.theage.com.au/sport/soccer/michael-carrick-has-made-manchester-united-more-boring-that-might-be-his-superpower-20260819-p60pt0.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
+      "published_date": "2026-08-21T05:33:00",
+      "source": "The Age",
+      "media_url": "https://static.ffx.io/images/$zoom_0.2355%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_35/t_crop_custom/q_86%2Cf_auto/9dd1df7ed9f79954966e85970d0c8b889391d63e690f329f1c69d21d4de1cf76",
+      "topics": [
+        "football",
+        "Premier League"
+      ]
+    },
+    {
+      "id": "6e94e95dd6380bd39898c88fdfdae84c",
+      "title": "Man Utd Offered David Raum as Carlos Baleba Deal Edges Closer",
+      "description": "Manchester United offered a chance to sign David Raum as a left-back option as a deal for Carlos Baleba edges closer.",
+      "link": "https://www.givemesport.com/man-utd-offered-david-raum-transfer/",
+      "published_date": "2026-08-21T05:17:12",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/03/2026-03-20t200715z_504813476_up1em3k1jw1jg_rtrmadp_3_soccer-england-bou-mun-1.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football deals",
+        "Manchester United",
+        "Carlos Baleba"
+      ]
+    },
     {
       "id": "6c9df1ecf1b41084177ccbcea93647ed",
       "title": "New Manchester United transfer target revealed as '£65m deal agreed'",
@@ -81,48 +121,6 @@
         "football injury news",
         "Manchester United",
         "sports updates"
-      ]
-    },
-    {
-      "id": "a092bcb2cf0c081fa1d58b8f221f1606",
-      "title": "Newcastle's Lewis Hall Wants to Join Man Utd After Carlos Baleba",
-      "description": "Lewis Hall is keen on joining Manchester United, amid Newcastle's struggle to retain top players this season.",
-      "link": "https://www.givemesport.com/man-utd-transfer-lewis-hall-wants-move-newcastle/",
-      "published_date": "2026-08-20T16:36:12",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/03/manchester-united-caretaker-boss-michael-carrick-claps-the-fans.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports news",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "41c4a717264163dbeb4791151ac5d758",
-      "title": "Manchester United's Benjamin Sesko close to 'getting some minutes' - Michael Carrick",
-      "description": "Sesko has missed all of pre-season and has been out since coming off with a shin injury against Liverpool at the start of May.",
-      "link": "https://www.nytimes.com/athletic/7526991/2026/08/20/man-united-sesko-carrick-injury-update/",
-      "published_date": "2026-08-20T16:35:33",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/20121404/sesko-man-utd-pre-season-scaled.jpg",
-      "topics": [
-        "football",
-        "injury news",
-        "Manchester United"
-      ]
-    },
-    {
-      "id": "9ce0b22b7e2ff55e6c668c623f485b8c",
-      "title": "One Burning Question for Every Premier League Club Before the 2026–27 Season",
-      "description": "Manchester United’s timings, Liverpool’s tactics and Arsenal’s technical skills are all under scrutiny this season.",
-      "link": "https://www.si.com/soccer/one-burning-question-every-premier-league-club-2026-27-season?utm_source=RSS",
-      "published_date": "2026-08-20T16:00:03",
-      "source": "Sports Illustrated",
-      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1919,h_1079,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m0d4ghp9ncqgqr9v6t.jpg",
-      "topics": [
-        "Premier League",
-        "football",
-        "sports tactics"
       ]
     }
   ]
