@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-21T12:55:17.094404+00:00",
+  "fetchedAt": "2026-08-21T14:39:06.110501+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2090804363728154818",
+          "created_at": "2026-08-21T14:13:00+00:00",
+          "text": "There's a reason why Bruno is that price, @OfficialFPL... 🅰️👀 https://t.co/2uIyxMeBsE",
+          "views": "158628",
+          "favorites": 1893,
+          "retweets": 197,
+          "media_url": "https://pbs.twimg.com/media/HQP4UfSWAAARZUS.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2090793543027876309",
+          "created_at": "2026-08-21T13:30:00+00:00",
+          "text": "Left Bryan hanging 😭",
+          "views": "173376",
+          "favorites": 4299,
+          "retweets": 265,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2090782218092188004",
           "created_at": "2026-08-21T12:45:00+00:00",
           "text": "🇧🇷🔥 https://t.co/P676MbxwGj",
-          "views": "65699",
-          "favorites": 1818,
-          "retweets": 194,
+          "views": "186031",
+          "favorites": 12036,
+          "retweets": 916,
           "media_url": "https://pbs.twimg.com/media/HQPxG4NWgAAERgm.jpg",
           "author": {
             "name": null,
@@ -22,9 +50,9 @@
           "id": "2090780772860911698",
           "created_at": "2026-08-21T12:39:15+00:00",
           "text": "New-season ready 📸💫",
-          "views": "73167",
-          "favorites": 1569,
-          "retweets": 193,
+          "views": "190739",
+          "favorites": 8768,
+          "retweets": 765,
           "media_url": null,
           "author": {
             "name": null,
@@ -36,38 +64,10 @@
           "id": "2090779713522311265",
           "created_at": "2026-08-21T12:35:03+00:00",
           "text": "There he is. https://t.co/Ttgv9O6mnq",
-          "views": "96320",
-          "favorites": 4481,
-          "retweets": 481,
+          "views": "287318",
+          "favorites": 23206,
+          "retweets": 2092,
           "media_url": "https://pbs.twimg.com/media/HQPtCyFWsAAT45B.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2090770893479784884",
-          "created_at": "2026-08-21T12:00:00+00:00",
-          "text": "\"Everyone's got that buzz and the quality of training has been very good.\" 🔥\n\nCatching up with our boss ahead of the big #PL kick-off! 💬",
-          "views": "117156",
-          "favorites": 1930,
-          "retweets": 198,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2090763344022290571",
-          "created_at": "2026-08-21T11:30:00+00:00",
-          "text": "One more.",
-          "views": "210002",
-          "favorites": 3478,
-          "retweets": 250,
-          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -83,9 +83,9 @@
           "id": "2090735401665253620",
           "created_at": "2026-08-21T09:38:58+00:00",
           "text": "🚨 JUST IN:\n\nJacob Devaney is in talks with Hibernian over a loan move. #MUFC [@sistoney67] https://t.co/86llS6p6uT",
-          "views": "69052",
-          "favorites": 1854,
-          "retweets": 71,
+          "views": "91856",
+          "favorites": 2165,
+          "retweets": 80,
           "media_url": "https://pbs.twimg.com/media/HQPIxBEX0AA8qEA.jpg",
           "author": {
             "name": null,
@@ -97,9 +97,9 @@
           "id": "2090713117751685139",
           "created_at": "2026-08-21T08:10:25+00:00",
           "text": "🚨 NEW!!\n\nPeople close to the situation say Marcus Rashford is CERTAIN to stay at Manchester United past the transfer deadline. #MUFC [@lauriewhitwell] https://t.co/YGmGaaQjWB",
-          "views": "68738",
-          "favorites": 2829,
-          "retweets": 105,
+          "views": "78327",
+          "favorites": 3146,
+          "retweets": 113,
           "media_url": "https://pbs.twimg.com/media/HQO0f-BW8AAE3QT.jpg",
           "author": {
             "name": null,
@@ -111,9 +111,9 @@
           "id": "2090536208396849277",
           "created_at": "2026-08-20T20:27:27+00:00",
           "text": "🚨 JUST IN:\n\nIf Manchester United get to a £70m package for Carlos Baleba, the deal will get DONE. Brighton would be WILLING to part with the player at that price. #MUFC [@LukeEdwardsTele] https://t.co/44Zvrueomq",
-          "views": "142544",
-          "favorites": 4265,
-          "retweets": 147,
+          "views": "149935",
+          "favorites": 4428,
+          "retweets": 148,
           "media_url": "https://pbs.twimg.com/media/HQMTmZxXEAA3XVh.jpg",
           "author": {
             "name": null,
@@ -125,8 +125,8 @@
           "id": "2090525865947906377",
           "created_at": "2026-08-20T19:46:21+00:00",
           "text": "🥶 https://t.co/xpr9UaSjRc",
-          "views": "87480",
-          "favorites": 1346,
+          "views": "92712",
+          "favorites": 1404,
           "retweets": 54,
           "media_url": "https://pbs.twimg.com/media/HQMKMbjX0AA9sGO.jpg",
           "author": {
@@ -139,9 +139,9 @@
           "id": "2090523378301997387",
           "created_at": "2026-08-20T19:36:28+00:00",
           "text": "🚨🚨🗣️ Leny Yoro:\n\n“One thing I’ve learned since joining United? That it’s the BIGGEST club in the WORLD.” #MUFC [footballerfits IG] https://t.co/awSr2wBSJD",
-          "views": "136386",
-          "favorites": 8677,
-          "retweets": 270,
+          "views": "140715",
+          "favorites": 8940,
+          "retweets": 283,
           "media_url": "https://pbs.twimg.com/media/HQMH7p3W8AAcNey.jpg",
           "author": {
             "name": null,
@@ -166,9 +166,9 @@
           "id": "2089998414637363381",
           "created_at": "2026-08-19T08:50:26+00:00",
           "text": "🚨 EXCLUSIVE: Manchester United closing in on deal to sign Carlos Baleba from Brighton &amp; Hove Albion. #MUFC offer for 22yo Cameroon midfielder ~£60+5m; below #BHAFC valuation but amicable talks continue as all parties work to reach agreement @TheAthleticFC https://t.co/WmP1bD2JuT",
-          "views": "31925349",
-          "favorites": 141790,
-          "retweets": 21699,
+          "views": "32069509",
+          "favorites": 141818,
+          "retweets": 21701,
           "media_url": null,
           "author": {
             "name": null,
