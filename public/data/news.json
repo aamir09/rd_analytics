@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-21T15:24:26.561839+00:00",
+  "fetchedAt": "2026-08-21T16:21:42.380046+00:00",
   "articles": [
+    {
+      "id": "2adae179e71cd5fef8afe52c0ab50e87",
+      "title": "Liverpool Barcola Talks, Man Utd Baleba Deal & Man City’s Enzo Plan",
+      "description": "Liverpool are pushing to strengthen their attack before the transfer deadline, with Bradley Barcola talks ongoing and several alternatives under consideration. Manchester United also remain confident of signing Carlos Baleba after continuing negotiations with Brighton.Elsewhere, Manchester City are weighing up major midfield moves, including Enzo Fernandez, while Tottenham continue talks over further additions. Aston Villa are also set for a busy end to the window, with Nicolas Jackson a target and Al-Hilal pushing to sign Ollie Watkins.",
+      "link": "https://www.givemesport.com/video/liverpool-barcola-talks-man-utd-baleba-deal-man-city-s-enzo-plan/",
+      "published_date": "2026-08-21T15:15:16",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/bj-newsletter-thumbnail.png?w=1200&h=675&fit=crop",
+      "topics": [
+        "transfer negotiations",
+        "midfield moves",
+        "Manchester United"
+      ]
+    },
     {
       "id": "10fa0c61e1dcb98b641226de79212edc",
       "title": "INEOS signing must leave Man Utd if Carrick doesn’t start him in Hull – Opinion",
@@ -80,20 +94,6 @@
       "topics": [
         "football",
         "Premier League"
-      ]
-    },
-    {
-      "id": "6e94e95dd6380bd39898c88fdfdae84c",
-      "title": "Man Utd Offered David Raum as Carlos Baleba Deal Edges Closer",
-      "description": "Manchester United offered a chance to sign David Raum as a left-back option as a deal for Carlos Baleba edges closer.",
-      "link": "https://www.givemesport.com/man-utd-offered-david-raum-transfer/",
-      "published_date": "2026-08-21T05:17:12",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/03/2026-03-20t200715z_504813476_up1em3k1jw1jg_rtrmadp_3_soccer-england-bou-mun-1.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football deals",
-        "Manchester United",
-        "Carlos Baleba"
       ]
     }
   ]
