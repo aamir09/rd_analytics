@@ -1,6 +1,47 @@
 {
-  "fetchedAt": "2026-08-21T17:20:27.790090+00:00",
+  "fetchedAt": "2026-08-21T18:23:04.708590+00:00",
   "articles": [
+    {
+      "id": "386b12a14a8d17906822b7fa90ec3364",
+      "title": "BBC: Man Utd & Hibernian finalising move for ‘commanding’ midfielder",
+      "description": "Hibernian are working on signing young Manchester United midfielder Jacob Devaney on a season-long loan.The youngster is a Barnsley native who holds English citizenship, but has thus far represented t...",
+      "link": "https://sports.yahoo.com/articles/bbc-man-utd-hibernian-finalising-175000910.html",
+      "published_date": "2026-08-21T17:50:00",
+      "source": "Yahoo Sports",
+      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/28a869fa3b3270fecdb074dd586c587b.jpg",
+      "topics": [
+        "football transfers",
+        "football",
+        "sports news"
+      ]
+    },
+    {
+      "id": "ff6b0b68188da305594fc84a9a7e5565",
+      "title": "Hull City vs Man Utd Predicted Lineups For Premier League Clash",
+      "description": "Hull City begin their Premier League adventure with a home game against Manchester United on Saturday afternoon",
+      "link": "https://www.givemesport.com/hull-city-vs-man-utd-predicted-lineups-team-news-premier-league/",
+      "published_date": "2026-08-21T17:35:12",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/03/2026-03-20t200715z_504813476_up1em3k1jw1jg_rtrmadp_3_soccer-england-bou-mun-1.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "Premier League",
+        "football"
+      ]
+    },
+    {
+      "id": "e616876c42e16af255068894c93bf34b",
+      "title": "Premier League: John Terry Predicts the Top 4 For the 2026-27 Season",
+      "description": "John Terry has predicted the top four for the 2026-27 Premier League season, including big Manchester United and Chelsea calls.",
+      "link": "https://www.givemesport.com/john-terry-predicts-premier-league-top-four/",
+      "published_date": "2026-08-21T17:23:23",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-21-aug-2026-06-16-pm-3495.jpg?w=1200&h=675&fit=crop",
+      "topics": [
+        "Premier League",
+        "football",
+        "sports predictions"
+      ]
+    },
     {
       "id": "4c2193e951f03f9b660720a4e7aa7db2",
       "title": "Fabrizio Romano: Man Utd 'Very Close' to Agreement to Sign 'Monster' Player",
@@ -68,34 +109,6 @@
       "topics": [
         "football",
         "sports ratings"
-      ]
-    },
-    {
-      "id": "4eb75fe3182deeebedb58f15051e9e10",
-      "title": "Premier League: Supercomputer Predicts Winners AND Losers",
-      "description": "Premier League, world class footballers, world class players, Premier League best players, Erling Haaland, Virgil van Dijk, Declan Rice, Bruno Fernandes, Moises Caicedo, Arsenal, Liverpool, Manchester City, Manchester United, Chelsea, football, soccer, GiveMeSport, Premier League 2026",
-      "link": "https://www.givemesport.com/video/premier-league-supercomputer-predicts-winners-and-losers/",
-      "published_date": "2026-08-21T12:55:10",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/supercomputer.png?w=1200&h=675&fit=crop",
-      "topics": [
-        "football",
-        "Premier League",
-        "sports predictions"
-      ]
-    },
-    {
-      "id": "b3bca8e9adf0ec829cb4e248526d43b3",
-      "title": "The calm one? Jose Mourinho addresses media for first time since Real Madrid return",
-      "description": "The former Chelsea, Manchester United and Inter coach sealed a shock return to the Bernabeu in June.",
-      "link": "https://www.nytimes.com/athletic/7528826/2026/08/21/jose-mourinho-real-madrid-first-press-conference/",
-      "published_date": "2026-08-21T09:38:46",
-      "source": "The Athletic",
-      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/21052255/GettyImages-2291383558-scaled-e1787304242643.jpg",
-      "topics": [
-        "football",
-        "media relations",
-        "sports news"
       ]
     }
   ]
