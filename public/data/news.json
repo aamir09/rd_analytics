@@ -1,6 +1,21 @@
 {
-  "fetchedAt": "2026-08-21T21:14:46.083754+00:00",
+  "fetchedAt": "2026-08-21T22:14:19.960424+00:00",
   "articles": [
+    {
+      "id": "069e53ecfd95520ebc2219d4f52bb335",
+      "title": "Michael Carrick hints at Bruno Fernandes rotation for Manchester United – how likely is that?",
+      "description": "Fernandes, 31, has been unavailable for just six games for United since January 2020.",
+      "link": "https://www.nytimes.com/athletic/7529468/2026/08/21/bruno-fernandes-man-utd-rotation-carrick/",
+      "published_date": "2026-08-21T21:30:37",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/21114146/carrick-bruno-1.jpg",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United",
+        "Bruno Fernandes"
+      ]
+    },
     {
       "id": "89a9b8a86e1a68e4979cbc61eebc898b",
       "title": "Carlos Baleba: Manchester United book medical for latest summer signing after agreeing £70m transfer",
@@ -122,20 +137,6 @@
         "Premier League",
         "football",
         "sports predictions"
-      ]
-    },
-    {
-      "id": "4c2193e951f03f9b660720a4e7aa7db2",
-      "title": "Fabrizio Romano: Man Utd 'Very Close' to Agreement to Sign 'Monster' Player",
-      "description": "Manchester United and Brighton nearing agreement for Carlos Baleba's transfer. Updates on ongoing negotiations.",
-      "link": "https://www.givemesport.com/man-utd-very-close-carlos-baleba-transfer/",
-      "published_date": "2026-08-21T16:36:00",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/06/mixcollage-03-jun-2026-01-01-pm-378.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football negotiations",
-        "transfer agreements",
-        "football"
       ]
     }
   ]
