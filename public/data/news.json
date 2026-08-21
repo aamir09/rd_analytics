@@ -1,6 +1,47 @@
 {
-  "fetchedAt": "2026-08-21T18:23:04.708590+00:00",
+  "fetchedAt": "2026-08-21T19:19:51.077585+00:00",
   "articles": [
+    {
+      "id": "08cbe5b3a73af126f652b8a8f71368c7",
+      "title": "Paddy Power offer: Get 50/1 on Man Utd to avoid defeat vs Hull City",
+      "description": "Find out how to get enhanced odds of 50/1 on Manchester United avoiding defeat when they face Hull City",
+      "link": "https://www.standard.co.uk/sport/betting/hull-city-vs-manchester-united-offer-paddy-power-b1294199.html",
+      "published_date": "2026-08-21T19:00:45",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/21/12/50/Paddy-Power-Hull-vs-Man-Utd-offer.jpeg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "sports odds",
+        "Manchester United"
+      ]
+    },
+    {
+      "id": "90f1a862998624ef666069c68053ee3c",
+      "title": "Manchester United Underdog to Win Any Trophies This Season on Kalshi Prediction Market",
+      "description": "Kalshi fades Manchester United winning any trophies this season.",
+      "link": "https://www.si.com/prediction-markets/manchester-united-underdog-to-win-any-trophies-this-season-on-kalshi-prediction-market-01m0fxtxz357?utm_source=RSS",
+      "published_date": "2026-08-21T19:00:03",
+      "source": "Sports Illustrated",
+      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2650,h_1490,x_0,y_52/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01m0fy58nspd53v6jsrg.jpg",
+      "topics": [
+        "sports news",
+        "sports events"
+      ]
+    },
+    {
+      "id": "aca3e75f68b66e88fabc7d4384b98d87",
+      "title": "Zlatan Ibrahimovic Named the 5 ‘Strongest’ Defenders He's Ever Seen",
+      "description": "The Sweden international, formerly of Manchester United and AC Milan, waxed lyrical about Thiago Silva and four other stars.",
+      "link": "https://www.givemesport.com/zlatan-ibrahimovic-strongest-defenders-ever-seen-football-soccer/",
+      "published_date": "2026-08-21T18:25:12",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2025/02/mixcollage-15-feb-2025-11-32-am-6303.jpg?w=1200&h=675&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "player names"
+      ]
+    },
     {
       "id": "386b12a14a8d17906822b7fa90ec3364",
       "title": "BBC: Man Utd & Hibernian finalising move for ‘commanding’ midfielder",
@@ -82,33 +123,6 @@
         "transfer negotiations",
         "midfield moves",
         "Manchester United"
-      ]
-    },
-    {
-      "id": "10fa0c61e1dcb98b641226de79212edc",
-      "title": "INEOS signing must leave Man Utd if Carrick doesn’t start him in Hull – Opinion",
-      "description": "A snub in Hull should serve as the last straw for Joshua Zirkzee, who would then have to request a departure from Manchester United.In the summer of 2024, the 25-year-old became the first player to jo...",
-      "link": "https://sports.yahoo.com/articles/ineos-signing-must-leave-man-145000818.html",
-      "published_date": "2026-08-21T14:50:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/f882e1e37ff61ae88fe4fcc16d2f5791.jpg",
-      "topics": [
-        "football",
-        "player departures",
-        "sports news"
-      ]
-    },
-    {
-      "id": "c3c1f6fbf26bc8992c8049f1684b1186",
-      "title": "Cristiano Ronaldo Official EA Sports FC 27 Rating Revealed",
-      "description": "The Real Madrid and Manchester United legend is still scoring for Al Nassr, but is not quite considered among the elite in EA Sports FC 27",
-      "link": "https://www.givemesport.com/cristiano-ronaldo-ea-sports-fc-27-rating/",
-      "published_date": "2026-08-21T14:11:09",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/07/mixcollage-28-jul-2026-11-56-am-2271.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "football",
-        "sports ratings"
       ]
     }
   ]
