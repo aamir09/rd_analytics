@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-21T16:21:42.380046+00:00",
+  "fetchedAt": "2026-08-21T17:20:27.790090+00:00",
   "articles": [
+    {
+      "id": "4c2193e951f03f9b660720a4e7aa7db2",
+      "title": "Fabrizio Romano: Man Utd 'Very Close' to Agreement to Sign 'Monster' Player",
+      "description": "Manchester United and Brighton nearing agreement for Carlos Baleba's transfer. Updates on ongoing negotiations.",
+      "link": "https://www.givemesport.com/man-utd-very-close-carlos-baleba-transfer/",
+      "published_date": "2026-08-21T16:36:00",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/06/mixcollage-03-jun-2026-01-01-pm-378.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football negotiations",
+        "transfer agreements",
+        "football"
+      ]
+    },
+    {
+      "id": "8b01bf0b360ed6e34c9128becf7e43ba",
+      "title": "Manchester United 2026-27 breakthrough player: Shea Lacey",
+      "description": "Left-footed, skilled at dribbling and clever when creating, Lacey can become the sort of flying winger United fans have long adored",
+      "link": "https://www.nytimes.com/athletic/7521287/2026/08/21/manchester-united-2026-27-breakthrough-player-shea-lacey/",
+      "published_date": "2026-08-21T16:00:53",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/21103726/GettyImages-2254518193-scaled.jpg",
+      "topics": [
+        "football",
+        "Manchester United",
+        "player development"
+      ]
+    },
     {
       "id": "2adae179e71cd5fef8afe52c0ab50e87",
       "title": "Liverpool Barcola Talks, Man Utd Baleba Deal & Man City’s Enzo Plan",
@@ -68,32 +96,6 @@
         "football",
         "media relations",
         "sports news"
-      ]
-    },
-    {
-      "id": "f196289153fb0f430fa646a1cdf9d5f1",
-      "title": "Michael Carrick has made Manchester United ‘more boring’. That might be his superpower",
-      "description": "The former England international and Red Devils favourite is the quiet man who has assumed arguably the Premier League’s toughest job.",
-      "link": "https://www.smh.com.au/sport/soccer/michael-carrick-has-made-manchester-united-more-boring-that-might-be-his-superpower-20260819-p60pt0.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
-      "published_date": "2026-08-21T05:33:00",
-      "source": "Sydney Morning Herald",
-      "media_url": "https://static.ffx.io/images/$zoom_0.2355%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_35/t_crop_custom/q_86%2Cf_auto/9dd1df7ed9f79954966e85970d0c8b889391d63e690f329f1c69d21d4de1cf76",
-      "topics": [
-        "football",
-        "Premier League"
-      ]
-    },
-    {
-      "id": "9cd7d01ea1856191f1fe9822fda1148b",
-      "title": "Michael Carrick has made Manchester United ‘more boring’. That might be his superpower",
-      "description": "The former England international and Red Devils favourite is the quiet man who has assumed arguably the Premier League’s toughest job.",
-      "link": "https://www.theage.com.au/sport/soccer/michael-carrick-has-made-manchester-united-more-boring-that-might-be-his-superpower-20260819-p60pt0.html?ref=rss&utm_medium=rss&utm_source=rss_feed",
-      "published_date": "2026-08-21T05:33:00",
-      "source": "The Age",
-      "media_url": "https://static.ffx.io/images/$zoom_0.2355%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_35/t_crop_custom/q_86%2Cf_auto/9dd1df7ed9f79954966e85970d0c8b889391d63e690f329f1c69d21d4de1cf76",
-      "topics": [
-        "football",
-        "Premier League"
       ]
     }
   ]
