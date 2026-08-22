@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-22T04:23:18.466618+00:00",
+  "fetchedAt": "2026-08-22T05:19:05.214045+00:00",
   "articles": [
+    {
+      "id": "0eab4bb11fe91b119a19ffac459fb193",
+      "title": "How to watch Hull vs Manchester United: TV channel and live stream for Premier League today",
+      "description": "Man United heavy favourites to begin new season with a win",
+      "link": "https://www.standard.co.uk/sport/football/how-to-watch-hull-vs-man-utd-tv-channel-live-stream-premier-league-today-b1294256.html",
+      "published_date": "2026-08-22T05:00:26",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/21/16/07/HullvsManUtd21082026.png?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "Premier League",
+        "sports news",
+        "football"
+      ]
+    },
     {
       "id": "8d22b414c892a680f82b9882cb7aa3d3",
       "title": "Manchester United’s greatest players: No 1, Sir Bobby Charlton",
@@ -122,19 +136,6 @@
         "football transfers",
         "football",
         "sports news"
-      ]
-    },
-    {
-      "id": "ff6b0b68188da305594fc84a9a7e5565",
-      "title": "Hull City vs Man Utd Predicted Lineups For Premier League Clash",
-      "description": "Hull City begin their Premier League adventure with a home game against Manchester United on Saturday afternoon",
-      "link": "https://www.givemesport.com/hull-city-vs-man-utd-predicted-lineups-team-news-premier-league/",
-      "published_date": "2026-08-21T17:35:12",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/03/2026-03-20t200715z_504813476_up1em3k1jw1jg_rtrmadp_3_soccer-england-bou-mun-1.jpg?w=1600&h=900&fit=crop",
-      "topics": [
-        "Premier League",
-        "football"
       ]
     }
   ]
