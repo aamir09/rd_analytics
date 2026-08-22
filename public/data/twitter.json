@@ -1,16 +1,44 @@
 {
-  "fetchedAt": "2026-08-22T14:25:33.102327+00:00",
+  "fetchedAt": "2026-08-22T16:28:52.727804+00:00",
   "handles": [
     {
       "screen_name": "ManUtd",
       "tweets": [
         {
+          "id": "2091190659654860826",
+          "created_at": "2026-08-22T15:48:00+00:00",
+          "text": "🗣️ \"We need to get better and prepare ourselves for the next game.\"\n\nBruno's post-match reaction 👇",
+          "views": "128417",
+          "favorites": 1475,
+          "retweets": 132,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
+          "id": "2091179725808923116",
+          "created_at": "2026-08-22T15:04:33+00:00",
+          "text": "Michael shares his assessment of today's game ⤵️",
+          "views": "194197",
+          "favorites": 1725,
+          "retweets": 207,
+          "media_url": null,
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
+          }
+        },
+        {
           "id": "2091154535817289936",
           "created_at": "2026-08-22T13:24:27+00:00",
           "text": "Defeat in our opening game.",
-          "views": "1907328",
-          "favorites": 31531,
-          "retweets": 4164,
+          "views": "5260553",
+          "favorites": 58121,
+          "retweets": 6483,
           "media_url": null,
           "author": {
             "name": null,
@@ -22,9 +50,9 @@
           "id": "2091150605360197961",
           "created_at": "2026-08-22T13:08:50+00:00",
           "text": "With 10 minutes of normal time remaining, we've made two more substitutions 🔄 https://t.co/EeL31ln5LR",
-          "views": "240035",
-          "favorites": 1146,
-          "retweets": 99,
+          "views": "297070",
+          "favorites": 1274,
+          "retweets": 119,
           "media_url": "https://pbs.twimg.com/media/HQVCNSoX0AALcbV.jpg",
           "author": {
             "name": null,
@@ -36,38 +64,10 @@
           "id": "2091147577450238155",
           "created_at": "2026-08-22T12:56:48+00:00",
           "text": "🔄 Two positive changes from the boss — come on, lads! https://t.co/j0E34eFH2i",
-          "views": "250962",
-          "favorites": 1251,
-          "retweets": 115,
+          "views": "294999",
+          "favorites": 1356,
+          "retweets": 131,
           "media_url": "https://pbs.twimg.com/media/HQU_ckiWQAA4KZ0.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2091141989643227435",
-          "created_at": "2026-08-22T12:34:36+00:00",
-          "text": "🔄 The boss makes a half-time change, with Marcus replacing Patrick. https://t.co/OqjSoQllDK",
-          "views": "284572",
-          "favorites": 2128,
-          "retweets": 189,
-          "media_url": "https://pbs.twimg.com/media/HQU6aihXMAAMLz6.jpg",
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/2020102812181331968/T7yPQyMc_normal.png"
-          }
-        },
-        {
-          "id": "2091141618158248345",
-          "created_at": "2026-08-22T12:33:07+00:00",
-          "text": "Let's raise our levels 👊",
-          "views": "244183",
-          "favorites": 1554,
-          "retweets": 155,
-          "media_url": null,
           "author": {
             "name": null,
             "screen_name": null,
@@ -80,12 +80,40 @@
       "screen_name": "mufcMPB",
       "tweets": [
         {
+          "id": "2091194871281324497",
+          "created_at": "2026-08-22T16:04:44+00:00",
+          "text": "🚨 JUST IN:\n\nManchester United are IN TALKS to sign Alejandro Balde through his agent Jorge Mendes. The chances of the player leaving Barcelona are GROWING. Both Barça and Balde agree on exploring the market. #MUFC [@Glongari] https://t.co/IBuLoMPVeh",
+          "views": "21757",
+          "favorites": 692,
+          "retweets": 37,
+          "media_url": "https://pbs.twimg.com/media/HQVqps3WQAAGApu.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
+          "id": "2091176342314205563",
+          "created_at": "2026-08-22T14:51:06+00:00",
+          "text": "🚨 BREAKING:\n\nCarlos Baleba COMPLETED his Manchester United medical tests today at Carrington. He is set to sign his United contract and complete his media duties tomorrow. #MUFC [@SullyTalkz] https://t.co/XA9pbpF6ZT",
+          "views": "46792",
+          "favorites": 3373,
+          "retweets": 134,
+          "media_url": "https://pbs.twimg.com/media/HQVZzIgWwAEUHAd.jpg",
+          "author": {
+            "name": null,
+            "screen_name": null,
+            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
+          }
+        },
+        {
           "id": "2091163527696314542",
           "created_at": "2026-08-22T14:00:11+00:00",
           "text": "🚨 BREAKING:\n\nAlejandro Balde [linked to Manchester United] will LEAVE Barcelona. The player has made the decision to seek an exit after the latest talks and feelings at the club. Jorge Mendes is working to find him a team before the transfer window closes. #MUFC [@JijantesFC] https://t.co/D5ZjyqLIDV",
-          "views": "28687",
-          "favorites": 608,
-          "retweets": 36,
+          "views": "65005",
+          "favorites": 1659,
+          "retweets": 82,
           "media_url": "https://pbs.twimg.com/media/HQVOJRNWAAAl4sX.jpg",
           "author": {
             "name": null,
@@ -97,8 +125,8 @@
           "id": "2091155217987285351",
           "created_at": "2026-08-22T13:27:10+00:00",
           "text": "🚨 FT: Hull City 2-0 Manchester United.",
-          "views": "22321",
-          "favorites": 54,
+          "views": "25890",
+          "favorites": 67,
           "retweets": 2,
           "media_url": null,
           "author": {
@@ -111,37 +139,9 @@
           "id": "2091139819548160268",
           "created_at": "2026-08-22T12:25:59+00:00",
           "text": "🚨 Marcus Rashford is coming ON at half-time.",
-          "views": "51055",
-          "favorites": 490,
+          "views": "55399",
+          "favorites": 514,
           "retweets": 11,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2091138161288138781",
-          "created_at": "2026-08-22T12:19:23+00:00",
-          "text": "🚨 HT: Hull City 2-0 Manchester United.",
-          "views": "32146",
-          "favorites": 126,
-          "retweets": 2,
-          "media_url": null,
-          "author": {
-            "name": null,
-            "screen_name": null,
-            "avatar": "https://pbs.twimg.com/profile_images/1377615631651110925/NcLhZ0dX_normal.jpg"
-          }
-        },
-        {
-          "id": "2091135604864008400",
-          "created_at": "2026-08-22T12:09:14+00:00",
-          "text": "2-0 to Hull.",
-          "views": "34141",
-          "favorites": 175,
-          "retweets": 1,
           "media_url": null,
           "author": {
             "name": null,
@@ -155,13 +155,13 @@
       "screen_name": "FabrizioRomano",
       "tweets": [
         {
-          "id": "2091154588300706234",
-          "created_at": "2026-08-22T13:24:40+00:00",
-          "text": "🟠⚫️ Newly promoted Hull City beat Manchester United on their opening 2026/27 Premier League game! 💥\n\nSpecial day for the Tigers at home. 🐯\n\nWho’s been your Man of the Match? https://t.co/HMVfkU0UPz",
-          "views": "1357865",
-          "favorites": 37528,
-          "retweets": 2468,
-          "media_url": "https://pbs.twimg.com/media/HQVE-eTXcAAaUXT.jpg",
+          "id": "2091193134520672516",
+          "created_at": "2026-08-22T15:57:50+00:00",
+          "text": "🚨🔵🔴 Alejandro Balde’s agent Jorge Mendes working on last-week exit for the left back but only in case of top club proposal.\n\nBalde’s not pushing to leave; decision in the club’s hands.\n\nManchester United called this week to ask for conditions.\n\n🎥➕ https://t.co/D89LMY1NMG https://t.co/rdRwvI2DT7",
+          "views": "902869",
+          "favorites": 16400,
+          "retweets": 1095,
+          "media_url": "https://pbs.twimg.com/media/HQVpEnQXEAAJ8VJ.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -169,13 +169,13 @@
           }
         },
         {
-          "id": "2091120630951293317",
-          "created_at": "2026-08-22T11:09:44+00:00",
-          "text": "🚨🔙 Marcus Rashford, ready to feature in Manchester United shirt again today. 🔴\n\nHe’s gonna wear the shirt No9. 9️⃣✨ https://t.co/WnI7ctwBJP",
-          "views": "1327082",
-          "favorites": 30145,
-          "retweets": 1261,
-          "media_url": "https://pbs.twimg.com/media/HQUnHyEXYAAsVvd.jpg",
+          "id": "2091154588300706234",
+          "created_at": "2026-08-22T13:24:40+00:00",
+          "text": "🟠⚫️ Newly promoted Hull City beat Manchester United on their opening 2026/27 Premier League game! 💥\n\nSpecial day for the Tigers at home. 🐯\n\nWho’s been your Man of the Match? https://t.co/HMVfkU0UPz",
+          "views": "1915494",
+          "favorites": 52786,
+          "retweets": 3429,
+          "media_url": "https://pbs.twimg.com/media/HQVE-eTXcAAaUXT.jpg",
           "author": {
             "name": null,
             "screen_name": null,
@@ -195,9 +195,9 @@
           "id": "2090888771797434492",
           "created_at": "2026-08-21T19:48:24+00:00",
           "text": "🚨 Carlos Baleba to join Manchester United from Brighton &amp; Hove Albion on 5+1yr contract; personal terms verbally agreed &amp; 22yo to do #MUFC medical on Saturday after deal struck with #BHAFC at £65m + £5m + sell-on clause @TheAthleticFC post @FabrizioRomano https://t.co/PVzrRhSp1U",
-          "views": "6091624",
-          "favorites": 88332,
-          "retweets": 12182,
+          "views": "6179443",
+          "favorites": 89161,
+          "retweets": 12232,
           "media_url": null,
           "author": {
             "name": null,
@@ -209,9 +209,9 @@
           "id": "2089998414637363381",
           "created_at": "2026-08-19T08:50:26+00:00",
           "text": "🚨 EXCLUSIVE: Manchester United closing in on deal to sign Carlos Baleba from Brighton &amp; Hove Albion. #MUFC offer for 22yo Cameroon midfielder ~£60+5m; below #BHAFC valuation but amicable talks continue as all parties work to reach agreement @TheAthleticFC https://t.co/WmP1bD2JuT",
-          "views": "32655903",
-          "favorites": 141948,
-          "retweets": 21699,
+          "views": "32676963",
+          "favorites": 141931,
+          "retweets": 21700,
           "media_url": null,
           "author": {
             "name": null,
