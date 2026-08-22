@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-08-22T03:34:20.277423+00:00",
+  "fetchedAt": "2026-08-22T04:23:18.466618+00:00",
   "articles": [
+    {
+      "id": "8d22b414c892a680f82b9882cb7aa3d3",
+      "title": "Manchester United’s greatest players: No 1, Sir Bobby Charlton",
+      "description": "Bobby Charlton was the greatest ever English footballer and he played for Manchester United",
+      "link": "https://www.nytimes.com/athletic/7523566/2026/08/22/manchester-united-greatest-players-bobby-charlton/",
+      "published_date": "2026-08-22T04:02:55",
+      "source": "The Athletic",
+      "media_url": "https://static01.nyt.com/athletic/uploads/wp/2026/08/19074251/ManUtdTop25-Charlton-scaled.jpg",
+      "topics": [
+        "football"
+      ]
+    },
     {
       "id": "069e53ecfd95520ebc2219d4f52bb335",
       "title": "Michael Carrick hints at Bruno Fernandes rotation for Manchester United – how likely is that?",
@@ -123,20 +135,6 @@
       "topics": [
         "Premier League",
         "football"
-      ]
-    },
-    {
-      "id": "e616876c42e16af255068894c93bf34b",
-      "title": "Premier League: John Terry Predicts the Top 4 For the 2026-27 Season",
-      "description": "John Terry has predicted the top four for the 2026-27 Premier League season, including big Manchester United and Chelsea calls.",
-      "link": "https://www.givemesport.com/john-terry-predicts-premier-league-top-four/",
-      "published_date": "2026-08-21T17:23:23",
-      "source": "GiveMeSport",
-      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-21-aug-2026-06-16-pm-3495.jpg?w=1200&h=675&fit=crop",
-      "topics": [
-        "Premier League",
-        "football",
-        "sports predictions"
       ]
     }
   ]
