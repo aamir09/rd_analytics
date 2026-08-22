@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-22T11:12:46.714147+00:00",
+  "fetchedAt": "2026-08-22T12:20:05.360749+00:00",
   "articles": [
+    {
+      "id": "4b12de532dc5fca9c8ea1c7c78a2a701",
+      "title": "Why Amad Diallo is not in Manchester United squad as shock absence explained",
+      "description": "Ivorian winger not involved in Premier League opener against Hull",
+      "link": "https://www.standard.co.uk/sport/football/amad-diallo-man-utd-injury-news-carrick-b1294295.html",
+      "published_date": "2026-08-22T11:02:34",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/22/11/2290294045..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "Premier League",
+        "football",
+        "sports news"
+      ]
+    },
     {
       "id": "f645b84a1ec0dfd0b70006a1c0fd5eca",
       "title": "Manchester United XI vs Hull: Starting lineup, confirmed team news, injury latest for Premier League today",
@@ -126,20 +140,6 @@
         "Tigers",
         "Manchester United",
         "Hull City"
-      ]
-    },
-    {
-      "id": "887dde15435727f0e6e3fa650f6a6e1a",
-      "title": "Hull City vs Manchester United Injury News: A Bad Blow Before Premier League Opener",
-      "description": "Hull City and Manchester United head into their 2026/27 Premier League opener with major fitness concerns at both clubs. The Hull City vs Manchester United match at the MKM Stadium will see Sergej Jakirovic deal with a long injury list, while Michael Carrick also has several players unavailable or facing late fitness checks.Hull City injury […] The post Hull City vs Manchester United Injury News: A Bad Blow Before Premier League Opener appeared first on HEAVY .",
-      "link": "https://heavy.com/sports/soccer/premier-league/manchester-united-fc/hull-city-vs-manchester-united-injury-news-a-bad-blow-before-premier-league-opener/",
-      "published_date": "2026-08-22T09:13:43",
-      "source": "Heavy",
-      "media_url": "https://heavy.com/wp-content/uploads/2026/08/leeds-united-v-manchester-united-pre-season-friendly-dublin-ireland-august-4.jpg?quality=65&strip=all",
-      "topics": [
-        "Premier League",
-        "injury news",
-        "sports events"
       ]
     }
   ]
