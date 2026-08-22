@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-22T07:24:08.206402+00:00",
+  "fetchedAt": "2026-08-22T08:18:15.234334+00:00",
   "articles": [
+    {
+      "id": "962a239798e0c0b2be1b6b141adb03e5",
+      "title": "Manchester United XI vs Hull: Predicted lineup, confirmed team news, injury latest for Premier League today",
+      "description": "Michael Carrick set to hand out debuts in new-look midfield on opening day",
+      "link": "https://www.standard.co.uk/sport/football/man-utd-xi-vs-hull-predicted-lineup-confirmed-team-news-injury-latest-premier-league-2026-today-b1294124.html",
+      "published_date": "2026-08-22T07:51:48",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/22/08/01KZVSM9FWEWTD2V3R2MWRVQXY.jpg?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "Premier League",
+        "sports news",
+        "injury news"
+      ]
+    },
     {
       "id": "0eab4bb11fe91b119a19ffac459fb193",
       "title": "How to watch Hull vs Manchester United: TV channel and live stream for Premier League today",
@@ -122,20 +136,6 @@
         "football",
         "sports news",
         "player names"
-      ]
-    },
-    {
-      "id": "386b12a14a8d17906822b7fa90ec3364",
-      "title": "BBC: Man Utd & Hibernian finalising move for ‘commanding’ midfielder",
-      "description": "Hibernian are working on signing young Manchester United midfielder Jacob Devaney on a season-long loan.The youngster is a Barnsley native who holds English citizenship, but has thus far represented t...",
-      "link": "https://sports.yahoo.com/articles/bbc-man-utd-hibernian-finalising-175000910.html",
-      "published_date": "2026-08-21T17:50:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/stretty_news_articles_240/28a869fa3b3270fecdb074dd586c587b.jpg",
-      "topics": [
-        "football transfers",
-        "football",
-        "sports news"
       ]
     }
   ]
