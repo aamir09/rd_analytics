@@ -1,6 +1,77 @@
 {
-  "fetchedAt": "2026-08-22T14:12:30.382691+00:00",
+  "fetchedAt": "2026-08-22T15:11:45.445739+00:00",
   "articles": [
+    {
+      "id": "57324915ca246fdc0602e0990e8f1c38",
+      "title": "Hull City stun Manchester United with dramatic opening day upset at MKM Stadium",
+      "description": "The Tigers shocked Manchester United with a 2-0 victory to open the season, raising immediate defensive questions about Michael Carrick's side",
+      "link": "https://www.cbssports.com/soccer/news/hull-city-manchester-united-opening-day-upset-at-mkm-stadium/",
+      "published_date": "2026-08-22T14:42:49",
+      "source": "CBS Sports",
+      "media_url": "https://sportshub.cbsistatic.com/i/r/2026/08/22/fc2ae374-f788-486e-bc94-d65c3b76ea5e/thumbnail/1200x675/d18aa6fb15801f58e9f672d419d648c6/untitled-design-2026-08-22t174048-150.png",
+      "topics": [
+        "football",
+        "sports events",
+        "team dynamics"
+      ]
+    },
+    {
+      "id": "d172e49541e9f21d77d51eb51eff367d",
+      "title": "Manchester United, humillado por el recién ascendido Hull City",
+      "description": "Los Red Devils cayeron de visita en su primer partido de la temporada de la Premier League.",
+      "link": "https://www.si.com/mx/futbol/manchester-united-humillado-por-recien-ascendido-hull-city?utm_source=RSS",
+      "published_date": "2026-08-22T14:40:57",
+      "source": "Sports Illustrated",
+      "media_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1024,h_576,x_0,y_87/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si_mexico/01m0myes419c1zvqfynh.jpg",
+      "topics": [
+        "football",
+        "Premier League",
+        "sports events"
+      ]
+    },
+    {
+      "id": "aee194be5ef5de3cbefb8d239a6fb426",
+      "title": "Michael Carrick responds to Carlos Baleba links as Manchester United message sent after Hull defeat",
+      "description": "Red Devils boss fell to frustrating defeat in first match of permanent tenure",
+      "link": "https://www.standard.co.uk/sport/football/baleba-man-utd-transfer-latest-carrick-hull-b1294307.html",
+      "published_date": "2026-08-22T14:22:49",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/22/15/2291542476..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United"
+      ]
+    },
+    {
+      "id": "e705d5e2160f000a6458a8c72e5528d5",
+      "title": "David de Gea's 9-Word Tweet Goes Viral After Hull 2-0 Man Utd",
+      "description": "David de Gea's nine-word tweet following Manchester United's defeat to Hull City has gone viral.",
+      "link": "https://www.givemesport.com/david-de-gea-viral-tweet-manchester-united-lose-hull-city/",
+      "published_date": "2026-08-22T14:22:08",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-22-aug-2026-02-48-pm-3064.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United"
+      ]
+    },
+    {
+      "id": "35c9b2274a47c48748e8679ea7ef2a34",
+      "title": "Bruno Fernandes explains how Hull caught Manchester United out in opening-day defeat",
+      "description": "Red Devils were far from their best in defeat on Humberside",
+      "link": "https://www.standard.co.uk/sport/football/fernandes-man-utd-hull-b1294306.html",
+      "published_date": "2026-08-22T14:01:05",
+      "source": "Evening Standard",
+      "media_url": "https://static.standard.co.uk/2026/08/22/14/2291536937..?width=1200&auto=webp&crop=3%3A2",
+      "topics": [
+        "football",
+        "sports news",
+        "Manchester United",
+        "Red Devils"
+      ]
+    },
     {
       "id": "d60e569cc40a990d8eb0c111b5c1904a",
       "title": "Hull stun Man Utd in dream Premier League return",
@@ -67,77 +138,6 @@
       "media_url": "https://media.zenfs.com/en/afp.com/c90d7d73a69b6b4b16b236631653bde6.jpg",
       "topics": [
         "Premier League",
-        "Manchester United",
-        "sports news"
-      ]
-    },
-    {
-      "id": "5e7199ad1206f3014ac616f82d315a4d",
-      "title": "Manchester United shocked by newly promoted Hull City on opening day",
-      "description": "Manchester United conceded two goals from set pieces and were beaten 2-0 by newly promoted Hull City as the 2026-27 Premier League season kicked off on Saturday.",
-      "link": "https://sports.yahoo.com/articles/manchester-united-shocked-newly-promoted-133216707.html",
-      "published_date": "2026-08-22T13:32:16",
-      "source": "Yahoo Sports",
-      "media_url": null,
-      "topics": [
-        "Premier League",
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "6055920cf30ee49a7416000ae9a89518",
-      "title": "Hull City vs Man United Highlights: Red Devils Suffer a Huge Opening Weekend Blow",
-      "description": "The Hull City vs Man United highlights delivered a major shock on the opening weekend of the 2026–27 Premier League season as newly promoted Hull City defeated Manchester United 2–0 at the MKM Stadium. Michael Carrick’s side controlled most of the possession but failed to turn that dominance into goals against a disciplined Hull City […] The post Hull City vs Man United Highlights: Red Devils Suffer a Huge Opening Weekend Blow appeared first on HEAVY .",
-      "link": "https://heavy.com/sports/soccer/premier-league/manchester-united-fc/hull-city-vs-man-united-highlights-red-devils-suffer-a-huge-opening-weekend-blow/",
-      "published_date": "2026-08-22T13:32:15",
-      "source": "Heavy",
-      "media_url": "https://heavy.com/wp-content/uploads/2026/08/hull-city-v-manchester-united-premier-league-2026-27-hull-england.jpg?quality=65&strip=all",
-      "topics": [
-        "Premier League",
-        "sports events",
-        "sports performance"
-      ]
-    },
-    {
-      "id": "9c8bb77f8bf02e5287c55b7041f0c173",
-      "title": "🚨 Man United stung by a promoted side, nightmare start!",
-      "description": "It’s only the second match of the 2026-27 Premier League season, and we already have one of the biggest upsets of the campaign: Manchester United brought down by newly promoted Hull City… by a two...",
-      "link": "https://sports.yahoo.com/articles/man-united-caught-promoted-side-133200199.html",
-      "published_date": "2026-08-22T13:32:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/onefootball_articles_802/deed51efd2476bc9b5041dfbc4f39cc8.jpg",
-      "topics": [
-        "Premier League",
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "9d444e5cf7059cb6d7827d902c34bc31",
-      "title": "Hull City stun Manchester United on Premier League return",
-      "description": "Hull City produced a stunning 2-0 victory over Manchester United on their return to the Premier League.The newly promoted Tigers started brightly and were rewarded in the 17th minute. Oli McBurnie’s...",
-      "link": "https://sports.yahoo.com/articles/hull-city-x-manchester-united-133000495.html",
-      "published_date": "2026-08-22T13:30:00",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/playmakerstats_articles_264/e0f44f719b232c4e4bb8219ec16d1641.jpg",
-      "topics": [
-        "Premier League",
-        "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "c473aaa18a298f084e6c26464d54661b",
-      "title": "Hull City 2-0 Manchester United: Yikes!",
-      "description": "A bad start to the new campaign for Michael Carrick’s Reds. Manchester United fell 2-0 on the road at Hull City on Saturday to kick off opening weekend with a whimper. It was reminiscent of some past tired starts to the season with a disjointed XI, returning World Cup talent, new signings still finding their […]",
-      "link": "https://sports.yahoo.com/articles/hull-city-2-0-manchester-132706274.html",
-      "published_date": "2026-08-22T13:27:06",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/sb_nation_articles_115/d7bfa280b8fa2911127fe0ec67c90852.jpg",
-      "topics": [
-        "football",
-        "World Cup",
         "Manchester United",
         "sports news"
       ]
