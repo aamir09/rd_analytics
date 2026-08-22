@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-22T15:11:45.445739+00:00",
+  "fetchedAt": "2026-08-22T16:13:10.125473+00:00",
   "articles": [
+    {
+      "id": "b96e4e51548e3ef5077c18fdf1821efd",
+      "title": "Hull 2-0 Man Utd: Tielemans' Eye-Opening Claim About Carrick's Pre-Season",
+      "description": "Youri Tielemans' comments about pre-season under Michael Carrick now look particularly eye-opening following Manchester United's defeat to Hull City.",
+      "link": "https://www.givemesport.com/man-utd-youri-tielemans-preseason-comments-michael-carrick-hull/",
+      "published_date": "2026-08-22T15:05:38",
+      "source": "GiveMeSport",
+      "media_url": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-22-aug-2026-02-40-pm-3417.jpg?w=1600&h=900&fit=crop",
+      "topics": [
+        "pre-season",
+        "sports commentary",
+        "sports news"
+      ]
+    },
     {
       "id": "57324915ca246fdc0602e0990e8f1c38",
       "title": "Hull City stun Manchester United with dramatic opening day upset at MKM Stadium",
@@ -125,20 +139,6 @@
       "topics": [
         "Premier League",
         "football",
-        "sports news"
-      ]
-    },
-    {
-      "id": "86628c1951f29143803cb6cbb396af6d",
-      "title": "Man Utd humiliated by Hull in dismal start to Premier League season",
-      "description": "Manchester United crashed to a humiliating 2-0 defeat at promoted Hull on Saturday in a dismal start to their Premier League campaign.Carrick laughed off claims that United have been handed an easy start to the season, with their trip to Hull followed by a home game against Ipswich, another of the promoted teams.",
-      "link": "https://sports.yahoo.com/articles/man-utd-humiliated-hull-dismal-133317798.html",
-      "published_date": "2026-08-22T13:33:17",
-      "source": "Yahoo Sports",
-      "media_url": "https://media.zenfs.com/en/afp.com/c90d7d73a69b6b4b16b236631653bde6.jpg",
-      "topics": [
-        "Premier League",
-        "Manchester United",
         "sports news"
       ]
     }
