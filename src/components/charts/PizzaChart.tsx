@@ -231,7 +231,7 @@ export default function PizzaChart({
             ctx.fillText(`${pcts[0]} percentile`, lx, ly + 8);
           } else {
             // Render color-coded percentiles for multiple players
-            const valStr = pcts.map((p, idx) => `${p}%`).join(' · ');
+            const valStr = pcts.map((p) => `${p}%`).join(' · ');
             ctx.fillStyle = '#475569';
             ctx.fillText(valStr, lx, ly + 8);
           }

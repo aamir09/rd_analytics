@@ -4,7 +4,7 @@ import { STAT_BY_KEY } from '../../data/statRegistry';
 
 interface Props {
   metric: string;
-  highlightPlayer?: SofaScorePlayer | null;
+  highlightPlayers?: SofaScorePlayer[];
   allPlayers: SofaScorePlayer[];
   width?: number;
   height?: number;
@@ -14,7 +14,7 @@ const MAN_UTD = 'Manchester United';
 
 export default function BeeswarmPlot({
   metric,
-  highlightPlayer,
+  highlightPlayers = [],
   allPlayers,
   width = 720,
   height = 240,
@@ -84,10 +84,7 @@ export default function BeeswarmPlot({
     );
   }
 
-  const highlightDot = highlightPlayer
-    ? dots.find(d => d.player.player_id === highlightPlayer.player_id)
-    : null;
-
+  const highlightIds = new Set(highlightPlayers.map(p => p.player_id));
   const tickCount = 6;
   const ticks = Array.from({ length: tickCount + 1 }, (_, i) => min + (i / tickCount) * (max - min));
 
@@ -110,24 +107,23 @@ export default function BeeswarmPlot({
           );
         })}
 
-        {/* All dots */}
+        {/* All normal dots */}
         {dots.map((d, i) => {
-          const isUtd = d.player.team_name === MAN_UTD;
-          const isHighlight = highlightPlayer && d.player.player_id === highlightPlayer.player_id;
+          const isHighlight = highlightIds.has(d.player.player_id);
           const isHovered = hovered?.player.player_id === d.player.player_id;
 
           if (isHighlight) return null; // Draw on top
 
           return (
             <circle
-              key={i}
+              key={`normal-${i}`}
               cx={d.x}
               cy={d.y}
-              r={isHovered ? 7.5 : isUtd ? 5.5 : d.r}
-              fill={isHovered ? '#1e293b' : isUtd ? '#DC2626' : '#94a3b8'}
-              opacity={isHovered ? 1.0 : isUtd ? 0.85 : 0.45}
-              stroke={isHovered ? '#ffffff' : isUtd ? '#991B1B' : '#ffffff'}
-              strokeWidth={isHovered ? 2 : isUtd ? 1 : 0.5}
+              r={isHovered ? 7.5 : d.r}
+              fill={isHovered ? '#0f172a' : '#cbd5e1'}
+              opacity={isHovered ? 1.0 : 0.6}
+              stroke={isHovered ? '#ffffff' : 'none'}
+              strokeWidth={isHovered ? 2 : 0}
               style={{ cursor: 'pointer', transition: 'r 0.15s, opacity 0.15s' }}
               onMouseEnter={() => setHovered({ player: d.player, value: d.value })}
               onMouseLeave={() => setHovered(null)}
@@ -135,43 +131,39 @@ export default function BeeswarmPlot({
           );
         })}
 
-        {/* Highlighted Target Player Dot */}
-        {highlightDot && (
-          <g
-            style={{ cursor: 'pointer' }}
-            onMouseEnter={() => setHovered({ player: highlightDot.player, value: highlightDot.value })}
-            onMouseLeave={() => setHovered(null)}
-          >
-            <circle
-              cx={highlightDot.x}
-              cy={highlightDot.y}
-              r={9}
-              fill="#DC2626"
-              stroke="#ffffff"
-              strokeWidth={2.5}
-            />
-            <circle
-              cx={highlightDot.x}
-              cy={highlightDot.y}
-              r={12}
-              fill="none"
-              stroke="#DC2626"
-              strokeWidth={1.5}
-              strokeDasharray="2 2"
-            />
-            <text
-              x={highlightDot.x}
-              y={highlightDot.y - 15}
-              textAnchor="middle"
-              fontSize={11}
-              fontWeight={800}
-              fill="#0f172a"
-              fontFamily="Inter, system-ui, sans-serif"
+        {/* Highlighted Target Player Dots */}
+        {dots.filter(d => highlightIds.has(d.player.player_id)).map((d, i) => {
+          const isHovered = hovered?.player.player_id === d.player.player_id;
+          return (
+            <g
+              key={`highlight-${i}`}
+              style={{ cursor: 'pointer' }}
+              onMouseEnter={() => setHovered({ player: d.player, value: d.value })}
+              onMouseLeave={() => setHovered(null)}
             >
-              {highlightDot.player.player_name}
-            </text>
-          </g>
-        )}
+              <circle
+                cx={d.x}
+                cy={d.y}
+                r={isHovered ? 10 : 7.5}
+                fill="#dc2626"
+                stroke="#ffffff"
+                strokeWidth={2}
+                style={{ transition: 'r 0.15s' }}
+              />
+              <text 
+                x={d.x} 
+                y={d.y - (isHovered ? 14 : 11)} 
+                textAnchor="middle" 
+                fontSize={10} 
+                fontWeight={700}
+                fill="#0f172a"
+                style={{ pointerEvents: 'none' }}
+              >
+                {d.player.player_name.split(' ').pop()}
+              </text>
+            </g>
+          );
+        })}
 
         {/* Chart Title / Axis Label */}
         <text x={width / 2} y={16} textAnchor="middle" fontSize={11.5} fontWeight={700} fill="#334155" fontFamily="Inter, system-ui, sans-serif">

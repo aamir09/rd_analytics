@@ -8,8 +8,7 @@ import type {
 } from '../types';
 import { STAT_REGISTRY, STAT_BY_KEY, STAT_CATEGORIES } from '../data/statRegistry';
 import { parsePositionCategory } from '../utils/positionMapper';
-import { Search, ArrowLeftRight, Download, BarChart3, PieChart, ScatterChart, Grid3X3, Bot, Flame, Trophy, Sparkles } from 'lucide-react';
-import { findMatchingPlayer } from '../services/nlpEngine';
+import { Search, ArrowLeftRight, Download, BarChart3, PieChart, ScatterChart, Grid3X3, Bot, Flame, Trophy, User, X } from 'lucide-react';
 
 import SeasonToggle from '../components/ui/SeasonToggle';
 import StatPicker from '../components/ui/StatPicker';
@@ -85,17 +84,21 @@ function UnitedPlayerPicker({ label, selected, onSelect, players }: {
   const [search, setSearch] = useState('');
   const [open, setOpen]     = useState(false);
   const filtered = players.filter(p => p.name.toLowerCase().includes(search.toLowerCase())).slice(0, 10);
-  const initials = selected ? selected.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase() : '';
+
 
   return (
     <div style={{ flex: 1 }}>
       <div style={{ fontSize: '0.7rem', fontWeight: 700, color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '6px' }}>{label}</div>
       {selected ? (
         <div className="card" style={{ padding: '12px 14px', display: 'flex', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={() => { setOpen(true); setSearch(''); }}>
-          {selected.photo
-            ? <img src={selected.photo} alt="" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-            : <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 800, fontSize: '0.9rem', flexShrink: 0 }}>{initials}</div>
-          }
+          <div style={{ position: 'relative', width: 40, height: 40, flexShrink: 0 }}>
+            <div style={{ width: '100%', height: '100%', borderRadius: '50%', background: 'var(--color-bg-hover)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'absolute', top: 0, left: 0 }}>
+              <User size={20} color="var(--color-text-muted)" />
+            </div>
+            {selected.photo && (
+              <img src={selected.photo} alt="" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', position: 'absolute', top: 0, left: 0, zIndex: 1 }} onError={e => { (e.target as HTMLImageElement).style.opacity = '0'; }} />
+            )}
+          </div>
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontWeight: 700, fontSize: '0.9rem' }}>{selected.name}</div>
             <div style={{ fontSize: '0.68rem', color: 'var(--color-text-muted)' }}>
@@ -130,10 +133,14 @@ function UnitedPlayerPicker({ label, selected, onSelect, players }: {
                   onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
                   onClick={() => { onSelect(p); setOpen(false); setSearch(''); }}
                 >
-                  {p.photo
-                    ? <img src={p.photo} alt="" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                    : <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.75rem', flexShrink: 0 }}>{p.name.split(' ').map(w => w[0]).join('').slice(0,2)}</div>
-                  }
+                  <div style={{ position: 'relative', width: 32, height: 32, flexShrink: 0 }}>
+                    <div style={{ width: '100%', height: '100%', borderRadius: '50%', background: 'var(--color-bg-hover)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'absolute', top: 0, left: 0 }}>
+                      <User size={16} color="var(--color-text-muted)" />
+                    </div>
+                    {p.photo && (
+                      <img src={p.photo} alt="" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', position: 'absolute', top: 0, left: 0, zIndex: 1 }} onError={e => { (e.target as HTMLImageElement).style.opacity = '0'; }} />
+                    )}
+                  </div>
                   <div>
                     <div style={{ fontSize: '0.82rem', fontWeight: 600 }}>{p.name}</div>
                     <div style={{ fontSize: '0.65rem', color: 'var(--color-text-light)' }}>{p.stats.goals?.primary ?? 0}G · {p.stats.assists?.primary ?? 0}A · {p.stats.minutesPlayed?.primary ?? 0}min</div>
@@ -169,6 +176,7 @@ export default function Compare() {
   const [mode, setMode] = useState<CompareMode>('ai');
   const [vizType, setVizType] = useState<VizType>('pizza');
   const [selectedStats, setSelectedStats] = useState<string[]>(['goals', 'expectedGoals', 'assists', 'keyPasses', 'tackles', 'interceptions']);
+  const [expandedChart, setExpandedChart] = useState<{ type: 'beeswarm' | 'scatter'; props: any } | null>(null);
 
   // United squad comparison state (existing)
   const [playerA, setPlayerA] = useState<FotMobPlayer | null>(null);
@@ -231,38 +239,7 @@ export default function Compare() {
     return sofaData.filter(p => p.statistics && (p.statistics.minutesPlayed ?? 0) > 0);
   }, [sofaData]);
 
-  // Sync AI chart config to UI states
-  const handleApplyChartConfig = (config: any) => {
-    if (!config) return;
-    if (config.vizType) setVizType(config.vizType);
-    if (config.playerA && sofaPlayers.length > 0) {
-      const pA = findMatchingPlayer(config.playerA, sofaPlayers);
-      if (pA) setLeaguePlayerA(pA);
-    }
-    if (config.playerB && sofaPlayers.length > 0) {
-      const pB = findMatchingPlayer(config.playerB, sofaPlayers);
-      if (pB) setLeaguePlayerB(pB);
-    } else if (config.playerB === null) {
-      setLeaguePlayerB(null);
-    }
-    if (config.playerC && sofaPlayers.length > 0) {
-      const pC = findMatchingPlayer(config.playerC, sofaPlayers);
-      if (pC) setLeaguePlayerC(pC);
-    } else if (config.playerC === null || !config.playerC) {
-      setLeaguePlayerC(null);
-    }
-    if (config.playerD && sofaPlayers.length > 0) {
-      const pD = findMatchingPlayer(config.playerD, sofaPlayers);
-      if (pD) setLeaguePlayerD(pD);
-    } else if (config.playerD === null || !config.playerD) {
-      setLeaguePlayerD(null);
-    }
-    if (config.xMetric) setScatterX(config.xMetric);
-    if (config.yMetric) setScatterY(config.yMetric);
-    if (config.selectedStats && Array.isArray(config.selectedStats)) {
-      setSelectedStats(config.selectedStats);
-    }
-  };
+
 
   // Metric dropdown for beeswarm
   const availableMetrics = useMemo(() => {
@@ -277,6 +254,7 @@ export default function Compare() {
   }, [sofaPlayers]);
 
   return (
+    <>
     <ErrorBoundary fallbackTitle="Player Comparison Engine Error">
       <div className="page-wrapper">
       <div className="container">
@@ -334,66 +312,9 @@ export default function Compare() {
               <ErrorBoundary fallbackTitle="AI Analytics Copilot Error">
                 <NLPCompareAssistant
                   allPlayers={sofaPlayers}
-                  onApplyChartConfig={handleApplyChartConfig}
+                  photoMap={photoMap}
+                  onExpandChart={setExpandedChart}
                 />
-
-                {leaguePlayerA && (
-                  <div className="card fade-in" style={{ padding: '20px', position: 'relative' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
-                      <div style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                        AI Synchronized Chart ({vizType ? vizType.toUpperCase() : 'PIZZA'}) · {[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean).map(p => p!.player_name).join(' vs ')}
-                      </div>
-                      <button
-                        onClick={() => downloadChart(chartRef.current, `rd-analytics-${vizType}`)}
-                        style={{
-                          display: 'flex', alignItems: 'center', gap: '4px',
-                          padding: '6px 12px', borderRadius: '8px',
-                          border: '1px solid var(--color-border)',
-                          background: 'white', cursor: 'pointer',
-                          fontSize: '0.72rem', fontWeight: 600, color: 'var(--color-text-muted)',
-                          transition: 'all 0.15s',
-                        }}
-                        onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--color-primary)'; e.currentTarget.style.color = 'var(--color-primary)'; }}
-                        onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--color-border)'; e.currentTarget.style.color = 'var(--color-text-muted)'; }}
-                      >
-                        <Download size={12} /> Download
-                      </button>
-                    </div>
-                    <div ref={chartRef}>
-                      <ErrorBoundary fallbackTitle="Chart Visualization Error">
-                        {vizType === 'pizza' && (
-                          <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <PizzaChart
-                              players={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
-                              allPlayers={sofaPlayers}
-                              selectedStats={selectedStats}
-                            />
-                          </div>
-                        )}
-                        {vizType === 'beeswarm' && (
-                          <BeeswarmPlot
-                            metric={beeswarmMetric}
-                            highlightPlayer={leaguePlayerA}
-                            allPlayers={sofaPlayers}
-                          />
-                        )}
-                        {vizType === 'scatter' && (
-                          <ScatterPlotChart
-                            xMetric={scatterX}
-                            yMetric={scatterY}
-                            allPlayers={sofaPlayers}
-                          />
-                        )}
-                        {vizType === 'heatmap' && (
-                          <ZScoreHeatmap
-                            selectedStats={selectedStats}
-                            allPlayers={sofaPlayers}
-                          />
-                        )}
-                      </ErrorBoundary>
-                    </div>
-                  </div>
-                )}
               </ErrorBoundary>
             )}
           </>
@@ -420,10 +341,14 @@ export default function Compare() {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 160px 1fr', borderBottom: '2px solid var(--color-border)' }}>
                   {[playerA, playerB].map((p, idx) => (
                     <div key={p.name} style={{ padding: '20px', display: 'flex', alignItems: 'center', gap: '10px', flexDirection: idx === 1 ? 'row-reverse' : 'row', ...(idx === 1 ? { gridColumnStart: 3 } : {}) }}>
-                      {p.photo
-                        ? <img src={p.photo} alt="" style={{ width: 48, height: 48, borderRadius: '50%', objectFit: 'cover', border: `3px solid ${idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)'}`, flexShrink: 0 }} onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                        : <div style={{ width: 48, height: 48, borderRadius: '50%', background: idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: idx === 0 ? 'white' : '#1A1A1A', fontWeight: 800, fontSize: '1rem', flexShrink: 0 }}>{p.name.split(' ').map(w=>w[0]).join('').slice(0,2)}</div>
-                      }
+                      <div style={{ position: 'relative', width: 48, height: 48, flexShrink: 0 }}>
+                        <div style={{ width: '100%', height: '100%', borderRadius: '50%', border: `3px solid ${idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)'}`, background: 'var(--color-bg-hover)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'absolute', top: 0, left: 0 }}>
+                          <User size={24} color="var(--color-text-muted)" />
+                        </div>
+                        {p.photo && (
+                          <img src={p.photo} alt="" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', border: `3px solid ${idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)'}`, position: 'absolute', top: 0, left: 0, zIndex: 1 }} onError={e => { (e.target as HTMLImageElement).style.opacity = '0'; }} />
+                        )}
+                      </div>
                       <div style={{ textAlign: idx === 1 ? 'right' : 'left' }}>
                         <div style={{ fontWeight: 700, fontSize: '0.95rem' }}>{p.name}</div>
                         <div style={{ fontSize: '0.68rem', color: 'var(--color-text-muted)' }}>{p.stats.goals?.primary ?? 0}G · {p.stats.assists?.primary ?? 0}A · ★{p.stats.rating?.primary?.toFixed(2) ?? '—'}</div>
@@ -625,7 +550,7 @@ export default function Compare() {
                       {vizType === 'beeswarm' && (
                         <BeeswarmPlot
                           metric={beeswarmMetric}
-                          highlightPlayer={leaguePlayerA}
+                          highlightPlayers={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                           allPlayers={sofaPlayers}
                         />
                       )}
@@ -634,6 +559,7 @@ export default function Compare() {
                           xMetric={scatterX}
                           yMetric={scatterY}
                           allPlayers={sofaPlayers}
+                          highlightPlayers={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                         />
                       )}
                     </div>
@@ -812,7 +738,7 @@ export default function Compare() {
                     {vizType === 'beeswarm' && leaguePlayerA && (
                       <BeeswarmPlot
                         metric={beeswarmMetric}
-                        highlightPlayer={leaguePlayerA}
+                        highlightPlayers={[leaguePlayerA]}
                         allPlayers={sofaPlayers}
                       />
                     )}
@@ -826,6 +752,7 @@ export default function Compare() {
                         xMetric={scatterX}
                         yMetric={scatterY}
                         allPlayers={sofaPlayers}
+                        highlightPlayers={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                       />
                     )}
                     {vizType === 'pizza' && leaguePlayerA && (
@@ -851,5 +778,28 @@ export default function Compare() {
       </div>
     </div>
     </ErrorBoundary>
+      {/* Expanded Chart Overlay */}
+      {expandedChart && (
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px', background: 'rgba(9, 13, 22, 0.95)', backdropFilter: 'blur(10px)', animation: 'fadeIn 0.2s ease-out' }}>
+          <div style={{ width: '100%', maxWidth: '1000px', background: '#1e293b', borderRadius: '24px', padding: '32px', border: '1px solid #334155', boxShadow: '0 20px 60px rgba(0,0,0,0.5)', position: 'relative', display: 'flex', flexDirection: 'column' }}>
+            <button 
+              onClick={() => setExpandedChart(null)}
+              style={{ position: 'absolute', top: '24px', right: '24px', background: 'rgba(255,255,255,0.1)', border: 'none', color: '#f8fafc', width: '36px', height: '36px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', transition: 'all 0.2s', zIndex: 10 }}
+              onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.2)'; e.currentTarget.style.transform = 'scale(1.1)'; }}
+              onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; e.currentTarget.style.transform = 'scale(1)'; }}
+            >
+              <X size={18} />
+            </button>
+            <div style={{ flex: 1, minHeight: '600px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              {expandedChart.type === 'beeswarm' ? (
+                <BeeswarmPlot {...expandedChart.props} />
+              ) : (
+                <ScatterPlotChart {...expandedChart.props} />
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

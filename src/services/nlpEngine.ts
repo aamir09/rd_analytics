@@ -5,8 +5,14 @@
  */
 
 import type { SofaScorePlayer } from '../types';
-import { STAT_REGISTRY, STAT_BY_KEY, type StatDef } from '../data/statRegistry';
-import { executeGeminiToolCalling, executeMistralToolCalling, type NLPExecutionResult, type ToolTraceEntry } from './aiProviders';
+import { STAT_REGISTRY, STAT_BY_KEY } from '../data/statRegistry';
+import {
+  executeGeminiToolCalling,
+  executeMistralToolCalling,
+  generateText,
+  type NLPExecutionResult,
+  type ToolTraceEntry
+} from './aiProviders';
 
 export interface PercentileStat {
   key: string;
@@ -168,11 +174,8 @@ export function findMatchingPlayer(queryName: string, players: SofaScorePlayer[]
   let bestPlayer = players.find(p => normalizeText(p.player_name) === targetNorm);
   if (bestPlayer) return bestPlayer;
 
-  const targetTokens = targetNorm.split(' ');
-  const primaryWord = targetTokens[targetTokens.length - 1];
-
-  if (primaryWord.length >= 3) {
-    const wordBoundaryRegex = new RegExp(`\\b${primaryWord}\\b`, 'i');
+  if (targetNorm.length >= 3) {
+    const wordBoundaryRegex = new RegExp(`\\b${targetNorm}\\b`, 'i');
     bestPlayer = players.find(p => wordBoundaryRegex.test(normalizeText(p.player_name)));
     if (bestPlayer) return bestPlayer;
   }
@@ -182,14 +185,10 @@ export function findMatchingPlayer(queryName: string, players: SofaScorePlayer[]
 
   for (const p of players) {
     const pNorm = normalizeText(p.player_name);
-    const pLastName = pNorm.split(' ').pop() || '';
-
     const scoreFull = stringSimilarity(targetNorm, pNorm);
-    const scoreLast = primaryWord.length >= 4 ? stringSimilarity(primaryWord, pLastName) : 0;
-    const maxScore = Math.max(scoreFull, scoreLast);
 
-    if (maxScore > highestScore && maxScore >= 0.72) {
-      highestScore = maxScore;
+    if (scoreFull > highestScore && scoreFull >= 0.72) {
+      highestScore = scoreFull;
       candidate = p;
     }
   }
@@ -208,19 +207,20 @@ export function extractPlayerCandidatesFromQuery(userQuery: string, players: Sof
   if (words.length === 0) return [];
 
   const matchedList: SofaScorePlayer[] = [];
+  let remainingWords = [...words];
 
-  const nGrams: string[] = [];
   for (let len = 3; len >= 1; len--) {
-    for (let i = 0; i <= words.length - len; i++) {
-      nGrams.push(words.slice(i, i + len).join(' '));
-    }
-  }
-
-  for (const nGram of nGrams) {
-    const matched = findMatchingPlayer(nGram, eligiblePlayers);
-    if (matched && !matchedList.some(m => m.player_id === matched.player_id)) {
-      matchedList.push(matched);
-      if (matchedList.length >= 4) break;
+    let i = 0;
+    while (i <= remainingWords.length - len) {
+      const nGram = remainingWords.slice(i, i + len).join(' ');
+      const matched = findMatchingPlayer(nGram, eligiblePlayers);
+      if (matched && !matchedList.some(m => m.player_id === matched.player_id)) {
+        matchedList.push(matched);
+        remainingWords.splice(i, len);
+        if (matchedList.length >= 4) return matchedList;
+      } else {
+        i++;
+      }
     }
   }
 
@@ -527,7 +527,6 @@ export function runPassingAgent(compData: MultiPlayerComparisonData): string {
  * Agent 5: Master Synthesizer Agent — Comparative Executive Report
  */
 export function runMasterSynthesizerAgent(
-  userQuery: string,
   compData: MultiPlayerComparisonData,
   attReport: string,
   defReport: string,
@@ -765,7 +764,7 @@ export function runLocalFallbackQuery(userQuery: string, allPlayers: SofaScorePl
   });
 
   // Step 4: Run Master Synthesizer Agent
-  const masterReport = runMasterSynthesizerAgent(userQuery, compData, attReport, defReport, passReport);
+  const masterReport = runMasterSynthesizerAgent(compData, attReport, defReport, passReport);
 
   toolTrace.push({
     step: 4,
@@ -776,7 +775,6 @@ export function runLocalFallbackQuery(userQuery: string, allPlayers: SofaScorePl
   });
 
   // Step 5: Configure Visualization Chart with Top 10 Differentiative Characteristics
-  const qLower = normalizeText(userQuery);
   let vizType: 'pizza' = 'pizza';
 
   toolTrace.push({
@@ -797,9 +795,9 @@ export function runLocalFallbackQuery(userQuery: string, allPlayers: SofaScorePl
       playerB: verifiedPlayers[1]?.player_name,
       playerC: verifiedPlayers[2]?.player_name,
       playerD: verifiedPlayers[3]?.player_name,
-      xMetric: 'expectedGoals',
-      yMetric: 'goals',
-      selectedStats: compData.top10DifferentiativeStats
+      xMetric: compData.top10DifferentiativeStats[0] || 'expectedGoals',
+      yMetric: compData.top10DifferentiativeStats[1] || 'goals',
+      selectedStats: compData.top10DifferentiativeStats.length > 0 ? compData.top10DifferentiativeStats : ['goals', 'expectedGoals', 'assists', 'keyPasses', 'tackles', 'interceptions', 'successfulDribbles', 'accuratePassesPercentage']
     },
     comparisonData: compData,
     departmentReports: {
@@ -816,6 +814,12 @@ export async function processNLPPlayerQuery(
   allPlayers: SofaScorePlayer[],
   preferredProvider: 'auto' | 'gemini' | 'mistral' = 'auto'
 ): Promise<NLPExecutionResult> {
+  const isComparison = /compare|vs|versus/i.test(userQuery) || extractPlayerCandidatesFromQuery(userQuery, allPlayers).length > 1;
+
+  if (isComparison) {
+    return executeMultiAgentSwarm(userQuery, allPlayers, preferredProvider);
+  }
+
   const toolExecutor = createDatasetToolExecutor(allPlayers);
 
   if (preferredProvider === 'gemini' || preferredProvider === 'auto') {
@@ -838,4 +842,134 @@ export async function processNLPPlayerQuery(
   }
 
   return runLocalFallbackQuery(userQuery, allPlayers);
+}
+
+export async function executeMultiAgentSwarm(
+  userQuery: string,
+  allPlayers: SofaScorePlayer[],
+  preferredProvider: 'auto' | 'gemini' | 'mistral' = 'auto'
+): Promise<NLPExecutionResult> {
+  const extracted = extractPlayerCandidatesFromQuery(userQuery, allPlayers);
+  const matchedPlayers = extracted.slice(0, 4);
+
+  if (matchedPlayers.length < 2) {
+    return runLocalFallbackQuery(userQuery, allPlayers);
+  }
+
+  const compData = buildMultiPlayerComparison(matchedPlayers, allPlayers);
+  
+  // Pass the full raw player data to sub-agents so they can analyze all metrics
+  const contextStr = JSON.stringify({
+    players: matchedPlayers.map(p => ({
+      player_name: p.player_name,
+      team_name: p.team_name,
+      position: p.position,
+      statistics: p.statistics
+    }))
+  }, null, 2);
+
+  const registryContext = JSON.stringify(STAT_REGISTRY.map(s => ({ key: s.key, label: s.label, category: s.category })));
+  const chartAgentPrompt = `You are the Chart Configuration Agent.
+Your job is to select the most appropriate statistical metrics for visualizations based on the user's query intent.
+Here are the available stats: ${registryContext}
+
+Output ONLY valid JSON matching this schema exactly, with NO markdown formatting, NO backticks:
+{
+  "selectedStats": ["array of 8 to 12 stat keys relevant to the query intent (mix of categories if general, or specific if targeted)"],
+  "xMetric": "one primary stat key for the Beeswarm plot and Scatter X-axis (e.g., expectedGoals, keyPasses, tacklesWon)",
+  "yMetric": "one secondary stat key for the Scatter Y-axis (e.g., goals, assists, interceptions)"
+}
+Analyze the user's query: "${userQuery}"`;
+
+  const providerParam = preferredProvider === 'mistral' ? 'mistral' : 'gemini';
+
+  const chartConfigJsonStr = await generateText(
+    chartAgentPrompt,
+    userQuery,
+    "Return ONLY a raw JSON string.",
+    providerParam
+  );
+
+  const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+  const [attReport, defReport, passReport] = await Promise.all([
+    generateText(
+      'You are the Attacking Specialist Agent. Analyze Goals, xG, Shots, and Dribbles. Determine the best attacker. Output in Markdown.',
+      userQuery,
+      contextStr,
+      providerParam
+    ),
+    delay(1500).then(() => generateText(
+      'You are the Defensive Specialist Agent. Analyze Tackles, Interceptions, Clearances, and Duels. Determine the best defensive contributor. Output in Markdown.',
+      userQuery,
+      contextStr,
+      providerParam
+    )),
+    delay(3000).then(() => generateText(
+      'You are the Passing Specialist Agent. Analyze Key Passes, Pass Accuracy, xA, and Crosses. Determine the best playmaker. Output in Markdown.',
+      userQuery,
+      contextStr,
+      providerParam
+    ))
+  ]);
+
+  let llmSelectedStats = compData.top10DifferentiativeStats.length > 0 ? compData.top10DifferentiativeStats : ['goals', 'expectedGoals', 'assists', 'keyPasses', 'tackles', 'interceptions', 'successfulDribbles', 'accuratePassesPercentage'];
+  let llmXMetric = compData.top10DifferentiativeStats[0] || 'expectedGoals';
+  let llmYMetric = compData.top10DifferentiativeStats[1] || 'goals';
+
+  try {
+    const rawJson = chartConfigJsonStr.replace(/```json/g, '').replace(/```/g, '').trim();
+    const parsedConfig = JSON.parse(rawJson);
+    if (parsedConfig.selectedStats && Array.isArray(parsedConfig.selectedStats) && parsedConfig.selectedStats.length > 0) {
+      // Filter strictly to ensure they are valid keys from STAT_REGISTRY
+      const validKeys = parsedConfig.selectedStats.filter((k: string) => STAT_BY_KEY[k]);
+      if (validKeys.length > 0) llmSelectedStats = validKeys;
+    }
+    if (parsedConfig.xMetric && STAT_BY_KEY[parsedConfig.xMetric]) {
+      llmXMetric = parsedConfig.xMetric;
+    }
+    if (parsedConfig.yMetric && STAT_BY_KEY[parsedConfig.yMetric]) {
+      llmYMetric = parsedConfig.yMetric;
+    }
+  } catch (e) {
+    console.warn("Chart config agent JSON parse failed, falling back to differentiative stats", e);
+  }
+
+  const masterPrompt = `You are the Master Synthesizer Agent.
+You will receive reports from 3 sub-agents (Attacking, Defensive, Passing).
+Synthesize them into a final cohesive executive dashboard summary.
+Format your output in clean Markdown with an "Executive Summary", followed by "Category Highlights".
+Do NOT just paste their text; synthesize and draw a final verdict.`;
+
+  const masterInput = `[ATTACK]\n${attReport}\n[DEFENSE]\n${defReport}\n[PASSING]\n${passReport}`;
+  const masterReport = await generateText(masterPrompt, userQuery, masterInput, providerParam);
+
+  return {
+    providerUsed: preferredProvider === 'auto' ? 'gemini' : preferredProvider,
+    rawResponseText: masterReport,
+    toolTrace: [{
+      step: 1,
+      toolName: 'executeMultiAgentSwarm',
+      args: { players: matchedPlayers.map(p => p.player_name) },
+      resultSummary: 'Parallel execution of 3 Sub-Agents and 1 Master Synthesizer completed successfully.',
+      timestamp: new Date().toLocaleTimeString()
+    }],
+    chartConfig: {
+      vizType: 'pizza',
+      playerA: matchedPlayers[0]?.player_name,
+      playerB: matchedPlayers[1]?.player_name,
+      playerC: matchedPlayers[2]?.player_name,
+      playerD: matchedPlayers[3]?.player_name,
+      selectedStats: llmSelectedStats,
+      xMetric: llmXMetric,
+      yMetric: llmYMetric
+    },
+    comparisonData: compData,
+    departmentReports: {
+      attacking: attReport,
+      defensive: defReport,
+      passing: passReport,
+      verification: ''
+    }
+  };
 }

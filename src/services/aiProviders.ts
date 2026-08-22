@@ -117,10 +117,18 @@ export const PLAYER_COMPARISON_TOOLS: ToolDeclaration[] = [
 ];
 
 export function getGeminiApiKey(): string | null {
+  if (typeof window !== 'undefined') {
+    const sessionKey = sessionStorage.getItem('custom_gemini_key');
+    if (sessionKey) return sessionKey;
+  }
   return import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY || null;
 }
 
 export function getMistralApiKey(): string | null {
+  if (typeof window !== 'undefined') {
+    const sessionKey = sessionStorage.getItem('custom_mistral_key');
+    if (sessionKey) return sessionKey;
+  }
   return import.meta.env.VITE_MISTRAL_API_KEY || import.meta.env.MISTRAL_API_KEY || null;
 }
 
@@ -147,20 +155,20 @@ export async function executeGeminiToolCalling(
         name: t.name,
         description: t.description,
         parameters: {
-          type: 'OBJECT',
+          type: 'OBJECT' as any,
           properties: Object.fromEntries(
             Object.entries(t.parameters.properties).map(([k, v]) => [
               k,
               {
-                type: v.type.toUpperCase(),
+                type: v.type.toUpperCase() as any,
                 description: v.description,
                 ...(v.enum ? { enum: v.enum } : {}),
-                ...(v.items ? { items: { type: v.items.type.toUpperCase() } } : {})
-              }
+                ...(v.items ? { items: { type: v.items.type.toUpperCase() as any } } : {})
+              } as any
             ])
           ),
           required: t.parameters.required || []
-        }
+        } as any
       }))
     }
   ];
@@ -235,7 +243,7 @@ User Query: "${userQuery}"`
     if (functionCallPart && functionCallPart.functionCall) {
       const { name, args } = functionCallPart.functionCall;
       const toolResult = await toolExecutor(name, args || {});
-      
+
       if (name === 'set_active_chart') {
         chartConfig = toolResult as any;
       }
@@ -269,7 +277,7 @@ User Query: "${userQuery}"`
       });
     } else {
       let textParts = parts.filter((p: any) => p.text).map((p: any) => p.text).join('\n');
-      
+
       let finalMaster = textParts;
       let finalAtt = '';
       let finalDef = '';
@@ -279,7 +287,7 @@ User Query: "${userQuery}"`
         const jsonMatch = textParts.match(/\{[\s\S]*\}/);
         if (jsonMatch) {
           const parsed = JSON.parse(jsonMatch[0]);
-          
+
           const buildTable = (data: any, headers: string[], keys: string[]) => {
             if (!data || !data.metricsTable || !data.metricsTable.length) return '';
             let md = `| ${headers.join(' | ')} |\n`;
@@ -500,7 +508,7 @@ Your final response MUST be a valid JSON object exactly matching this schema (do
       }
     } else if (!choiceMessage.tool_calls || choiceMessage.tool_calls.length === 0) {
       const textParts = choiceMessage.content || '';
-      
+
       let finalMaster = textParts;
       let finalAtt = '';
       let finalDef = '';
@@ -510,7 +518,7 @@ Your final response MUST be a valid JSON object exactly matching this schema (do
         const jsonMatch = textParts.match(/\{[\s\S]*\}/);
         if (jsonMatch) {
           const parsed = JSON.parse(jsonMatch[0]);
-          
+
           const buildTable = (data: any, headers: string[], keys: string[]) => {
             if (!data || !data.metricsTable || !data.metricsTable.length) return '';
             let md = `| ${headers.join(' | ')} |\n`;
@@ -560,4 +568,96 @@ Your final response MUST be a valid JSON object exactly matching this schema (do
   }
 
   throw new Error('Exceeded max tool calling turns');
+}
+
+export async function generateText(
+  systemPrompt: string, 
+  userQuery: string, 
+  dataContext: string,
+  provider: 'gemini' | 'mistral' = 'gemini'
+): Promise<string> {
+  const contents = `
+System Instructions:
+${systemPrompt}
+
+Data Context:
+${dataContext}
+
+User Input:
+${userQuery}
+`;
+
+  if (provider === 'mistral') {
+    const mistralKey = getMistralApiKey();
+    if (!mistralKey) return 'No Mistral API Key found.';
+    
+    const maxRetries = 3;
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        console.log(`[generateText] Calling Mistral API using model: ministral-8b-latest (Attempt ${attempt})...`);
+        const res = await fetch('https://api.mistral.ai/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${mistralKey}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            model: 'ministral-8b-latest',
+            messages: [{ role: 'user', content: contents }]
+          })
+        });
+
+        if (!res.ok) {
+          if (res.status === 429 && attempt < maxRetries) {
+            console.warn(`[generateText] Mistral rate limit hit (429). Retrying in ${attempt * 5} seconds...`);
+            await new Promise(resolve => setTimeout(resolve, attempt * 5000));
+            continue;
+          }
+          throw new Error(`Mistral API Error: ${res.statusText}`);
+        }
+        
+        const data = await res.json();
+        const text = data.choices?.[0]?.message?.content || '';
+        console.log(`[generateText] Mistral API call successful. Text length: ${text.length}`);
+        return text;
+      } catch (err: any) {
+        console.error('[generateText] Mistral agent generation failed!', err);
+        if (attempt === maxRetries) return 'Agent generation failed.';
+      }
+    }
+  }
+
+  const apiKey = getGeminiApiKey();
+  if (!apiKey) return 'No API Key found.';
+  
+  const client = new GoogleGenAI({ apiKey });
+
+  const maxRetries = 3;
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      console.log(`[generateText] Calling Gemini API using model: gemini-3.6-flash (Attempt ${attempt})...`);
+      const response = await client.models.generateContent({
+        model: 'gemini-3.6-flash',
+        contents,
+      });
+      console.log(`[generateText] API call successful. Text length: ${response.text?.length || 0}`);
+      return response.text || '';
+    } catch (err: any) {
+      if (err?.status === 429 && attempt < maxRetries) {
+        console.warn(`[generateText] Rate limit hit (429). Retrying in ${attempt * 10} seconds...`);
+        await new Promise(resolve => setTimeout(resolve, attempt * 10000));
+        continue;
+      }
+      
+      console.error('[generateText] Agent generation failed!', {
+        message: err?.message,
+        name: err?.name,
+        status: err?.status,
+        details: err?.details,
+        fullError: err
+      });
+      return 'Agent generation failed.';
+    }
+  }
+  return 'Agent generation failed.';
 }
