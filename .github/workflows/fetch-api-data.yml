@@ -26,7 +26,7 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Run ETL
-        run: python scripts/fetch_all.py
+        run: python scripts/fetch_all.py --force
         env:
           # Keys are stored in GitHub Secrets — never in .env or source code
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}

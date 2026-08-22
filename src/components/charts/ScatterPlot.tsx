@@ -6,7 +6,7 @@ interface Props {
   xMetric: string;
   yMetric: string;
   allPlayers: SofaScorePlayer[];
-  highlightTeam?: string;
+  highlightPlayers?: SofaScorePlayer[];
   width?: number;
   height?: number;
 }
@@ -18,7 +18,7 @@ export default function ScatterPlot({
   xMetric,
   yMetric,
   allPlayers,
-  highlightTeam = MAN_UTD,
+  highlightPlayers = [],
   width = 680,
   height = 480,
 }: Props) {
@@ -27,7 +27,7 @@ export default function ScatterPlot({
   const xDef = STAT_BY_KEY[xMetric];
   const yDef = STAT_BY_KEY[yMetric];
 
-  const { dots, xScale, yScale, xMin, xMax, yMin, yMax, hullPoints } = useMemo(() => {
+  const { dots, xScale, yScale, xMin, xMax, yMin, yMax, hullPoints, highlightIds } = useMemo(() => {
     const entries = allPlayers
       .filter(p => p.statistics && (p.statistics.minutesPlayed ?? 0) >= 450)
       .map(p => ({
@@ -40,7 +40,7 @@ export default function ScatterPlot({
       );
 
     if (entries.length === 0)
-      return { dots: [], xScale: () => 0, yScale: () => 0, xMin: 0, xMax: 0, yMin: 0, yMax: 0, hullPoints: '' };
+      return { dots: [], xScale: () => 0, yScale: () => 0, xMin: 0, xMax: 0, yMin: 0, yMax: 0, hullPoints: '', highlightIds: new Set<number>() };
 
     const xVals = entries.map(e => e.xVal);
     const yVals = entries.map(e => e.yVal);
@@ -65,16 +65,21 @@ export default function ScatterPlot({
       yVal: e.yVal,
     }));
 
-    // Convex hull for highlight team
-    const teamDots = dots.filter(d => d.player.team_name === highlightTeam);
+    // Convex hull for highlight players
+    const highlightIds = new Set(highlightPlayers.map(p => p.player_id));
+    const highlightDots = dots.filter(d => highlightIds.has(d.player.player_id));
     let hullPoints = '';
-    if (teamDots.length >= 3) {
-      const hull = convexHull(teamDots.map(d => [d.x, d.y]));
+    if (highlightDots.length >= 3) {
+      const hull = convexHull(highlightDots.map(d => [d.x, d.y]));
       hullPoints = hull.map(p => p.join(',')).join(' ');
+    } else if (highlightDots.length === 2) {
+      // Connect two dots with a line representation (not a full polygon, but we can fake it with a thin polygon)
+      const [p1, p2] = highlightDots;
+      hullPoints = `${p1.x},${p1.y} ${p2.x},${p2.y} ${p2.x+1},${p2.y+1} ${p1.x+1},${p1.y+1}`;
     }
 
-    return { dots, xScale, yScale, xMin, xMax, yMin, yMax, hullPoints };
-  }, [xMetric, yMetric, allPlayers, highlightTeam, width, height]);
+    return { dots, xScale, yScale, xMin, xMax, yMin, yMax, hullPoints, highlightIds };
+  }, [xMetric, yMetric, allPlayers, highlightPlayers, width, height]);
 
   if (dots.length === 0 || !xDef || !yDef) {
     return (
@@ -98,8 +103,8 @@ export default function ScatterPlot({
           const x = xScale(v);
           return (
             <g key={`x${i}`}>
-              <line x1={x} y1={MARGIN.top} x2={x} y2={height - MARGIN.bottom} stroke="#f1f5f9" strokeWidth={1} />
-              <text x={x} y={height - MARGIN.bottom + 18} textAnchor="middle" fontSize={9} fill="#94a3b8" fontFamily="Inter, system-ui, sans-serif">
+              <line x1={x} y1={MARGIN.top} x2={x} y2={height - MARGIN.bottom} stroke="#e2e8f0" strokeWidth={1} />
+              <text x={x} y={height - MARGIN.bottom + 18} textAnchor="middle" fontSize={9} fill="#64748b" fontFamily="Inter, system-ui, sans-serif">
                 {v % 1 === 0 ? v : v.toFixed(1)}
               </text>
             </g>
@@ -110,36 +115,36 @@ export default function ScatterPlot({
           const y = yScale(v);
           return (
             <g key={`y${i}`}>
-              <line x1={MARGIN.left} y1={y} x2={width - MARGIN.right} y2={y} stroke="#f1f5f9" strokeWidth={1} />
-              <text x={MARGIN.left - 8} y={y + 3} textAnchor="end" fontSize={9} fill="#94a3b8" fontFamily="Inter, system-ui, sans-serif">
+              <line x1={MARGIN.left} y1={y} x2={width - MARGIN.right} y2={y} stroke="#e2e8f0" strokeWidth={1} />
+              <text x={MARGIN.left - 8} y={y + 3} textAnchor="end" fontSize={9} fill="#64748b" fontFamily="Inter, system-ui, sans-serif">
                 {v % 1 === 0 ? v : v.toFixed(1)}
               </text>
             </g>
           );
         })}
 
-        {/* Convex hull polygon for Manchester United */}
+        {/* Convex hull polygon for Highlight Players */}
         {hullPoints && (
           <polygon
             points={hullPoints}
-            fill="rgba(220,38,38,0.08)"
-            stroke="rgba(220,38,38,0.35)"
+            fill="rgba(220,38,38,0.05)"
+            stroke="rgba(220,38,38,0.4)"
             strokeWidth={1.5}
             strokeDasharray="4 2"
           />
         )}
 
-        {/* Non-United dots first */}
-        {dots.filter(d => d.player.team_name !== highlightTeam).map((d, i) => {
+        {/* Normal dots first */}
+        {dots.filter(d => !highlightIds.has(d.player.player_id)).map((d, i) => {
           const isHov = hovered?.player_id === d.player.player_id;
           return (
             <circle
-              key={`nonutd-${i}`}
+              key={`normal-${i}`}
               cx={d.x}
               cy={d.y}
               r={isHov ? 7.5 : 4}
-              fill={isHov ? '#0f172a' : '#94a3b8'}
-              opacity={isHov ? 1.0 : 0.45}
+              fill={isHov ? '#0f172a' : '#cbd5e1'}
+              opacity={isHov ? 1.0 : 0.6}
               stroke={isHov ? '#ffffff' : 'none'}
               strokeWidth={isHov ? 2 : 0}
               style={{ cursor: 'pointer', transition: 'r 0.15s, opacity 0.15s' }}
@@ -149,27 +154,23 @@ export default function ScatterPlot({
           );
         })}
 
-        {/* United dots on top */}
-        {dots.filter(d => d.player.team_name === highlightTeam).map((d, i) => {
+        {/* Highlight players on top */}
+        {dots.filter(d => highlightIds.has(d.player.player_id)).map((d, i) => {
           const isHov = hovered?.player_id === d.player.player_id;
           return (
-            <g
-              key={`utd-${i}`}
+            <circle
+              key={`highlight-${i}`}
+              cx={d.x}
+              cy={d.y}
+              r={isHov ? 8 : 6}
+              fill="#dc2626"
+              opacity={isHov ? 1.0 : 0.9}
+              stroke="#ffffff"
+              strokeWidth={1.5}
+              style={{ cursor: 'pointer', transition: 'r 0.15s' }}
               onMouseEnter={() => setHovered(d.player)}
               onMouseLeave={() => setHovered(null)}
-              style={{ cursor: 'pointer' }}
-            >
-              <circle
-                cx={d.x}
-                cy={d.y}
-                r={isHov ? 8.5 : 5.5}
-                fill="#DC2626"
-                opacity={isHov ? 1.0 : 0.9}
-                stroke={isHov ? '#0f172a' : '#991B1B'}
-                strokeWidth={isHov ? 2.5 : 1}
-                style={{ transition: 'r 0.15s' }}
-              />
-            </g>
+            />
           );
         })}
 

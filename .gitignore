@@ -24,3 +24,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Test Scripts
+/test-*.js
+/test-*.ts

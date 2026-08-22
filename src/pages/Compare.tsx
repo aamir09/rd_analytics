@@ -8,7 +8,7 @@ import type {
 } from '../types';
 import { STAT_REGISTRY, STAT_BY_KEY, STAT_CATEGORIES } from '../data/statRegistry';
 import { parsePositionCategory } from '../utils/positionMapper';
-import { Search, ArrowLeftRight, Download, BarChart3, PieChart, ScatterChart, Grid3X3 } from 'lucide-react';
+import { Search, ArrowLeftRight, Download, BarChart3, PieChart, ScatterChart, Grid3X3, Bot, Flame, Trophy, User, X } from 'lucide-react';
 
 import SeasonToggle from '../components/ui/SeasonToggle';
 import StatPicker from '../components/ui/StatPicker';
@@ -17,6 +17,8 @@ import PizzaChart from '../components/charts/PizzaChart';
 import BeeswarmPlot from '../components/charts/BeeswarmPlot';
 import ScatterPlotChart from '../components/charts/ScatterPlot';
 import ZScoreHeatmap from '../components/charts/ZScoreHeatmap';
+import NLPCompareAssistant from '../components/ui/NLPCompareAssistant';
+import ErrorBoundary from '../components/ui/ErrorBoundary';
 
 // ═══════════════════════════════════════════════════════════════
 // Existing FotMob comparison stats (unchanged)
@@ -47,14 +49,17 @@ const COMPARE_STATS: { key: string; label: string }[] = [
   { key: 'redCards',                    label: 'Red Cards' },
 ];
 
-type CompareMode = 'united' | 'league' | 'analytics';
+type CompareMode = 'ai' | 'united' | 'league' | 'analytics';
 type VizType = 'pizza' | 'beeswarm' | 'scatter' | 'heatmap';
 
-const MODE_TABS: { key: CompareMode; label: string; icon: string; desc: string }[] = [
-  { key: 'united',    label: 'United Squad',    icon: '🔴', desc: 'Head-to-head between Man Utd players' },
-  { key: 'league',    label: 'vs League',       icon: '⚽', desc: 'Compare a United player against any EPL player' },
-  { key: 'analytics', label: 'League Analytics', icon: '📊', desc: 'League-wide visualizations and insights' },
+const MODE_TABS: { key: CompareMode; label: string; Icon: any; desc: string }[] = [
+  { key: 'ai',        label: 'AI Copilot',      Icon: Bot,        desc: 'Multi-Agent player query engine with Gemini & Mistral' },
+  { key: 'united',    label: 'United Squad',    Icon: Flame,      desc: 'Head-to-head between Man Utd players' },
+  { key: 'league',    label: 'vs League',       Icon: Trophy,     desc: 'Compare a United player against any EPL player' },
+  { key: 'analytics', label: 'League Analytics', Icon: BarChart3,  desc: 'League-wide visualizations and insights' },
 ];
+
+
 
 const VIZ_OPTIONS: { key: VizType; label: string; Icon: typeof PieChart; desc: string }[] = [
   { key: 'pizza',    label: 'Pizza Chart',   Icon: PieChart,     desc: 'Percentile profile' },
@@ -79,17 +84,21 @@ function UnitedPlayerPicker({ label, selected, onSelect, players }: {
   const [search, setSearch] = useState('');
   const [open, setOpen]     = useState(false);
   const filtered = players.filter(p => p.name.toLowerCase().includes(search.toLowerCase())).slice(0, 10);
-  const initials = selected ? selected.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase() : '';
+
 
   return (
     <div style={{ flex: 1 }}>
       <div style={{ fontSize: '0.7rem', fontWeight: 700, color: 'var(--color-text-muted)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '6px' }}>{label}</div>
       {selected ? (
         <div className="card" style={{ padding: '12px 14px', display: 'flex', alignItems: 'center', gap: '10px', cursor: 'pointer' }} onClick={() => { setOpen(true); setSearch(''); }}>
-          {selected.photo
-            ? <img src={selected.photo} alt="" style={{ width: 40, height: 40, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-            : <div style={{ width: 40, height: 40, borderRadius: '50%', background: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 800, fontSize: '0.9rem', flexShrink: 0 }}>{initials}</div>
-          }
+          <div style={{ position: 'relative', width: 40, height: 40, flexShrink: 0 }}>
+            <div style={{ width: '100%', height: '100%', borderRadius: '50%', background: 'var(--color-bg-hover)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'absolute', top: 0, left: 0 }}>
+              <User size={20} color="var(--color-text-muted)" />
+            </div>
+            {selected.photo && (
+              <img src={selected.photo} alt="" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', position: 'absolute', top: 0, left: 0, zIndex: 1 }} onError={e => { (e.target as HTMLImageElement).style.opacity = '0'; }} />
+            )}
+          </div>
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontWeight: 700, fontSize: '0.9rem' }}>{selected.name}</div>
             <div style={{ fontSize: '0.68rem', color: 'var(--color-text-muted)' }}>
@@ -124,10 +133,14 @@ function UnitedPlayerPicker({ label, selected, onSelect, players }: {
                   onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
                   onClick={() => { onSelect(p); setOpen(false); setSearch(''); }}
                 >
-                  {p.photo
-                    ? <img src={p.photo} alt="" style={{ width: 32, height: 32, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                    : <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 700, fontSize: '0.75rem', flexShrink: 0 }}>{p.name.split(' ').map(w => w[0]).join('').slice(0,2)}</div>
-                  }
+                  <div style={{ position: 'relative', width: 32, height: 32, flexShrink: 0 }}>
+                    <div style={{ width: '100%', height: '100%', borderRadius: '50%', background: 'var(--color-bg-hover)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'absolute', top: 0, left: 0 }}>
+                      <User size={16} color="var(--color-text-muted)" />
+                    </div>
+                    {p.photo && (
+                      <img src={p.photo} alt="" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', position: 'absolute', top: 0, left: 0, zIndex: 1 }} onError={e => { (e.target as HTMLImageElement).style.opacity = '0'; }} />
+                    )}
+                  </div>
                   <div>
                     <div style={{ fontSize: '0.82rem', fontWeight: 600 }}>{p.name}</div>
                     <div style={{ fontSize: '0.65rem', color: 'var(--color-text-light)' }}>{p.stats.goals?.primary ?? 0}G · {p.stats.assists?.primary ?? 0}A · {p.stats.minutesPlayed?.primary ?? 0}min</div>
@@ -160,9 +173,10 @@ export default function Compare() {
 
   // ── State ──
   const [season, setSeason] = useState<'2526' | '2627'>('2526');
-  const [mode, setMode] = useState<CompareMode>('united');
+  const [mode, setMode] = useState<CompareMode>('ai');
   const [vizType, setVizType] = useState<VizType>('pizza');
   const [selectedStats, setSelectedStats] = useState<string[]>(['goals', 'expectedGoals', 'assists', 'keyPasses', 'tackles', 'interceptions']);
+  const [expandedChart, setExpandedChart] = useState<{ type: 'beeswarm' | 'scatter'; props: any } | null>(null);
 
   // United squad comparison state (existing)
   const [playerA, setPlayerA] = useState<FotMobPlayer | null>(null);
@@ -171,6 +185,8 @@ export default function Compare() {
   // League comparison state
   const [leaguePlayerA, setLeaguePlayerA] = useState<SofaScorePlayer | null>(null);
   const [leaguePlayerB, setLeaguePlayerB] = useState<SofaScorePlayer | null>(null);
+  const [leaguePlayerC, setLeaguePlayerC] = useState<SofaScorePlayer | null>(null);
+  const [leaguePlayerD, setLeaguePlayerD] = useState<SofaScorePlayer | null>(null);
 
   // Beeswarm metric picker
   const [beeswarmMetric, setBeeswarmMetric] = useState('goals');
@@ -223,10 +239,11 @@ export default function Compare() {
     return sofaData.filter(p => p.statistics && (p.statistics.minutesPlayed ?? 0) > 0);
   }, [sofaData]);
 
+
+
   // Metric dropdown for beeswarm
   const availableMetrics = useMemo(() => {
     return STAT_REGISTRY.filter(s => {
-      // Check if at least some players have this stat
       if (sofaPlayers.length === 0) return true;
       const count = sofaPlayers.filter(p => {
         const v = (p.statistics as Record<string, unknown>)?.[s.key];
@@ -237,7 +254,9 @@ export default function Compare() {
   }, [sofaPlayers]);
 
   return (
-    <div className="page-wrapper">
+    <>
+    <ErrorBoundary fallbackTitle="Player Comparison Engine Error">
+      <div className="page-wrapper">
       <div className="container">
         {/* ── Header ── */}
         <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '16px' }}>
@@ -245,7 +264,7 @@ export default function Compare() {
             <div className="accent-bar" />
             <h1 className="text-heading">Player Comparison</h1>
             <p style={{ color: 'var(--color-text-muted)', marginTop: '6px', fontSize: '0.85rem' }}>
-              Advanced analytics powered by SofaScore & FotMob data
+              Advanced analytics powered by AI Tool Calling, SofaScore & FotMob data
             </p>
           </div>
           <SeasonToggle season={season} onChange={setSeason} />
@@ -268,15 +287,39 @@ export default function Compare() {
                   background: active ? 'white' : 'transparent',
                   boxShadow: active ? 'var(--shadow-sm)' : 'none',
                   color: active ? 'var(--color-text)' : 'var(--color-text-muted)',
+                  display: 'flex', flexDirection: 'column', alignItems: 'center'
                 }}
               >
-                <div style={{ fontSize: '1rem', marginBottom: '2px' }}>{tab.icon}</div>
+                <tab.Icon size={18} style={{ marginBottom: '2px', color: active ? 'var(--color-primary)' : 'var(--color-text-muted)' }} />
                 <div style={{ fontSize: '0.78rem', fontWeight: 700 }}>{tab.label}</div>
                 <div style={{ fontSize: '0.62rem', color: 'var(--color-text-light)', marginTop: '2px' }}>{tab.desc}</div>
               </button>
             );
           })}
         </div>
+
+        {/* ═══════════════════════════════════════════════════════ */}
+        {/* TAB: AI Copilot (Natural Language NLP Tool-calling)    */}
+        {/* ═══════════════════════════════════════════════════════ */}
+        {mode === 'ai' && (
+          <>
+            {sofaLoading ? (
+              <div className="card" style={{ padding: '48px', textAlign: 'center', color: 'var(--color-text-muted)' }}>
+                <div className="spinner" style={{ margin: '0 auto 12px' }} />
+                Loading Premier League player statistics dataset…
+              </div>
+            ) : (
+              <ErrorBoundary fallbackTitle="AI Analytics Copilot Error">
+                <NLPCompareAssistant
+                  allPlayers={sofaPlayers}
+                  photoMap={photoMap}
+                  onExpandChart={setExpandedChart}
+                />
+              </ErrorBoundary>
+            )}
+          </>
+        )}
+
 
         {/* ═══════════════════════════════════════════════════════ */}
         {/* TAB: United Squad (existing FotMob comparison)         */}
@@ -298,10 +341,14 @@ export default function Compare() {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 160px 1fr', borderBottom: '2px solid var(--color-border)' }}>
                   {[playerA, playerB].map((p, idx) => (
                     <div key={p.name} style={{ padding: '20px', display: 'flex', alignItems: 'center', gap: '10px', flexDirection: idx === 1 ? 'row-reverse' : 'row', ...(idx === 1 ? { gridColumnStart: 3 } : {}) }}>
-                      {p.photo
-                        ? <img src={p.photo} alt="" style={{ width: 48, height: 48, borderRadius: '50%', objectFit: 'cover', border: `3px solid ${idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)'}`, flexShrink: 0 }} onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                        : <div style={{ width: 48, height: 48, borderRadius: '50%', background: idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: idx === 0 ? 'white' : '#1A1A1A', fontWeight: 800, fontSize: '1rem', flexShrink: 0 }}>{p.name.split(' ').map(w=>w[0]).join('').slice(0,2)}</div>
-                      }
+                      <div style={{ position: 'relative', width: 48, height: 48, flexShrink: 0 }}>
+                        <div style={{ width: '100%', height: '100%', borderRadius: '50%', border: `3px solid ${idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)'}`, background: 'var(--color-bg-hover)', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'absolute', top: 0, left: 0 }}>
+                          <User size={24} color="var(--color-text-muted)" />
+                        </div>
+                        {p.photo && (
+                          <img src={p.photo} alt="" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', border: `3px solid ${idx === 0 ? 'var(--color-primary)' : 'var(--color-accent)'}`, position: 'absolute', top: 0, left: 0, zIndex: 1 }} onError={e => { (e.target as HTMLImageElement).style.opacity = '0'; }} />
+                        )}
+                      </div>
                       <div style={{ textAlign: idx === 1 ? 'right' : 'left' }}>
                         <div style={{ fontWeight: 700, fontSize: '0.95rem' }}>{p.name}</div>
                         <div style={{ fontSize: '0.68rem', color: 'var(--color-text-muted)' }}>{p.stats.goals?.primary ?? 0}G · {p.stats.assists?.primary ?? 0}A · ★{p.stats.rating?.primary?.toFixed(2) ?? '—'}</div>
@@ -494,8 +541,7 @@ export default function Compare() {
                       {vizType === 'pizza' && (
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                           <PizzaChart
-                            player={leaguePlayerA}
-                            comparePlayer={leaguePlayerB}
+                            players={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                             allPlayers={sofaPlayers}
                             selectedStats={selectedStats}
                           />
@@ -504,7 +550,7 @@ export default function Compare() {
                       {vizType === 'beeswarm' && (
                         <BeeswarmPlot
                           metric={beeswarmMetric}
-                          highlightPlayer={leaguePlayerA}
+                          highlightPlayers={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                           allPlayers={sofaPlayers}
                         />
                       )}
@@ -513,6 +559,7 @@ export default function Compare() {
                           xMetric={scatterX}
                           yMetric={scatterY}
                           allPlayers={sofaPlayers}
+                          highlightPlayers={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                         />
                       )}
                     </div>
@@ -619,15 +666,27 @@ export default function Compare() {
                   {vizType === 'pizza' && (
                     <div style={{ marginTop: '12px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
                       <LeaguePlayerPicker
-                        label="Primary Player"
+                        label="Player 1 (Primary)"
                         selected={leaguePlayerA}
                         onSelect={setLeaguePlayerA}
                         players={sofaPlayers}
                       />
                       <LeaguePlayerPicker
-                        label="Compare (optional)"
+                        label="Player 2 (Compare)"
                         selected={leaguePlayerB}
                         onSelect={setLeaguePlayerB}
+                        players={sofaPlayers}
+                      />
+                      <LeaguePlayerPicker
+                        label="Player 3 (optional)"
+                        selected={leaguePlayerC}
+                        onSelect={setLeaguePlayerC}
+                        players={sofaPlayers}
+                      />
+                      <LeaguePlayerPicker
+                        label="Player 4 (optional)"
+                        selected={leaguePlayerD}
+                        onSelect={setLeaguePlayerD}
                         players={sofaPlayers}
                       />
                     </div>
@@ -679,7 +738,7 @@ export default function Compare() {
                     {vizType === 'beeswarm' && leaguePlayerA && (
                       <BeeswarmPlot
                         metric={beeswarmMetric}
-                        highlightPlayer={leaguePlayerA}
+                        highlightPlayers={[leaguePlayerA]}
                         allPlayers={sofaPlayers}
                       />
                     )}
@@ -693,13 +752,13 @@ export default function Compare() {
                         xMetric={scatterX}
                         yMetric={scatterY}
                         allPlayers={sofaPlayers}
+                        highlightPlayers={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                       />
                     )}
                     {vizType === 'pizza' && leaguePlayerA && (
                       <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <PizzaChart
-                          player={leaguePlayerA}
-                          comparePlayer={leaguePlayerB}
+                          players={[leaguePlayerA, leaguePlayerB, leaguePlayerC, leaguePlayerD].filter(Boolean) as SofaScorePlayer[]}
                           allPlayers={sofaPlayers}
                           selectedStats={selectedStats}
                         />
@@ -718,5 +777,29 @@ export default function Compare() {
         )}
       </div>
     </div>
+    </ErrorBoundary>
+      {/* Expanded Chart Overlay */}
+      {expandedChart && (
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px', background: 'rgba(9, 13, 22, 0.95)', backdropFilter: 'blur(10px)', animation: 'fadeIn 0.2s ease-out' }}>
+          <div style={{ width: '100%', maxWidth: '1000px', background: '#1e293b', borderRadius: '24px', padding: '32px', border: '1px solid #334155', boxShadow: '0 20px 60px rgba(0,0,0,0.5)', position: 'relative', display: 'flex', flexDirection: 'column' }}>
+            <button 
+              onClick={() => setExpandedChart(null)}
+              style={{ position: 'absolute', top: '24px', right: '24px', background: 'rgba(255,255,255,0.1)', border: 'none', color: '#f8fafc', width: '36px', height: '36px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', transition: 'all 0.2s', zIndex: 10 }}
+              onMouseEnter={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.2)'; e.currentTarget.style.transform = 'scale(1.1)'; }}
+              onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.1)'; e.currentTarget.style.transform = 'scale(1)'; }}
+            >
+              <X size={18} />
+            </button>
+            <div style={{ flex: 1, minHeight: '600px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              {expandedChart.type === 'beeswarm' ? (
+                <BeeswarmPlot {...expandedChart.props} />
+              ) : (
+                <ScatterPlotChart {...expandedChart.props} />
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
